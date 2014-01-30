@@ -61,21 +61,31 @@
 
                 var letters = ['a', 'b'];
                 var uri = 'http://www.theguardian.com/styleguide/';
+                
                 var callback = function (error, response, html) {
-                    if (error || response.statusCode == 200) {
+                    if (!error && response.statusCode == 200) {
+                        parseHTML(html);
+                        done(true);
+                    } else {
                         grunt.fail.warn(error);
                         done(false);
                     }
-                    done(true);
-                    return html;
+                };
+
+                var parseHTML = function(html) {
+
+                    // Start parsing dat html
+                    // needs permalink, name and body
+                    // use https://npmjs.org/package/slug for permalink!
+                    var $ = cheerio.load(html);
+                    grunt.log.writeflags( $ );
+
                 };
 
                 for (var i = 0; i < letters.length; i++) {
                     var letterURI = uri + letters[i];
                     var done = this.async();
-                    var html = request(letterURI, callback);
-                    var $ = cheerio.load(html);
-
+                    request(letterURI, callback);
                 }
 
 
@@ -98,7 +108,7 @@
 
         grunt.registerTask(
             'serve',
-            'Start a web server on port 4000, and rebuild after changes',
+            'Start a web server on port 4000, and watch for changes',
             ['build', 'connect', 'watch']
         );
 
