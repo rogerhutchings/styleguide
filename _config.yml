@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        /blog/:title
+
+# Setup
+title:            Hyde Test
+tagline:          'A blog'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+
+author:
+  name:           'Roger Hutchings'
+  url:            https://twitter.com/drrogg
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+exclude:          ['node_modules', 'Gruntfile.js', 'package.json', 'config.rb', 'README.md']
