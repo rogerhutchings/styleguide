@@ -1,5 +1,11 @@
 (function() { "use strict";
  
+    // NPM dependencies
+    var request = require('request');
+    var _ = require('lodash');
+    var YAML = require('yamljs');
+    var cheerio = require('cheerio');
+
     module.exports = function(grunt) {
 
         // Load dependencies
@@ -47,6 +53,34 @@
             }
 
         });
+
+        grunt.registerTask(
+            'scrape',
+            'Scrape the Guardian style guide for data',
+            function() {
+
+                var letters = ['a', 'b'];
+                var uri = 'http://www.theguardian.com/styleguide/';
+                var callback = function (error, response, html) {
+                    if (error || response.statusCode == 200) {
+                        grunt.fail.warn(error);
+                        done(false);
+                    }
+                    done(true);
+                    return html;
+                };
+
+                for (var i = 0; i < letters.length; i++) {
+                    var letterURI = uri + letters[i];
+                    var done = this.async();
+                    var html = request(letterURI, callback);
+                    var $ = cheerio.load(html);
+
+                }
+
+
+            }
+        );
 
 
         grunt.registerTask(
