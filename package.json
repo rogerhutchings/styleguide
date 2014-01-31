@@ -9,6 +9,7 @@
     "grunt-contrib-connect": "~0.6.0",
     "request": "~2.33.0",
     "yamljs": "~0.1.4",
-    "cheerio": "~0.13.1"
+    "cheerio": "~0.13.1",
+    "lodash": "~2.4.1"
   }
 }
