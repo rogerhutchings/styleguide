@@ -2,9 +2,6 @@
 markdown:         redcarpet
 pygments:         true
 
-# Permalinks
-permalink:        /blog/:title
-
 # Setup
 title:            Hyde Test
 tagline:          'A blog'
@@ -14,8 +11,6 @@ url:              http://hyde.getpoole.com
 author:
   name:           'Roger Hutchings'
   url:            https://twitter.com/drrogg
-
-paginate:         1
 
 # Custom vars
 version:          1.0.0
