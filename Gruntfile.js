@@ -59,7 +59,7 @@
             concat: {
                 dist: {
                     src: ['<%= tempYAMLDir %>/*.yaml'],
-                    dest: '_data/defintions.yaml',
+                    dest: '_data/definitions.yaml',
                 }
             }
 
@@ -111,10 +111,12 @@
                         grunt.log.ok();
 
                         // Write the file
-                        var output = {};
-                        output[letter] = definitions;
+                        var output = [{
+                            letter: letter,
+                            definitions: definitions
+                        }];
                         grunt.log.write('Writing to ' + filename + '... ');
-                        grunt.file.write(filename, YAML.stringify(output, 4));
+                        grunt.file.write(filename, YAML.stringify(output, 4, 4));
                         grunt.log.ok();
 
                         // Finish
