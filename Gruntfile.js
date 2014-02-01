@@ -1,10 +1,11 @@
-(function() { "use strict";
- 
+(function() { 'use strict';
+
     // NPM dependencies
     var request = require('request');
     var _ = require('lodash');
     var YAML = require('yamljs');
     var cheerio = require('cheerio');
+    var slug = require('slug');
 
     module.exports = function(grunt) {
 
@@ -17,6 +18,8 @@
         // Project configuration
         grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
+
+            tempYAMLDir: '_tempYAML',
 
             compass: {
                 dist: {
@@ -54,44 +57,83 @@
 
         });
 
+
         grunt.registerTask(
-            'scrape',
-            'Scrape the Guardian style guide for data',
-            function() {
-
-                var letters = ['a', 'b'];
-                var uri = 'http://www.theguardian.com/styleguide/';
-                
-                var callback = function (error, response, html) {
-                    if (!error && response.statusCode == 200) {
-                        parseHTML(html);
-                        done(true);
-                    } else {
-                        grunt.fail.warn(error);
-                        done(false);
-                    }
-                };
-
-                var parseHTML = function(html) {
-
-                    // Start parsing dat html
-                    // needs permalink, name and body
-                    // use https://npmjs.org/package/slug for permalink!
-                    var $ = cheerio.load(html);
-                    grunt.log.writeflags( $ );
-
-                };
-
-                for (var i = 0; i < letters.length; i++) {
-                    var letterURI = uri + letters[i];
-                    var done = this.async();
-                    request(letterURI, callback);
-                }
-
-
+            'scrapePages',
+            'Runs the scrapePage task on every page of the Guardian style guide',
+            function () {
+                var letters = ['a'];
+                letters.forEach(function (letter) {
+                    grunt.task.run('scrapePage:' + letters);
+                });
             }
         );
 
+        grunt.registerTask(
+            'scrapePage',
+            'Scrape an individual page of the Guardian style guide for data and save as a YAML file',
+            function(letter) {
+                var filename = grunt.config.get('tempYAMLDir') + '/' + letter + '.yaml';
+                var url = 'http://www.theguardian.com/styleguide/' + letter;
+
+                grunt.log.write('Retrieving ' + url + '... ');
+
+                var done = this.async();
+                request(url, function (error, response, body) {
+                    if (error || response.statusCode !== 200) {
+                        grunt.log.error(error);
+                        done(false);
+                    } else {
+
+                        grunt.log.ok();
+
+                        // Parse it
+                        grunt.log.write('Parsing to YAML...');
+                        var $ = cheerio.load(body);
+                        var definitions = [];
+                        $('#content').find('li.normal').each(function() {
+                            var title = $(this).find('h3').text().trim();
+                            var obj = {
+                                title: title,
+                                slug: slug(title).toLowerCase(),
+                                text: $(this).find('.trailtext').text().trim()
+                            };
+                            definitions.push(obj);
+                        });
+                        grunt.log.ok();
+
+                        // Write the file
+                        var output = {};
+                        output[letter] = definitions;
+                        grunt.log.write('Writing to ' + filename + '...');
+                        grunt.file.write(filename, YAML.stringify(output, 4));
+                        grunt.log.ok();
+
+                        // Finish
+                        grunt.log.ok('Scrape complete!');
+                        done();
+
+                    }
+
+                });
+
+            }
+
+        );
+
+        grunt.registerTask(
+            'cleanup',
+            function () {
+                grunt.log.write('Checking for temporary directory... ');
+                var path = grunt.config.get('tempYAMLDir');
+                if (grunt.file.exists(path)) {
+                    grunt.file.delete(path);
+                    grunt.log.ok('deleted!');
+                } else {
+                    grunt.log.ok('doesn\'t exist!');
+                }
+            }
+        );
 
         grunt.registerTask(
             'default',
@@ -108,8 +150,17 @@
 
         grunt.registerTask(
             'serve',
-            'Start a web server on port 4000, and watch for changes',
+            'Start a web server on port 4000, and rebuild after changes',
             ['build', 'connect', 'watch']
+        );
+
+        grunt.registerTask(
+            'scrape',
+            'Scrape the Guardian style guide',
+            [
+                'scrapePages',
+                // 'cleanup'
+            ]
         );
 
     };
