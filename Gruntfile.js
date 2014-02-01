@@ -14,6 +14,7 @@
         grunt.loadNpmTasks('grunt-contrib-compass');
         grunt.loadNpmTasks('grunt-jekyll');
         grunt.loadNpmTasks('grunt-contrib-connect');
+        grunt.loadNpmTasks('grunt-contrib-concat');
 
         // Project configuration
         grunt.initConfig({
@@ -53,6 +54,13 @@
                         base: '_site'
                     }
                 }
+            },
+
+            concat: {
+                dist: {
+                    src: ['<%= tempYAMLDir %>/*.yaml'],
+                    dest: '_data/defintions.yaml',
+                }
             }
 
         });
@@ -62,9 +70,9 @@
             'scrapePages',
             'Runs the scrapePage task on every page of the Guardian style guide',
             function () {
-                var letters = ['a'];
+                var letters = ['a', 'b'];
                 letters.forEach(function (letter) {
-                    grunt.task.run('scrapePage:' + letters);
+                    grunt.task.run('scrapePage:' + letter);
                 });
             }
         );
@@ -88,15 +96,15 @@
                         grunt.log.ok();
 
                         // Parse it
-                        grunt.log.write('Parsing to YAML...');
+                        grunt.log.write('Parsing to YAML... ');
                         var $ = cheerio.load(body);
                         var definitions = [];
                         $('#content').find('li.normal').each(function() {
-                            var title = $(this).find('h3').text().trim();
+                            var title = _.escape($(this).find('h3').text().trim());
                             var obj = {
                                 title: title,
                                 slug: slug(title).toLowerCase(),
-                                text: $(this).find('.trailtext').text().trim()
+                                text: _.escape($(this).find('.trailtext').text().trim())
                             };
                             definitions.push(obj);
                         });
@@ -105,7 +113,7 @@
                         // Write the file
                         var output = {};
                         output[letter] = definitions;
-                        grunt.log.write('Writing to ' + filename + '...');
+                        grunt.log.write('Writing to ' + filename + '... ');
                         grunt.file.write(filename, YAML.stringify(output, 4));
                         grunt.log.ok();
 
@@ -124,13 +132,13 @@
         grunt.registerTask(
             'cleanup',
             function () {
-                grunt.log.write('Checking for temporary directory... ');
+                grunt.log.write('Deleting temporary directory... ');
                 var path = grunt.config.get('tempYAMLDir');
                 if (grunt.file.exists(path)) {
                     grunt.file.delete(path);
-                    grunt.log.ok('deleted!');
+                    grunt.log.ok();
                 } else {
-                    grunt.log.ok('doesn\'t exist!');
+                    grunt.log.ok('Directory doesn\'t exist!');
                 }
             }
         );
@@ -159,7 +167,8 @@
             'Scrape the Guardian style guide',
             [
                 'scrapePages',
-                // 'cleanup'
+                'concat',
+                'cleanup'
             ]
         );
 
