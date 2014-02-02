@@ -1,0 +1,75 @@
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar
+    text-align: center
+    padding: 2rem 1rem
+    color: rgba(white, 0.5)
+    background:
+        color: #202020
+
+    @media (min-width: 48rem)
+        position: fixed
+        top: 0
+        left: 0
+        bottom: 0
+        width: 18rem
+        text-align: left
+
+    a
+        color: white
+
+    .sidebar-about h1
+        color: #fff
+        margin-top: 0
+        font-family: "Abril Fatface", serif
+        font-size: 3.25rem
+
+
+    /* Sidebar nav */
+    .sidebar-nav
+        padding-left: 0
+        list-style: none
+
+        .sidebar-nav-item
+            display: block
+
+            &.active
+                font-weight: bold
+
+        a.sidebar-nav-item
+            @extend %link-reverse
+
+    /* Section links */
+    .section-links
+        display: flex
+        flex-wrap: wrap
+        padding: 0
+
+        li
+            list-style: none
+            flex: 0 0 3rem
+            text-align: center
+            background: #505050
+            margin: 2px
+            border-radius: 3px
+
+            a
+                display: block
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48rem)
+    .sidebar-sticky
+        position: absolute
+        right: 1rem
+        bottom: 1rem
+        left: 1rem
