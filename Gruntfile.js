@@ -15,6 +15,7 @@
         grunt.loadNpmTasks('grunt-jekyll');
         grunt.loadNpmTasks('grunt-contrib-connect');
         grunt.loadNpmTasks('grunt-contrib-concat');
+        grunt.loadNpmTasks('grunt-contrib-copy');
 
         // Project configuration
         grunt.initConfig({
@@ -39,7 +40,7 @@
             watch: {
                 sass: {
                     files: ['_sass/**/*.sass'],
-                    tasks: ['compass'],
+                    tasks: ['compass', 'copy:css'],
                 },
                 jekyll: {
                     files: ['**/*.{html, md, yaml, yml}'],
@@ -61,6 +62,13 @@
                     src: ['<%= tempYAMLDir %>/*.yaml'],
                     dest: '_data/definitions.yaml',
                 }
+            },
+
+            copy: {
+                css: {
+                    src: ['public/css/*'],
+                    dest: '_site/'
+                }
             }
 
         });
@@ -70,7 +78,13 @@
             'scrapePages',
             'Runs the scrapePage task on every page of the Guardian style guide',
             function () {
-                var letters = ['a', 'b'];
+
+                // Generate the alphabet
+                var letters = [];
+                for (var i = 97; i <= 122; i++) {
+                    letters[letters.length] = String.fromCharCode(i);
+                }
+
                 letters.forEach(function (letter) {
                     grunt.task.run('scrapePage:' + letter);
                 });
@@ -170,7 +184,8 @@
             [
                 'scrapePages',
                 'concat',
-                'cleanup'
+                'cleanup',
+                'jekyll'
             ]
         );
 
