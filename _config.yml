@@ -8,11 +8,6 @@ tagline: 'A blog'
 description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url: http://hyde.getpoole.com
 
-# Author
-author:
-name: 'Roger Hutchings'
-url: https://twitter.com/drrogg
-
 # Custom vars
 version: 1.0.0
 repo: https://github.com/rogerhutchings/styleguide

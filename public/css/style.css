@@ -69,18 +69,19 @@
 .sidebar .section-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
 }
-/* line 53, ../../_sass/includes/_sidebar.sass */
+/* line 54, ../../_sass/includes/_sidebar.sass */
 .sidebar .section-links li {
   list-style: none;
-  flex: 0 0 3rem;
+  flex: 1 0 3rem;
   text-align: center;
   background: #505050;
   margin: 2px;
   border-radius: 3px;
 }
-/* line 61, ../../_sass/includes/_sidebar.sass */
+/* line 62, ../../_sass/includes/_sidebar.sass */
 .sidebar .section-links li a {
   display: block;
 }
@@ -91,7 +92,7 @@
  * contents to the bottom of the sidebar in tablets and up.
  */
 @media (min-width: 48rem) {
-  /* line 71, ../../_sass/includes/_sidebar.sass */
+  /* line 72, ../../_sass/includes/_sidebar.sass */
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
