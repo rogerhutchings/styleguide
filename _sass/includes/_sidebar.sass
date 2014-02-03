@@ -10,7 +10,7 @@
     padding: 2rem 1rem
     color: rgba(white, 0.5)
     background:
-        color: #202020
+        color: $sidebar-background
 
     @media (min-width: 48rem)
         position: fixed
@@ -24,10 +24,11 @@
         color: white
 
     .sidebar-about h1
-        color: #fff
+        color: white
         margin-top: 0
-        font-family: "Abril Fatface", serif
-        font-size: 3.25rem
+        font:
+            family: "Abril Fatface", serif
+            size: 3.25rem
 
 
     /* Sidebar nav */
@@ -54,13 +55,18 @@
         li
             list-style: none
             flex: 1 0 3rem
-            text-align: center
-            background: #505050
-            margin: 2px
-            border-radius: 3px
 
             a
+                @extend %link-none
                 display: block
+                text-align: center
+                background: $sidebar-alphabet-background
+                margin: 2px
+                border-radius: 3px
+                &:hover,
+                &:focus
+                    background: $sidebar-alphabet-background-hover
+
 
 /* Sticky sidebar
  *

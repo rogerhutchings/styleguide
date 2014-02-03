@@ -8,11 +8,11 @@
 }
 
 /* line 13, ../../_sass/mixins/_link.sass */
-.definitions dl dt .title {
+.sidebar .section-links li a, .definitions dl dt .title {
   text-decoration: none;
 }
 /* line 15, ../../_sass/mixins/_link.sass */
-.definitions dl dt .title:hover, .definitions dl dt .title:focus {
+.sidebar .section-links li a:hover, .definitions dl dt .title:hover, .sidebar .section-links li a:focus, .definitions dl dt .title:focus {
   text-decoration: none;
 }
 
@@ -52,38 +52,42 @@
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
 }
-/* line 34, ../../_sass/includes/_sidebar.sass */
+/* line 35, ../../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav {
   padding-left: 0;
   list-style: none;
 }
-/* line 38, ../../_sass/includes/_sidebar.sass */
+/* line 39, ../../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item {
   display: block;
 }
-/* line 41, ../../_sass/includes/_sidebar.sass */
+/* line 42, ../../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item.active {
   font-weight: bold;
 }
-/* line 48, ../../_sass/includes/_sidebar.sass */
+/* line 49, ../../_sass/includes/_sidebar.sass */
 .sidebar .section-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-/* line 54, ../../_sass/includes/_sidebar.sass */
+/* line 55, ../../_sass/includes/_sidebar.sass */
 .sidebar .section-links li {
   list-style: none;
   flex: 1 0 3rem;
+}
+/* line 59, ../../_sass/includes/_sidebar.sass */
+.sidebar .section-links li a {
+  display: block;
   text-align: center;
   background: #505050;
   margin: 2px;
   border-radius: 3px;
 }
-/* line 62, ../../_sass/includes/_sidebar.sass */
-.sidebar .section-links li a {
-  display: block;
+/* line 66, ../../_sass/includes/_sidebar.sass */
+.sidebar .section-links li a:hover, .sidebar .section-links li a:focus {
+  background: #838383;
 }
 
 /* Sticky sidebar
@@ -92,7 +96,7 @@
  * contents to the bottom of the sidebar in tablets and up.
  */
 @media (min-width: 48rem) {
-  /* line 72, ../../_sass/includes/_sidebar.sass */
+  /* line 78, ../../_sass/includes/_sidebar.sass */
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
