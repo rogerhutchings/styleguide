@@ -1,17 +1,17 @@
-/* line 7, ../../_sass/mixins/_link.sass */
+/* line 7, ../_sass/mixins/_link.sass */
 .sidebar .sidebar-nav a.sidebar-nav-item, .definitions dl dt .permalink {
   text-decoration: none;
 }
-/* line 9, ../../_sass/mixins/_link.sass */
+/* line 9, ../_sass/mixins/_link.sass */
 .sidebar .sidebar-nav a.sidebar-nav-item:hover, .definitions dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:focus, .definitions dl dt .permalink:focus {
   text-decoration: underline;
 }
 
-/* line 13, ../../_sass/mixins/_link.sass */
+/* line 13, ../_sass/mixins/_link.sass */
 .sidebar .section-links li a, .definitions dl dt .title {
   text-decoration: none;
 }
-/* line 15, ../../_sass/mixins/_link.sass */
+/* line 15, ../_sass/mixins/_link.sass */
 .sidebar .section-links li a:hover, .definitions dl dt .title:hover, .sidebar .section-links li a:focus, .definitions dl dt .title:focus {
   text-decoration: none;
 }
@@ -21,7 +21,7 @@
  * Flexible banner for housing site name, intro, and "footer" content. Starts
  * out above content in mobile and later moves to the side with wider viewports.
  */
-/* line 8, ../../_sass/includes/_sidebar.sass */
+/* line 8, ../_sass/includes/_sidebar.sass */
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
@@ -31,7 +31,7 @@
   /* Section links */
 }
 @media (min-width: 48rem) {
-  /* line 8, ../../_sass/includes/_sidebar.sass */
+  /* line 8, ../_sass/includes/_sidebar.sass */
   .sidebar {
     position: fixed;
     top: 0;
@@ -41,43 +41,43 @@
     text-align: left;
   }
 }
-/* line 23, ../../_sass/includes/_sidebar.sass */
+/* line 23, ../_sass/includes/_sidebar.sass */
 .sidebar a {
   color: white;
 }
-/* line 26, ../../_sass/includes/_sidebar.sass */
+/* line 26, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-about h1 {
   color: white;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
 }
-/* line 35, ../../_sass/includes/_sidebar.sass */
+/* line 35, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav {
   padding-left: 0;
   list-style: none;
 }
-/* line 39, ../../_sass/includes/_sidebar.sass */
+/* line 39, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item {
   display: block;
 }
-/* line 42, ../../_sass/includes/_sidebar.sass */
+/* line 42, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item.active {
   font-weight: bold;
 }
-/* line 49, ../../_sass/includes/_sidebar.sass */
+/* line 49, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-/* line 55, ../../_sass/includes/_sidebar.sass */
+/* line 55, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links li {
   list-style: none;
   flex: 1 0 3rem;
 }
-/* line 59, ../../_sass/includes/_sidebar.sass */
+/* line 59, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links li a {
   display: block;
   text-align: center;
@@ -85,7 +85,7 @@
   margin: 2px;
   border-radius: 3px;
 }
-/* line 66, ../../_sass/includes/_sidebar.sass */
+/* line 66, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links li a:hover, .sidebar .section-links li a:focus {
   background: #838383;
 }
@@ -96,7 +96,7 @@
  * contents to the bottom of the sidebar in tablets and up.
  */
 @media (min-width: 48rem) {
-  /* line 78, ../../_sass/includes/_sidebar.sass */
+  /* line 78, ../_sass/includes/_sidebar.sass */
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
@@ -104,7 +104,7 @@
     left: 1rem;
   }
 }
-/* line 10, ../../_sass/pages/_definitions.sass */
+/* line 10, ../_sass/pages/_definitions.sass */
 .definitions dl dt .permalink {
   margin-left: 0.5rem;
 }

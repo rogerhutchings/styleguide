@@ -40,11 +40,15 @@
             watch: {
                 sass: {
                     files: ['_sass/**/*.sass'],
-                    tasks: ['compass', 'copy:css'],
+                    tasks: ['compass', 'copy:assets'],
                 },
                 jekyll: {
                     files: ['**/*.{html, md, yaml, yml}'],
                     tasks: ['jekyll']
+                },
+                js: {
+                    files: ['_js/**/*.js'],
+                    tasks: ['concat:js', 'copy:assets']
                 }
             },
 
@@ -58,15 +62,19 @@
             },
 
             concat: {
-                dist: {
+                definitions: {
                     src: ['<%= tempYAMLDir %>/*.yaml'],
                     dest: '_data/definitions.yaml',
+                },
+                js: {
+                    src: ['_js/jquery-1.11.0.min.js', '_js/**/*.js'],
+                    dest: 'assets/app.js'
                 }
             },
 
             copy: {
-                css: {
-                    src: ['public/css/*'],
+                assets: {
+                    src: ['assets/*'],
                     dest: '_site/'
                 }
             }
@@ -167,8 +175,8 @@
 
         grunt.registerTask(
             'build',
-            'Recompiles the sass and rebuilds Jekyll',
-            ['compass', 'jekyll']
+            'Recompiles the sass, js, and rebuilds Jekyll',
+            ['compass', 'concat:js', 'jekyll']
         );
 
 
@@ -183,7 +191,7 @@
             'Scrape the Guardian style guide',
             [
                 'scrapePages',
-                'concat',
+                'concat:definitions',
                 'cleanup',
                 'jekyll'
             ]
