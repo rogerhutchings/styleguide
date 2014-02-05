@@ -6,6 +6,7 @@
     var YAML = require('yamljs');
     var cheerio = require('cheerio');
     var slug = require('slug');
+    var S = require('string');
 
     module.exports = function(grunt) {
 
@@ -106,6 +107,12 @@
                 var filename = grunt.config.get('tempYAMLDir') + '/' + letter + '.yaml';
                 var url = 'http://www.theguardian.com/styleguide/' + letter;
 
+                var slugOptions = {
+                    charmap: _.extend(slug.charmap, {
+                        "'": null
+                    })
+                };
+
                 grunt.log.write('Retrieving ' + url + '... ');
 
                 var done = this.async();
@@ -122,13 +129,15 @@
                         var $ = cheerio.load(body);
                         var definitions = [];
                         $('#content').find('li.normal').each(function() {
-                            var title = _.escape($(this).find('h3').text().trim());
-                            var obj = {
-                                title: title,
-                                slug: slug(title).toLowerCase(),
+                            var title = $(this).find('h3').text().trim();
+
+                            // Have to use string because slug doesn't correctly
+                            // strip punctuation :/
+                            definitions.push({
+                                title: _.escape(title),
+                                slug: slug(S(title).stripPunctuation().s).toLowerCase(),
                                 text: _.escape($(this).find('.trailtext').text().trim())
-                            };
-                            definitions.push(obj);
+                            });
                         });
                         grunt.log.ok();
 
