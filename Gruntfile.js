@@ -44,7 +44,7 @@
                     tasks: ['compass', 'copy:assets'],
                 },
                 jekyll: {
-                    files: ['**/*.{html, md, yaml, yml}'],
+                    files: ['_config.yml', '**/*.{html, md, yaml, yml}'],
                     tasks: ['jekyll']
                 },
                 js: {

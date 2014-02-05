@@ -3,10 +3,9 @@ markdown: redcarpet
 pygments: true
 
 # Setup
-title: Hyde Test
-tagline: 'A blog'
-description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url: http://hyde.getpoole.com
+title: AltGSG
+tagline: 'A redesign of the Guardian Style Guide by Roger Hutchings'
+description: 'A redesign of the <a href="http://guardian.co.uk/styleguide/" target="_blank">Guardian Style Guide</a>, inspired by some of the better examples of API documentation. Made by <a href="https://twitter.com/drrogg" target="_blank">@drrogg</a>.'
 
 # Custom vars
 version: 1.0.0
