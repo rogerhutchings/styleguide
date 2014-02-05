@@ -43,8 +43,6 @@ jQuery(document).ready(function ($) {
             matches.parent().prev().removeClass('hide');
         });
 
-
-
     };
 
     // Using proxy to define context
