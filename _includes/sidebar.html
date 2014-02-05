@@ -6,6 +6,8 @@
             <p class="lead">{{ site.description }}</p>
         </div>
 
+        <input type="text" id="search" placeholder="Start typing to search...">
+
         <ol class="section-links">
             {% for section in site.data.definitions %}
             <li><a href="#section-{{ section.letter }}">{{ section.letter }}</a></li>

@@ -7,11 +7,11 @@
             text: 'Use an before a silent H: an heir, an hour, an honest politician, an honorary consul; use a before an aspirated H: a hero, a hotel, a historian (but don&#39;t change a direct quote if the speaker says, for example, &quot;an historic&quot;). With abbreviations, be guided by pronunciation: eg an LSE student'
         -
             title: 'A*'
-            slug: 'a*'
+            slug: a
             text: '(A-level and GCSE) not A-star'
         -
             title: 'A&amp;E'
-            slug: aandampe
+            slug: ae
             text: 'accident and emergency'
         -
             title: abattoir
@@ -219,7 +219,7 @@
             text: 
         -
             title: African-Caribbean
-            slug: african-caribbean
+            slug: africancaribbean
             text: 'not Afro-Caribbean'
         -
             title: Afrikaans
@@ -267,7 +267,7 @@
             text: 
         -
             title: a-ha
-            slug: a-ha
+            slug: aha
             text: 'band from Norway; A-ha! Alan Partridge catchphrase, quoting Abba&#39;s Knowing Me, Knowing You'
         -
             title: 'ahead  of'
@@ -275,11 +275,11 @@
             text: 'overused, and often jars (&quot;Why else would they hurriedly concoct their own &#39;Confucius peace prize&#39;, a day ahead of the ceremony in Oslo?&quot; appeared in a leading article); before (which should have been used in this case) or in advance of are among the alternatives'
         -
             title: aide-de-camp
-            slug: aide-de-camp
+            slug: aidedecamp
             text: 'plural aides-de-camp (aide is a noun)'
         -
             title: aide-memoire
-            slug: aide-memoire
+            slug: aidememoire
             text: 'plural aide-memoires (aide is a verb)'
         -
             title: Aids
@@ -315,7 +315,7 @@
             text: 'Heathrow, Gatwick, Stansted (normally no need to say airport); Liverpool John Lennon airport, Schiphol airport, etc'
         -
             title: 'air vice-marshal'
-            slug: air-vice-marshal
+            slug: air-vicemarshal
             text: 
         -
             title: AKA
@@ -327,11 +327,11 @@
             text: 'See arms akimbo'
         -
             title: al-
-            slug: al-
+            slug: al
             text: '(note lc and hyphen) before an Arabic name means &quot;the&quot; so try to avoid writing &quot;the al- ...&quot; where possibleSee Arabic names'
         -
             title: 'al-Aqsa Martyrs Brigade'
-            slug: al-aqsa-martyrs-brigade
+            slug: alaqsa-martyrs-brigade
             text: 
         -
             title: 'Alastair or Alistair?'
@@ -347,7 +347,7 @@
             text: '(1832-88) American author of Little Women'
         -
             title: A-levels
-            slug: a-levels
+            slug: alevels
             text: 
         -
             title: 'Al Fayed, Mohamed'
@@ -355,7 +355,7 @@
             text: 'owner of Harrods (Fayed after first mention; Mr Fayed if honorific is needed); the son who died in Paris in 1997 was Dodi Fayed'
         -
             title: 'Alfonsín, Raúl'
-            slug: alfonsin-raul
+            slug: alfonsn-ral
             text: '(1927-2009) president of Argentina from 1983-89'
         -
             title: alfresco
@@ -383,11 +383,11 @@
             text: "Alice&#39;s Adventures in Wonderland, by Lewis Carroll (Charles Lutwidge Dodgson), was published in 1865; its sequel, which followed six years later, is called Through the Looking-Glass, and What Alice Found There.\nNote that they are not called &quot;Alice in Wonderland&quot; and &quot;Alice Through the Looking-Glass&quot;"
         -
             title: A-list
-            slug: a-list
+            slug: alist
             text: 'etc, but to refer to &quot;C-list celebrities&quot; and its variations has become tedious. An edition of G2 referred to &quot;D-list celebrities&quot; and, less than hilariously, in a separate piece about the same reality TV show, &quot;Z-list celebrities&quot;'
         -
             title: al-Jazeera
-            slug: al-jazeera
+            slug: aljazeera
             text: 
         -
             title: Allah
@@ -427,7 +427,7 @@
             text: 'Oxford, no apostrophe'
         -
             title: 'al-Maliki, Nouri'
-            slug: al-maliki-nouri
+            slug: almaliki-nouri
             text: '(not Nuri) became prime minister of Iraq in 2006'
         -
             title: Almo
@@ -435,7 +435,7 @@
             text: 'arm&#39;s-length management organisation'
         -
             title: 'Almodóvar, Pedro'
-            slug: almodovar-pedro
+            slug: almodvar-pedro
             text: 'Spanish film-maker'
         -
             title: 'alpha male'
@@ -443,11 +443,11 @@
             text: 
         -
             title: al-Qaida
-            slug: al-qaida
+            slug: alqaida
             text: 'it means &quot;the base&quot;'
         -
             title: 'al-Sadr, Moqtada'
-            slug: al-sadr-moqtada
+            slug: alsadr-moqtada
             text: 'creator of the Mahdi army, or as the magazine Red Pepper described it: &quot;Moqtada al-Sadr&#39;s not-so-barmy army&quot;'
         -
             title: alsatian
@@ -459,7 +459,7 @@
             text: 'person from Alsace'
         -
             title: al-Shabaab
-            slug: al-shabaab
+            slug: alshabaab
             text: 'Islamist insurgency group in Somalia; it means &quot;the youth&quot;. Singular not plural.'
         -
             title: also
@@ -483,15 +483,15 @@
             text: 'plural alumni; although in the UK graduate is preferable'
         -
             title: 'al-Zaidi, Muntazer'
-            slug: al-zaidi-muntazer
+            slug: alzaidi-muntazer
             text: 'Iraqi journalist who served a jail sentence for throwing his shoes at the then US president, George Bush'
         -
             title: 'Alzheimer&#39;s disease'
-            slug: alzheimerand39s-disease
+            slug: alzheimers-disease
             text: 
         -
             title: 'AM (assembly member)'
-            slug: am-(assembly-member)
+            slug: am-assembly-member
             text: 'member of the Welsh assembly'
         -
             title: Amazon
@@ -527,11 +527,11 @@
             text: "Take care: &quot;University of X&quot; is not the same as &quot;X University&quot;; most states have two large public universities, eg University of Kentucky and Kentucky State University, University of Illinois and Illinois State University, etc.\nDo not call Johns Hopkins University &quot;John Hopkins&quot; or Stanford University &quot;Stamford&quot;"
         -
             title: 'America&#39;s Cup'
-            slug: americaand39s-cup
+            slug: americas-cup
             text: 'sailing trophy named after the schooner America, its first winner'
         -
             title: 'Amhrán na bhFiann'
-            slug: amhran-na-bhfiann
+            slug: amhrn-na-bhfiann
             text: 'Irish national anthem'
         -
             title: Amicus
@@ -611,7 +611,7 @@
             text: '(insect) plural antennae; (radio) plural antennas'
         -
             title: 'anti-ballistic missile treaty'
-            slug: anti-ballistic-missile-treaty
+            slug: antiballistic-missile-treaty
             text: 
         -
             title: antichrist
@@ -651,7 +651,7 @@
             text: 
         -
             title: anti-war
-            slug: anti-war
+            slug: antiwar
             text: 
         -
             title: 'any more'
@@ -707,7 +707,7 @@
             text: 'to inform'
         -
             title: 'April Fools&#39; Day'
-            slug: april-foolsand39-day
+            slug: april-fools-day
             text: 'also known, less commonly nowadays, as All Fools&#39; Day; an individual prank, or the victim of one, is an April fool, so you might say &quot;one of the greatest April fools was the Guardian&#39;s San Serriffe issue of 1977 – it made April fools of all who were taken in&quot;'
         -
             title: aquarium
@@ -767,7 +767,7 @@
             text: 'plural archipelagos'
         -
             title: arch-rival
-            slug: arch-rival
+            slug: archrival
             text: 'an arch rival would mean something different'
         -
             title: Ardoyne
@@ -863,7 +863,7 @@
             text: 
         -
             title: 'al-Assad, Bashar'
-            slug: al-assad-bashar
+            slug: alassad-bashar
             text: 'became president of Syria in 2000 after the death of his father, Hafez al-Assad'
         -
             title: 'assassin, assassination'
@@ -887,7 +887,7 @@
             text: 'currently Lord Rees'
         -
             title: Asunción
-            slug: asuncion
+            slug: asuncin
             text: 'capital of Paraguay'
         -
             title: 'asylum seeker'
@@ -967,7 +967,7 @@
             text: 'TM; teleprompter is a generic alternative'
         -
             title: Auto-Tune
-            slug: auto-tune
+            slug: autotune
             text: 'TM; also Auto-Tuned, etc'
         -
             title: autumn
@@ -1015,7 +1015,7 @@
             text: 'noun, Azerbaijani adjective; note that there are ethnic Azeris living in, for example, Armenia'
         -
             title: 'Aznar, José María'
-            slug: aznar-jose-maria
+            slug: aznar-jos-mara
             text: 'former prime minister of Spain'
 
 -
@@ -1031,7 +1031,7 @@
             text: 'formerly the British Airports Authority'
         -
             title: 'Ba&#39;ath party'
-            slug: baand39ath-party
+            slug: baath-party
             text: 'it means renaissance or resurrection'
         -
             title: Babybel
@@ -1083,7 +1083,7 @@
             text: 
         -
             title: back-scratching
-            slug: back-scratching
+            slug: backscratching
             text: 
         -
             title: 'backstory, backstreet'
@@ -1111,7 +1111,7 @@
             text: 
         -
             title: 'Bahá&#39;í faith'
-            slug: bahaand39i-faith
+            slug: bah-faith
             text: 
         -
             title: bailout
@@ -1123,7 +1123,7 @@
             text: 'a prisoner, a company or person in financial difficulty; but bale out a boat or from an aircraft'
         -
             title: 'baker&#39;s dozen'
-            slug: bakerand39s-dozen
+            slug: bakers-dozen
             text: '13'
         -
             title: 'bakewell tart'
@@ -1143,11 +1143,11 @@
             text: 
         -
             title: Band-Aid
-            slug: band-aid
+            slug: bandaid
             text: 'TM; say plaster or sticking plaster'
         -
             title: 'B&amp;B'
-            slug: bandampb
+            slug: bb
             text: 'abbreviation for bed and breakfast'
         -
             title: 'band names'
@@ -1163,7 +1163,7 @@
             text: 'bank holiday Monday, etc'
         -
             title: 'Ban Ki-moon'
-            slug: ban-ki-moon
+            slug: ban-kimoon
             text: 'UN secretary general; Ban on second mention'
         -
             title: banknote
@@ -1203,7 +1203,7 @@
             text: 
         -
             title: 'Barnardo&#39;s'
-            slug: barnardoand39s
+            slug: barnardos
             text: 'children&#39;s charity, formerly Dr Barnardo&#39;s; it no longer runs orphanages'
         -
             title: barolo
@@ -1215,7 +1215,7 @@
             text: 'the man behind Ali G and Borat'
         -
             title: 'Baron-Cohen, Simon'
-            slug: baron-cohen-simon
+            slug: baroncohen-simon
             text: 'a professor of developmental psychopathology at Cambridge University and cousin of Sacha'
         -
             title: 'barons, baronesses'
@@ -1235,7 +1235,7 @@
             text: 'the army has barracks, the RAF has airfields'
         -
             title: 'Barroso, José Manuel'
-            slug: barroso-jose-manuel
+            slug: barroso-jos-manuel
             text: 'former prime minister of Portugal, subsequently president of the European commission'
         -
             title: Barts
@@ -1263,7 +1263,7 @@
             text: 
         -
             title: bas-relief
-            slug: bas-relief
+            slug: basrelief
             text: 
         -
             title: 'bated breath'
@@ -1275,7 +1275,7 @@
             text: '(not Battenburg) German family name that became Mountbatten; battenberg cake lc'
         -
             title: 'Battersea Dogs &amp; Cats Home'
-            slug: battersea-dogs-andamp-cats-home
+            slug: battersea-dogs-cats-home
             text: 'no apostrophes'
         -
             title: battlebus
@@ -1303,7 +1303,7 @@
             text: '1000BC but AD1066'
         -
             title: 'be-all and end-all'
-            slug: be-all-and-end-all
+            slug: beall-and-endall
             text: 
         -
             title: beau
@@ -1323,11 +1323,11 @@
             text: 'for boys (and now girls) aged six to eight, when they are eligible to become Cub scouts'
         -
             title: 'bebop, hard bop, post-bop'
-            slug: bebop-hard-bop-post-bop
+            slug: bebop-hard-bop-postbop
             text: 'jazz genres'
         -
             title: Be-Bop-A-Lula
-            slug: be-bop-a-lula
+            slug: bebopalula
             text: 'Gene Vincent song'
         -
             title: because
@@ -1335,7 +1335,7 @@
             text: 'can be ambiguous: &quot;I didn&#39;t go to the party because Mary was there&quot; may mean that Mary&#39;s presence dissuaded me from going or that I went to sample the canapés'
         -
             title: 'Becket, Thomas (1118-70)'
-            slug: becket-thomas-(1118-70)
+            slug: becket-thomas-111870
             text: 'murdered archbishop of Canterbury, not &quot;Thomas à Becket&quot;'
         -
             title: becquerel
@@ -1387,7 +1387,7 @@
             text: 'no hyphens'
         -
             title: 'Bell&#39;s whisky'
-            slug: belland39s-whisky
+            slug: bells-whisky
             text: 
         -
             title: bellwether
@@ -1431,7 +1431,7 @@
             text: 'the adjective is Bermudian (not Bermudan) and its citizens are Bermudians'
         -
             title: 'Bernabéu stadium'
-            slug: bernabeu-stadium
+            slug: bernabu-stadium
             text: 'the home of Real Madrid'
         -
             title: Berne
@@ -1443,7 +1443,7 @@
             text: 'not beserk'
         -
             title: Berwick-upon-Tweed
-            slug: berwick-upon-tweed
+            slug: berwickupontweed
             text: 'is in England, although Berwick Rangers play football in the Scottish League'
         -
             title: 'bestseller, bestselling'
@@ -1479,7 +1479,7 @@
             text: '(1881-1951) Labour foreign secretary between 1945 and 1951 who helped to create Nato. Not to be confused with Nye Bevan'
         -
             title: Beyoncé
-            slug: beyonce
+            slug: beyonc
             text: 
         -
             title: 'beyond the pale'
@@ -1531,7 +1531,7 @@
             text: 'lowercase, whether you are talking about the origin of the universe, around 14 billion years ago, or deregulation of the City of London in 1986'
         -
             title: '&#39;big society&#39;'
-            slug: and39big-societyand39
+            slug: big-society
             text: 'described by Simon Hoggart as &quot;surely the vaguest slogan ever coined by a political leader. Nobody knows what it means.&quot; Until they do, keep it in quotation marks at first mention'
         -
             title: bill
@@ -1587,7 +1587,7 @@
             text: 
         -
             title: bite-size
-            slug: bite-size
+            slug: bitesize
             text: 'not bite-sized; very few things are the same size as a bite'
         -
             title: bitterest
@@ -1607,11 +1607,11 @@
             text: 'handheld wireless email device; plural BlackBerrys'
         -
             title: 'black cab-driver'
-            slug: black-cab-driver
+            slug: black-cabdriver
             text: 'a black person who drives a cab'
         -
             title: 'black-cab driver'
-            slug: black-cab-driver
+            slug: blackcab-driver
             text: 'a person who drives a black cab'
         -
             title: 'Black Country'
@@ -1623,7 +1623,7 @@
             text: 'hidden or parallel economy are preferable'
         -
             title: 'black-on-black violence'
-            slug: black-on-black-violence
+            slug: blackonblack-violence
             text: 'is banned, unless in a quote, but even then treat with scepticism (imagine the police saying they were &quot;investigating an incident of white-on-white violence between Millwall and West Ham supporters&quot;)'
         -
             title: blackout
@@ -1687,7 +1687,7 @@
             text: 'Take care when writing about the death toll: 13 died in Derry on 30 January 1972, but a 14th victim died from a brain tumour several months later, so we should use a phrase such as &quot;which led to 14 deaths&quot;'
         -
             title: 'Bluffer&#39;s Guide'
-            slug: blufferand39s-guide
+            slug: bluffers-guide
             text: 'TM; beware of using phrases such as &quot;a bluffer&#39;s guide to crimewriting&quot;, a headline that led to a legal complaint'
         -
             title: blunder
@@ -1695,11 +1695,11 @@
             text: 'one (of many) mentions of this word led to the following comment from a reader: &quot;The term &#39;blunder&#39; is used most frequently when referring to mistakes made in public services and this only serves to fuel the view commonly propagated by rightwing newspapers that the role of the public sector should be diminished and its functions handed over to private companies. I&#39;m sure the Guardian does not endorse this view, but its use of language may imply that it does&quot;'
         -
             title: Blu-ray
-            slug: blu-ray
+            slug: bluray
             text: 'TM; full name is Blu-ray Disc (not Disk), abbreviation BD'
         -
             title: Blu-Tack
-            slug: blu-tack
+            slug: blutack
             text: TM
         -
             title: 'Boat Race'
@@ -1735,11 +1735,11 @@
             text: 'trolley, truck'
         -
             title: Bogotá
-            slug: bogota
+            slug: bogot
             text: 'capital of Colombia'
         -
             title: 'Bolívar, Simón'
-            slug: bolivar-simon
+            slug: bolvar-simn
             text: '(1783-1830) Venezuelan-born Latin American revolutionary hero; not Simon Bolivar, Simón Bolivar, Simon Bolívar, or Simón Bólivar  - all of which appeared in the paper in the space of a year'
         -
             title: bolognese
@@ -1779,7 +1779,7 @@
             text: 'not bon viveur'
         -
             title: boo-boo
-            slug: boo-boo
+            slug: booboo
             text: 'mistake; Boo Boo cartoon bear who lived with Yogi in Jellystone Park'
         -
             title: 'bookcase, bookkeeper, bookseller, bookshelf'
@@ -1815,7 +1815,7 @@
             text: 
         -
             title: Bosnia-Herzegovina
-            slug: bosnia-herzegovina
+            slug: bosniaherzegovina
             text: 'for the former Yugoslav republic, not Hercegovina'
         -
             title: Bosphorus
@@ -1863,7 +1863,7 @@
             text: 'adjective; bourgeoisie noun'
         -
             title: 'Boutros Boutros-Ghali'
-            slug: boutros-boutros-ghali
+            slug: boutros-boutrosghali
             text: 'former UN secretary general'
         -
             title: 'bow tie'
@@ -1887,7 +1887,7 @@
             text: 
         -
             title: 'Boy&#39;s Own'
-            slug: boyand39s-own
+            slug: boys-own
             text: 
         -
             title: brackets
@@ -1915,7 +1915,7 @@
             text: 'no apostrophe'
         -
             title: Brasília
-            slug: brasilia
+            slug: braslia
             text: 'capital of Brazil'
         -
             title: 'breastfed, breastfeeding'
@@ -1931,7 +1931,7 @@
             text: 'bush, pipe'
         -
             title: bric-a-brac
-            slug: bric-a-brac
+            slug: bricabrac
             text: 
         -
             title: brickbat
@@ -1963,7 +1963,7 @@
             text: 'rather than brinksmanship'
         -
             title: 'Brink&#39;s-Mat'
-            slug: brinkand39s-mat
+            slug: brinksmat
             text: 
         -
             title: 'Britain, UK'
@@ -2023,7 +2023,7 @@
             text: 'a secure psychiatric hospital, not a prison'
         -
             title: Brontë
-            slug: bronte
+            slug: bront
             text: 'Charlotte, Emily, Anne and their brother Branwell; they grew up at Haworth (not Howarth) in what is now West Yorkshire'
         -
             title: 'bronze age, ice age, iron age, stone age'
@@ -2123,7 +2123,7 @@
             text: 'not bumph'
         -
             title: 'Buñuel, Luis'
-            slug: bunuel-luis
+            slug: buuel-luis
             text: '(1900-83) Spanish film director'
         -
             title: 'buoyed up by'
@@ -2243,7 +2243,7 @@
             text: 'tee; caddy tea'
         -
             title: Cádiz
-            slug: cadiz
+            slug: cdiz
             text: 
         -
             title: Caernarfon
@@ -2311,7 +2311,7 @@
             text: 'are not the same: note the difference between &quot;you can not eat if you don&#39;t want to&quot; and &quot;you cannot eat porridge with a knife&quot;'
         -
             title: Canal+
-            slug: canal+
+            slug: canal
             text: 'French TV channel, formerly Canal Plus'
         -
             title: 'canal boats'
@@ -2323,7 +2323,7 @@
             text: 'the whole development, not the main tower, which is 1 Canada Square'
         -
             title: Cancún
-            slug: cancun
+            slug: cancn
             text: 'city in Mexico'
         -
             title: cannabis
@@ -2403,7 +2403,7 @@
             text: 'It is dangerous to call a group of companies a cartel unless you want to hear from ...'
         -
             title: Carter-Ruck
-            slug: carter-ruck
+            slug: carterruck
             text: 'You might think that, given this law firm&#39;s close relationship with newspapers, everyone would know that it&#39;s hyphenated. You would, sadly, be wrong'
         -
             title: Casanova
@@ -2447,7 +2447,7 @@
             text: 'adjective Catalan'
         -
             title: catch-22
-            slug: catch-22
+            slug: catch22
             text: 'lc unless specifically referring to Joseph Heller&#39;s 1961 novel Catch-22, which explained the dilemma thus: &quot;Orr would be crazy to fly more missions and sane if he didn&#39;t, but if he were sane he had to fly them. If he flew them he was crazy and didn&#39;t have to; but if he didn&#39;t want to he was sane and had to&quot;'
         -
             title: catchphrase
@@ -2479,7 +2479,7 @@
             text: 
         -
             title: 'CD, CDs, CD-Rom'
-            slug: cd-cds-cd-rom
+            slug: cd-cds-cdrom
             text: 'a CD is a disc, not a disk'
         -
             title: 'CE, BCE'
@@ -2567,7 +2567,7 @@
             text: 'the Geneva-based European laboratory for particle physics'
         -
             title: 'Cézanne. Paul'
-            slug: cezanne.-paul
+            slug: czanne-paul
             text: '(1839-1906) French artist'
         -
             title: CFC
@@ -2579,7 +2579,7 @@
             text: 'wines from Chablis'
         -
             title: cha-cha-cha
-            slug: cha-cha-cha
+            slug: chachacha
             text: 'the dance, not cha-cha'
         -
             title: chair
@@ -2603,7 +2603,7 @@
             text: 
         -
             title: 'Champs Elysées'
-            slug: champs-elysees
+            slug: champs-elyses
             text: 
         -
             title: 'chancellor of the duchy of Lancaster, chancellor of the exchequer'
@@ -2643,7 +2643,7 @@
             text: 'lc, like other wines, whether named after a grape (as in this case) or a region'
         -
             title: 'chargé, chargée d&#39;affaires'
-            slug: charge-chargee-dand39affaires
+            slug: charg-charge-daffaires
             text: 
         -
             title: 'Charity Commission'
@@ -2675,7 +2675,7 @@
             text: 
         -
             title: 'Chávez, Hugo'
-            slug: chavez-hugo
+            slug: chvez-hugo
             text: 'elected president of Venezuela in 1998, and re-elected in 2000, 2006 and 2012; died in 2013'
         -
             title: 'Chavismo, Chavistas'
@@ -2691,7 +2691,7 @@
             text: 'inhabited by Chechens'
         -
             title: 'check-in, checkout'
-            slug: check-in-checkout
+            slug: checkin-checkout
             text: 'noun, adjective'
         -
             title: 'check in, check out'
@@ -2779,11 +2779,11 @@
             text: "Mainland China: in two parts, eg Mao Zedong, Zhou Enlai, Jiang Zemin. Hong Kong, Taiwan: in two parts with hyphen, eg Tung Chee-hwa, Chiang Kai-shek (exception: when a building, park or the like is named after a person it becomes three parts, eg Chiang Kai Shek Cultural Centre); note also that Korean names are written the same way, eg Kim Il-sung. Singapore, Malaysia: in three parts, eg Lee Kuan Yew. \nFor people with Chinese names elsewhere in the world, follow their preference – but make sure you know which is the surname"
         -
             title: Chloé
-            slug: chloe
+            slug: chlo
             text: '(fashion) note accent'
         -
             title: chock-a-block
-            slug: chock-a-block
+            slug: chockablock
             text: 
         -
             title: chocoholic
@@ -2823,7 +2823,7 @@
             text: 'an evangelical Christian organisation'
         -
             title: 'Christie&#39;s'
-            slug: christieand39s
+            slug: christies
             text: 'the auction house; Christies the holding company has no apostrophe'
         -
             title: 'Christmas Day, Christmas Eve'
@@ -2851,7 +2851,7 @@
             text: 
         -
             title: 'cinéma vérité'
-            slug: cinema-verite
+            slug: cinma-vrit
             text: 
         -
             title: Cites
@@ -2863,7 +2863,7 @@
             text: 'what the organisation likes to be called, although it still runs bureaux'
         -
             title: Citroën
-            slug: citroen
+            slug: citron
             text: 
         -
             title: city
@@ -2967,7 +2967,7 @@
             text: 'government crisis response committee, so-called because it originally met in Cabinet Office Briefing Room A. The US equivalent is the White House Situation Room'
         -
             title: 'Coca-Cola, Coke'
-            slug: coca-cola-coke
+            slug: cocacola-coke
             text: 'TM; the generic term is cola; coke for smokeless fuel and cocaine'
         -
             title: cockney
@@ -2999,7 +2999,7 @@
             text: "Nouns such as committee, family, government, jury, squad and team take a singular verb or pronoun when thought of as a single unit, but a plural verb or pronoun when thought of as a collection of individuals:\nThe committee gave its unanimous approval to the plans;\nThe committee enjoyed biscuits with their tea.\nThe family can trace its history back to the middle ages;\nThe family were sitting down, scratching their heads.\nThe squad is looking stronger than for several seasons;\nThe squad are all very confident that they will win promotion this season"
         -
             title: 'collector&#39;s item'
-            slug: collectorand39s-item
+            slug: collectors-item
             text: 
         -
             title: 'College of Arms'
@@ -3167,7 +3167,7 @@
             text: 'forms the basis for the government&#39;s inflation target and other inflation-linked tools; CPI after first mention'
         -
             title: 'Consumers&#39; Association'
-            slug: consumersand39-association
+            slug: consumers-association
             text: 'now known as Which?, after its magazine'
         -
             title: contemporary
@@ -3207,19 +3207,19 @@
             text: 'having convinced someone of the facts, you might persuade them to do something'
         -
             title: 'co-operate, co-operation, co-operative'
-            slug: co-operate-co-operation-co-operative
+            slug: cooperate-cooperation-cooperative
             text: 
         -
             title: 'Co-operative Bank, Group, party'
-            slug: co-operative-bank-group-party
+            slug: cooperative-bank-group-party
             text: 'but you might shop at your local Co-op'
         -
             title: 'co-opt, co-ordinate'
-            slug: co-opt-co-ordinate
+            slug: coopt-coordinate
             text: 
         -
             title: cop-out
-            slug: cop-out
+            slug: copout
             text: 
         -
             title: 'copy editor'
@@ -3235,7 +3235,7 @@
             text: '(1887-1965) Swiss architect and city planner, born Charles-Edouard Jeanneret'
         -
             title: Córdoba
-            slug: cordoba
+            slug: crdoba
             text: 
         -
             title: cords
@@ -3255,7 +3255,7 @@
             text: 
         -
             title: 'coroner&#39;s court'
-            slug: coronerand39s-court
+            slug: coroners-court
             text: 
         -
             title: 'corporation of London'
@@ -3283,7 +3283,7 @@
             text: 'lc apart from placename: Lancaster city council, London borough of Southwark, Kent county council, etc; it is normally sufficient to say Lancaster council, Southwark council, etc'
         -
             title: 'count &#39;em'
-            slug: count-and39em
+            slug: count-em
             text: 'cliche often seen in parenthesis after a number is mentioned. For example, an article referred to &quot;the seminal Andrex puppy advent calendar with 25 – count &#39;em – puppy pictures ... &quot;'
         -
             title: 'counteract, counterattack, countermeasures'
@@ -3303,7 +3303,7 @@
             text: 'plural courts martial'
         -
             title: 'court of St James&#39;s'
-            slug: court-of-st-jamesand39s
+            slug: court-of-st-jamess
             text: 
         -
             title: couscous
@@ -3403,7 +3403,7 @@
             text: 
         -
             title: 'Cruz, Penélope'
-            slug: cruz-penelope
+            slug: cruz-penlope
             text: 
         -
             title: 'cubism, cubist'
@@ -3447,7 +3447,7 @@
             text: 'after first mention it is the Cup; but other cups are lc on second mention'
         -
             title: 'curate&#39;s egg'
-            slug: curateand39s-egg
+            slug: curates-egg
             text: 'Used nowadays to mean good in parts (&quot;this was a curate&#39;s egg of a match&quot;), the expression originally, and more subtly, meant to deliberately gloss over the truth – the curate was trying to spare his bishop&#39;s feelings, or perhaps his own embarrassment, when served a bad egg, by saying: &quot;Oh no, My Lord, I assure you! Parts of it are excellent!&quot; (cartoon in Punch, 9 November 1895)'
         -
             title: curb
@@ -3471,7 +3471,7 @@
             text: 'since the 1989 Children Act the correct term for what used to be known as custody in cases involving care of children is residence'
         -
             title: 'Customs, Revenue &amp; Customs'
-            slug: customs-revenue-andamp-customs
+            slug: customs-revenue-customs
             text: '(singular) but customs officers'
         -
             title: cutbacks
@@ -3483,7 +3483,7 @@
             text: 
         -
             title: cyber-attack
-            slug: cyber-attack
+            slug: cyberattack
             text: 
         -
             title: Cyprus
@@ -3511,7 +3511,7 @@
             text: 
         -
             title: 'Dáil Éireann'
-            slug: dail-eireann
+            slug: dil-ireann
             text: 'lower house of parliament in the Irish Republic, normally just the Dáil'
         -
             title: DaimlerChrysler
@@ -3527,7 +3527,7 @@
             text: 'takes initial cap, whether used literally (as in referring to Doctor Who), or figuratively (as in describing, say, your boss)'
         -
             title: 'Dalí, Salvador'
-            slug: dali-salvador
+            slug: dal-salvador
             text: '(1904-89) Spanish surrealist'
         -
             title: dancefloor
@@ -3575,7 +3575,7 @@
             text: 
         -
             title: Day-Glo
-            slug: day-glo
+            slug: dayglo
             text: TM
         -
             title: 'Day Kundi'
@@ -3591,7 +3591,7 @@
             text: 'two words, eg Day Trip to Bangor by (trivia question) ... Fiddler&#39;s Dram'
         -
             title: D-day
-            slug: d-day
+            slug: dday
             text: '6 June 1944, or used figuratively (&quot;Monday is D-day for the Blades&#39; promotion hopes&quot;)'
         -
             title: 'deaf ears'
@@ -3735,7 +3735,7 @@
             text: 'the two Us are de rigueur'
         -
             title: derring-do
-            slug: derring-do
+            slug: derringdo
             text: 'not daring-do'
         -
             title: 'Derry, Co Derry'
@@ -3967,7 +3967,7 @@
             text: 'normally lc, eg alsatian, doberman, jack russell, labrador, rottweiler, yorkshire terrier; but note German shepherd, Irish setter, old English sheepdog'
         -
             title: 'D&#39;oh!'
-            slug: dand39oh!
+            slug: doh
             text: 'as Homer Simpson would say (note the apostrophe)'
         -
             title: Dolby
@@ -3979,7 +3979,7 @@
             text: 'character who talked to the animals, created by Hugh Lofting; Doolittle, Eliza character created by George Bernard Shaw in Pygmalion; also a British singer-songwriter (born 1988)'
         -
             title: 'doll&#39;s house'
-            slug: dolland39s-house
+            slug: dolls-house
             text: 
         -
             title: 'dome, the'
@@ -4011,7 +4011,7 @@
             text: 'no accent'
         -
             title: 'dos and don&#39;ts'
-            slug: dos-and-donand39ts
+            slug: dos-and-donts
             text: 
         -
             title: 'Dostoevsky, Fyodor Mikhailovich'
@@ -4059,7 +4059,7 @@
             text: 
         -
             title: 'Down&#39;s syndrome'
-            slug: downand39s-syndrome
+            slug: downs-syndrome
             text: 'say (if relevant) a baby with Down&#39;s syndrome, not &quot;a Down&#39;s syndrome baby&quot; – we wouldn&#39;t say &quot;a cerebral palsy baby&quot;. The diagnosis is not the person'
         -
             title: downtown
@@ -4115,7 +4115,7 @@
             text: 'past tense drank, past participle drunk: he drinks too much – last night he drank 10 pints, the least he has drunk on any night this week'
         -
             title: 'drink-driver, drink-driving, drunk-driving'
-            slug: drink-driver-drink-driving-drunk-driving
+            slug: drinkdriver-drinkdriving-drunkdriving
             text: "The limits are breath: 35 micrograms per 100 millilitres; blood: 80 milligrams per 100 millilitres; urine: 107 milligrams per 100 millilitres.\nIf a breath test is positive, but less than 50 micrograms per 100 millilitres, then a blood or urine test is needed before a prosecution can be brought; above 50, a breath test alone is strong enough to be used as evidence"
         -
             title: 'driving licence'
@@ -4139,7 +4139,7 @@
             text: 
         -
             title: 'drum&#39;n&#39;bass'
-            slug: drumand39nand39bass
+            slug: drumnbass
             text: 
         -
             title: drunkenness
@@ -4179,15 +4179,15 @@
             text: 'do not use when you mean speech-impaired'
         -
             title: 'du Pré, Jacqueline'
-            slug: du-pre-jacqueline
+            slug: du-pr-jacqueline
             text: '(1945-87) English cellist, Du Pré at second mention'
         -
             title: 'Dupré, Marcel'
-            slug: dupre-marcel
+            slug: dupr-marcel
             text: '(1886-1971) French organist and composer'
         -
             title: 'Dürer, Albrecht'
-            slug: durer-albrecht
+            slug: drer-albrecht
             text: '(1471-1528) German painter'
         -
             title: 'dutch auction, dutch courage, dutch treat'
@@ -4235,7 +4235,7 @@
             text: 'often redundant: &quot;they met this week&quot; or &quot;it happened this month&quot; are preferable to &quot;they met earlier this week&quot; or &quot;it happened earlier this month&quot; and will save space'
         -
             title: 'Earl&#39;s Court'
-            slug: earland39s-court
+            slug: earls-court
             text: 'station and district; Earls Court exhibition centre'
         -
             title: earn
@@ -4343,7 +4343,7 @@
             text: "It is not normally necessary to use the full name, Escherichia coli. As with other taxonomic names, italicise in copy but use roman in headlines and standfirsts; no full point.\nNote that E coli is a bacterium, not a virus"
         -
             title: eco-friendly
-            slug: eco-friendly
+            slug: ecofriendly
             text: 'but ecohome, ecosystem, ecotown, ecowarrior'
         -
             title: ecstasy
@@ -4375,7 +4375,7 @@
             text: 'not educationalist'
         -
             title: '-ee endings'
-            slug: '-ee-endings'
+            slug: ee-endings
             text: '-ee means something happens to you; -er means you do something: so employee, invitee (if you must), refugee but attender, escaper, etc, rather than attendee, escapee, etc'
         -
             title: eerie
@@ -4407,11 +4407,11 @@
             text: 'extraordinary general meeting'
         -
             title: 'Eid al-Adha'
-            slug: eid-al-adha
+            slug: eid-aladha
             text: '(Festival of Sacrifice) Muslim festival laid down in Islamic law, celebrates the end of the hajj. Note that eid means festival, so it is tautologous to describe it as the &quot;Eid festival&quot;'
         -
             title: 'Eid al-Fitr'
-            slug: eid-al-fitr
+            slug: eid-alfitr
             text: 'Muslim festival of thanksgiving laid down in Islamic law, celebrates the end of Ramadan (al-fitr means the breaking of the fast)'
         -
             title: 'eid mubarak'
@@ -4459,7 +4459,7 @@
             text: "Like governments and reality TV series, metaphors that we once welcomed into our lives as refreshing can become all too familiar, to the point of tedium – and this cliche is a fine example.\nAt its height, elephants were not only in the room, but had taken over the whole house: &quot;elephants in the room&quot; included trade figures, policy, lack of policy, climate change, Iraq, the US, Europe, anti-Americanism, men, women, single women, a new French football league, race, religion, Islam, Catholicism, Tessa Jowell, Andrew Neil, Jimmy Greaves, fatness, thinness, Stalinism, Hitler and Tony Blair&#39;s departure from office.\nThe phrase seemed destined for the elephants&#39; graveyard but there is evidence that, used imaginatively, it may still be effective: &quot;There&#39;s only so long they can ignore this elephant in the room [the Iraq war] before it takes a dump on the carpet&quot; (Gary Younge, 5 July 2010); and, from the same writer: &quot;Money in American politics was already an elephant in the room. Now the supreme court has given it a laxative, taken away the shovel, and asked us to ignore both the sight and the stench&quot; (30 January 2012)"
         -
             title: 11-plus
-            slug: 11-plus
+            slug: 11plus
             text: 
         -
             title: elision
@@ -4503,7 +4503,7 @@
             text: 'leave a country; immigrate  arrive in one'
         -
             title: émigré
-            slug: emigre
+            slug: migr
             text: 
         -
             title: 'Emin, Tracey'
@@ -4599,11 +4599,11 @@
             text: 
         -
             title: 'entr&#39;acte'
-            slug: entrand39acte
+            slug: entracte
             text: 
         -
             title: E.ON
-            slug: e.on
+            slug: eon
             text: 
         -
             title: epicentre
@@ -4643,7 +4643,7 @@
             text: 'not e&#39;er long'
         -
             title: 'Eriksson, Sven-Göran'
-            slug: eriksson-sven-goran
+            slug: eriksson-svengran
             text: 
         -
             title: ERM
@@ -4775,7 +4775,7 @@
             text: 'adjective meaning ordinary: an everyday mistake'
         -
             title: 'every parent&#39;s nightmare'
-            slug: every-parentand39s-nightmare
+            slug: every-parents-nightmare
             text: 'avoid this cliche'
         -
             title: 'exchequer, the'
@@ -4819,7 +4819,7 @@
             text: 'ECGD at second mention'
         -
             title: exposé
-            slug: expose
+            slug: expos
             text: 
         -
             title: 'extracurricular, extramarital, extraterrestrial, extraterritorial'
@@ -4827,7 +4827,7 @@
             text: 
         -
             title: '&quot;extrajudicial killing&quot;'
-            slug: andquotextrajudicial-killingandquot
+            slug: extrajudicial-killing
             text: 'should be used only when quoting someone'
         -
             title: extrovert
@@ -4843,7 +4843,7 @@
             text: 'is being used increasingly for &quot;considers&quot;, but it doesn&#39;t mean that. You might get away with &quot;BoS eyes up Abbey&quot; meaning considers it as a takeover target, but not &quot;BoS eyes online insurance&quot; meaning BoS is considering setting up an online sales operation'
         -
             title: eye-watering
-            slug: eye-watering
+            slug: eyewatering
             text: 'The pace at which a fresh metaphor becomes a tired cliche seems to have increased in recent years; this one saw a huge increase in 2009 – although curiously, while &quot;eye-watering&quot; is only ever applied to money (&quot;eye-watering sums&quot;), its adverbial near relative is more versatile (&quot;an eye-wateringly beautiful woman&quot;, &quot;an eye-wateringly sharp sauvignon&quot; and so on). The danger, as ever, is that the expression loses its force from overuse'
         -
             title: eyewitness
@@ -4851,7 +4851,7 @@
             text: "one word, but witness is preferable, except in the \nGuardian&#39;s Eyewitness picture spread"
         -
             title: Eyjafjallajökull
-            slug: eyjafjallajokull
+            slug: eyjafjallajkull
             text: 'Icelandic volcano that brought peace to the skies for a short time in 2010'
 
 -
@@ -4863,7 +4863,7 @@
             text: 'no cedilla'
         -
             title: 'Fàbregas, Cesc'
-            slug: fabregas-cesc
+            slug: fbregas-cesc
             text: 'a Catalan, not Spanish, name; note the accent'
         -
             title: Facebook
@@ -4891,7 +4891,7 @@
             text: 'use in brackets, without degree symbol, after celsius figure, eg 37C (98.6F); to convert, multiply the celsius temperature by 1.8, then add 32; alternatively, double the celsius figure, subtract one-tenth of that figure, and add 32; or you could save yourself the bother by using a conversion website'
         -
             title: 'Fáilte Ireland'
-            slug: failte-ireland
+            slug: filte-ireland
             text: 'Ireland&#39;s tourism authority'
         -
             title: Fairtrade
@@ -4927,7 +4927,7 @@
             text: "word favoured by politicians to make them sound caring and concerned (&quot;hard-working families&quot;), which doesn&#39;t mean we have to do so, as in this 2010 Guardian splash headline: &quot;Families face nuclear tax on power bills&quot;.\nAs a reader pointed out: &quot;So don&#39;t older people, single people, etc, face the same tax? ... the implicit attitude [is] that those not part of families are of secondary significance.&quot; Quite"
         -
             title: 'family-size, fun-size'
-            slug: family-size-fun-size
+            slug: familysize-funsize
             text: 'not family-sized, fun-sized'
         -
             title: 'famous, famously'
@@ -4991,7 +4991,7 @@
             text: 'etc (no hyphens); only describe people in this way if relevant'
         -
             title: 'Father&#39;s Day'
-            slug: fatherand39s-day
+            slug: fathers-day
             text: 
         -
             title: fatwa
@@ -5071,7 +5071,7 @@
             text: 'male, fiancee female; but note divorcee is both male and female'
         -
             title: 'Fianna Fáil'
-            slug: fianna-fail
+            slug: fianna-fil
             text: 'Irish political party'
         -
             title: fiasco
@@ -5103,7 +5103,7 @@
             text: 'not filip'
         -
             title: film-maker
-            slug: film-maker
+            slug: filmmaker
             text: 'but film star'
         -
             title: Filofax
@@ -5127,7 +5127,7 @@
             text: 'Irish political party'
         -
             title: 'fine-tooth comb'
-            slug: fine-tooth-comb
+            slug: finetooth-comb
             text: 
         -
             title: 'Finnegans  Wake'
@@ -5175,7 +5175,7 @@
             text: 'the first floor you come to when you go upstairs is the first floor (the clue is in the name); the second floor is the one above that'
         -
             title: first-hand
-            slug: first-hand
+            slug: firsthand
             text: 
         -
             title: 'first lady'
@@ -5247,7 +5247,7 @@
             text: 
         -
             title: flip-flops
-            slug: flip-flops
+            slug: flipflops
             text: 
         -
             title: floor
@@ -5255,7 +5255,7 @@
             text: 'If, say, a policeman knocks you over, you fall on to the ground, not the floor, although you might say you have been floored'
         -
             title: 'Florence + the Machine'
-            slug: florence-+-the-machine
+            slug: florence-the-machine
             text: 'not &quot;and&quot; or &quot;&amp;&quot;'
         -
             title: flotation
@@ -5287,7 +5287,7 @@
             text: noun
         -
             title: 'fo&#39;c&#39;sle'
-            slug: foand39cand39sle
+            slug: focsle
             text: 'abbreviation of forecastle, and a surviving entry from the 1928 &quot;Style-book of the Manchester Guardian&quot;'
         -
             title: 'focus, focused, focusing'
@@ -5331,7 +5331,7 @@
             text: 
         -
             title: 'foot-and-mouth disease'
-            slug: foot-and-mouth-disease
+            slug: footandmouth-disease
             text: 
         -
             title: footie
@@ -5491,7 +5491,7 @@
             text: 'plural frescoes'
         -
             title: 'freshers&#39; week'
-            slug: freshersand39-week
+            slug: freshers-week
             text: 
         -
             title: 'Freud, Lucian'
@@ -5555,7 +5555,7 @@
             text: 
         -
             title: full-time
-            slug: full-time
+            slug: fulltime
             text: 
         -
             title: fulsome
@@ -5595,7 +5595,7 @@
             text: 
         -
             title: Galápagos
-            slug: galapagos
+            slug: galpagos
             text: 
         -
             title: Gallagher
@@ -5627,19 +5627,19 @@
             text: 'not Ghandi'
         -
             title: gang-rape
-            slug: gang-rape
+            slug: gangrape
             text: 
         -
             title: 'García Lorca, Federico'
-            slug: garcia-lorca-federico
+            slug: garca-lorca-federico
             text: '(1898-1936) Spanish writer'
         -
             title: 'García Márquez, Gabriel'
-            slug: garcia-marquez-gabriel
+            slug: garca-mrquez-gabriel
             text: 'Colombian novelist'
         -
             title: 'Garda Síochána'
-            slug: garda-siochana
+            slug: garda-sochna
             text: 'Irish police force; garda (plural gardaí) police officer'
         -
             title: garotte
@@ -5671,7 +5671,7 @@
             text: 'general agreement on tariffs and trade'
         -
             title: 'Gaudí, Antoni'
-            slug: gaudi-antoni
+            slug: gaud-antoni
             text: '(1852-1926) Catalan architect'
         -
             title: 'Gauguin, Paul'
@@ -5691,7 +5691,7 @@
             text: 'gigabits; GB gigabytes'
         -
             title: 'G&#39;day'
-            slug: gand39day
+            slug: gday
             text: 'Australian greeting'
         -
             title: 'gender issues'
@@ -5799,7 +5799,7 @@
             text: 'banking; gyro navigation aid'
         -
             title: 'Giscard d&#39;Estaing, Valéry'
-            slug: giscard-dand39estaing-valery
+            slug: giscard-destaing-valry
             text: 'former French president, Giscard on second mention'
         -
             title: 'Giuliani, Rudolph'
@@ -5847,7 +5847,7 @@
             text: 
         -
             title: 'goat&#39;s cheese'
-            slug: goatand39s-cheese
+            slug: goats-cheese
             text: 
         -
             title: gobbledegook
@@ -5883,7 +5883,7 @@
             text: 'are given as numbers: 1st, 2nd, 18th, etc'
         -
             title: 'González Durántez, Miriam'
-            slug: gonzalez-durantez-miriam
+            slug: gonzlez-durntez-miriam
             text: 'González Durántez after first mention; do not call her Miriam Clegg or Mrs Clegg'
         -
             title: 'Good Friday agreement'
@@ -5899,7 +5899,7 @@
             text: 
         -
             title: 'goody bag, goody-goody, oh goody!'
-            slug: goody-bag-goody-goody-oh-goody!
+            slug: goody-bag-goodygoody-oh-goody
             text: 'but goodies'
         -
             title: Google
@@ -5911,7 +5911,7 @@
             text: 
         -
             title: 'Gorky&#39;s Zygotic Mynci'
-            slug: gorkyand39s-zygotic-mynci
+            slug: gorkys-zygotic-mynci
             text: '&quot;the most ridiculous crap name we could think of&quot;, according to the band'
         -
             title: 'Gormley, Antony'
@@ -5919,7 +5919,7 @@
             text: 
         -
             title: go-slow
-            slug: go-slow
+            slug: goslow
             text: 'noun; go slow verb'
         -
             title: Goths
@@ -5975,7 +5975,7 @@
             text: 
         -
             title: 'great-aunt, great-grandfather, great-great-grandmother, etc'
-            slug: great-aunt-great-grandfather-great-great-grandmother-etc
+            slug: greataunt-greatgrandfather-greatgreatgrandmother-etc
             text: 
         -
             title: 'Great Britain'
@@ -6007,7 +6007,7 @@
             text: 'one that has not been built on before, in contrast to a brownfield site'
         -
             title: 'greengrocer&#39;s apostrophe'
-            slug: greengrocerand39s-apostrophe
+            slug: greengrocers-apostrophe
             text: 'See apostrophes'
         -
             title: 'greenhouse effect'
@@ -6047,11 +6047,11 @@
             text: 
         -
             title: G-spot
-            slug: g-spot
+            slug: gspot
             text: 
         -
             title: 'Guantánamo Bay'
-            slug: guantanamo-bay
+            slug: guantnamo-bay
             text: 
         -
             title: guerrilla
@@ -6079,7 +6079,7 @@
             text: 'formerly French Guinea, a republic in north-west Africa that became independent in 1958; do not confuse with Equatorial Guinea, French Guiana, Guinea-Bissau, or Guyana'
         -
             title: Guinea-Bissau
-            slug: guinea-bissau
+            slug: guineabissau
             text: 'formerly Portuguese Guinea, independent since 1974, lying on the coast to the north-west of Guinea'
         -
             title: 'guinea pig'
@@ -6107,7 +6107,7 @@
             text: 'not gunbattle or firefight'
         -
             title: 'Guns N&#39; Roses'
-            slug: guns-nand39-roses
+            slug: guns-n-roses
             text: 'may be abbreviated to GNR after first mention'
         -
             title: Gurkha
@@ -6139,7 +6139,7 @@
     definitions:
         -
             title: Häagen-Dazs
-            slug: haagen-dazs
+            slug: hagendazs
             text: 'American ice-cream; despite appearances, the name was made up to give a European cachet to a product emanating from the Bronx in New York City'
         -
             title: Haaretz
@@ -6155,7 +6155,7 @@
             text: 
         -
             title: 'Haberdashers&#39; Aske&#39;s school'
-            slug: haberdashersand39-askeand39s-school
+            slug: haberdashers-askes-school
             text: 
         -
             title: Habsburg
@@ -6195,7 +6195,7 @@
             text: 'as performed by the New Zealand All Blacks rugby team, it is a welcome or challenge, rather than a Maori war dance (although routinely described as such)'
         -
             title: 'Hale-Bopp comet'
-            slug: hale-bopp-comet
+            slug: halebopp-comet
             text: 'its appearance in 1997 prompted mass suicide in the Heaven&#39;s Gate cult'
         -
             title: half
@@ -6207,11 +6207,11 @@
             text: 
         -
             title: half-life
-            slug: half-life
+            slug: halflife
             text: (radioactivity)
         -
             title: half-term
-            slug: half-term
+            slug: halfterm
             text: 'known as mid-term in Scotland'
         -
             title: 'halfway, halfwit'
@@ -6223,11 +6223,11 @@
             text: 
         -
             title: 'Hallé orchestra'
-            slug: halle-orchestra
+            slug: hall-orchestra
             text: 'founded in Manchester by Karl Hallé in 1857'
         -
             title: 'Halley&#39;s comet'
-            slug: halleyand39s-comet
+            slug: halleys-comet
             text: 
         -
             title: Halloween
@@ -6287,11 +6287,11 @@
             text: 
         -
             title: happy-clappy
-            slug: happy-clappy
+            slug: happyclappy
             text: avoid
         -
             title: hara-kiri
-            slug: hara-kiri
+            slug: harakiri
             text: 'known less vulgarly in Japan as seppuku'
         -
             title: 'harass, harassment'
@@ -6323,7 +6323,7 @@
             text: 'former prime minister of Lebanon, assassinated in Beirut in 2005'
         -
             title: Harley-Davidson
-            slug: harley-davidson
+            slug: harleydavidson
             text: 
         -
             title: HarperCollins
@@ -6331,7 +6331,7 @@
             text: 
         -
             title: 'Harper&#39;s Bazaar'
-            slug: harperand39s-bazaar
+            slug: harpers-bazaar
             text: 'US fashion magazine marketed as Harper&#39;s Bazaar UK in Britain, where it was known as Harpers &amp; Queen from 1970 to 2006'
         -
             title: 'Harpers Bizarre'
@@ -6351,7 +6351,7 @@
             text: 
         -
             title: hat-trick
-            slug: hat-trick
+            slug: hattrick
             text: 
         -
             title: haven
@@ -6375,7 +6375,7 @@
             text: 
         -
             title: Hawk-Eye
-            slug: hawk-eye
+            slug: hawkeye
             text: '(not Hawkeye) tracks the ball in cricket and tennis'
         -
             title: 'Hay festival'
@@ -6399,7 +6399,7 @@
             text: 
         -
             title: head-butt
-            slug: head-butt
+            slug: headbutt
             text: 'but butt should normally suffice'
         -
             title: 'headdress, headhunter, headroom'
@@ -6511,7 +6511,7 @@
             text: 'generally avoid if what you mean is in Britain (your readers might not be)'
         -
             title: Hergé
-            slug: herge
+            slug: herg
             text: 'pen name of Georges Remi (1907-83), Belgian creator of Tintin'
         -
             title: 'Heritage Lottery Fund'
@@ -6523,7 +6523,7 @@
             text: 'is a term used in biology to describe an animal that can reproduce in either a male or female manner. The appropriate term for a person of undetermined sex is intersex'
         -
             title: Hermès
-            slug: hermes
+            slug: herms
             text: 'scarves and shawls; Hermes Group stocks and shares'
         -
             title: 'hero, heroine'
@@ -6535,7 +6535,7 @@
             text: 'composed of unrelated elements, the opposite of homogeneous; heterogenous (biology) originating outside the body; the latter is often misused for the former'
         -
             title: Hewlett-Packard
-            slug: hewlett-packard
+            slug: hewlettpackard
             text: 'or HP'
         -
             title: Hezbollah
@@ -6551,11 +6551,11 @@
             text: 'not hiccough'
         -
             title: Hi-de-Hi!
-            slug: hi-de-hi!
+            slug: hidehi
             text: '1980s sitcom set in a holiday camp'
         -
             title: hi-fi
-            slug: hi-fi
+            slug: hifi
             text: 'short for high fidelity; how we listened to music in the days before iPods'
         -
             title: highchair
@@ -6595,7 +6595,7 @@
             text: 'lc in retail spending stories: &quot;the recession is making an impact in the high street&quot;; capped only in proper name: &quot;I went shopping in Godalming High Street&quot;'
         -
             title: 'high-water mark'
-            slug: high-water-mark
+            slug: highwater-mark
             text: 
         -
             title: hijab
@@ -6619,7 +6619,7 @@
             text: 'home information packs, scrapped by the new government in 2010'
         -
             title: hip-hop
-            slug: hip-hop
+            slug: hiphop
             text: 
         -
             title: hippopotamus
@@ -6635,7 +6635,7 @@
             text: 
         -
             title: 'His Master&#39;s Voice'
-            slug: his-masterand39s-voice
+            slug: his-masters-voice
             text: 'TM (picture of Nipper the dog with gramophone)'
         -
             title: 'historic or historical?'
@@ -6651,7 +6651,7 @@
             text: 'no hyphens'
         -
             title: hi-tech
-            slug: hi-tech
+            slug: hitech
             text: 
         -
             title: HIV
@@ -6675,7 +6675,7 @@
             text: 'as in &quot;she likes to hobnob with the rich and powerful&quot;; Hobnobs biscuits'
         -
             title: 'Hobson&#39;s choice'
-            slug: hobsonand39s-choice
+            slug: hobsons-choice
             text: 'a &quot;choice&quot; between taking what is offered and nothing at all'
         -
             title: 'Ho Chi Minh City'
@@ -6779,7 +6779,7 @@
             text: "Use just surname after first mention, except in leader columns.  \nSo: David Cameron at first mention, thereafter Cameron; Harriet Harman at first mention, subsequently Harman; Sir Richard Branson at first mention, thereafter Branson; Lady Warsi at first mention, subsequently Warsi; Prof John Wells at first mention, thereafter Wells; Dr Bill Bailey (and all other medical and scientific doctors and doctors of divinity) at first mention, subsequently Bailey; the Rev George Herbert at first mention, thereafter Herbert, etc. \nAs always, use common sense: in a story where two people have the same name (eg a court case about a husband and wife or brothers), it may be necessary to use Mr and Mrs or Ms, or forenames. In news stories particularly we should use an honorific if it sounds jarring or insensitive not to do so – for example, a woman whose son has been killed on active duty in Iraq should be &quot;Mrs Smith&quot; and not &quot;Smith&quot;. We need to use our judgment and be guided by the tone of the piece.\nFollow traditional Guardian style in leading articles (but not other comment pieces and columns on leader pages): use honorifics after first mention, unless writing about an artist, author, journalist, musician, criminal or dead person; use Ms for women on second mention unless they have expressed a preference for Miss or Mrs. \nSo: at first mention David Cameron, Harriet Harman, Sir Richard Branson, Lady Warsi, Prof John Wells, Dr Bill Bailey, the Rev George Herbert; thereafter Mr Cameron, Ms Harman, Sir Richard, Lady Warsi, Prof Wells, Dr Bailey, Mr Herbert, etc.\nUnder-18s should normally be referred to by their first names"
         -
             title: '&quot;honour&quot; killings'
-            slug: andquothonourandquot-killings
+            slug: honour-killings
             text: 'always in quotes; as a reader says: &quot;There is no honour involved in these murders and calling them honour killings belittles the victims and plays down the crime&quot;'
         -
             title: hoodie
@@ -6823,7 +6823,7 @@
             text: 
         -
             title: 'hot-water bottle'
-            slug: hot-water-bottle
+            slug: hotwater-bottle
             text: 
         -
             title: 'houseboat, housebreaker, housebuyer, householder, housekeeper'
@@ -6839,7 +6839,7 @@
             text: 'should be used with care; avoid sexist stereotyping such as lower food prices being &quot;good news for housewives&quot; (it&#39;s good news for shoppers)'
         -
             title: 'House Un-American Activities Committee (Huac)'
-            slug: house-un-american-activities-committee-(huac)
+            slug: house-unamerican-activities-committee-huac
             text: 'anti-communist investigating body of the House of Representatives, often associated with &quot;McCarthyism&quot;, although Joseph McCarthy was in fact head of the Senate permanent subcommittee on investigations'
         -
             title: hove
@@ -6887,7 +6887,7 @@
             text: 
         -
             title: 'Huntington&#39;s disease'
-            slug: huntingtonand39s-disease
+            slug: huntingtons-disease
             text: 'formerly known as Huntington&#39;s chorea'
         -
             title: huntsman
@@ -6919,7 +6919,7 @@
             text: "Our style is to use one word wherever possible. Hyphens tend to clutter up text (particularly when the computer breaks already hyphenated words at the end of lines). This is a widespread trend in the language: &quot;The transition from space to hyphen to close juxtaposition reflects the progressive institutionalisation of the compound,&quot; as Rodney Huddleston puts it, in his inimitable pithy style, in his Introduction to the Grammar of English.\nInventions, ideas and new concepts often begin life as two words, then become hyphenated, before finally becoming accepted as one word. Why wait? &quot;Wire-less&quot; and &quot;down-stairs&quot; were once hyphenated, and some old-fashioned souls still hyphenate e-mail.\nWords such as chatroom, frontbench, gameplan, housebuyer and standup are all one word in our publications, as are thinktank (not a tank that thinks), longlist (not necessarily a long list) and shortlist (which need not be short).\nThere is no need to use hyphens with most compound adjectives, where the meaning is clear and unambiguous without: civil rights movement, financial services sector, work inspection powers, etc. Hyphens should, however, be used to form short compound adjectives, eg two-tonne vessel, three-year deal, 19th-century artist. Also use hyphens where not using one would be ambiguous, eg to distinguish &quot;black-cab drivers come under attack&quot; from &quot;black cab-drivers come under attack&quot;. A missing hyphen in a review of Chekhov&#39;s Three Sisters led us to refer to &quot;the servant abusing Natasha&quot;, rather than &quot;the servant-abusing Natasha&quot;.\nDo not use hyphens after adverbs ending in -ly, eg a hotly disputed penalty, a constantly evolving newspaper, genetically modified food, etc, but hyphens are needed with short and common adverbs, eg ever-forgiving family, much-loved character, well-established principle of style (note, however, that in the construction &quot;the principles of style are well established&quot; there is no need to hyphenate)."
         -
             title: '-'
-            slug: '-'
+            slug: 
             text: "When an adverb can also be an adjective (eg hard), the hyphen is required to avoid ambiguity – it&#39;s not a hard, pressed person, but a hard-pressed one; an ill-prepared report, rather than an ill, prepared one.\nUse a hyphen in verbs where necessary to stop this kind of thing happening:\nMotorists\ntold: don&#39;t\npanic buy\npetrol\n(While not panicking may well have been advisable, they had actually been told not to panic-buy.)\nPrefixes such as macro, mega, micro, mini, multi, over, super and under rarely need hyphens: examples are listed separately. Follow Collins when a word or phrase is not listed"
 
 -
@@ -6935,7 +6935,7 @@
             text: 
         -
             title: ice-cream
-            slug: ice-cream
+            slug: icecream
             text: 
         -
             title: iconic
@@ -7327,7 +7327,7 @@
             text: 'individual savings account, but no need to spell it out'
         -
             title: '-ise'
-            slug: '-ise'
+            slug: ise
             text: 'not -ize at end of word, eg maximise, synthesise (exception: capsize)'
         -
             title: Islam
@@ -7359,7 +7359,7 @@
             text: "Use roman for titles of books, films, etc; the only exceptions are the Review and the Observer, which by special dispensation are allowed to ignore the generally sound advice of George Bernard Shaw: \n&quot;1 I was reading The Merchant of Venice.\n2 I was reading &#39;The Merchant of Venice&#39;. \n3 I was reading The Merchant of Venice. \nThe man who cannot see that No 1 is the best-looking, as well as the sufficient and sensible form, should print or write nothing but advertisements for lost dogs or ironmongers&#39; catalogues: literature is not for him to meddle with.&quot; \nUse italics for foreign words and phrases (with roman translation in brackets); poetry and scientific names.\nNever use italics in headlines or standfirsts"
         -
             title: 'it&#39;s'
-            slug: itand39s
+            slug: its
             text: 'shortened form of it is or has: it&#39;s a big dog, it&#39;s been ages since I saw her'
         -
             title: its
@@ -7379,7 +7379,7 @@
             text: 'Brown, Columbia, Cornell, Dartmouth College, Harvard, Princeton, University of Pennsylvania, Yale'
         -
             title: 'Izz ad-Din al-Qassam'
-            slug: izz-ad-din-al-qassam
+            slug: izz-addin-alqassam
             text: 'military wing of Hamas'
 
 -
@@ -7391,11 +7391,11 @@
             text: 'joules; kJ kilojoules'
         -
             title: 'Jack Daniel&#39;s'
-            slug: jack-danieland39s
+            slug: jack-daniels
             text: 'note apostrophe; technically it is a Tennessee whiskey, not a bourbon'
         -
             title: jack-in-the-box
-            slug: jack-in-the-box
+            slug: jackinthebox
             text: 'but jack of all trades'
         -
             title: 'jack russell'
@@ -7431,7 +7431,7 @@
             text: TM
         -
             title: 'Jehovah&#39;s Witness'
-            slug: jehovahand39s-witness
+            slug: jehovahs-witness
             text: 
         -
             title: jejune
@@ -7447,7 +7447,7 @@
             text: 
         -
             title: jerry-builder
-            slug: jerry-builder
+            slug: jerrybuilder
             text: 
         -
             title: Jerusalem
@@ -7483,7 +7483,7 @@
             text: 'are run by Jobcentre Plus'
         -
             title: 'jobseeker&#39;s allowance'
-            slug: jobseekerand39s-allowance
+            slug: jobseekers-allowance
             text: 
         -
             title: 'job titles'
@@ -7551,7 +7551,7 @@
     definitions:
         -
             title: 'Ka&#39;bah'
-            slug: kaand39bah
+            slug: kabah
             text: 'cube-shaped shrine in the centre of the great mosque in Mecca towards which all Muslims face in prayer; the shrine is not worshipped but used as the focal point of the worship of God'
         -
             title: Kabbalah
@@ -7575,7 +7575,7 @@
             text: '80s band best known for their silly haircuts and No 1 hit Too Shy. The never-ending story resumed in 2009 when they reformed for a tour'
         -
             title: Kaká
-            slug: kaka
+            slug: kak
             text: 'Brazilian footballer'
         -
             title: kapok
@@ -7611,7 +7611,7 @@
             text: '(1856-1915) first leader of the Labour party'
         -
             title: 'Kellogg&#39;s Corn Flakes'
-            slug: kelloggand39s-corn-flakes
+            slug: kelloggs-corn-flakes
             text: 'but cornflakes in general'
         -
             title: 'Kentish man, Kentish maid'
@@ -7639,7 +7639,7 @@
             text: 'not Kentucky Fried Chicken'
         -
             title: K-For
-            slug: k-for
+            slug: kfor
             text: 'stands for Kosovo Force, the Nato peacekeepers who entered Kosovo in June 1999 (and were still there 15 years later)'
         -
             title: 'Khachaturian, Aram'
@@ -7675,7 +7675,7 @@
             text: 
         -
             title: kick-off
-            slug: kick-off
+            slug: kickoff
             text: 'noun; kick off verb'
         -
             title: kickstart
@@ -7695,19 +7695,19 @@
             text: potatoes
         -
             title: 'King&#39;s College, Cambridge'
-            slug: kingand39s-college-cambridge
+            slug: kings-college-cambridge
             text: comma
         -
             title: 'King&#39;s College London'
-            slug: kingand39s-college-london
+            slug: kings-college-london
             text: 'no comma'
         -
             title: 'King&#39;s Cross'
-            slug: kingand39s-cross
+            slug: kings-cross
             text: 
         -
             title: 'King&#39;s Lynn'
-            slug: kingand39s-lynn
+            slug: kings-lynn
             text: 
         -
             title: 'Kings Place'
@@ -7739,7 +7739,7 @@
             text: 
         -
             title: 'kiss&#39;n&#39;tell'
-            slug: kissand39nand39tell
+            slug: kissntell
             text: 
         -
             title: kissogram
@@ -7795,7 +7795,7 @@
             text: 'not koala bear'
         -
             title: Koh-i-noor
-            slug: koh-i-noor
+            slug: kohinoor
             text: diamond
         -
             title: koi
@@ -7847,7 +7847,7 @@
             text: 
         -
             title: KwaZulu-Natal
-            slug: kwazulu-natal
+            slug: kwazulunatal
             text: 
         -
             title: 'Kwik Fit'
@@ -7871,7 +7871,7 @@
             text: 'South African encampment; lager beer'
         -
             title: 'La Coruña'
-            slug: la-coruna
+            slug: la-corua
             text: 'Spanish port'
         -
             title: 'Lady Gaga'
@@ -7895,11 +7895,11 @@
             text: 'New York airport'
         -
             title: 'Lailat al-Miraj'
-            slug: lailat-al-miraj
+            slug: lailat-almiraj
             text: "Islamic holy day;\nLailat al-Qadr\nIslamic holy day, time for study and prayer"
         -
             title: laissez-faire
-            slug: laissez-faire
+            slug: laissezfaire
             text: 'not laisser'
         -
             title: 'Lake District'
@@ -7911,11 +7911,11 @@
             text: 
         -
             title: 'lamb&#39;s lettuce, lamb&#39;s wool'
-            slug: lamband39s-lettuce-lamband39s-wool
+            slug: lambs-lettuce-lambs-wool
             text: 
         -
             title: lamp-post
-            slug: lamp-post
+            slug: lamppost
             text: 
         -
             title: 'lance corporal'
@@ -7943,7 +7943,7 @@
             text: 
         -
             title: 'Land&#39;s End'
-            slug: landand39s-end
+            slug: lands-end
             text: 'but the clothing firm is Lands&#39; End'
         -
             title: 'lang, kd'
@@ -7971,7 +7971,7 @@
             text: '(plural larvae) insects;  lava volcanic magma;  laverbread cooked seaweed'
         -
             title: 'La&#39;s, the'
-            slug: laand39s-the
+            slug: las-the
             text: 'defunct Liverpool rock band; keep apostrophe (abbreviation for Lads)'
         -
             title: lasagne
@@ -8067,7 +8067,7 @@
             text: 'no definite article'
         -
             title: 'le Carré, John'
-            slug: le-carre-john
+            slug: le-carr-john
             text: 
         -
             title: 'Le Corbusier'
@@ -8099,7 +8099,7 @@
             text: 'In England and Wales, in camera is now known as in secret and in chambers in private; a writ is a claim form and a plaintiff a claimant; leave to appeal is permission to appeal. Since the Children Act 1989, access has been known as contact and custody is known as residence; do not use the older terms'
         -
             title: 'legionnaires&#39; disease'
-            slug: legionnairesand39-disease
+            slug: legionnaires-disease
             text: 'named after an outbreak at a conference of American Legionnaires'
         -
             title: 'Leibovitz, Annie'
@@ -8119,7 +8119,7 @@
             text: 'a term now regarded as inappropriate and stigmatising; say people with leprosy or, if they are being treated, leprosy patients'
         -
             title: lese-majesty
-            slug: lese-majesty
+            slug: lesemajesty
             text: 
         -
             title: 'less or fewer?'
@@ -8135,11 +8135,11 @@
             text: 
         -
             title: 'Levi&#39;s'
-            slug: leviand39s
+            slug: levis
             text: 'jeans; the company is Levi Strauss'
         -
             title: 'Lévi-Strauss, Claude'
-            slug: levi-strauss-claude
+            slug: lvistrauss-claude
             text: 'structural anthropologist'
         -
             title: LGBT
@@ -8175,7 +8175,7 @@
             text: 'German musical setting for a poem, plural lieder'
         -
             title: Liège
-            slug: liege
+            slug: lige
             text: 'but the adjective is Liégeois'
         -
             title: 'lieutenant colonel, lieutenant general'
@@ -8247,7 +8247,7 @@
             text: 'social networking site aimed at business people'
         -
             title: 'lip-synch, lip-synching'
-            slug: lip-synch-lip-synching
+            slug: lipsynch-lipsynching
             text: 
         -
             title: liquefy
@@ -8283,11 +8283,11 @@
             text: 'not del Mar'
         -
             title: 'Lloyd&#39;s of London'
-            slug: lloydand39s-of-london
+            slug: lloyds-of-london
             text: 'Lloyd&#39;s names are lc; Lloyds TSB bank'
         -
             title: 'Lloyd-Webber, Lord'
-            slug: lloyd-webber-lord
+            slug: lloydwebber-lord
             text: 'but Andrew Lloyd Webber'
         -
             title: loan
@@ -8315,7 +8315,7 @@
             text: 'in December 1988 killed 270 people; the two Libyans eventually put on trial for murder were Abdelbaset al-Megrahi and Al-Amin Khalifah Fhimah. Megrahi was convicted in 2001 and jailed for 27 years, but was released in 2009; his co-accused was acquitted'
         -
             title: 'lock-in, lockout'
-            slug: lock-in-lockout
+            slug: lockin-lockout
             text: 'nouns; lock in, lock out verbs'
         -
             title: 'logbook, logjam'
@@ -8351,7 +8351,7 @@
             text: 'official name of the millennium wheel'
         -
             title: 'London&#39;s'
-            slug: londonand39s
+            slug: londons
             text: 'do not say &quot;London&#39;s Covent Garden&quot; (or London&#39;s anything else); it is Covent Garden, London, etc'
         -
             title: 'London School of Economics'
@@ -8395,7 +8395,7 @@
             text: 'is used too often in place of hope to or expect to'
         -
             title: looking-glass
-            slug: looking-glass
+            slug: lookingglass
             text: 
         -
             title: 'lord chancellor'
@@ -8407,7 +8407,7 @@
             text: 
         -
             title: 'Lord Haw-Haw'
-            slug: lord-haw-haw
+            slug: lord-hawhaw
             text: 'Nazi radio propagandist, real name William Joyce, hanged for treason in 1946'
         -
             title: 'lord lieutenant'
@@ -8419,7 +8419,7 @@
             text: 'but the house, not the House; their lordships'
         -
             title: 'Lord&#39;s'
-            slug: lordand39s
+            slug: lords
             text: 'cricket ground'
         -
             title: 'lottery, national lottery'
@@ -8431,7 +8431,7 @@
             text: 'not loveable'
         -
             title: 'Love&#39;s Labour&#39;s Lost'
-            slug: loveand39s-labourand39s-lost
+            slug: loves-labours-lost
             text: 
         -
             title: lowlife
@@ -8447,7 +8447,7 @@
             text: 
         -
             title: 'Luiz Inácio Lula da Silva'
-            slug: luiz-inacio-lula-da-silva
+            slug: luiz-incio-lula-da-silva
             text: 'president of Brazil 2003-10; normally known simply as Lula'
         -
             title: lumpenproletariat
@@ -8635,7 +8635,7 @@
             text: 'not &quot;kaffir lime&quot;; note that it is makrut and not, as Wikipedia has it, makrud. Used in south-east Asian cooking and to flavour drinks'
         -
             title: Málaga
-            slug: malaga
+            slug: mlaga
             text: 
         -
             title: 'Malaysian names'
@@ -8647,7 +8647,7 @@
             text: 'in London'
         -
             title: 'Malloch-Brown, Lord'
-            slug: malloch-brown-lord
+            slug: mallochbrown-lord
             text: 'a former deputy secretary general of the UN, Mark Malloch Brown acquired a peerage and a hyphen when he became a Labour minister'
         -
             title: Mallorca
@@ -8655,11 +8655,11 @@
             text: 'not Majorca'
         -
             title: Malmö
-            slug: malmo
+            slug: malm
             text: 
         -
             title: 'Mamma Mia!'
-            slug: mamma-mia!
+            slug: mamma-mia
             text: 'musical show and film featuring Abba songs'
         -
             title: mammon
@@ -8671,7 +8671,7 @@
             text: 'at first mention; thereafter the Booker prize or just Booker'
         -
             title: mañana
-            slug: manana
+            slug: maana
             text: 
         -
             title: mangetout
@@ -8723,7 +8723,7 @@
             text: 'Royal Marines, but US marines'
         -
             title: 'Marks &amp; Spencer'
-            slug: marks-andamp-spencer
+            slug: marks-spencer
             text: 'at first mention, then M&amp;S'
         -
             title: marquis
@@ -8755,7 +8755,7 @@
             text: 'not marshmellow, munchmallow, munchmellow'
         -
             title: 'Martí, José'
-            slug: marti-jose
+            slug: mart-jos
             text: '(1853-95) writer and leader of Cuba&#39;s war of independence against Spain'
         -
             title: martial
@@ -8803,7 +8803,7 @@
             text: 'imperious; masterly skilful'
         -
             title: 'master&#39;s'
-            slug: masterand39s
+            slug: masters
             text: 'as in &quot;I did my master&#39;s at UCL&quot;'
         -
             title: mat
@@ -8811,7 +8811,7 @@
             text: 'floor covering;  matt non-shiny, as in matt finish;  matte used to combine images in films'
         -
             title: match-fixing
-            slug: match-fixing
+            slug: matchfixing
             text: 
         -
             title: matchplay
@@ -8867,7 +8867,7 @@
             text: 'founded in 1787 as Marylebone Cricket Club'
         -
             title: 'McDonald&#39;s'
-            slug: mcdonaldand39s
+            slug: mcdonalds
             text: 'hamburgers; the possessive is the same word, eg &quot;McDonald&#39;s new vegan-friendly image&quot;'
         -
             title: McJob
@@ -8899,11 +8899,11 @@
             text: 'military medals uc: British Empire Medal, George Cross, Victoria Cross, etc; non-military medals like this: Fields medal, etc'
         -
             title: 'Médecins sans Frontières'
-            slug: medecins-sans-frontieres
+            slug: mdecins-sans-frontires
             text: 'international medical aid charity (don&#39;t describe it as French)'
         -
             title: Medellín
-            slug: medellin
+            slug: medelln
             text: 'Colombia&#39;s second-largest city'
         -
             title: media
@@ -9023,11 +9023,11 @@
             text: 'is what people do on Twitter'
         -
             title: 'mid-60s, mid-90s, etc'
-            slug: mid-60s-mid-90s-etc
+            slug: mid60s-mid90s-etc
             text: 
         -
             title: mid-Atlantic
-            slug: mid-atlantic
+            slug: midatlantic
             text: 'but transatlantic'
         -
             title: midday
@@ -9043,7 +9043,7 @@
             text: 
         -
             title: Middle-earth
-            slug: middle-earth
+            slug: middleearth
             text: '(Tolkien) not Middle Earth'
         -
             title: 'Middle East'
@@ -9075,11 +9075,11 @@
             text: 'also sometimes styling itself Migrationwatch (randomly using both spellings in the same document); calls itself &quot;an independent think tank&quot; but is a rightwing anti-immigration pressure group and should be described as such'
         -
             title: MiG-21
-            slug: mig-21
+            slug: mig21
             text: 'Soviet Union-built fighter plane, still in use in some countries'
         -
             title: 'Milad al-Nabi'
-            slug: milad-al-nabi
+            slug: milad-alnabi
             text: 'Islamic festival celebrating the birth of the prophet; many Muslims disapprove of celebrating this event'
         -
             title: mileage
@@ -9155,7 +9155,7 @@
             text: 'not miniscule'
         -
             title: 'mis-hit, mis-sell'
-            slug: mis-hit-mis-sell
+            slug: mishit-missell
             text: 'but misspell, misspent'
         -
             title: mishmash
@@ -9187,7 +9187,7 @@
             text: 'it stands for Music of Black Origin'
         -
             title: Moby-Dick
-            slug: moby-dick
+            slug: mobydick
             text: 'Herman Melville&#39;s classic is, believe it or not, hyphenated'
         -
             title: Modern
@@ -9195,7 +9195,7 @@
             text: 'in the sense of Modern British, to distinguish it from modern art'
         -
             title: 'Moët &amp; Chandon'
-            slug: moet-andamp-chandon
+            slug: mot-chandon
             text: champagne
         -
             title: 'molotov cocktail'
@@ -9207,7 +9207,7 @@
             text: 'measures earthquakes; superseded the Richter scale in 1979'
         -
             title: Mönchengladbach
-            slug: monchengladbach
+            slug: mnchengladbach
             text: 
         -
             title: 'money laundering'
@@ -9279,7 +9279,7 @@
             text: 'are members of the Church of Jesus Christ of Latter-day Saints, which should be used once (unabbreviated) and thereafter referred to as the Mormon church'
         -
             title: 'morning-after pill'
-            slug: morning-after-pill
+            slug: morningafter-pill
             text: 
         -
             title: 'morris dancing'
@@ -9327,11 +9327,11 @@
             text: 'etc, not mother-of-three; but do not use unless relevant to the story'
         -
             title: 'Mother&#39;s Day'
-            slug: motherand39s-day
+            slug: mothers-day
             text: 'or Mothering Sunday'
         -
             title: 'Mötley Crüe, Motörhead'
-            slug: motley-crue-motorhead
+            slug: mtley-cre-motrhead
             text: 'include &quot;metal umlauts&quot;'
         -
             title: 'motorbike, motorcar, motorcycle'
@@ -9407,7 +9407,7 @@
             text: 'formerly Bombay, but no need to say so'
         -
             title: 'Murphy&#39;s law'
-            slug: murphyand39s-law
+            slug: murphys-law
             text: "&quot;If there are two or more ways to do something, and one of those ways can result in a catastrophe, then someone will do it&quot;; also known as sod&#39;s law.\nNot to be confused with Muphry&#39;s law  – &quot;the editorial application of the better-known Murphy&#39;s law&quot; – which states: &quot;If you write anything criticising editing or proofreading, there will be a fault of some kind in what you have written&quot;"
         -
             title: museums
@@ -9543,7 +9543,7 @@
             text: 'lc, eg Peak District national park, Yellowstone national park'
         -
             title: 'National Savings &amp; Investments'
-            slug: national-savings-andamp-investments
+            slug: national-savings-investments
             text: 'may be abbreviated to NS&amp;I'
         -
             title: 'national service'
@@ -9579,11 +9579,11 @@
             text: 'a &quot;neighsayer&quot;, as we have been known to spell it, would be a horse'
         -
             title: 'Nazi, neo-Nazi'
-            slug: nazi-neo-nazi
+            slug: nazi-neonazi
             text: 'but    nazism'
         -
             title: '&#39;Ndrangheta'
-            slug: and39ndrangheta
+            slug: ndrangheta
             text: 'Calabrian version of the mafia'
         -
             title: 'Neanderthal man'
@@ -9615,11 +9615,11 @@
             text: 'not Nepali'
         -
             title: nerve-racking
-            slug: nerve-racking
+            slug: nerveracking
             text: 
         -
             title: Nestlé
-            slug: nestle
+            slug: nestl
             text: 
         -
             title: 'Netanyahu, Binyamin'
@@ -9651,7 +9651,7 @@
             text: 
         -
             title: Newcastle-under-Lyme
-            slug: newcastle-under-lyme
+            slug: newcastleunderlyme
             text: hyphens
         -
             title: 'Newcastle upon Tyne'
@@ -9747,11 +9747,11 @@
             text: 'it stands for &quot;not in my back yard&quot;'
         -
             title: 'Nineteen Eighty-Four'
-            slug: nineteen-eighty-four
+            slug: nineteen-eightyfour
             text: 'not 1984 for Orwell&#39;s novel'
         -
             title: 'Niño, El'
-            slug: nino-el
+            slug: nio-el
             text: 
         -
             title: niqab
@@ -9783,7 +9783,7 @@
             text: 'Nobel peace prize, Nobel prize for literature, etc'
         -
             title: no-brainer
-            slug: no-brainer
+            slug: nobrainer
             text: 'means something along the lines of &quot;this is so obvious, you don&#39;t need a brain to know it&quot; not &quot;only someone with no brain would think this&quot;'
         -
             title: 'no campaign, yes campaign'
@@ -9799,11 +9799,11 @@
             text: 'no accent on Noel as in Christmas (The First Noel, not Nowell); use an accent if that&#39;s how the person spells his or her name: Noël Coward had one, Noel Edmonds doesn&#39;t'
         -
             title: 'no-fly zone'
-            slug: no-fly-zone
+            slug: nofly-zone
             text: 
         -
             title: 'no man&#39;s land'
-            slug: no-manand39s-land
+            slug: no-mans-land
             text: 'no hyphens'
         -
             title: 'noncommissioned officer'
@@ -9839,7 +9839,7 @@
             text: 
         -
             title: 'north-east England'
-            slug: north-east-england
+            slug: northeast-england
             text: 'Tyneside (Newcastle), Wearside (Sunderland), Teesside (Middlesbrough); we often confuse these or get them wrong in some way that makes it look as if the farthest north-east Guardian journalists have ventured is Stoke Newington'
         -
             title: 'northern hemisphere'
@@ -9863,7 +9863,7 @@
             text: 'an ancient Anglo-Saxon kingdom, a university and a police authority; the county, however, is Northumberland'
         -
             title: 'North-West Frontier province'
-            slug: north-west-frontier-province
+            slug: northwest-frontier-province
             text: 'one of the four provinces of Pakistan, now known as Khyber Pakhtunkhwa'
         -
             title: 'North York Moors'
@@ -9939,7 +9939,7 @@
             text: 'not &quot;obligated&quot;'
         -
             title: 'O&#39;Brian, Patrick'
-            slug: oand39brian-patrick
+            slug: obrian-patrick
             text: 'author of Master and Commander'
         -
             title: obtuse
@@ -9947,7 +9947,7 @@
             text: 'means &quot;mentally slow or emotionally insensitive&quot; (Collins); often confused with abstruse (hard to understand) or obscure'
         -
             title: 'Occam&#39;s razor'
-            slug: occamand39s-razor
+            slug: occams-razor
             text: 'philosophical principle, attributed to the 14th-century English friar William of Ockham, that broadly means prefer the simplest explanation, adopting the one that makes the fewest assumptions and &quot;shaving away&quot; the rest'
         -
             title: 'occupied territories'
@@ -10011,7 +10011,7 @@
             text: 'replaced in May 2006 by the Department for Communities and Local Government, which dropped the &quot;Department for&quot; a year laterSee departments of state'
         -
             title: off-licence
-            slug: off-licence
+            slug: offlicence
             text: 
         -
             title: Ofgem
@@ -10071,11 +10071,11 @@
             text: 
         -
             title: olé!
-            slug: ole!
+            slug: ol
             text: 'needs the accent to stop it reading like &quot;ole&quot;'
         -
             title: O-levels
-            slug: o-levels
+            slug: olevels
             text: 'GCE O-levels and CSEs were combined in 1986 to become GCSEs'
         -
             title: 'Olympic Games'
@@ -10087,7 +10087,7 @@
             text: 'not omelet'
         -
             title: omertà
-            slug: omerta
+            slug: omert
             text: 'code of silence; note accent'
         -
             title: 'on board'
@@ -10183,7 +10183,7 @@
             text: 'not &quot;the Orkney Isles&quot; or &quot;the Orkneys&quot;'
         -
             title: 'Ottakar&#39;s'
-            slug: ottakarand39s
+            slug: ottakars
             text: 'bookshop taken over by Waterstones'
         -
             title: 'O2, the'
@@ -10191,7 +10191,7 @@
             text: '(cap O, not the number 0) is the name of the former Millennium Dome'
         -
             title: 'Ötzi the Iceman'
-            slug: otzi-the-iceman
+            slug: tzi-the-iceman
             text: 'Europe&#39;s oldest natural human mummy (dated to about 3300BC), found in the Alps in 1991'
         -
             title: Ouija
@@ -10251,7 +10251,7 @@
             text: 'does not just vaguely mean self-contradictory; an oxymoron is a figure of speech in which apparently contradictory terms are used in conjunction, such as bittersweet, compassionate conservatism, &quot;darkness visible&quot; (Paradise Lost), &quot;the living dead&quot; (The Waste Land); one of Margaret Atwood&#39;s characters thought &quot;interesting Canadian&quot; was an oxymoron'
         -
             title: 'Özil, Mesut'
-            slug: ozil-mesut
+            slug: zil-mesut
             text: 
 
 -
@@ -10271,7 +10271,7 @@
             text: 'part of ScottishPower'
         -
             title: Pac-Man
-            slug: pac-man
+            slug: pacman
             text: 
         -
             title: paean
@@ -10283,7 +10283,7 @@
             text: 'etc but  Page 3 girl'
         -
             title: 'El País'
-            slug: el-pais
+            slug: el-pas
             text: 'Spanish newspaper'
         -
             title: palate
@@ -10307,7 +10307,7 @@
             text: 'A man, a plan, a canal. Panama!'
         -
             title: 'Palme d&#39;Or'
-            slug: palme-dand39or
+            slug: palme-dor
             text: 'at the Cannes film festival'
         -
             title: 'Palme, Olof'
@@ -10323,7 +10323,7 @@
             text: 
         -
             title: 'Pandora&#39;s box'
-            slug: pandoraand39s-box
+            slug: pandoras-box
             text: 
         -
             title: 'panelled, panelling, panellist'
@@ -10355,7 +10355,7 @@
             text: 'but  paper round'
         -
             title: papier-mache
-            slug: papier-mache
+            slug: papiermache
             text: 'no accents'
         -
             title: paraffin
@@ -10375,7 +10375,7 @@
             text: 'takes a singular verb: I save all the paraphernalia that accompanies every box set'
         -
             title: 'parent-teacher association'
-            slug: parent-teacher-association
+            slug: parentteacher-association
             text: 'abbreviation PTA'
         -
             title: parentheses
@@ -10387,11 +10387,11 @@
             text: 'no hyphen'
         -
             title: 'Parkinson&#39;s disease'
-            slug: parkinsonand39s-disease
+            slug: parkinsons-disease
             text: 'is the proper name but it is acceptable to call it Parkinson&#39;s'
         -
             title: 'Parkinson&#39;s law'
-            slug: parkinsonand39s-law
+            slug: parkinsons-law
             text: '&quot;Work expands so as to fill the time available for its completion&quot;'
         -
             title: 'parliament, parliamentary'
@@ -10407,7 +10407,7 @@
             text: 'official name, recognised by both Britain and Greece, for the Elgin marbles'
         -
             title: part-time
-            slug: part-time
+            slug: parttime
             text: 
         -
             title: partwork
@@ -10443,7 +10443,7 @@
             text: 'in phrases such as the past few weeks, the past year'
         -
             title: pâté
-            slug: pate
+            slug: pt
             text: 'with accents'
         -
             title: 'Patent Office'
@@ -10491,7 +10491,7 @@
             text: 'plural pedalos'
         -
             title: 'pedro giménez'
-            slug: pedro-gimenez
+            slug: pedro-gimnez
             text: 'white grape grown in South America; pedro ximénez white grape grown in Spain (and type of sherry)'
         -
             title: peers
@@ -10527,7 +10527,7 @@
             text: flower
         -
             title: Pepsi-Cola
-            slug: pepsi-cola
+            slug: pepsicola
             text: 'TM; a brand of cola; the company is PepsiCo'
         -
             title: per
@@ -10543,7 +10543,7 @@
             text: 'seem to give us a lot of problems: an increase from 3% to 5% is a 2 percentage point increase or a 2-point increase, not a 2% increase; any sentence saying &quot;such and such rose or fell by X%&quot; should be considered and checked carefully'
         -
             title: 'Pérez de Cuéllar, Javier'
-            slug: perez-de-cuellar-javier
+            slug: prez-de-cullar-javier
             text: 'Peruvian diplomat and former UN secretary general'
         -
             title: 'perfect storm'
@@ -10551,7 +10551,7 @@
             text: 'a perfect cliche, best avoided'
         -
             title: 'performance-related pay'
-            slug: performance-related-pay
+            slug: performancerelated-pay
             text: 
         -
             title: 'Performing Right Society'
@@ -10623,7 +10623,7 @@
             text: 
         -
             title: photo-finish
-            slug: photo-finish
+            slug: photofinish
             text: 
         -
             title: 'photo opportunity'
@@ -10667,7 +10667,7 @@
             text: 
         -
             title: 'Pimm&#39;s'
-            slug: pimmand39s
+            slug: pimms
             text: 'the most popular version is Pimm&#39;s No 1 cup, which has gin as its base (the others are or were No 2, whisky; No 3, brandy; No 4, rum; No 5, rye; and No 6, vodka)'
         -
             title: pin
@@ -10751,7 +10751,7 @@
             text: 'although they write'
         -
             title: Play-Doh
-            slug: play-doh
+            slug: playdoh
             text: 'TM but you can say play-dough'
         -
             title: 'play down'
@@ -10763,7 +10763,7 @@
             text: 'an overused phrase'
         -
             title: play-off
-            slug: play-off
+            slug: playoff
             text: 
         -
             title: PlayStation
@@ -10787,7 +10787,7 @@
             text: 'not plebian'
         -
             title: 'P&amp;O'
-            slug: pandampo
+            slug: po
             text: 
         -
             title: 'pocketbook, pocketknife'
@@ -10803,7 +10803,7 @@
             text: "A suggested method is to separate the lines with spaces and a slash; italics are acceptable, though not essential:\nI struck the board and cry&#39;d, &#39;No more; / I will abroad.&#39; / What, shall I ever sigh and pine? / My lines and life are free; free as the rode, / Loose as the winde, as large as store."
         -
             title: point-to-point
-            slug: point-to-point
+            slug: pointtopoint
             text: 
         -
             title: pointe
@@ -10811,7 +10811,7 @@
             text: '(ballet); on pointe, not on point or en pointe'
         -
             title: Pokémon
-            slug: pokemon
+            slug: pokmon
             text: 
         -
             title: Polari
@@ -10847,7 +10847,7 @@
             text: 
         -
             title: '&quot;Polish death camps&quot;'
-            slug: andquotpolish-death-campsandquot
+            slug: polish-death-camps
             text: 'and similar phrases confusing location with perpetrator should not be used when referring to countries occupied by Nazi Germany during the second world war; the appropriate phrase here would be &quot;Nazi death camps in occupied Poland&quot; or similar'
         -
             title: politburo
@@ -10915,7 +10915,7 @@
             text: 'PLA on second mention'
         -
             title: 'portuguese man o&#39;war'
-            slug: portuguese-man-oand39war
+            slug: portuguese-man-owar
             text: 'not strictly a jellyfish, although jelly-like; lowercase P unless you are writing about the 15th-century Portuguese navy'
         -
             title: 'postal workers'
@@ -10935,7 +10935,7 @@
             text: 
         -
             title: Post-it
-            slug: post-it
+            slug: postit
             text: TM
         -
             title: 'postmodern, postmodernist'
@@ -10991,7 +10991,7 @@
             text: 'Do not use this expression, or the equally grotesque &quot;active homosexual&quot;; where it is necessary to discuss someone&#39;s sex life, for example a story about gay clergy, it is possible to use other expressions, eg the Anglican church demands celibacy from gay clergy but permits the laity to have sexually active relationships'
         -
             title: pre-
-            slug: pre-
+            slug: pre
             text: 'redundant in such newly fashionable words as pre-booked, pre-reserved, pre-ordered, and even pre-rehearsed'
         -
             title: precis
@@ -11003,7 +11003,7 @@
             text: 'not predeliction'
         -
             title: pre-eminent
-            slug: pre-eminent
+            slug: preeminent
             text: 
         -
             title: 'prefab, prefabricated'
@@ -11043,7 +11043,7 @@
             text: 
         -
             title: pre-Raphaelite
-            slug: pre-raphaelite
+            slug: preraphaelite
             text: 
         -
             title: presently
@@ -11079,7 +11079,7 @@
             text: food
         -
             title: prêt-à-porter
-            slug: pret-a-porter
+            slug: prtporter
             text: fashion
         -
             title: preteen
@@ -11139,7 +11139,7 @@
             text: 'or the Prince of Wales at first mention; thereafter the prince'
         -
             title: 'Prince&#39;s Trust'
-            slug: princeand39s-trust
+            slug: princes-trust
             text: 
         -
             title: principal
@@ -11175,7 +11175,7 @@
             text: 'PFI on second mention'
         -
             title: 'private member&#39;s bill'
-            slug: private-memberand39s-bill
+            slug: private-members-bill
             text: 'plural: private members&#39; bills'
         -
             title: 'privy council'
@@ -11199,7 +11199,7 @@
             text: 'a dental implement, not an inquiry or investigation'
         -
             title: pro-choice
-            slug: pro-choice
+            slug: prochoice
             text: 'not pro-abortion'
         -
             title: procrastinate
@@ -11207,7 +11207,7 @@
             text: 'to delay or defer; often confused with prevaricate'
         -
             title: 'Procter &amp; Gamble'
-            slug: procter-andamp-gamble
+            slug: procter-gamble
             text: 'not Proctor &amp; Gamble'
         -
             title: 'procurator fiscal'
@@ -11231,7 +11231,7 @@
             text: 'lc for US prohibition (1920-33), a result of the 18th Amendment'
         -
             title: pro-life
-            slug: pro-life
+            slug: prolife
             text: 'should not be used to mean anti-abortion'
         -
             title: Proms
@@ -11307,7 +11307,7 @@
             text: 'not publically'
         -
             title: 'public-private partnership'
-            slug: public-private-partnership
+            slug: publicprivate-partnership
             text: 'PPP on second mention'
         -
             title: 'Public Record Office'
@@ -11407,7 +11407,7 @@
             text: 
         -
             title: Québécois
-            slug: quebecois
+            slug: qubcois
             text: 'not Quebeckers'
         -
             title: 'Queen, the'
@@ -11415,27 +11415,27 @@
             text: 'if it is necessary to say so, she is Her Majesty or HM, never HRH'
         -
             title: 'Queen&#39;s birthday honours list'
-            slug: queenand39s-birthday-honours-list
+            slug: queens-birthday-honours-list
             text: 
         -
             title: 'Queen&#39;s Club'
-            slug: queenand39s-club
+            slug: queens-club
             text: 'in London'
         -
             title: 'Queens&#39; College, Cambridge'
-            slug: queensand39-college-cambridge
+            slug: queens-college-cambridge
             text: 
         -
             title: 'Queen&#39;s College, Oxford'
-            slug: queenand39s-college-oxford
+            slug: queens-college-oxford
             text: 'its official name is The Queen&#39;s College (named in honour of Queen Philippa in 1341)'
         -
             title: 'Queen&#39;s Park'
-            slug: queenand39s-park
+            slug: queens-park
             text: 'the London tube station has an apostrophe'
         -
             title: 'Queen&#39;s Park'
-            slug: queenand39s-park
+            slug: queens-park
             text: 'Scotland&#39;s oldest football club, winners of the Scottish Cup 10 times in the 19th century and twice runners-up in the FA Cup'
         -
             title: 'Queens Park Rangers'
@@ -11443,11 +11443,11 @@
             text: '(no apostrophe) English football club'
         -
             title: 'Queen&#39;s speech'
-            slug: queenand39s-speech
+            slug: queens-speech
             text: 
         -
             title: 'Queen&#39;s University Belfast'
-            slug: queenand39s-university-belfast
+            slug: queens-university-belfast
             text: 
         -
             title: queueing
@@ -11487,11 +11487,11 @@
             text: "From the editor:\nIf a reader reads something in direct quotation marks in the Guardian he/she is entitled to believe that the reporter can vouch directly for the accuracy of the quote.\nCopying quotes out of other newspapers without any form of attribution is simply bad journalism, never mind legally risky. If, where there are no libel issues, you&#39;re going to repeat quotes, then always say where they came from. It won&#39;t be much help in a legal action, but at least the reader can evaluate the reliability of the source. A quote in the Sunday Sport may – who knows – count for less than one from the Wall Street Journal.\nIf we&#39;re taking quotes from the radio or television it is our general policy to include an attribution. This matters less if it is a pooled interview or news conference that happens to be covered by, say, the BBC or Sky. If the quote comes from an exclusive interview on a radio or TV programme (eg, Today, Channel 4 News or Newsnight) we should always include an attribution.\nSome further guidelines:\n• Take care with direct speech: our readers should be confident that words appearing in quotation marks accurately represent the actual words uttered by the speaker, although ums and ahems can be removed and bad grammar improved. If you aren&#39;t sure of the exact wording, use indirect speech.\nWhere a lot of material has been left out, start off a new quote with: &quot;He added: ... &quot;, or signify this with an ellipsis.\nTake particular care when extracting from printed material, for example a minister&#39;s resignation letter.\n• Avoid &quot;that&quot; quotes, ie The prosecutors maintained that &quot;this was not a trial about freedom of the internet. Instead, a serious issue has been raised about the rights of the individual.&quot; There is no reason to introduce a complete direct quote of this kind with &quot;that&quot;. It should be The prosecutors maintained: &quot;This was not a trial ... &quot; etc."
         -
             title: ...
-            slug: ...
+            slug: 
             text: "• Colons, rather than commas, should be used to introduce quotes, ie Guardian Style says: &quot;Please use colons, not commas;&quot; not Guardian Style says, &quot;Please use ... &quot; etc. We are writing a newspaper, not a novel.\n• Think about where the attribution goes, and avoid this kind of thing:\n&quot;Gordon Brown is a bully and a liar. I have had numerous complaints about his aggressive behaviour,&quot; said Mrs Pratt.\n&quot;The prime minister is completely out of control, and everyone inside No 10 knows it,&quot; added Andrew Rawnsley.\nIt&#39;s extremely annoying to get to the end of the second par and find out it is a different speaker, because it reads as a continuation of the words of Mrs Pratt.\nAs a general rule, and particularly with lengthy quotations, it is better to start with the attribution, so the reader does not have to engage in a series of mental double-takes trying to find out who is supposed to be saying what. It should be:\nMrs Pratt said: &quot;Gordon Brown is a bully and a liar. I have had numerous complaints about his aggressive behaviour.&quot;\nAndrew Rawnsley added: &quot;The prime minister is completely out of control, and everyone inside No 10 knows it.&quot;\n• Avoid quoting words when it is unnecessary to do so, like this: Benítez said he was &quot;angry&quot; that Liverpool were being written out of the title race.\nYes, maybe, quotation marks if he was &quot;incandescent&quot;, or &quot;spitting with rage&quot; – but it is completely unnecessary to use quotation marks for mundane words and unexceptional quotes. They are even finding their way into headlines, which looks awful.\nSimilarly: MPs said they had not seen any evidence that Andy Coulson &quot;knew that phone hacking was taking place&quot;. There is no need for the quotation marks, which are splattered like confetti across the paper and website every day but should be used only when it is necessary, in both copy and headlines"
         -
             title: 'Qur&#39;an'
-            slug: qurand39an
+            slug: quran
             text: 'holy book of Islam (not Koran); regarded as the word of God, having been recited by the prophet Muhammad, so in the eyes of Muslims it is wrong to suggest that the prophet &quot;wrote&quot; the Qur&#39;an'
         -
             title: 'Qureia, Ahmed'
@@ -11511,7 +11511,7 @@
             text: 'lists racehorses at a racetrack'
         -
             title: race-fixing
-            slug: race-fixing
+            slug: racefixing
             text: 
         -
             title: 'RAC Foundation'
@@ -11555,7 +11555,7 @@
             text: 'reads them'
         -
             title: 'Raidió Teilifís Éireann'
-            slug: raidio-teilifis-eireann
+            slug: raidi-teilifs-ireann
             text: 'Irish public broadcasting corporation'
         -
             title: radius
@@ -11599,7 +11599,7 @@
             text: 'where Neighbours become good friends'
         -
             title: 'R&amp;B'
-            slug: randampb
+            slug: rb
             text: 'whether you are listening to Bo Diddley or Beyoncé; although only the former style should be referred to as rhythm and blues'
         -
             title: 'Range Rover'
@@ -11627,7 +11627,7 @@
             text: TM
         -
             title: Ray-Ban
-            slug: ray-ban
+            slug: rayban
             text: 'TM; it&#39;s OK to call them Ray-Bans'
         -
             title: razzmatazz
@@ -11635,7 +11635,7 @@
             text: 
         -
             title: re/re-
-            slug: rere-
+            slug: rere
             text: "Use re- (with hyphen) when followed by the vowels e or u (not pronounced as &quot;yu&quot;): eg re-entry, re-examine, re-urge.\nUse re (no hyphen) when followed by the vowels a, i, o or u (pronounced as &quot;yu&quot;), or any consonant: eg rearm, rearrange, reassemble, reiterate, reorder, reread, reuse, rebuild, reconsider, retweet.\nExceptions (where confusion with another word would arise): re-cover/recover, re-creation/recreation, re-form/reform, re-sent/resent, re-sign/resign"
         -
             title: realpolitik
@@ -11647,7 +11647,7 @@
             text: 'Rear Admiral Horatio Hornblower at first mention, thereafter Adm Hornblower in leading articles, otherwise just Hornblower'
         -
             title: 'received pronunciation (RP)'
-            slug: received-pronunciation-(rp)
+            slug: received-pronunciation-rp
             text: 'a traditionally prestigious accent, associated with public schools and used by an estimated 3% of the population of England, also known as BBC English, Oxford English or the Queen&#39;s English; nothing to do with Standard English, which includes written as well as spoken language and can be (indeed, normally is) spoken with a regional accent'
         -
             title: recent
@@ -11679,7 +11679,7 @@
             text: 'not reafforestation'
         -
             title: re-form
-            slug: re-form
+            slug: reform
             text: 'to form again'
         -
             title: reform
@@ -11703,7 +11703,7 @@
             text: 'with regard to, not with regards to (but of course you give your regards to Broadway)'
         -
             title: 'Regent&#39;s Park'
-            slug: regentand39s-park
+            slug: regents-park
             text: 'in London'
         -
             title: regime
@@ -11787,11 +11787,11 @@
             text: 'not restauranteur'
         -
             title: résumé
-            slug: resume
+            slug: rsum
             text: 
         -
             title: 'retail prices index (RPI)'
-            slug: retail-prices-index-(rpi)
+            slug: retail-prices-index-rpi
             text: 'prices not price, but normally no need to spell it out. No longer the official measure of inflation (that is the consumer price index), but still used for uprating pensions and other state benefits'
         -
             title: Rethink
@@ -11819,7 +11819,7 @@
             text: 'last book in the New Testament: not Revelations, a very common error; its full name is The Revelation of St John the Divine'
         -
             title: 'Revenue &amp; Customs'
-            slug: revenue-andamp-customs
+            slug: revenue-customs
             text: 'acceptable shorthand for HM Revenue and Customs, formed in 2005 from a merger of the Inland Revenue and HM Customs and Excise'
         -
             title: 'Revolutionary Guards'
@@ -11927,7 +11927,7 @@
             text: 'cap if referring to Gibraltar'
         -
             title: 'rock&#39;n&#39;roll'
-            slug: rockand39nand39roll
+            slug: rocknroll
             text: 'one word'
         -
             title: role
@@ -11947,7 +11947,7 @@
             text: 'noun (as in lottery rollover)'
         -
             title: Rolls-Royce
-            slug: rolls-royce
+            slug: rollsroyce
             text: 
         -
             title: 'Roman Catholic'
@@ -11975,7 +11975,7 @@
             text: 'not Colleen'
         -
             title: ro-ro
-            slug: ro-ro
+            slug: roro
             text: 'roll-on, roll-off ferry'
         -
             title: 'Rorschach test'
@@ -12095,7 +12095,7 @@
             text: 
         -
             title: 'Rule, Britannia!'
-            slug: rule-britannia!
+            slug: rule-britannia
             text: 
         -
             title: 'runoff, runup'
@@ -12135,7 +12135,7 @@
             text: 'seasonal affective disorder'
         -
             title: 'Sadler&#39;s Wells'
-            slug: sadlerand39s-wells
+            slug: sadlers-wells
             text: 
         -
             title: Safeway
@@ -12159,7 +12159,7 @@
             text: "Lord Sainsbury of Turville (David Sainsbury) is a Labour peer.\nLord Sainsbury of Preston Candover (John Sainsbury) is a Tory peer.\nWe have been known to mix them up, so take care"
         -
             title: 'Sainsbury&#39;s'
-            slug: sainsburyand39s
+            slug: sainsburys
             text: 'for the stores; the company&#39;s name is J Sainsbury plc'
         -
             title: Saint
@@ -12171,11 +12171,11 @@
             text: 'no apostrophe for golf or university'
         -
             title: 'St Catharine&#39;s College, Cambridge'
-            slug: st-catharineand39s-college-cambridge
+            slug: st-catharines-college-cambridge
             text: 
         -
             title: 'St Catherine&#39;s College, Oxford'
-            slug: st-catherineand39s-college-oxford
+            slug: st-catherines-college-oxford
             text: 
         -
             title: 'St James Park'
@@ -12183,11 +12183,11 @@
             text: 'home of Exeter City'
         -
             title: 'St James&#39; Park'
-            slug: st-jamesand39-park
+            slug: st-james-park
             text: 'home of Newcastle United'
         -
             title: 'St James&#39;s Park'
-            slug: st-jamesand39s-park
+            slug: st-jamess-park
             text: 'royal park in London'
         -
             title: 'Saint John'
@@ -12203,11 +12203,11 @@
             text: London
         -
             title: 'St Martin-in-the-Fields'
-            slug: st-martin-in-the-fields
+            slug: st-martininthefields
             text: London
         -
             title: 'St Paul&#39;s Cathedral'
-            slug: st-pauland39s-cathedral
+            slug: st-pauls-cathedral
             text: 
         -
             title: 'St Petersburg'
@@ -12215,11 +12215,11 @@
             text: 'Russian city founded by Peter the Great in 1703. It was known as Petrograd from 1914 to 1924, and Leningrad from 1924 to 1991'
         -
             title: 'Saint-Saëns, Camille'
-            slug: saint-saens-camille
+            slug: saintsans-camille
             text: '(1835-1921) French composer'
         -
             title: 'St Thomas&#39; hospital'
-            slug: st-thomasand39-hospital
+            slug: st-thomas-hospital
             text: 'in London; not St Thomas&#39;s'
         -
             title: sake
@@ -12255,7 +12255,7 @@
             text: 'formerly known as Western Samoa; do not confuse with American Samoa'
         -
             title: 'Sana&#39;a'
-            slug: sanaand39a
+            slug: sanaa
             text: 'capital of Yemen'
         -
             title: sanatorium
@@ -12267,7 +12267,7 @@
             text: 'mental illness charity'
         -
             title: 'San Sebastián'
-            slug: san-sebastian
+            slug: san-sebastin
             text: 
         -
             title: 'San Serriffe'
@@ -12283,7 +12283,7 @@
             text: Milan
         -
             title: 'São Paulo'
-            slug: sao-paulo
+            slug: so-paulo
             text: 'Brazilian city, not Sao Paolo'
         -
             title: 'Sarkozy, Nicolas'
@@ -12367,7 +12367,7 @@
             text: 'year 2, year 10, key stage 1, etc'
         -
             title: 'Schröder, Gerhard'
-            slug: schroder-gerhard
+            slug: schrder-gerhard
             text: 'former German chancellor'
         -
             title: 'Schwarzenegger, Arnold'
@@ -12399,7 +12399,7 @@
             text: 'but Scotch argus butterfly'
         -
             title: scot-free
-            slug: scot-free
+            slug: scotfree
             text: 'the scot was a kind of medieval council tax, so you got off &quot;scot-free&quot; if you avoided payment'
         -
             title: Scotland
@@ -12487,11 +12487,11 @@
             text: 'as generally known; but South Korea calls it the East Sea and North Korea the East Sea of Korea'
         -
             title: 'Séamus, Seán'
-            slug: seamus-sean
+            slug: samus-sen
             text: 'note accents in Irish Gaelic; sean without a fada means old'
         -
             title: 'search engine optimisation (SEO)'
-            slug: search-engine-optimisation-(seo)
+            slug: search-engine-optimisation-seo
             text: 'How to increase traffic to your website by ensuring that your content shows up prominently in Google and other online search engines, for example by including in headlines key terms that people are most likely to search for. To help, you can monitor such things as hot topics on Google and what is trending on Twitter'
         -
             title: 'seas, oceans'
@@ -12531,7 +12531,7 @@
             text: 'not sieze'
         -
             title: 'self-control, self-defence, self-esteem, self-respect'
-            slug: self-control-self-defence-self-esteem-self-respect
+            slug: selfcontrol-selfdefence-selfesteem-selfrespect
             text: 
         -
             title: Selfridges
@@ -12539,7 +12539,7 @@
             text: 'no apostrophe'
         -
             title: 'sell-off, sellout'
-            slug: sell-off-sellout
+            slug: selloff-sellout
             text: noun
         -
             title: 'sell off, sell out'
@@ -12631,7 +12631,7 @@
             text: "From a reader:\n&quot;Can I suggest your style guide should state that homosexual, gay, bisexual and heterosexual are primarily adjectives and that use of them as nouns should be avoided. It seems to me that this is both grammatically and politically preferable (politically because using them as nouns really does seem to define people by their sexuality). I would like to read that someone is &#39;homosexual&#39;, not &#39;a homosexual&#39;, or about &#39;gay people&#39;, not &#39;gays&#39;. Lesbian is different as it is a noun which later began to be used adjectivally, not the other way round. As an example from Wednesday, the opening line &#39;Documents which showed that Lord Byron … was a bisexual&#39; rather than &#39;was bisexual&#39; sounds both Daily Mail-esque and stylistically poor.&quot;"
         -
             title: 'Sgt Pepper&#39;s Lonely Hearts Club Band'
-            slug: sgt-pepperand39s-lonely-hearts-club-band
+            slug: sgt-peppers-lonely-hearts-club-band
             text: '1967 album by a popular beat combo of the day; not Sergeant Pepper&#39;s Lonely Hearts Club Band'
         -
             title: Shaanxi
@@ -12667,7 +12667,7 @@
             text: 
         -
             title: shark-infested
-            slug: shark-infested
+            slug: sharkinfested
             text: "A reader (one of several to complain about our use of this phrase) pointed out: &quot;The seas are not &#39;infested&#39; with sharks. They live there … Millions of sharks are being killed. By planet-infesting humans. They need protection.&quot;\nThe word &quot;infest&quot; is defined as &quot;swarm over, cover or fill in a troublesome, unpleasant or harmful way, to invade and live on as a parasite&quot;.\nThe phrase &quot;shark-infested&quot; is in any case a lazy cliche and should be avoided"
         -
             title: sheepdog
@@ -12703,7 +12703,7 @@
             text: 
         -
             title: shoo-in
-            slug: shoo-in
+            slug: shooin
             text: 'not shoe-in'
         -
             title: shootout
@@ -12715,7 +12715,7 @@
             text: 
         -
             title: Shoreham-by-Sea
-            slug: shoreham-by-sea
+            slug: shorehambysea
             text: 'not Shoreham on Sea'
         -
             title: 'shortlist, longlist'
@@ -12747,7 +12747,7 @@
             text: 
         -
             title: side-effects
-            slug: side-effects
+            slug: sideeffects
             text: 
         -
             title: sidestreet
@@ -12783,7 +12783,7 @@
             text: 'in three parts, eg Lee Kuan Yew'
         -
             title: 'Singin&#39; in the Rain'
-            slug: singinand39-in-the-rain
+            slug: singin-in-the-rain
             text: 'not Singing'
         -
             title: 'single quotes'
@@ -12803,7 +12803,7 @@
             text: 'past tense sank, past participle sunk: he sinks, he sank, he has sunk'
         -
             title: 'Sinn Féin'
-            slug: sinn-fein
+            slug: sinn-fin
             text: 
         -
             title: siphon
@@ -12819,7 +12819,7 @@
             text: 'I sat down at the back but he was sitting near the front (the horrible &quot;I was sat&quot; is, sadly, a very frequent error)'
         -
             title: 'six-day war'
-            slug: six-day-war
+            slug: sixday-war
             text: 'between Israel and its neighbours in June 1967'
         -
             title: size
@@ -12843,7 +12843,7 @@
             text: 'usually only of a trawler'
         -
             title: Sky+
-            slug: sky+
+            slug: sky
             text: 
         -
             title: skyrocket
@@ -12891,7 +12891,7 @@
             text: 'something from the Armani retro collection, perhaps'
         -
             title: 'Smith &amp; Wesson'
-            slug: smith-andamp-wesson
+            slug: smith-wesson
             text: handguns
         -
             title: 'Smithsonian Institution'
@@ -12903,7 +12903,7 @@
             text: '(verb) not smoothe (you may be thinking of &quot;soothe&quot;)'
         -
             title: smörgåsbord
-            slug: smorgasbord
+            slug: smrgsbord
             text: 
         -
             title: snowclone
@@ -12915,7 +12915,7 @@
             text: 
         -
             title: so-called
-            slug: so-called
+            slug: socalled
             text: 'overused: as a reader pointed out when we used the term &quot;so-called friendly fire&quot;, the expression is &quot;obviously ironic and really doesn&#39;t need such ham-fisted pointing out&quot;'
         -
             title: 'social grades'
@@ -12943,15 +12943,15 @@
             text: 'a puppet made out of a sock'
         -
             title: 'sod&#39;s law'
-            slug: sodand39s-law
+            slug: sods-law
             text: 'See Murphy&#39;s law'
         -
             title: Sofía
-            slug: sofia
+            slug: sofa
             text: 'queen of Spain'
         -
             title: soi-disant
-            slug: soi-disant
+            slug: soidisant
             text: 'means self-styled, not so-called; both phrases should be used sparingly'
         -
             title: soiree
@@ -12983,7 +12983,7 @@
             text: 'Stop Online Piracy Act'
         -
             title: 'Sotheby&#39;s'
-            slug: sothebyand39s
+            slug: sothebys
             text: 
         -
             title: soundbite
@@ -13059,7 +13059,7 @@
             text: 'If you are talking about questionable trade union activities, restrictive practices might be a less offensive way to put it'
         -
             title: 'spare-part surgery'
-            slug: spare-part-surgery
+            slug: sparepart-surgery
             text: 'avoid this term'
         -
             title: spark
@@ -13103,7 +13103,7 @@
             text: 'not spicey'
         -
             title: Spider-Man
-            slug: spider-man
+            slug: spiderman
             text: 'for the cartoon and film character, but Spiderman (no hyphen) is the nickname of Alain Robert, a Frenchman who specialises in climbing skyscrapers without a safety net'
         -
             title: 'spilled or spilt?'
@@ -13115,7 +13115,7 @@
             text: 
         -
             title: spin-off
-            slug: spin-off
+            slug: spinoff
             text: 'noun, spin off verb'
         -
             title: spinster
@@ -13287,7 +13287,7 @@
             text: 'TM; hat'
         -
             title: 'sticky-back plastic'
-            slug: sticky-back-plastic
+            slug: stickyback-plastic
             text: 
         -
             title: stiletto
@@ -13331,7 +13331,7 @@
             text: 'The charity Survival says: &quot; &#39;Stone age&#39; and &#39;primitive&#39; have been used to describe tribal people since the colonial era, reinforcing the idea that they have not changed over time and that they are backward. This idea is both incorrect and very dangerous: incorrect because all societies adapt and change, and dangerous because it is often used to justify the persecution or forced &#39;development&#39; of tribal people&quot;'
         -
             title: 'stony broke, stony-hearted'
-            slug: stony-broke-stony-hearted
+            slug: stony-broke-stonyhearted
             text: 'not stoney'
         -
             title: stopgap
@@ -13347,7 +13347,7 @@
             text: 
         -
             title: 'straitjacket, strait-laced, Dire Straits'
-            slug: straitjacket-strait-laced-dire-straits
+            slug: straitjacket-straitlaced-dire-straits
             text: 
         -
             title: 'strait of Dover, strait of Gibraltar, strait of Hormuz'
@@ -13363,7 +13363,7 @@
             text: 'SRA on second mention'
         -
             title: Stratford-on-Avon
-            slug: stratford-on-avon
+            slug: stratfordonavon
             text: 'district council and parliamentary seat, although most other local organisations, such as the Royal Shakespeare Company, call this Warwickshire town Stratford-upon-Avon'
         -
             title: stratum
@@ -13371,7 +13371,7 @@
             text: 'plural strata'
         -
             title: 'Street-Porter, Janet'
-            slug: street-porter-janet
+            slug: streetporter-janet
             text: 
         -
             title: streetwise
@@ -13439,7 +13439,7 @@
             text: 'although the organisation is the National Federation of SubPostmasters'
         -
             title: 'sub-prime, sub-Saharan'
-            slug: sub-prime-sub-saharan
+            slug: subprime-subsaharan
             text: 
         -
             title: suchlike
@@ -13447,7 +13447,7 @@
             text: 
         -
             title: sucking-pig
-            slug: sucking-pig
+            slug: suckingpig
             text: 'not &quot;suckling-pig&quot;'
         -
             title: Sudan
@@ -13607,7 +13607,7 @@
     definitions:
         -
             title: '-t'
-            slug: '-t'
+            slug: t
             text: 'ending for past participle: the cakes were burnt, the word was misspelt. But earned, not earnt'
         -
             title: T
@@ -13619,7 +13619,7 @@
             text: 'plural tableaux'
         -
             title: 'table d&#39;hote'
-            slug: table-dand39hote
+            slug: table-dhote
             text: 
         -
             title: tabloid
@@ -13643,7 +13643,7 @@
             text: 'adjective Tajik'
         -
             title: 'take-home pay'
-            slug: take-home-pay
+            slug: takehome-pay
             text: 'refers to net (after tax), not gross, pay; we sometimes mistakenly use it as a synonym for salary'
         -
             title: takeoff
@@ -13675,7 +13675,7 @@
             text: 'trade name of oseltamivir, an antiviral drug that slows the spread of the influenza virus between cells in the body. Do not call it a vaccine – it treats, but does not pre-empt'
         -
             title: 'tam o&#39;shanter'
-            slug: tam-oand39shanter
+            slug: tam-oshanter
             text: 'woollen cap'
         -
             title: Tampax
@@ -13747,7 +13747,7 @@
             text: 
         -
             title: 'TaxPayers&#39; Alliance'
-            slug: taxpayersand39-alliance
+            slug: taxpayers-alliance
             text: '&quot;non-partisan&quot; organisation that opposes all tax increases'
         -
             title: Tbilisi
@@ -13763,7 +13763,7 @@
             text: 'all one word'
         -
             title: team-mate
-            slug: team-mate
+            slug: teammate
             text: 
         -
             title: teams
@@ -13979,7 +13979,7 @@
             text: 'third generation mobile telephony'
         -
             title: 'three-line whip'
-            slug: three-line-whip
+            slug: threeline-whip
             text: 
         -
             title: 'throw, throes'
@@ -14015,7 +14015,7 @@
             text: "1am, 6.30pm, etc; 10 o&#39;clock last night but 10pm yesterday; half past two, a quarter to three, 10 to 11, etc; 2hr 5min 6sec, etc; for 24-hour clock, 00.47, 23.59; noon, midnight (not 12 noon, 12 midnight or 12am, 12pm).\nThe week starts on Mondays, but stories published on Sunday refer to the following week as &quot;this week&quot; and the six days preceding that Sunday as &quot;last week&quot;. \nWriters must put the date in brackets when there might be ambiguity"
         -
             title: Timor-Leste
-            slug: timor-leste
+            slug: timorleste
             text: 'formerly East Timor'
         -
             title: tinfoil
@@ -14035,7 +14035,7 @@
             text: 'one word as a noun'
         -
             title: Tipp-Ex
-            slug: tipp-ex
+            slug: tippex
             text: 'TM; use correction fluid (not that many people do any more)'
         -
             title: 'tipping point'
@@ -14055,7 +14055,7 @@
             text: "Do not italicise or put in quotes titles of books, films, TV programmes, paintings, songs, albums or anything else.\nWords in titles take initial caps except for a, and, at, for, from, in, of, on, the, to (except in initial position or after a colon): A Tale of Two Cities, Happy End of the World, Shakespeare in Love, Superman: The Early Years, I&#39;m in Love With the Girl on a Certain Manchester Megastore Checkout Desk, etc.\nException: the Review and the Observer, which still italicise titles"
         -
             title: T-junction
-            slug: t-junction
+            slug: tjunction
             text: 
         -
             title: 'toby jug'
@@ -14063,11 +14063,11 @@
             text: 'inexplicably capped up in the paper at least twice'
         -
             title: to-do
-            slug: to-do
+            slug: todo
             text: 'as in &quot;what a to-do!&quot;'
         -
             title: 'to-ing and fro-ing'
-            slug: to-ing-and-fro-ing
+            slug: toing-and-froing
             text: 'You need the hyphens to stop it looking like &quot;toyng and froyng&quot;'
         -
             title: 'told the Guardian'
@@ -14151,7 +14151,7 @@
             text: 'US jazz musician'
         -
             title: 'Toussaint L&#39;Ouverture, Pierre Dominique'
-            slug: toussaint-land39ouverture-pierre-dominique
+            slug: toussaint-louverture-pierre-dominique
             text: '(1743-1803) leader of Haiti&#39;s slave revolt of 1791 and subsequent fight for independence, which was granted in 1801'
         -
             title: 'town councillor, town hall'
@@ -14171,7 +14171,7 @@
             text: 'record should normally be sufficient'
         -
             title: 'trademarks (TM)'
-            slug: trademarks-(tm)
+            slug: trademarks-tm
             text: 'Take care: use a generic alternative unless there is a very good reason not to, eg ballpoint pen, not biro (unless it really is a Biro, in which case it takes a cap B); say photocopy rather than Xerox, etc; you will save our lawyers, and those of Portakabin and various other companies, a lot of time and trouble'
         -
             title: 'trade union'
@@ -14203,7 +14203,7 @@
             text: 'TfL on second mention'
         -
             title: 'Trans-Siberian railway'
-            slug: trans-siberian-railway
+            slug: transsiberian-railway
             text: 
         -
             title: Travellers
@@ -14255,7 +14255,7 @@
             text: 
         -
             title: trip-hop
-            slug: trip-hop
+            slug: triphop
             text: 
         -
             title: Trips
@@ -14303,7 +14303,7 @@
             text: 
         -
             title: T-shirt
-            slug: t-shirt
+            slug: tshirt
             text: 'not tee-shirt'
         -
             title: tsunami
@@ -14387,7 +14387,7 @@
             text: 'no accent if you are saying something like uber-hip (although uber in this sense is uber-used); use the umlaut if you are quoting German'
         -
             title: U-boat
-            slug: u-boat
+            slug: uboat
             text: 
         -
             title: uc
@@ -14439,7 +14439,7 @@
             text: 'In German placenames, ae, oe and ue should almost always be rendered ä, ö, ü. Family names, however, for the most part became petrified many years ago and there is no way of working out whether the -e form or the umlaut should be used; you just have to find out for each individual'
         -
             title: 'umm-ed and ahh-ed'
-            slug: umm-ed-and-ahh-ed
+            slug: ummed-and-ahhed
             text: 
         -
             title: UN
@@ -14487,7 +14487,7 @@
             text: 
         -
             title: under-
-            slug: under-
+            slug: under
             text: 'prefixes are normally one word, eg underachieve, underact, underage, undercover, underdeveloped, undermanned, underprivileged, undersea, undersecretary, undersigned, undervalue, underweight'
         -
             title: 'underestimate, understate'
@@ -14611,7 +14611,7 @@
             text: 'he used to do something, not he did use to do something and certainly not he did used to do something (double imperfect); a column said &quot;high street shops did, it&#39;s true, used to be more varied&quot; – something like &quot;high street shops certainly used to be more varied&quot; would have been better'
         -
             title: 'user-generated content'
-            slug: user-generated-content
+            slug: usergenerated-content
             text: 
         -
             title: utopian
@@ -14619,7 +14619,7 @@
             text: 
         -
             title: U-turn
-            slug: u-turn
+            slug: uturn
             text: 
         -
             title: Uzbekistan
@@ -14639,7 +14639,7 @@
             text: 'for the young people&#39;s volunteering organisation formerly just v'
         -
             title: 'V&amp;A'
-            slug: vandampa
+            slug: va
             text: 'abbreviation for Victoria and Albert Museum'
         -
             title: 'Vajpayee, Atal Bihari'
@@ -14647,11 +14647,11 @@
             text: 'former prime minister of India'
         -
             title: 'Val d&#39;Isère'
-            slug: val-dand39isere
+            slug: val-disre
             text: 
         -
             title: 'Valentine&#39;s Day'
-            slug: valentineand39s-day
+            slug: valentines-day
             text: 
         -
             title: valley
@@ -14663,7 +14663,7 @@
             text: 'TM; a brand of diazepam'
         -
             title: Valparaíso
-            slug: valparaiso
+            slug: valparaso
             text: 
         -
             title: 'Valuation Office Agency'
@@ -14675,7 +14675,7 @@
             text: 'Atlanta-based budget airline now called AirTran'
         -
             title: Vanessa-Mae
-            slug: vanessa-mae
+            slug: vanessamae
             text: violinist
         -
             title: 'Van Gogh, Vincent'
@@ -14719,7 +14719,7 @@
             text: 'Vosa after first mention. Body that regulates the MoT test, formed by a merger of the Vehicle Inspectorate and Traffic Area Network'
         -
             title: 'Velázquez, Diego'
-            slug: velazquez-diego
+            slug: velzquez-diego
             text: '(1599-1660) Spanish painter'
         -
             title: Velcro
@@ -14795,7 +14795,7 @@
             text: "a cleric of the Anglican church (which also has rectors and curates, etc), not of any other denomination.\n\nA priest writes: &quot;A vicar is a person who is the incumbent of a parish, and the term is a job description in the same way that editor is a job description. All editors are journalists but not all journalists are editors. In the same way, all vicars are priests, but not all priests are vicars. Some priests are chaplains; some (like me) are forensic social workers; some are retired; some are shopworkers; some are police officers&quot;"
         -
             title: 'vice-chair, vice-chancellor, vice-president'
-            slug: vice-chair-vice-chancellor-vice-president
+            slug: vicechair-vicechancellor-vicepresident
             text: 
         -
             title: 'vice versa'
@@ -14823,7 +14823,7 @@
             text: 'capital of Laos'
         -
             title: 'Villa-Lobos, Heitor'
-            slug: villa-lobos-heitor
+            slug: villalobos-heitor
             text: '(1887-1959) Brazilian composer'
         -
             title: virtuoso
@@ -14835,7 +14835,7 @@
             text: 'not the same as a bacterium, but we often confuse the two; if in doubt, consult the science desk'
         -
             title: vis-a-vis
-            slug: vis-a-vis
+            slug: visavis
             text: 'no accent'
         -
             title: 'vocal cords'
@@ -14895,7 +14895,7 @@
             text: 'branch of Islam practised by followers of the teachings of Muhammad ibn Abd-al-Wahhab (1703-92)'
         -
             title: 'wah-wah pedal'
-            slug: wah-wah-pedal
+            slug: wahwah-pedal
             text: 
         -
             title: 'waive, waiver'
@@ -14923,11 +14923,11 @@
             text: 'TM; plural Walkmans not Walkmen'
         -
             title: 'Wallpaper*'
-            slug: 'wallpaper*'
+            slug: wallpaper
             text: 'magazine (note asterisk)'
         -
             title: 'Wall&#39;s'
-            slug: walland39s
+            slug: walls
             text: 'ice-cream, sausages'
         -
             title: Walmart
@@ -14947,7 +14947,7 @@
             text: 'used as an adjective a word such as upward, downward, backward or forward should not end in s, but used as an adverb it should, eg downward slope, forward planning, homeward bound; but move forwards, peer downwards, spread outwards'
         -
             title: '&quot;war on drugs&quot;, &quot;war on terror&quot;'
-            slug: andquotwar-on-drugsandquot-andquotwar-on-terrorandquot
+            slug: war-on-drugs-war-on-terror
             text: 'always in quotes'
         -
             title: wars
@@ -14955,7 +14955,7 @@
             text: 'first world war, second world war (do not say &quot;before the war&quot; or &quot;after the war&quot; when you mean the second world war)hundred years war (it actually lasted 116 years, from 1337 to 1453)war of Jenkins&#39; Ear (1739-48)civil war (England), American civil war, Spanish civil warCrimean/Boer/Korean/Vietnam warsix-day warGulf war (1991), Iraq war (2003)'
         -
             title: 'Was (Not Was)'
-            slug: was-(not-was)
+            slug: was-not-was
             text: 'US rock band fronted by Don Was and David Was (no relation)'
         -
             title: 'Waste Land, The'
@@ -14963,7 +14963,7 @@
             text: 'poem by TS Eliot (not The Wasteland)'
         -
             title: 'washing-up liquid'
-            slug: washing-up-liquid
+            slug: washingup-liquid
             text: 
         -
             title: washout
@@ -15003,11 +15003,11 @@
             text: 'traditional term for a printer&#39;s works outing'
         -
             title: 'weave (fabric)'
-            slug: weave-(fabric)
+            slug: weave-fabric
             text: 'past tense wove, past participle woven. This also applies when used metaphorically, as in &quot;Obama&#39;s speech was woven throughout with the language of the US constitution&quot; (we actually printed &quot;weaved&quot;, which was wrong)'
         -
             title: 'weave (from side to side)'
-            slug: weave-(from-side-to-side)
+            slug: weave-from-side-to-side
             text: 'past tense weaved, past participle weaved, as in &quot;Cameron dodged and weaved&quot;'
         -
             title: 'web, webpage, website, world wide web'
@@ -15015,7 +15015,7 @@
             text: 
         -
             title: 'web 2.0, web 3.0'
-            slug: web-2.0-web-3.0
+            slug: web-20-web-30
             text: 
         -
             title: websites
@@ -15051,7 +15051,7 @@
             text: 
         -
             title: well-known
-            slug: well-known
+            slug: wellknown
             text: 'As with famous, if someone or something is well-known, it should not be necessary to say so'
         -
             title: wellnigh
@@ -15187,7 +15187,7 @@
             text: 
         -
             title: 'white-van man'
-            slug: white-van-man
+            slug: whitevan-man
             text: 
         -
             title: 'Whitsuntide, Whit Sunday'
@@ -15195,7 +15195,7 @@
             text: 'not Whitsun'
         -
             title: 'whiz, whiz-kid'
-            slug: whiz-whiz-kid
+            slug: whiz-whizkid
             text: 'not whizz or wiz'
         -
             title: whodunnit
@@ -15223,7 +15223,7 @@
             text: 'Holocaust survivor and author; he was awarded the Nobel peace prize in 1986, and female status in a particularly crass Guardian error'
         -
             title: Wi-Fi
-            slug: wi-fi
+            slug: wifi
             text: 'TM; the generic term is wireless computer network'
         -
             title: Wii
@@ -15243,7 +15243,7 @@
             text: '(not Williams or Willians, as have appeared in the paper) author of the Molesworth books, illustrated by Ronald Searle, as any fule kno'
         -
             title: will.i.am
-            slug: will.i.am
+            slug: william
             text: 'real name William James Adams, Jr'
         -
             title: Wimpey
@@ -15271,7 +15271,7 @@
             text: 'in leading articles, abbreviate on second mention to Wing Co; Wing  Commander Barry Johnson, subsequently Wing Co Johnson; otherwise just Johnson'
         -
             title: Winnie-the-Pooh
-            slug: winnie-the-pooh
+            slug: winniethepooh
             text: 'in the original AA Milne books, although the &quot;bear of little brain&quot; has lost the hyphens in his Disney incarnation'
         -
             title: winter
@@ -15315,7 +15315,7 @@
             text: 'not eyewitness, except for the Eyewitness picture spread in the Guardian'
         -
             title: 'wits&#39; end'
-            slug: witsand39-end
+            slug: wits-end
             text: 
         -
             title: woeful
@@ -15467,7 +15467,7 @@
             text: 'South African ethnic group and language'
         -
             title: 'Xi&#39;an'
-            slug: xiand39an
+            slug: xian
             text: 'city in China where the Terracotta Warriors are located'
         -
             title: Xmas
@@ -15475,7 +15475,7 @@
             text: 'Christmas is preferable unless you are writing a headline, up against a deadline, and desperate (or quoting Slade&#39;s Merry Xmas Everybody)'
         -
             title: x-ray
-            slug: x-ray
+            slug: xray
             text: 
 
 -
@@ -15495,7 +15495,7 @@
             text: 'river; not Yangtse'
         -
             title: 'Yar&#39;Adua, Umaru'
-            slug: yarand39adua-umaru
+            slug: yaradua-umaru
             text: 'president of Nigeria from 2007, when he succeeded Olusegun Obasanjo, to his death in 2010'
         -
             title: year
@@ -15539,11 +15539,11 @@
             text: 
         -
             title: yo-yo
-            slug: yo-yo
+            slug: yoyo
             text: 
         -
             title: 'Yo-Yo Ma'
-            slug: yo-yo-ma
+            slug: yoyo-ma
             text: cellist
         -
             title: 'York Minster'
@@ -15595,7 +15595,7 @@
             text: 'Chinese currency; we don&#39;t call it renminbi'
         -
             title: Yu-Gi-Oh!
-            slug: yu-gi-oh!
+            slug: yugioh
             text: 'trading card game'
         -
             title: yuletide
@@ -15607,15 +15607,15 @@
     definitions:
         -
             title: Zanu-PF
-            slug: zanu-pf
+            slug: zanupf
             text: 'Zimbabwean political party led by Robert Mugabe, the country&#39;s president, which in 2008 reached a power-sharing agreement with the opposition Movement for Democratic Change (MDC), led by Morgan Tsvangirai, who became prime minister'
         -
             title: 'Zapatero, José Luis Rodríguez'
-            slug: zapatero-jose-luis-rodriguez
+            slug: zapatero-jos-luis-rodrguez
             text: 'Spanish politician, elected prime minister in 2004, and re-elected four years later'
         -
             title: '-ze'
-            slug: '-ze'
+            slug: ze
             text: 'endings: use -se, even if this upsets your (American) spellchecker, eg emphasise, realise; but capsize'
         -
             title: zeitgeist
@@ -15623,7 +15623,7 @@
             text: 
         -
             title: 'Zellweger, Renée'
-            slug: zellweger-renee
+            slug: zellweger-rene
             text: 
         -
             title: 'Zephaniah, Benjamin'
@@ -15635,11 +15635,11 @@
             text: 'plural zeros; but zeroes in on'
         -
             title: 'zero-hours contracts'
-            slug: zero-hours-contracts
+            slug: zerohours-contracts
             text: 
         -
             title: 'Zeta-Jones, Catherine'
-            slug: zeta-jones-catherine
+            slug: zetajones-catherine
             text: 
         -
             title: zeugma
@@ -15655,7 +15655,7 @@
             text: 'Chinese premier (prime minister) from 1998 to 2003, when he was succeeded by Wen Jiabao'
         -
             title: zig-a-zig-ah
-            slug: zig-a-zig-ah
+            slug: zigazigah
             text: 'in the Spice Girls&#39; song Wannabe'
         -
             title: zigzag
@@ -15667,7 +15667,7 @@
             text: 'TM; if it&#39;s not a Zimmer frame, call it a walking frame'
         -
             title: 'Zine al-Abidine Ben Ali'
-            slug: zine-al-abidine-ben-ali
+            slug: zine-alabidine-ben-ali
             text: 'president of Tunisia from 1987 to 2011; Ben Ali after first mention'
         -
             title: Zionist
