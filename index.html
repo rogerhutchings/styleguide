@@ -10,13 +10,13 @@ title: Home
         <dl>
         {% for definition in section.definitions %}
             {% if definition.title %}
-            <dt>
+            <dt data-slug="{{ definition.slug }}">
                 <a class="title" name="{{ definition.slug }}">{{ definition.title }}</a>
                 <a class="permalink" href="/#{{ definition.slug }}">#</a>
             </dt>
             {% endif %}
-            {% if definition.title %}
-            <dd>{{ definition.text }}</dd>
+            {% if definition.text %}
+            <dd data-slug="{{ definition.slug }}">{{ definition.text }}</dd>
             {% endif %}
         {% endfor %}
         </dl>

@@ -1,3 +1,13 @@
+/* line 1, ../_sass/globals/_livesearch.sass */
+.hide {
+  display: none;
+}
+
+/* line 4, ../_sass/globals/_livesearch.sass */
+.highlight {
+  background: yellow;
+}
+
 /* line 7, ../_sass/mixins/_link.sass */
 .sidebar .sidebar-nav a.sidebar-nav-item, .definitions dl dt .permalink {
   text-decoration: none;
@@ -65,19 +75,25 @@
 .sidebar .sidebar-nav .sidebar-nav-item.active {
   font-weight: bold;
 }
-/* line 49, ../_sass/includes/_sidebar.sass */
+/* line 48, ../_sass/includes/_sidebar.sass */
+.sidebar #search {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+/* line 54, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-/* line 55, ../_sass/includes/_sidebar.sass */
+/* line 60, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links li {
   list-style: none;
   flex: 1 0 3rem;
 }
-/* line 59, ../_sass/includes/_sidebar.sass */
+/* line 64, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links li a {
   display: block;
   text-align: center;
@@ -85,7 +101,7 @@
   margin: 2px;
   border-radius: 3px;
 }
-/* line 66, ../_sass/includes/_sidebar.sass */
+/* line 71, ../_sass/includes/_sidebar.sass */
 .sidebar .section-links li a:hover, .sidebar .section-links li a:focus {
   background: #838383;
 }
@@ -96,7 +112,7 @@
  * contents to the bottom of the sidebar in tablets and up.
  */
 @media (min-width: 48rem) {
-  /* line 78, ../_sass/includes/_sidebar.sass */
+  /* line 83, ../_sass/includes/_sidebar.sass */
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
