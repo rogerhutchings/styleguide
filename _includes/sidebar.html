@@ -1,5 +1,5 @@
 <div class="sidebar">
-    <div class="container sidebar-sticky">
+    <div class="container">
 
         <div class="sidebar-about">
             <h1>{{ site.title }}</h1>
@@ -8,7 +8,7 @@
 
         <input type="text" id="search" placeholder="Start typing to search...">
 
-        <ol class="section-links">
+        <ol class="sidebar-alphabet">
             {% for section in site.data.definitions %}
             <li><a href="#section-{{ section.letter }}">{{ section.letter }}</a></li>
             {% endfor %}

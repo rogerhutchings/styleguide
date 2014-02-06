@@ -20,6 +20,13 @@
         width: 18rem
         text-align: left
 
+    .container
+        @media (min-width: 48rem)
+            position: absolute
+            right: 1rem
+            bottom: 1rem
+            left: 1rem
+
     a
         color: white
 
@@ -31,7 +38,6 @@
             size: 3.25rem
 
 
-    /* Sidebar nav */
     .sidebar-nav
         padding-left: 0
         list-style: none
@@ -45,13 +51,14 @@
         a.sidebar-nav-item
             @extend %link-reverse
 
+
     #search
         width: 100%
         padding: 5px
         margin: 5px 0
 
-    /* Section links */
-    .section-links
+
+    .sidebar-alphabet
         display: flex
         flex-wrap: wrap
         justify-content: center
@@ -71,17 +78,3 @@
                 &:hover,
                 &:focus
                     background: $sidebar-alphabet-background-hover
-
-
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48rem)
-    .sidebar-sticky
-        position: absolute
-        right: 1rem
-        bottom: 1rem
-        left: 1rem
