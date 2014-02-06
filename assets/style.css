@@ -1,3 +1,78 @@
+/* line 7, ../_sass/mixins/_link.sass */
+html dl dt .permalink, .sidebar .sidebar-nav a.sidebar-nav-item {
+  text-decoration: none;
+}
+/* line 9, ../_sass/mixins/_link.sass */
+html dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:hover, html dl dt .permalink:focus, .sidebar .sidebar-nav a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+
+/* line 13, ../_sass/mixins/_link.sass */
+html dl dt .title, .sidebar .sidebar-alphabet li a {
+  text-decoration: none;
+}
+/* line 15, ../_sass/mixins/_link.sass */
+html dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, html dl dt .title:focus, .sidebar .sidebar-alphabet li a:focus {
+  text-decoration: none;
+}
+
+/* line 5, ../_sass/globals/_layout.sass */
+.content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media (min-width: 48rem) {
+  /* line 5, ../_sass/globals/_layout.sass */
+  .content {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 64rem) {
+  /* line 5, ../_sass/globals/_layout.sass */
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+/* line 1, ../_sass/globals/_typography.sass */
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 48rem) {
+  /* line 1, ../_sass/globals/_typography.sass */
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58rem) {
+  /* line 1, ../_sass/globals/_typography.sass */
+  html {
+    font-size: 20px;
+  }
+}
+/* line 10, ../_sass/globals/_typography.sass */
+html dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/* line 15, ../_sass/globals/_typography.sass */
+html dl dt {
+  position: relative;
+  font-weight: bold;
+}
+/* line 23, ../_sass/globals/_typography.sass */
+html dl dt .permalink {
+  position: absolute;
+  right: 103%;
+}
+/* line 28, ../_sass/globals/_typography.sass */
+html dl dd {
+  margin-bottom: 0.5rem;
+}
+
 /* line 1, ../_sass/globals/_livesearch.sass */
 .hide {
   display: none;
@@ -6,24 +81,6 @@
 /* line 4, ../_sass/globals/_livesearch.sass */
 .highlight {
   background: yellow;
-}
-
-/* line 7, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-nav a.sidebar-nav-item, .definitions dl dt .permalink {
-  text-decoration: none;
-}
-/* line 9, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-nav a.sidebar-nav-item:hover, .definitions dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:focus, .definitions dl dt .permalink:focus {
-  text-decoration: underline;
-}
-
-/* line 13, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-alphabet li a, .definitions dl dt .title {
-  text-decoration: none;
-}
-/* line 15, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-alphabet li a:hover, .definitions dl dt .title:hover, .sidebar .sidebar-alphabet li a:focus, .definitions dl dt .title:focus {
-  text-decoration: none;
 }
 
 /* Sidebar
@@ -111,14 +168,4 @@
 /* line 78, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a:hover, .sidebar .sidebar-alphabet li a:focus {
   background: #838383;
-}
-
-/* line 5, ../_sass/pages/_definitions.sass */
-.definitions dl dt {
-  position: relative;
-}
-/* line 11, ../_sass/pages/_definitions.sass */
-.definitions dl dt .permalink {
-  position: absolute;
-  right: 103%;
 }

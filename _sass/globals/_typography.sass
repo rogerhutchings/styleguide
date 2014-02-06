@@ -1,0 +1,30 @@
+html
+    font-family: "PT Sans", Helvetica, Arial, sans-serif
+
+    @media (min-width: 48rem)
+        font-size: 16px
+
+    @media (min-width: 58rem)
+        font-size: 20px
+
+    dl
+        margin:
+            top: 0
+            bottom: 1rem
+
+        dt
+            position: relative
+            font:
+                weight: bold
+
+            .title
+                @extend %link-none
+
+            .permalink
+                @extend %link-reverse
+                position: absolute
+                right: 103%
+
+        dd
+            margin:
+                bottom: 0.5rem
