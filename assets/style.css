@@ -1,3 +1,12 @@
+/* line 1, ../_sass/mixins/_link.sass */
+a {
+  text-decoration: underline;
+}
+/* line 3, ../_sass/mixins/_link.sass */
+a:hover, a:focus {
+  text-decoration: none;
+}
+
 /* line 7, ../_sass/mixins/_link.sass */
 .sidebar .sidebar-nav a.sidebar-nav-item {
   text-decoration: none;
@@ -14,6 +23,29 @@ h2 a, dl dt .title, dl dt .permalink, .sidebar .sidebar-alphabet li a {
 /* line 15, ../_sass/mixins/_link.sass */
 h2 a:hover, dl dt .title:hover, dl dt .permalink:hover, .sidebar .sidebar-alphabet li a:hover, h2 a:focus, dl dt .title:focus, dl dt .permalink:focus, .sidebar .sidebar-alphabet li a:focus {
   text-decoration: none;
+}
+
+/* Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+/* line 7, ../_sass/globals/_reset.sass */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../_sass/globals/_reset.sass */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../_sass/globals/_reset.sass */
+body {
+  background: white;
 }
 
 /* line 4, ../_sass/globals/_fonts.sass */
@@ -72,28 +104,51 @@ html {
   }
 }
 
-/* line 15, ../_sass/globals/_typography.sass */
+/* line 14, ../_sass/globals/_typography.sass */
+body {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #505050;
+}
+
+/* line 19, ../_sass/globals/_typography.sass */
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+
+/* line 25, ../_sass/globals/_typography.sass */
+h1, h2 {
+  margin-bottom: 0.5rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 30, ../_sass/globals/_typography.sass */
 h2 {
+  margin-top: 1rem;
   font-size: 3.24732rem;
   border-bottom: 1px solid #838383;
 }
-/* line 22, ../_sass/globals/_typography.sass */
+/* line 38, ../_sass/globals/_typography.sass */
 h2 a {
   color: #505050;
 }
 
-/* line 27, ../_sass/globals/_typography.sass */
+/* line 43, ../_sass/globals/_typography.sass */
 dl {
   margin-top: 0;
   margin-bottom: 1.125rem;
 }
-/* line 32, ../_sass/globals/_typography.sass */
+/* line 48, ../_sass/globals/_typography.sass */
 dl dt {
   position: relative;
   font-weight: bold;
   margin-top: 1.26563rem;
 }
-/* line 42, ../_sass/globals/_typography.sass */
+/* line 58, ../_sass/globals/_typography.sass */
 dl dt .permalink {
   margin-right: 1.125rem;
   padding: 0.2rem 0.5rem;
@@ -107,20 +162,31 @@ dl dt .permalink {
   -o-transition: opacity 0.1s linear;
   transition: opacity 0.1s linear;
 }
-/* line 52, ../_sass/globals/_typography.sass */
+/* line 68, ../_sass/globals/_typography.sass */
 dl dt .permalink:hover {
   color: whitesmoke;
   background: #268bd2;
 }
-/* line 56, ../_sass/globals/_typography.sass */
+/* line 72, ../_sass/globals/_typography.sass */
 dl dt.hover .permalink {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 60, ../_sass/globals/_typography.sass */
+/* line 76, ../_sass/globals/_typography.sass */
 dl dd {
   margin: 0;
   margin-left: 4.10989rem;
+}
+
+/* line 81, ../_sass/globals/_typography.sass */
+p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 86, ../_sass/globals/_typography.sass */
+strong {
+  color: #202020;
 }
 
 /* line 1, ../_sass/globals/_livesearch.sass */
