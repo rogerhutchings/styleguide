@@ -16,6 +16,12 @@ h2 a:hover, dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, h2 a:focu
   text-decoration: none;
 }
 
+/* line 4, ../_sass/globals/_fonts.sass */
+h2, .sidebar .sidebar-about h1 {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Abril Fatface", serif;
+}
+
 /* line 2, ../_sass/globals/_layout.sass */
 .container {
   max-width: 38rem;
@@ -51,6 +57,7 @@ html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   line-height: 1.4;
   color: #202020;
+  text-rendering: optimizeLegibility;
 }
 @media (min-width: 48rem) {
   /* line 1, ../_sass/globals/_typography.sass */
@@ -65,29 +72,28 @@ html {
   }
 }
 
-/* line 14, ../_sass/globals/_typography.sass */
+/* line 15, ../_sass/globals/_typography.sass */
 h2 {
   font-size: 3.24732rem;
-  font-family: "Abril Fatface", serif;
   border-bottom: 1px solid #838383;
 }
-/* line 21, ../_sass/globals/_typography.sass */
+/* line 22, ../_sass/globals/_typography.sass */
 h2 a {
   color: #505050;
 }
 
-/* line 26, ../_sass/globals/_typography.sass */
+/* line 27, ../_sass/globals/_typography.sass */
 dl {
   margin-top: 0;
   margin-bottom: 1.125rem;
 }
-/* line 31, ../_sass/globals/_typography.sass */
+/* line 32, ../_sass/globals/_typography.sass */
 dl dt {
   position: relative;
   font-weight: bold;
   margin-top: 1.26563rem;
 }
-/* line 41, ../_sass/globals/_typography.sass */
+/* line 42, ../_sass/globals/_typography.sass */
 dl dt .permalink {
   margin-right: 1.125rem;
   padding: 0.2rem 0.5rem;
@@ -95,7 +101,7 @@ dl dt .permalink {
   border-radius: 3px;
   display: inline-block;
 }
-/* line 50, ../_sass/globals/_typography.sass */
+/* line 51, ../_sass/globals/_typography.sass */
 dl dd {
   margin: 0;
   margin-left: 4.10989rem;
@@ -152,7 +158,6 @@ dl dd {
   color: white;
   margin: 0;
   margin-bottom: 1rem;
-  font-family: "Abril Fatface", serif;
   font-size: 3.24732rem;
 }
 /* line 42, ../_sass/includes/_sidebar.sass */
