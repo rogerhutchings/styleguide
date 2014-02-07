@@ -7,7 +7,7 @@
 
 .sidebar
     text-align: center
-    padding: 2rem 1rem
+    padding: ms(2) ms(1)
     color: rgba(white, 0.5)
     background:
         color: $sidebar-background
@@ -30,12 +30,18 @@
     a
         color: white
 
-    .sidebar-about h1
-        color: white
-        margin-top: 0
-        font:
-            family: "Abril Fatface", serif
-            size: 3.25rem
+    .sidebar-about
+        h1
+            color: white
+            margin: 0
+                bottom: 1rem
+            font:
+                family: "Abril Fatface", serif
+                size: ms(10)
+
+        .lead
+            margin: 0
+                bottom: 1rem
 
 
     .sidebar-nav
@@ -54,9 +60,9 @@
 
     #search
         width: 100%
-        padding: 5px
-        margin: 5px 0
-
+        padding: ms(0.5)
+        margin: 0
+        border: 0
 
     .sidebar-alphabet
         display: flex
@@ -66,7 +72,7 @@
 
         li
             list-style: none
-            flex: 1 0 3rem
+            flex: 1 0 ms(10)
 
             a
                 @extend %link-none

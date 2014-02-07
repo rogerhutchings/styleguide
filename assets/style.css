@@ -1,28 +1,37 @@
 /* line 7, ../_sass/mixins/_link.sass */
-html dl dt .permalink, .sidebar .sidebar-nav a.sidebar-nav-item {
+dl dt .permalink, .sidebar .sidebar-nav a.sidebar-nav-item {
   text-decoration: none;
 }
 /* line 9, ../_sass/mixins/_link.sass */
-html dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:hover, html dl dt .permalink:focus, .sidebar .sidebar-nav a.sidebar-nav-item:focus {
+dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:hover, dl dt .permalink:focus, .sidebar .sidebar-nav a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 
 /* line 13, ../_sass/mixins/_link.sass */
-html dl dt .title, .sidebar .sidebar-alphabet li a {
+dl dt .title, .sidebar .sidebar-alphabet li a {
   text-decoration: none;
 }
 /* line 15, ../_sass/mixins/_link.sass */
-html dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, html dl dt .title:focus, .sidebar .sidebar-alphabet li a:focus {
+dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, dl dt .title:focus, .sidebar .sidebar-alphabet li a:focus {
   text-decoration: none;
 }
 
-/* line 5, ../_sass/globals/_layout.sass */
+/* line 2, ../_sass/globals/_layout.sass */
+.container {
+  max-width: 38rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 17, ../_sass/globals/_layout.sass */
 .content {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 @media (min-width: 48rem) {
-  /* line 5, ../_sass/globals/_layout.sass */
+  /* line 17, ../_sass/globals/_layout.sass */
   .content {
     max-width: 38rem;
     margin-left: 20rem;
@@ -30,7 +39,7 @@ html dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, html dl dt .titl
   }
 }
 @media (min-width: 64rem) {
-  /* line 5, ../_sass/globals/_layout.sass */
+  /* line 17, ../_sass/globals/_layout.sass */
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
@@ -40,6 +49,7 @@ html dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, html dl dt .titl
 /* line 1, ../_sass/globals/_typography.sass */
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
 }
 @media (min-width: 48rem) {
   /* line 1, ../_sass/globals/_typography.sass */
@@ -53,24 +63,32 @@ html {
     font-size: 20px;
   }
 }
-/* line 10, ../_sass/globals/_typography.sass */
-html dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+
+/* line 13, ../_sass/globals/_typography.sass */
+h2 {
+  font-size: 2.56578rem;
+  margin-left: 1.125rem;
 }
-/* line 15, ../_sass/globals/_typography.sass */
-html dl dt {
-  position: relative;
-  font-weight: bold;
+
+/* line 18, ../_sass/globals/_typography.sass */
+dl {
+  margin-top: 0;
+  margin-bottom: 1.125rem;
 }
 /* line 23, ../_sass/globals/_typography.sass */
-html dl dt .permalink {
-  position: absolute;
-  right: 103%;
+dl dt {
+  position: relative;
+  font-weight: bold;
+  margin-top: 1.26563rem;
 }
-/* line 28, ../_sass/globals/_typography.sass */
-html dl dd {
-  margin-bottom: 0.5rem;
+/* line 34, ../_sass/globals/_typography.sass */
+dl dt .permalink {
+  margin-right: 1.125rem;
+}
+/* line 39, ../_sass/globals/_typography.sass */
+dl dd {
+  margin: 0;
+  margin-left: 1.26563rem;
 }
 
 /* line 1, ../_sass/globals/_livesearch.sass */
@@ -91,7 +109,7 @@ html dl dd {
 /* line 8, ../_sass/includes/_sidebar.sass */
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1.26563rem 1.125rem;
   color: rgba(255, 255, 255, 0.5);
   background-color: #202020;
 }
@@ -119,45 +137,52 @@ html dl dd {
 .sidebar a {
   color: white;
 }
-/* line 33, ../_sass/includes/_sidebar.sass */
+/* line 34, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-about h1 {
   color: white;
-  margin-top: 0;
+  margin: 0;
+  margin-bottom: 1rem;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 3.24732rem;
 }
-/* line 41, ../_sass/includes/_sidebar.sass */
+/* line 42, ../_sass/includes/_sidebar.sass */
+.sidebar .sidebar-about .lead {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+/* line 47, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav {
   padding-left: 0;
   list-style: none;
 }
-/* line 45, ../_sass/includes/_sidebar.sass */
+/* line 51, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item {
   display: block;
 }
-/* line 48, ../_sass/includes/_sidebar.sass */
+/* line 54, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item.active {
   font-weight: bold;
 }
-/* line 55, ../_sass/includes/_sidebar.sass */
+/* line 61, ../_sass/includes/_sidebar.sass */
 .sidebar #search {
   width: 100%;
-  padding: 5px;
-  margin: 5px 0;
+  padding: 1.06066rem;
+  margin: 0;
+  border: 0;
 }
-/* line 61, ../_sass/includes/_sidebar.sass */
+/* line 67, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-/* line 67, ../_sass/includes/_sidebar.sass */
+/* line 73, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li {
   list-style: none;
-  flex: 1 0 3rem;
+  flex: 1 0 3.24732rem;
 }
-/* line 71, ../_sass/includes/_sidebar.sass */
+/* line 77, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a {
   display: block;
   text-align: center;
@@ -165,7 +190,7 @@ html dl dd {
   margin: 2px;
   border-radius: 3px;
 }
-/* line 78, ../_sass/includes/_sidebar.sass */
+/* line 84, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a:hover, .sidebar .sidebar-alphabet li a:focus {
   background: #838383;
 }

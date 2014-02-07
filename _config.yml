@@ -10,4 +10,4 @@ description: 'A redesign of the <a href="http://guardian.co.uk/styleguide/" targ
 # Custom vars
 version: 1.0.0
 repo: https://github.com/rogerhutchings/styleguide
-exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'config.rb', 'README.md']
+exclude: ['node_modules', 'bower_components', 'Gruntfile.js', 'package.json', 'config.rb', 'README.md']

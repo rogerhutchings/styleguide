@@ -1,30 +1,40 @@
 html
     font-family: "PT Sans", Helvetica, Arial, sans-serif
+    line-height: 1.4
 
-    @media (min-width: 48rem)
-        font-size: 16px
+    @media (min-width: $breakpoint-1)
+        font-size: $font-size-1
 
-    @media (min-width: 58rem)
-        font-size: 20px
+    @media (min-width: $breakpoint-2)
+        font-size: $font-size-2
 
-    dl
+
+// Used for section titles
+h2
+    font-size: ms(8)
+    margin:
+        left: ms(1)
+
+dl
+    margin:
+        top: 0
+        bottom: ms(1)
+
+    dt
+        position: relative
+        font:
+            weight: bold
         margin:
-            top: 0
-            bottom: 1rem
+            top: ms(2)
 
-        dt
-            position: relative
-            font:
-                weight: bold
+        .title
+            @extend %link-none
 
-            .title
-                @extend %link-none
-
-            .permalink
-                @extend %link-reverse
-                position: absolute
-                right: 103%
-
-        dd
+        .permalink
+            @extend %link-reverse
             margin:
-                bottom: 0.5rem
+                right: ms(1)
+
+    dd
+        margin: 0
+            left: ms(2)
