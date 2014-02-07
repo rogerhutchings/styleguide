@@ -1,0 +1,62 @@
+html
+    font-family: $font-body
+    line-height: 1.4
+    color: $dark-grey
+    text-rendering: optimizeLegibility
+
+    @media (min-width: $breakpoint-1)
+        font-size: $font-size-1
+
+    @media (min-width: $breakpoint-2)
+        font-size: $font-size-2
+
+
+// Used for section titles
+h2
+    @extend %font-heading
+    font:
+        size: ms(10)
+    border:
+        bottom: 1px solid lighten($grey, 20%)
+
+    a
+        @extend %link-none
+        color: $grey
+
+
+dl
+    margin:
+        top: 0
+        bottom: ms(1)
+
+    dt
+        position: relative
+        font:
+            weight: bold
+        margin:
+            top: ms(2)
+
+        .title
+            @extend %link-none
+
+        .permalink
+            @extend %link-none
+            margin:
+                right: ms(1)
+            padding: 0.2rem 0.5rem
+            background: whitesmoke
+            border-radius: 3px
+            display: inline-block
+            @include opacity(0.2)
+            @include transition(opacity 0.1s linear)
+            &:hover
+                color: $light-grey
+                background: $blue
+        &.hover
+            .permalink
+                @include opacity(1)
+
+
+    dd
+        margin: 0
+            left: ms(12)

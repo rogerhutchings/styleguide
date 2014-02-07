@@ -1,3 +1,128 @@
+/* line 7, ../_sass/mixins/_link.sass */
+.sidebar .sidebar-nav a.sidebar-nav-item {
+  text-decoration: none;
+}
+/* line 9, ../_sass/mixins/_link.sass */
+.sidebar .sidebar-nav a.sidebar-nav-item:hover, .sidebar .sidebar-nav a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+
+/* line 13, ../_sass/mixins/_link.sass */
+h2 a, dl dt .title, dl dt .permalink, .sidebar .sidebar-alphabet li a {
+  text-decoration: none;
+}
+/* line 15, ../_sass/mixins/_link.sass */
+h2 a:hover, dl dt .title:hover, dl dt .permalink:hover, .sidebar .sidebar-alphabet li a:hover, h2 a:focus, dl dt .title:focus, dl dt .permalink:focus, .sidebar .sidebar-alphabet li a:focus {
+  text-decoration: none;
+}
+
+/* line 4, ../_sass/globals/_fonts.sass */
+h2, .sidebar .sidebar-about h1 {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Abril Fatface", serif;
+}
+
+/* line 2, ../_sass/globals/_layout.sass */
+.container {
+  max-width: 38rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 17, ../_sass/globals/_layout.sass */
+.content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media (min-width: 48rem) {
+  /* line 17, ../_sass/globals/_layout.sass */
+  .content {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 64rem) {
+  /* line 17, ../_sass/globals/_layout.sass */
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+/* line 1, ../_sass/globals/_typography.sass */
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  color: #202020;
+  text-rendering: optimizeLegibility;
+}
+@media (min-width: 48rem) {
+  /* line 1, ../_sass/globals/_typography.sass */
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58rem) {
+  /* line 1, ../_sass/globals/_typography.sass */
+  html {
+    font-size: 20px;
+  }
+}
+
+/* line 15, ../_sass/globals/_typography.sass */
+h2 {
+  font-size: 3.24732rem;
+  border-bottom: 1px solid #838383;
+}
+/* line 22, ../_sass/globals/_typography.sass */
+h2 a {
+  color: #505050;
+}
+
+/* line 27, ../_sass/globals/_typography.sass */
+dl {
+  margin-top: 0;
+  margin-bottom: 1.125rem;
+}
+/* line 32, ../_sass/globals/_typography.sass */
+dl dt {
+  position: relative;
+  font-weight: bold;
+  margin-top: 1.26563rem;
+}
+/* line 42, ../_sass/globals/_typography.sass */
+dl dt .permalink {
+  margin-right: 1.125rem;
+  padding: 0.2rem 0.5rem;
+  background: whitesmoke;
+  border-radius: 3px;
+  display: inline-block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2;
+  -webkit-transition: opacity 0.1s linear;
+  -moz-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+/* line 52, ../_sass/globals/_typography.sass */
+dl dt .permalink:hover {
+  color: whitesmoke;
+  background: #268bd2;
+}
+/* line 56, ../_sass/globals/_typography.sass */
+dl dt.hover .permalink {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 60, ../_sass/globals/_typography.sass */
+dl dd {
+  margin: 0;
+  margin-left: 4.10989rem;
+}
+
 /* line 1, ../_sass/globals/_livesearch.sass */
 .hide {
   display: none;
@@ -8,24 +133,6 @@
   background: yellow;
 }
 
-/* line 7, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-nav a.sidebar-nav-item, .definitions dl dt .permalink {
-  text-decoration: none;
-}
-/* line 9, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-nav a.sidebar-nav-item:hover, .definitions dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:focus, .definitions dl dt .permalink:focus {
-  text-decoration: underline;
-}
-
-/* line 13, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-alphabet li a, .definitions dl dt .title {
-  text-decoration: none;
-}
-/* line 15, ../_sass/mixins/_link.sass */
-.sidebar .sidebar-alphabet li a:hover, .definitions dl dt .title:hover, .sidebar .sidebar-alphabet li a:focus, .definitions dl dt .title:focus {
-  text-decoration: none;
-}
-
 /* Sidebar
  *
  * Flexible banner for housing site name, intro, and "footer" content. Starts
@@ -34,7 +141,7 @@
 /* line 8, ../_sass/includes/_sidebar.sass */
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1.26563rem 1.125rem;
   color: rgba(255, 255, 255, 0.5);
   background-color: #202020;
 }
@@ -62,45 +169,54 @@
 .sidebar a {
   color: white;
 }
-/* line 33, ../_sass/includes/_sidebar.sass */
+/* line 34, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-about h1 {
   color: white;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 3.24732rem;
 }
-/* line 41, ../_sass/includes/_sidebar.sass */
+/* line 42, ../_sass/includes/_sidebar.sass */
+.sidebar .sidebar-about .lead {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+/* line 47, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav {
   padding-left: 0;
   list-style: none;
 }
-/* line 45, ../_sass/includes/_sidebar.sass */
+/* line 51, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item {
   display: block;
 }
-/* line 48, ../_sass/includes/_sidebar.sass */
+/* line 54, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-nav .sidebar-nav-item.active {
   font-weight: bold;
 }
-/* line 55, ../_sass/includes/_sidebar.sass */
+/* line 61, ../_sass/includes/_sidebar.sass */
 .sidebar #search {
   width: 100%;
-  padding: 5px;
-  margin: 5px 0;
+  padding: 1rem;
+  border-radius: 3px;
+  margin: 0;
+  border: 0;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
 }
-/* line 61, ../_sass/includes/_sidebar.sass */
+/* line 71, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-/* line 67, ../_sass/includes/_sidebar.sass */
+/* line 77, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li {
   list-style: none;
-  flex: 1 0 3rem;
+  flex: 1 0 3.24732rem;
 }
-/* line 71, ../_sass/includes/_sidebar.sass */
+/* line 81, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a {
   display: block;
   text-align: center;
@@ -108,17 +224,7 @@
   margin: 2px;
   border-radius: 3px;
 }
-/* line 78, ../_sass/includes/_sidebar.sass */
+/* line 88, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a:hover, .sidebar .sidebar-alphabet li a:focus {
   background: #838383;
-}
-
-/* line 5, ../_sass/pages/_definitions.sass */
-.definitions dl dt {
-  position: relative;
-}
-/* line 11, ../_sass/pages/_definitions.sass */
-.definitions dl dt .permalink {
-  position: absolute;
-  right: 103%;
 }

@@ -11,7 +11,7 @@ title: Home
         {% for definition in section.definitions %}
             {% if definition.title %}
             <dt data-slug="{{ definition.slug }}">
-                <a class="permalink" href="/#{{ definition.slug }}">#</a>
+                <a class="permalink" title="Permalink to '{{ definition.title }}'" href="/#{{ definition.slug }}">#</a>
                 <a class="title" name="{{ definition.slug }}">{{ definition.title }}</a>
             </dt>
             {% endif %}
