@@ -185,25 +185,31 @@
         grunt.registerTask(
             'build',
             'Recompiles the sass, js, and rebuilds Jekyll',
-            ['compass', 'concat:js', 'jekyll']
+            function() {
+                grunt.task.run(['compass', 'concat:js', 'jekyll']);
+            }
         );
 
 
         grunt.registerTask(
             'serve',
             'Start a web server on port 4000, and rebuild after changes',
-            ['build', 'connect', 'watch']
+            function() {
+                grunt.task.run(['build', 'connect', 'watch']);
+            }
         );
 
         grunt.registerTask(
             'scrape',
             'Scrape the Guardian style guide',
-            [
-                'scrapePages',
-                'concat:definitions',
-                'cleanup',
-                'jekyll'
-            ]
+            function() {
+                grunt.task.run([
+                    'scrapePages',
+                    'concat:definitions',
+                    'cleanup',
+                    'jekyll'
+                ]);
+            }
         );
 
     };

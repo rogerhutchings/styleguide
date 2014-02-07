@@ -11,9 +11,25 @@ html
         font-size: $font-size-2
 
 
-// Used for section titles
+body
+    @include experimental(text-size-adjust, 100%)
+    color: $grey
+
+
+a
+    @extend %link
+    color: $blue
+    text-decoration: none
+
+
+h1, h2,
+    margin-bottom: .5rem
+    text-rendering: optimizeLegibility
+
+
 h2
     @extend %font-heading
+    margin-top: 1rem
     font:
         size: ms(10)
     border:
@@ -60,3 +76,12 @@ dl
     dd
         margin: 0
             left: ms(12)
+
+
+p
+    margin: 0
+        bottom: 1rem
+
+
+strong
+    color: $dark-grey
