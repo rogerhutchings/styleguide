@@ -40,13 +40,22 @@ dl
             @extend %link-none
 
         .permalink
-            @extend %link-reverse
+            @extend %link-none
             margin:
                 right: ms(1)
             padding: 0.2rem 0.5rem
             background: whitesmoke
             border-radius: 3px
             display: inline-block
+            @include opacity(0.2)
+            @include transition(opacity 0.1s linear)
+            &:hover
+                color: $light-grey
+                background: $blue
+        &.hover
+            .permalink
+                @include opacity(1)
+
 
     dd
         margin: 0

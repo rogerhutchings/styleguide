@@ -1,8 +1,8 @@
 (function() { 'use strict';
 
     // NPM dependencies
-    var request = require('request');
     var _ = require('lodash');
+    var request = require('request');
     var YAML = require('yamljs');
     var cheerio = require('cheerio');
     var slug = require('slug');

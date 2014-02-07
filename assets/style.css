@@ -1,18 +1,18 @@
 /* line 7, ../_sass/mixins/_link.sass */
-dl dt .permalink, .sidebar .sidebar-nav a.sidebar-nav-item {
+.sidebar .sidebar-nav a.sidebar-nav-item {
   text-decoration: none;
 }
 /* line 9, ../_sass/mixins/_link.sass */
-dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:hover, dl dt .permalink:focus, .sidebar .sidebar-nav a.sidebar-nav-item:focus {
+.sidebar .sidebar-nav a.sidebar-nav-item:hover, .sidebar .sidebar-nav a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 
 /* line 13, ../_sass/mixins/_link.sass */
-h2 a, dl dt .title, .sidebar .sidebar-alphabet li a {
+h2 a, dl dt .title, dl dt .permalink, .sidebar .sidebar-alphabet li a {
   text-decoration: none;
 }
 /* line 15, ../_sass/mixins/_link.sass */
-h2 a:hover, dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, h2 a:focus, dl dt .title:focus, .sidebar .sidebar-alphabet li a:focus {
+h2 a:hover, dl dt .title:hover, dl dt .permalink:hover, .sidebar .sidebar-alphabet li a:hover, h2 a:focus, dl dt .title:focus, dl dt .permalink:focus, .sidebar .sidebar-alphabet li a:focus {
   text-decoration: none;
 }
 
@@ -100,8 +100,24 @@ dl dt .permalink {
   background: whitesmoke;
   border-radius: 3px;
   display: inline-block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2;
+  -webkit-transition: opacity 0.1s linear;
+  -moz-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
 }
-/* line 51, ../_sass/globals/_typography.sass */
+/* line 52, ../_sass/globals/_typography.sass */
+dl dt .permalink:hover {
+  color: whitesmoke;
+  background: #268bd2;
+}
+/* line 56, ../_sass/globals/_typography.sass */
+dl dt.hover .permalink {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 60, ../_sass/globals/_typography.sass */
 dl dd {
   margin: 0;
   margin-left: 4.10989rem;
