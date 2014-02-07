@@ -8,11 +8,11 @@ dl dt .permalink:hover, .sidebar .sidebar-nav a.sidebar-nav-item:hover, dl dt .p
 }
 
 /* line 13, ../_sass/mixins/_link.sass */
-dl dt .title, .sidebar .sidebar-alphabet li a {
+h2 a, dl dt .title, .sidebar .sidebar-alphabet li a {
   text-decoration: none;
 }
 /* line 15, ../_sass/mixins/_link.sass */
-dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, dl dt .title:focus, .sidebar .sidebar-alphabet li a:focus {
+h2 a:hover, dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, h2 a:focus, dl dt .title:focus, .sidebar .sidebar-alphabet li a:focus {
   text-decoration: none;
 }
 
@@ -50,6 +50,7 @@ dl dt .title:hover, .sidebar .sidebar-alphabet li a:hover, dl dt .title:focus, .
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   line-height: 1.4;
+  color: #202020;
 }
 @media (min-width: 48rem) {
   /* line 1, ../_sass/globals/_typography.sass */
@@ -64,31 +65,40 @@ html {
   }
 }
 
-/* line 13, ../_sass/globals/_typography.sass */
+/* line 14, ../_sass/globals/_typography.sass */
 h2 {
-  font-size: 2.56578rem;
-  margin-left: 1.125rem;
+  font-size: 3.24732rem;
+  font-family: "Abril Fatface", serif;
+  border-bottom: 1px solid #838383;
+}
+/* line 21, ../_sass/globals/_typography.sass */
+h2 a {
+  color: #505050;
 }
 
-/* line 18, ../_sass/globals/_typography.sass */
+/* line 26, ../_sass/globals/_typography.sass */
 dl {
   margin-top: 0;
   margin-bottom: 1.125rem;
 }
-/* line 23, ../_sass/globals/_typography.sass */
+/* line 31, ../_sass/globals/_typography.sass */
 dl dt {
   position: relative;
   font-weight: bold;
   margin-top: 1.26563rem;
 }
-/* line 34, ../_sass/globals/_typography.sass */
+/* line 41, ../_sass/globals/_typography.sass */
 dl dt .permalink {
   margin-right: 1.125rem;
+  padding: 0.2rem 0.5rem;
+  background: whitesmoke;
+  border-radius: 3px;
+  display: inline-block;
 }
-/* line 39, ../_sass/globals/_typography.sass */
+/* line 50, ../_sass/globals/_typography.sass */
 dl dd {
   margin: 0;
-  margin-left: 1.26563rem;
+  margin-left: 4.10989rem;
 }
 
 /* line 1, ../_sass/globals/_livesearch.sass */
@@ -166,23 +176,26 @@ dl dd {
 /* line 61, ../_sass/includes/_sidebar.sass */
 .sidebar #search {
   width: 100%;
-  padding: 1.06066rem;
+  padding: 1rem;
+  border-radius: 3px;
   margin: 0;
   border: 0;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
 }
-/* line 67, ../_sass/includes/_sidebar.sass */
+/* line 71, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-/* line 73, ../_sass/includes/_sidebar.sass */
+/* line 77, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li {
   list-style: none;
   flex: 1 0 3.24732rem;
 }
-/* line 77, ../_sass/includes/_sidebar.sass */
+/* line 81, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a {
   display: block;
   text-align: center;
@@ -190,7 +203,7 @@ dl dd {
   margin: 2px;
   border-radius: 3px;
 }
-/* line 84, ../_sass/includes/_sidebar.sass */
+/* line 88, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a:hover, .sidebar .sidebar-alphabet li a:focus {
   background: #838383;
 }
