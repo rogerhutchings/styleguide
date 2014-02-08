@@ -13,6 +13,17 @@
         // Load dependencies
         require('time-grunt')(grunt);
 
+        // grunt.loadnpmtasks shorthand
+        var lnpm = function (inputTasks) {
+            if (_.isString(inputTasks)) {
+                inputTasks = [inputTasks];
+            }
+            inputTasks.forEach(function(task) {
+                grunt.loadNpmTasks(task);
+            });
+        };
+
+
         // Project configuration
         grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
@@ -190,10 +201,7 @@
             'build',
             'Compile the sass, js, and rebuilds Jekyll',
             function() {
-                grunt.loadNpmTasks('grunt-contrib-concat');
-                grunt.loadNpmTasks('grunt-contrib-compass');
-                grunt.loadNpmTasks('grunt-jekyll');
-                grunt.loadNpmTasks('grunt-contrib-uglify');
+                lnpm(['grunt-contrib-concat', 'grunt-contrib-compass', 'grunt-jekyll', 'grunt-contrib-uglify']);
                 grunt.task.run(['compass', 'concat:js', 'uglify', 'jekyll']);
             }
         );
@@ -203,9 +211,7 @@
             'serve',
             'Build the site, start a server on port 4000, and watch for changes',
             function() {
-                grunt.loadNpmTasks('grunt-contrib-connect');
-                grunt.loadNpmTasks('grunt-contrib-watch');
-                grunt.loadNpmTasks('grunt-contrib-copy');
+                lnpm(['grunt-contrib-connect', 'grunt-contrib-watch', 'grunt-contrib-copy']);
                 grunt.task.run(['build', 'connect', 'watch']);
             }
         );
@@ -214,8 +220,7 @@
             'scrape',
             'Scrape the Guardian style guide',
             function() {
-                grunt.loadNpmTasks('grunt-contrib-concat');
-                grunt.loadNpmTasks('grunt-jekyll');
+                lnpm(['grunt-contrib-concat', 'grunt-jekyll']);
                 grunt.task.run([
                     'scrapePages',
                     'concat:definitions',
