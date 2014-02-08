@@ -11,6 +11,7 @@
     module.exports = function(grunt) {
 
         // Load dependencies
+        require('time-grunt')(grunt);
         grunt.loadNpmTasks('grunt-contrib-watch');
         grunt.loadNpmTasks('grunt-contrib-compass');
         grunt.loadNpmTasks('grunt-jekyll');
