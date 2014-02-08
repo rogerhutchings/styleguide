@@ -12,17 +12,12 @@
 
         // Load dependencies
         require('time-grunt')(grunt);
-
-        // grunt.loadnpmtasks shorthand
-        var lnpm = function (inputTasks) {
-            if (_.isString(inputTasks)) {
-                inputTasks = [inputTasks];
-            }
-            inputTasks.forEach(function(task) {
-                grunt.loadNpmTasks(task);
-            });
-        };
-
+        grunt.loadNpmTasks('grunt-contrib-watch');
+        grunt.loadNpmTasks('grunt-contrib-compass');
+        grunt.loadNpmTasks('grunt-jekyll');
+        grunt.loadNpmTasks('grunt-contrib-connect');
+        grunt.loadNpmTasks('grunt-contrib-concat');
+        grunt.loadNpmTasks('grunt-contrib-copy');
 
         // Project configuration
         grunt.initConfig({
@@ -55,7 +50,7 @@
                 },
                 js: {
                     files: ['_js/**/*.js'],
-                    tasks: ['concat:js', 'uglify', 'copy:assets']
+                    tasks: ['concat:js', 'copy:assets']
                 }
             },
 
@@ -75,7 +70,7 @@
                 },
                 js: {
                     src: ['_js/jquery-1.11.0.min.js', '_js/**/*.js'],
-                    dest: 'assets/_app.js'
+                    dest: 'assets/app.js'
                 }
             },
 
@@ -83,14 +78,6 @@
                 assets: {
                     src: ['assets/*'],
                     dest: '_site/'
-                }
-            },
-
-            uglify: {
-                dist: {
-                    files: {
-                        'assets/app.min.js': ['assets/_app.js']
-                    }
                 }
             }
 
@@ -123,8 +110,7 @@
 
                 var slugOptions = {
                     charmap: _.extend(slug.charmap, {
-                        "'": null,
-                        '*': 'star'
+                        "'": null
                     })
                 };
 
@@ -199,19 +185,17 @@
 
         grunt.registerTask(
             'build',
-            'Compile the sass, js, and rebuilds Jekyll',
+            'Recompiles the sass, js, and rebuilds Jekyll',
             function() {
-                lnpm(['grunt-contrib-concat', 'grunt-contrib-compass', 'grunt-jekyll', 'grunt-contrib-uglify']);
-                grunt.task.run(['compass', 'concat:js', 'uglify', 'jekyll']);
+                grunt.task.run(['compass', 'concat:js', 'jekyll']);
             }
         );
 
 
         grunt.registerTask(
             'serve',
-            'Build the site, start a server on port 4000, and watch for changes',
+            'Start a web server on port 4000, and rebuild after changes',
             function() {
-                lnpm(['grunt-contrib-connect', 'grunt-contrib-watch', 'grunt-contrib-copy']);
                 grunt.task.run(['build', 'connect', 'watch']);
             }
         );
@@ -220,7 +204,6 @@
             'scrape',
             'Scrape the Guardian style guide',
             function() {
-                lnpm(['grunt-contrib-concat', 'grunt-jekyll']);
                 grunt.task.run([
                     'scrapePages',
                     'concat:definitions',
