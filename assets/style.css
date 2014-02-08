@@ -48,7 +48,7 @@ body {
   background: white;
 }
 
-/* line 4, ../_sass/globals/_fonts.sass */
+/* line 3, ../_sass/globals/_fonts.sass */
 h2, .sidebar .sidebar-about h1 {
   -webkit-font-smoothing: antialiased;
   font-family: "Abril Fatface", serif;
@@ -63,13 +63,13 @@ h2, .sidebar .sidebar-about h1 {
   margin-right: auto;
 }
 
-/* line 17, ../_sass/globals/_layout.sass */
+/* line 16, ../_sass/globals/_layout.sass */
 .content {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 @media (min-width: 48rem) {
-  /* line 17, ../_sass/globals/_layout.sass */
+  /* line 16, ../_sass/globals/_layout.sass */
   .content {
     max-width: 38rem;
     margin-left: 20rem;
@@ -77,7 +77,7 @@ h2, .sidebar .sidebar-about h1 {
   }
 }
 @media (min-width: 64rem) {
-  /* line 17, ../_sass/globals/_layout.sass */
+  /* line 16, ../_sass/globals/_layout.sass */
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
