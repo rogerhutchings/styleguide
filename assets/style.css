@@ -266,23 +266,24 @@ strong {
   padding: 1rem;
   border-radius: 3px;
   margin: 0;
+  margin-bottom: 1rem;
   border: 0;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
-/* line 71, ../_sass/includes/_sidebar.sass */
+/* line 72, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-/* line 77, ../_sass/includes/_sidebar.sass */
+/* line 78, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li {
   list-style: none;
   flex: 1 0 3.24732rem;
 }
-/* line 81, ../_sass/includes/_sidebar.sass */
+/* line 82, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a {
   display: block;
   text-align: center;
@@ -290,7 +291,7 @@ strong {
   margin: 2px;
   border-radius: 3px;
 }
-/* line 88, ../_sass/includes/_sidebar.sass */
+/* line 89, ../_sass/includes/_sidebar.sass */
 .sidebar .sidebar-alphabet li a:hover, .sidebar .sidebar-alphabet li a:focus {
   background: #838383;
 }
