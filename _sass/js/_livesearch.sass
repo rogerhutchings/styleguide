@@ -1,3 +1,10 @@
 .js-hide
     display: none
 
+
+.sidebar-alphabet a
+    @include experimental(transition, opacity 0.07s linear)
+
+    &.js-disabled
+        @include opacity(0.2)
+        cursor: default
