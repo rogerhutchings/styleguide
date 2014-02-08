@@ -178,12 +178,16 @@ strong {
   color: #202020;
 }
 
-/* line 1, ../_sass/js/_livesearch.sass */
-.js-hide {
+/* line 2, ../_sass/js/_livesearch.sass */
+.js-search-results h2, .js-search-results dt, .js-search-results dd {
   display: none;
 }
-
 /* line 5, ../_sass/js/_livesearch.sass */
+.js-search-results .js-show {
+  display: block;
+}
+
+/* line 9, ../_sass/js/_livesearch.sass */
 .sidebar-alphabet a {
   -webkit-transition: opacity 0.07s linear;
   -moz-transition: opacity 0.07s linear;
@@ -191,7 +195,7 @@ strong {
   -o-transition: opacity 0.07s linear;
   transition: opacity 0.07s linear;
 }
-/* line 8, ../_sass/js/_livesearch.sass */
+/* line 12, ../_sass/js/_livesearch.sass */
 .sidebar-alphabet a.js-disabled {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;

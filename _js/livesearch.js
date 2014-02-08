@@ -2,13 +2,15 @@ jQuery(document).ready(function ($) {
 
     'use strict';
 
-    var hideClass = 'js-hide';
+    var searchClass = 'js-search-results';
+    var showClass = 'js-show';
     var disabledClass = 'js-disabled';
 
     // Save selectors
     var searchElements = $('.definitions').find('dt, dd');
     var sectionTitles = $('h2');
     var sidebarNav = $('.sidebar-alphabet').find('a');
+    var definitionsContainer = $('.definitions');
 
     var sections = [];
     for (var i = 97; i <= 122; i++) {
@@ -30,9 +32,9 @@ jQuery(document).ready(function ($) {
 
         // If there's nothing, show everything!
         if (searchTerm === '') {
-            searchElements.removeClass(hideClass);
-            sectionTitles.removeClass(hideClass);
-            updateNav();
+            definitionsContainer.removeClass(searchClass);
+            $('.' + showClass).removeClass(showClass);
+            resetNav();
             return;
         }
 
@@ -47,13 +49,13 @@ jQuery(document).ready(function ($) {
         slugs = jQuery.unique(slugs);
 
         // Hide everything to start with, then show the matches
-        searchElements.addClass(hideClass);
-        sectionTitles.addClass(hideClass);
+        definitionsContainer.addClass(searchClass);
+
         $.each(slugs, function(index, slug) {
             var matches = searchElements.filter("[data-slug=" + slug + "]");
-            matches.removeClass(hideClass);
+            matches.addClass(showClass);
             // Remove hide class from section title
-            matches.parent().prev().removeClass(hideClass);
+            matches.parent().prev().addClass(showClass);
         });
 
         // Update the nav
@@ -61,19 +63,22 @@ jQuery(document).ready(function ($) {
 
     };
 
-    var updateNav = function() {
-
-        // Reset behaviour
+    var resetNav = function () {
         sidebarNav.removeClass(disabledClass);
         sidebarNav.off('click').on('click', function (e) {
             return true;
         });
+    };
+
+    var updateNav = function () {
+
+        resetNav();
 
         // Add disabled class
-        var disabledSections = sectionTitles.filter('.' + hideClass).map(function () {
+        var disabledSections = sectionTitles.not('.' + showClass).map(function () {
             return '[href="#' + $(this).children('a').attr('name') + '"]';
-        }).get().join();
-        sidebarNav.filter(disabledSections).addClass(disabledClass);
+        }).get();
+        sidebarNav.filter(disabledSections.join()).addClass(disabledClass);
 
         // Disable links
         sidebarNav.filter('.' + disabledClass).off('click').on('click', function (e) {
