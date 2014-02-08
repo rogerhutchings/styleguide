@@ -5,11 +5,13 @@
 
 jQuery(document).ready(function ($) {
 
-    // // Apply a hover class to dl items with a matching data-slug attribute
+    'use strict';
+
+    // Apply a hover class to dl items with a matching data-slug attribute
     var definitions = $('dt, dd');
 
         definitions.mouseenter(function () {
-            $(this).parent().children('[data-slug="' + $(this).data('slug') + '"]').addClass('hover');
+            $(this).parent().children('[data-slug="' + $(this).data('slug') + '"]').addClass('js-hover');
         })
         .mouseleave(function () {
             // Remove from all to prevent any weird edge cases
@@ -20,6 +22,10 @@ jQuery(document).ready(function ($) {
 });
 
 jQuery(document).ready(function ($) {
+
+    'use strict';
+
+    var hideClass = 'js-hide';
 
     // Save selectors
     var searchElements = $('.definitions').find('dt, dd');
@@ -40,8 +46,8 @@ jQuery(document).ready(function ($) {
 
         // If there's nothing, show everything!
         if (searchTerm === '') {
-            searchElements.removeClass('hide');
-            sectionTitles.removeClass('hide');
+            searchElements.removeClass(hideClass);
+            sectionTitles.removeClass(hideClass);
             return;
         }
 
@@ -56,12 +62,12 @@ jQuery(document).ready(function ($) {
         slugs = jQuery.unique(slugs);
 
         // Hide everything to start with, then show the matches
-        searchElements.addClass('hide');
-        sectionTitles.addClass('hide');
+        searchElements.addClass(hideClass);
+        sectionTitles.addClass(hideClass);
         $.each(slugs, function(index, slug) {
             var matches = searchElements.filter("[data-slug=" + slug + "]");
-            matches.removeClass('hide');
-            matches.parent().prev().removeClass('hide');
+            matches.removeClass(hideClass);
+            matches.parent().prev().removeClass(hideClass);
         });
 
     };

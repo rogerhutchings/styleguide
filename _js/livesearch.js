@@ -1,5 +1,9 @@
 jQuery(document).ready(function ($) {
 
+    'use strict';
+
+    var hideClass = 'js-hide';
+
     // Save selectors
     var searchElements = $('.definitions').find('dt, dd');
     var sectionTitles = $('h2');
@@ -19,8 +23,8 @@ jQuery(document).ready(function ($) {
 
         // If there's nothing, show everything!
         if (searchTerm === '') {
-            searchElements.removeClass('hide');
-            sectionTitles.removeClass('hide');
+            searchElements.removeClass(hideClass);
+            sectionTitles.removeClass(hideClass);
             return;
         }
 
@@ -35,12 +39,12 @@ jQuery(document).ready(function ($) {
         slugs = jQuery.unique(slugs);
 
         // Hide everything to start with, then show the matches
-        searchElements.addClass('hide');
-        sectionTitles.addClass('hide');
+        searchElements.addClass(hideClass);
+        sectionTitles.addClass(hideClass);
         $.each(slugs, function(index, slug) {
             var matches = searchElements.filter("[data-slug=" + slug + "]");
-            matches.removeClass('hide');
-            matches.parent().prev().removeClass('hide');
+            matches.removeClass(hideClass);
+            matches.parent().prev().removeClass(hideClass);
         });
 
     };

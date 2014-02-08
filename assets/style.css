@@ -179,13 +179,8 @@ strong {
 }
 
 /* line 1, ../_sass/js/_livesearch.sass */
-.hide {
+.js-hide {
   display: none;
-}
-
-/* line 4, ../_sass/js/_livesearch.sass */
-.highlight {
-  background: yellow;
 }
 
 /* line 3, ../_sass/js/_hover.sass */
@@ -198,7 +193,7 @@ dl dt .permalink {
   transition: opacity 0.1s linear;
 }
 /* line 8, ../_sass/js/_hover.sass */
-dl dt.hover .permalink {
+dl dt.js-hover .permalink {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
