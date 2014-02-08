@@ -123,32 +123,31 @@ a {
 /* line 25, ../_sass/globals/_typography.sass */
 h1, h2 {
   margin-bottom: 0.5rem;
-  text-rendering: optimizeLegibility;
 }
 
-/* line 30, ../_sass/globals/_typography.sass */
+/* line 29, ../_sass/globals/_typography.sass */
 h2 {
   margin-top: 1rem;
   font-size: 3.24732rem;
   border-bottom: 1px solid #838383;
 }
-/* line 38, ../_sass/globals/_typography.sass */
+/* line 37, ../_sass/globals/_typography.sass */
 h2 a {
   color: #505050;
 }
 
-/* line 43, ../_sass/globals/_typography.sass */
+/* line 42, ../_sass/globals/_typography.sass */
 dl {
   margin-top: 0;
   margin-bottom: 1.125rem;
 }
-/* line 48, ../_sass/globals/_typography.sass */
+/* line 47, ../_sass/globals/_typography.sass */
 dl dt {
   position: relative;
   font-weight: bold;
   margin-top: 1.26563rem;
 }
-/* line 58, ../_sass/globals/_typography.sass */
+/* line 57, ../_sass/globals/_typography.sass */
 dl dt .permalink {
   margin-right: 1.125rem;
   padding: 0.2rem 0.5rem;
@@ -156,24 +155,24 @@ dl dt .permalink {
   border-radius: 3px;
   display: inline-block;
 }
-/* line 66, ../_sass/globals/_typography.sass */
+/* line 65, ../_sass/globals/_typography.sass */
 dl dt .permalink:hover {
   color: whitesmoke;
   background: #268bd2;
 }
-/* line 71, ../_sass/globals/_typography.sass */
+/* line 70, ../_sass/globals/_typography.sass */
 dl dd {
   margin: 0;
   margin-left: 4.10989rem;
 }
 
-/* line 76, ../_sass/globals/_typography.sass */
+/* line 75, ../_sass/globals/_typography.sass */
 p {
   margin: 0;
   margin-bottom: 1rem;
 }
 
-/* line 81, ../_sass/globals/_typography.sass */
+/* line 80, ../_sass/globals/_typography.sass */
 strong {
   color: #202020;
 }
