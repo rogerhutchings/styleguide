@@ -163,16 +163,17 @@ dl dt .permalink:hover {
 /* line 70, ../_sass/globals/_typography.sass */
 dl dd {
   margin: 0;
-  margin-left: 4.10989rem;
+  padding: 0;
+  padding-left: 4.10989rem;
 }
 
-/* line 75, ../_sass/globals/_typography.sass */
+/* line 76, ../_sass/globals/_typography.sass */
 p {
   margin: 0;
   margin-bottom: 1rem;
 }
 
-/* line 80, ../_sass/globals/_typography.sass */
+/* line 81, ../_sass/globals/_typography.sass */
 strong {
   color: #202020;
 }
