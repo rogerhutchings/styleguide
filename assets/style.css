@@ -155,6 +155,41 @@ dl dt .permalink {
   background: whitesmoke;
   border-radius: 3px;
   display: inline-block;
+}
+/* line 66, ../_sass/globals/_typography.sass */
+dl dt .permalink:hover {
+  color: whitesmoke;
+  background: #268bd2;
+}
+/* line 71, ../_sass/globals/_typography.sass */
+dl dd {
+  margin: 0;
+  margin-left: 4.10989rem;
+}
+
+/* line 76, ../_sass/globals/_typography.sass */
+p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 81, ../_sass/globals/_typography.sass */
+strong {
+  color: #202020;
+}
+
+/* line 1, ../_sass/js/_livesearch.sass */
+.hide {
+  display: none;
+}
+
+/* line 4, ../_sass/js/_livesearch.sass */
+.highlight {
+  background: yellow;
+}
+
+/* line 3, ../_sass/js/_hover.sass */
+dl dt .permalink {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;
   -webkit-transition: opacity 0.1s linear;
@@ -162,41 +197,10 @@ dl dt .permalink {
   -o-transition: opacity 0.1s linear;
   transition: opacity 0.1s linear;
 }
-/* line 68, ../_sass/globals/_typography.sass */
-dl dt .permalink:hover {
-  color: whitesmoke;
-  background: #268bd2;
-}
-/* line 72, ../_sass/globals/_typography.sass */
+/* line 8, ../_sass/js/_hover.sass */
 dl dt.hover .permalink {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-}
-/* line 76, ../_sass/globals/_typography.sass */
-dl dd {
-  margin: 0;
-  margin-left: 4.10989rem;
-}
-
-/* line 81, ../_sass/globals/_typography.sass */
-p {
-  margin: 0;
-  margin-bottom: 1rem;
-}
-
-/* line 86, ../_sass/globals/_typography.sass */
-strong {
-  color: #202020;
-}
-
-/* line 1, ../_sass/globals/_livesearch.sass */
-.hide {
-  display: none;
-}
-
-/* line 4, ../_sass/globals/_livesearch.sass */
-.highlight {
-  background: yellow;
 }
 
 /* Sidebar
