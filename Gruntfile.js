@@ -12,12 +12,6 @@
 
         // Load dependencies
         require('time-grunt')(grunt);
-        grunt.loadNpmTasks('grunt-contrib-watch');
-        grunt.loadNpmTasks('grunt-contrib-compass');
-        grunt.loadNpmTasks('grunt-jekyll');
-        grunt.loadNpmTasks('grunt-contrib-connect');
-        grunt.loadNpmTasks('grunt-contrib-concat');
-        grunt.loadNpmTasks('grunt-contrib-copy');
 
         // Project configuration
         grunt.initConfig({
@@ -50,7 +44,7 @@
                 },
                 js: {
                     files: ['_js/**/*.js'],
-                    tasks: ['concat:js', 'copy:assets']
+                    tasks: ['concat:js', 'uglify', 'copy:assets']
                 }
             },
 
@@ -70,7 +64,7 @@
                 },
                 js: {
                     src: ['_js/jquery-1.11.0.min.js', '_js/**/*.js'],
-                    dest: 'assets/app.js'
+                    dest: 'assets/_app.js'
                 }
             },
 
@@ -78,6 +72,14 @@
                 assets: {
                     src: ['assets/*'],
                     dest: '_site/'
+                }
+            },
+
+            uglify: {
+                dist: {
+                    files: {
+                        'assets/app.min.js': ['assets/_app.js']
+                    }
                 }
             }
 
@@ -110,7 +112,8 @@
 
                 var slugOptions = {
                     charmap: _.extend(slug.charmap, {
-                        "'": null
+                        "'": null,
+                        '*': 'star'
                     })
                 };
 
@@ -185,17 +188,24 @@
 
         grunt.registerTask(
             'build',
-            'Recompiles the sass, js, and rebuilds Jekyll',
+            'Compile the sass, js, and rebuilds Jekyll',
             function() {
-                grunt.task.run(['compass', 'concat:js', 'jekyll']);
+                grunt.loadNpmTasks('grunt-contrib-concat');
+                grunt.loadNpmTasks('grunt-contrib-compass');
+                grunt.loadNpmTasks('grunt-jekyll');
+                grunt.loadNpmTasks('grunt-contrib-uglify');
+                grunt.task.run(['compass', 'concat:js', 'uglify', 'jekyll']);
             }
         );
 
 
         grunt.registerTask(
             'serve',
-            'Start a web server on port 4000, and rebuild after changes',
+            'Build the site, start a server on port 4000, and watch for changes',
             function() {
+                grunt.loadNpmTasks('grunt-contrib-connect');
+                grunt.loadNpmTasks('grunt-contrib-watch');
+                grunt.loadNpmTasks('grunt-contrib-copy');
                 grunt.task.run(['build', 'connect', 'watch']);
             }
         );
@@ -204,6 +214,8 @@
             'scrape',
             'Scrape the Guardian style guide',
             function() {
+                grunt.loadNpmTasks('grunt-contrib-concat');
+                grunt.loadNpmTasks('grunt-jekyll');
                 grunt.task.run([
                     'scrapePages',
                     'concat:definitions',

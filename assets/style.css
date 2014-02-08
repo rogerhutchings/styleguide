@@ -183,17 +183,13 @@ strong {
   display: none;
 }
 
-/* line 3, ../_sass/js/_hover.sass */
-dl dt .permalink {
+/* line 1, ../_sass/js/_hover.sass */
+.permalink {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;
-  -webkit-transition: opacity 0.1s linear;
-  -moz-transition: opacity 0.1s linear;
-  -o-transition: opacity 0.1s linear;
-  transition: opacity 0.1s linear;
 }
-/* line 8, ../_sass/js/_hover.sass */
-dl dt.js-hover .permalink {
+/* line 5, ../_sass/js/_hover.sass */
+.js-hover .permalink {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }

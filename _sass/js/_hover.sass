@@ -1,9 +1,6 @@
-dl
-    dt
-        .permalink
-            @include opacity(0.2)
-            @include transition(opacity 0.1s linear)
+.permalink
+    @include opacity(0.2)
+    // @include transition(opacity 0.05s linear)
 
-        &.js-hover
-            .permalink
-                @include opacity(1)
+    .js-hover &
+        @include opacity(1)
