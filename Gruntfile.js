@@ -91,7 +91,8 @@
 
                 // Generate the alphabet
                 var letters = [];
-                for (var i = 97; i <= 122; i++) {
+                // for (var i = 97; i <= 122; i++) {
+                for (var i = 97; i <= 98; i++) {
                     letters[letters.length] = String.fromCharCode(i);
                 }
 
@@ -110,7 +111,9 @@
 
                 var slugOptions = {
                     charmap: _.extend(slug.charmap, {
-                        "'": null
+                        "'": null,
+                        "&": " and "
+
                     })
                 };
 
@@ -130,14 +133,21 @@
                         var $ = cheerio.load(body);
                         var definitions = [];
                         $('#content').find('li.normal').each(function() {
+
                             var title = $(this).find('h3').text().trim();
+
+                            var processedText = $(this).find('.trailtext').html().trim();
+
+
+
+
 
                             // Have to use string because slug doesn't correctly
                             // strip punctuation :/
                             definitions.push({
                                 title: _.escape(title),
                                 slug: slug(S(title).stripPunctuation().s).toLowerCase(),
-                                text: _.escape($(this).find('.trailtext').text().trim())
+                                text: processedText
                             });
                         });
                         grunt.log.ok();
