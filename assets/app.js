@@ -7,19 +7,24 @@ jQuery(document).ready(function ($) {
 
     'use strict';
 
+    // Adds a hover class to all elements sharing the same data slug, so the
+    // permalink icon appears no matter which bit of a definition is being
+    // hovered over.
+
+    // Starting variables and cached selectors
     var hoverClass = 'js-hover';
 
-    // Apply a hover class to dl items with a matching data-slug attribute
-    var definitions = $('dt, dd');
+    var definitions = $('.definitions').find('dt, dd');
 
-        definitions.mouseenter(function () {
-            $(this).parent().children('[data-slug="' + $(this).data('slug') + '"]').addClass(hoverClass);
-        })
-        .mouseleave(function () {
-            // Remove from all to prevent any weird edge cases
-            definitions.removeClass(hoverClass);
-        });
 
+
+    definitions.mouseenter(function () {
+        $(this).parent().children('[data-slug="' + $(this).data('slug') + '"]').addClass(hoverClass);
+    })
+    .mouseleave(function () {
+        // Remove from all to prevent any weird edge cases
+        definitions.removeClass(hoverClass);
+    });
 
 });
 
@@ -27,20 +32,17 @@ jQuery(document).ready(function ($) {
 
     'use strict';
 
+    // Starting variables and cached selectors
     var searchClass = 'js-search-results';
     var showClass = 'js-show';
     var disabledClass = 'js-disabled';
 
-    // Save selectors
-    var searchElements = $('.definitions').find('dt, dd');
-    var sectionTitles = $('h2');
-    var sidebarNav = $('.sidebar-alphabet').find('a');
     var definitionsContainer = $('.definitions');
+    var searchElements = definitionsContainer.find('dt, dd');
+    var sectionTitles = definitionsContainer.find('h2');
+    var sidebarNav = $('.sidebar-alphabet').find('a');
 
-    var sections = [];
-    for (var i = 97; i <= 122; i++) {
-        sections[sections.length] = 'section-' + String.fromCharCode(i);
-    }
+
 
     // Add in a delay so it doesn't go mental on every keystroke
     // http://stackoverflow.com/questions/1909441/jquery-keyup-delay
@@ -52,13 +54,15 @@ jQuery(document).ready(function ($) {
         };
     })();
 
+
+
     // Search function
     var search = function (searchTerm) {
 
-        // If there's nothing, show everything!
+        // Show everything - an empty search implies that we reset everything
         if (searchTerm === '') {
             definitionsContainer.removeClass(searchClass);
-            $('.' + showClass).removeClass(showClass);
+            definitionsContainer.find('.' + showClass).removeClass(showClass);
             resetNav();
             return;
         }
@@ -73,7 +77,7 @@ jQuery(document).ready(function ($) {
         });
         slugs = jQuery.unique(slugs);
 
-        // Hide everything to start with, then show the matches
+        // Hide everything to start with with css, then override on the matches
         definitionsContainer.addClass(searchClass);
 
         $.each(slugs, function(index, slug) {
@@ -88,6 +92,8 @@ jQuery(document).ready(function ($) {
 
     };
 
+
+
     var resetNav = function () {
         sidebarNav.removeClass(disabledClass);
         sidebarNav.off('click').on('click', function (e) {
@@ -95,11 +101,13 @@ jQuery(document).ready(function ($) {
         });
     };
 
+
+
     var updateNav = function () {
 
         resetNav();
 
-        // Add disabled class
+        // Add disabled class to those sections without a match
         var disabledSections = sectionTitles.not('.' + showClass).map(function () {
             return '[href="#' + $(this).children('a').attr('name') + '"]';
         }).get();
@@ -111,6 +119,8 @@ jQuery(document).ready(function ($) {
             return false;
         });
     };
+
+
 
     // Using proxy to define context
     $("#search").keyup(function () {

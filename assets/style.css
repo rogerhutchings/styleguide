@@ -201,6 +201,10 @@ strong {
   opacity: 0.2;
   cursor: default;
 }
+/* line 15, ../_sass/js/_livesearch.sass */
+.sidebar-alphabet a.js-disabled:hover, .sidebar-alphabet a.js-disabled:focus {
+  background: #505050 !important;
+}
 
 /* line 1, ../_sass/js/_hover.sass */
 .permalink {
