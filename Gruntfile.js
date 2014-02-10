@@ -1,6 +1,6 @@
 (function() { 'use strict';
 
-    // NPM dependencies
+    // NPM dependencies --------------------------------------------------------
     var _ = require('lodash');
     var request = require('request');
     var YAML = require('yamljs');
@@ -8,18 +8,12 @@
     var slug = require('slug');
     var S = require('string');
     var fs = require('fs');
+    var moment = require('moment');
 
-    // Functions
-    function getFilesizeInBytes(filename) {
-        var stats = fs.statSync(filename);
-        var fileSizeInBytes = stats["size"];
-        return fileSizeInBytes;
-    }
-
-    // Main Grunt section
+    // Main Grunt section ------------------------------------------------------
     module.exports = function(grunt) {
 
-        // Load dependencies
+        // Load dependencies ---------------------------------------------------
         require('time-grunt')(grunt);
         grunt.loadNpmTasks('grunt-contrib-watch');
         grunt.loadNpmTasks('grunt-contrib-compass');
@@ -27,8 +21,24 @@
         grunt.loadNpmTasks('grunt-contrib-connect');
         grunt.loadNpmTasks('grunt-contrib-concat');
         grunt.loadNpmTasks('grunt-contrib-copy');
+        grunt.loadNpmTasks('grunt-git');
 
-        // Project configuration
+        // Helper functions ----------------------------------------------------
+        var getFilesizeInBytes = function (filename) {
+            var stats = fs.statSync(filename);
+            var fileSizeInBytes = stats.size;
+            return fileSizeInBytes;
+        };
+
+        var writeLastModified = function () {
+            grunt.log.write('Writing last modified file... ');
+            grunt.file.write(grunt.config.get('lastModifiedFile'), YAML.stringify({
+                date: moment().format('MMMM Do, YYYY')
+            }, 4, 4));
+            grunt.log.ok();
+        };
+
+        // Project configuration -----------------------------------------------
         grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
 
@@ -36,6 +46,10 @@
             rawdataDir: '_rawData',
             dataDir: '_data',
             siteDir: '_site',
+
+            tempRawDataFile: '<%= rawdataDir %>/temprawdata.yaml',
+            rawDataFile: '<%= rawdataDir %>/rawdata.yaml',
+            lastModifiedFile: '<%= dataDir %>/lastModified.yaml',
 
             compass: {
                 dist: {
@@ -78,7 +92,7 @@
             concat: {
                 tempRawData: {
                     src: ['<%= tempYAMLDir %>/*.yaml'],
-                    dest: '<%= rawdataDir %>/temprawdata.yaml',
+                    dest: '<%= tempRawDataFile %>',
                 },
                 js: {
                     src: ['_js/jquery-1.11.0.min.js', '_js/**/*.js'],
@@ -91,12 +105,23 @@
                     src: ['assets/*'],
                     dest: '<%= siteDir %>'
                 }
+            },
+
+            gitcommit: {
+                rawData: {
+                    options: {
+                        message: 'Raw definition data updated'
+                    },
+                    files: {
+                        src: ['<%= rawdataDir %>/*', '<%= dataDir %>/*']
+                    }
+                }
             }
 
         });
 
 
-
+        // Tasks ---------------------------------------------------------------
         grunt.registerTask(
             'scrapePages',
             'Runs the scrapePage task on every page of the Guardian style guide',
@@ -118,6 +143,7 @@
             'scrapePage',
             'Scrape an individual page of the Guardian style guide',
             function (letter) {
+
                 var filename = grunt.config.get('tempYAMLDir') + '/' + letter + '.yaml';
                 var url = 'http://www.theguardian.com/styleguide/' + letter;
 
@@ -165,22 +191,36 @@
         grunt.registerTask(
             'compareRawData',
             'Compare recently scraped data with current data',
-            function() {
+            function () {
 
-                var temp = grunt.config.get('rawdataDir') + '/temprawdata.yaml';
-                var current = grunt.config.get('rawdataDir') + '/rawdata.yaml';
+                var temp = grunt.config.get('tempRawDataFile');
+                var current = grunt.config.get('rawDataFile');
 
                 grunt.log.write('Comparing raw definition data... ');
 
-                if (getFilesizeInBytes(temp) === getFilesizeInBytes(current)) {
-                    grunt.file.delete(temp);
-                    grunt.log.ok('No change!');
-                } else {
-                    // TODO: commit and push changes
-                    grunt.file.delete(current);
+                // Compare the files
+                if (!grunt.file.exists(current)) {
                     grunt.file.copy(temp, current);
                     grunt.file.delete(temp);
-                    grunt.log.ok('Updated!');
+                    grunt.log.ok('No data found.');
+                    grunt.config.set('definitionsChanged', true);
+                } else {
+                    if (getFilesizeInBytes(temp) === getFilesizeInBytes(current)) {
+                        grunt.file.delete(temp);
+                        grunt.log.ok('No change.');
+                    } else {
+                        grunt.file.delete(current);
+                        grunt.file.copy(temp, current);
+                        grunt.file.delete(temp);
+                        grunt.log.ok('Updated.');
+                        grunt.config.set('definitionsChanged', true);
+                    }
+                }
+
+                // Commit and update time if they've changed
+                if (grunt.config('definitionsChanged')) {
+                    writeLastModified();
+                    // grunt.task.run('gitcommit:rawData');
                 }
 
             }
@@ -216,7 +256,7 @@
         grunt.registerTask(
             'build',
             'Recompiles the sass, js, and rebuilds Jekyll',
-            function() {
+            function () {
                 grunt.task.run(['compass', 'concat:js', 'jekyll']);
             }
         );
@@ -226,7 +266,7 @@
         grunt.registerTask(
             'serve',
             'Start a web server on port 4000, and rebuild after changes',
-            function() {
+            function () {
                 grunt.task.run(['build', 'connect', 'watch']);
             }
         );
@@ -236,7 +276,7 @@
         grunt.registerTask(
             'scrape',
             'Scrape the Guardian style guide',
-            function() {
+            function () {
                 grunt.task.run([
                     'scrapePages',
                     'concat:tempRawData',
