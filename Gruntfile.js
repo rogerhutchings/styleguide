@@ -190,6 +190,7 @@
 
         grunt.registerTask(
             'cleanup',
+            'Delete any temporary YAML files created while scraping',
             function () {
                 grunt.log.write('Deleting temporary directory... ');
                 var path = grunt.config.get('tempYAMLDir');
