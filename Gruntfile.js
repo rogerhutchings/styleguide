@@ -220,7 +220,7 @@
                 // Commit and update time if they've changed
                 if (grunt.config('definitionsChanged')) {
                     writeLastModified();
-                    // grunt.task.run('gitcommit:rawData');
+                    grunt.task.run('gitcommit:rawData');
                 }
 
             }
