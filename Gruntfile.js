@@ -7,7 +7,16 @@
     var cheerio = require('cheerio');
     var slug = require('slug');
     var S = require('string');
+    var fs = require('fs');
 
+    // Functions
+    function getFilesizeInBytes(filename) {
+        var stats = fs.statSync(filename);
+        var fileSizeInBytes = stats["size"];
+        return fileSizeInBytes;
+    }
+
+    // Main Grunt section
     module.exports = function(grunt) {
 
         // Load dependencies
@@ -24,6 +33,9 @@
             pkg: grunt.file.readJSON('package.json'),
 
             tempYAMLDir: '_tempYAML',
+            rawdataDir: '_rawData',
+            dataDir: '_data',
+            siteDir: '_site',
 
             compass: {
                 dist: {
@@ -35,7 +47,7 @@
 
             jekyll: {
                 build: {
-                    dest: '_site'
+                    dest: '<%= siteDir %>'
                 },
             },
 
@@ -58,15 +70,15 @@
                 server: {
                     options: {
                        port: 4000,
-                        base: '_site'
+                        base: '<%= siteDir %>'
                     }
                 }
             },
 
             concat: {
-                definitions: {
+                tempRawData: {
                     src: ['<%= tempYAMLDir %>/*.yaml'],
-                    dest: '_data/definitions.yaml',
+                    dest: '<%= rawdataDir %>/temprawdata.yaml',
                 },
                 js: {
                     src: ['_js/jquery-1.11.0.min.js', '_js/**/*.js'],
@@ -77,18 +89,18 @@
             copy: {
                 assets: {
                     src: ['assets/*'],
-                    dest: '_site/'
+                    dest: '<%= siteDir %>'
                 }
             }
 
         });
 
 
+
         grunt.registerTask(
             'scrapePages',
             'Runs the scrapePage task on every page of the Guardian style guide',
             function () {
-
                 // Generate the alphabet
                 var letters = [];
                 // for (var i = 97; i <= 122; i++) {
@@ -104,18 +116,10 @@
 
         grunt.registerTask(
             'scrapePage',
-            'Scrape an individual page of the Guardian style guide for data and save as a YAML file',
-            function(letter) {
+            'Scrape an individual page of the Guardian style guide',
+            function (letter) {
                 var filename = grunt.config.get('tempYAMLDir') + '/' + letter + '.yaml';
                 var url = 'http://www.theguardian.com/styleguide/' + letter;
-
-                var slugOptions = {
-                    charmap: _.extend(slug.charmap, {
-                        "'": null,
-                        "&": " and "
-
-                    })
-                };
 
                 grunt.log.write('Retrieving ' + url + '... ');
 
@@ -128,29 +132,15 @@
 
                         grunt.log.ok();
 
-                        // Parse it
-                        grunt.log.write('Parsing to YAML... ');
                         var $ = cheerio.load(body);
                         var definitions = [];
                         $('#content').find('li.normal').each(function() {
-
-                            var title = $(this).find('h3').text().trim();
-
-                            var processedText = $(this).find('.trailtext').html().trim();
-
-
-
-
-
-                            // Have to use string because slug doesn't correctly
-                            // strip punctuation :/
                             definitions.push({
-                                title: _.escape(title),
-                                slug: slug(S(title).stripPunctuation().s).toLowerCase(),
-                                text: processedText
+                                title: $(this).find('h3').text().trim(),
+                                gid: $(this).attr('id'),
+                                text: $(this).find('.trailtext').html().trim()
                             });
                         });
-                        grunt.log.ok();
 
                         // Write the file
                         var output = [{
@@ -164,14 +154,39 @@
                         // Finish
                         grunt.log.ok('Scrape complete!');
                         done();
-
                     }
 
                 });
+            }
+        );
+
+
+
+        grunt.registerTask(
+            'compareRawData',
+            'Compare recently scraped data with current data',
+            function() {
+
+                var temp = grunt.config.get('rawdataDir') + '/temprawdata.yaml';
+                var current = grunt.config.get('rawdataDir') + '/rawdata.yaml';
+
+                grunt.log.write('Comparing raw definition data... ');
+
+                if (getFilesizeInBytes(temp) === getFilesizeInBytes(current)) {
+                    grunt.file.delete(temp);
+                    grunt.log.ok('No change!');
+                } else {
+                    // TODO: commit and push changes
+                    grunt.file.delete(current);
+                    grunt.file.copy(temp, current);
+                    grunt.file.delete(temp);
+                    grunt.log.ok('Updated!');
+                }
 
             }
-
         );
+
+
 
         grunt.registerTask(
             'cleanup',
@@ -187,11 +202,15 @@
             }
         );
 
+
+
         grunt.registerTask(
             'default',
             'Default task: serve',
             ['serve']
         );
+
+
 
         grunt.registerTask(
             'build',
@@ -202,6 +221,7 @@
         );
 
 
+
         grunt.registerTask(
             'serve',
             'Start a web server on port 4000, and rebuild after changes',
@@ -210,13 +230,16 @@
             }
         );
 
+
+
         grunt.registerTask(
             'scrape',
             'Scrape the Guardian style guide',
             function() {
                 grunt.task.run([
                     'scrapePages',
-                    'concat:definitions',
+                    'concat:tempRawData',
+                    'compareRawData',
                     'cleanup',
                     'jekyll'
                 ]);
