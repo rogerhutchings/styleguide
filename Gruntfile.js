@@ -113,7 +113,7 @@
                         message: 'Raw definition data updated'
                     },
                     files: {
-                        src: ['<%= rawdataDir %>/*', '<%= dataDir %>/*']
+                        src: ['<%= rawDataFile %>', '<%= lastModifiedFile %>']
                     }
                 }
             }
