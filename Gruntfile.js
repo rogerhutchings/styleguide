@@ -15,13 +15,7 @@
 
         // Load dependencies ---------------------------------------------------
         require('time-grunt')(grunt);
-        grunt.loadNpmTasks('grunt-contrib-watch');
-        grunt.loadNpmTasks('grunt-contrib-compass');
-        grunt.loadNpmTasks('grunt-jekyll');
-        grunt.loadNpmTasks('grunt-contrib-connect');
-        grunt.loadNpmTasks('grunt-contrib-concat');
-        grunt.loadNpmTasks('grunt-contrib-copy');
-        grunt.loadNpmTasks('grunt-git');
+        require('jit-grunt')(grunt);
 
         // Helper functions ----------------------------------------------------
         var getFilesizeInBytes = function (filename) {
