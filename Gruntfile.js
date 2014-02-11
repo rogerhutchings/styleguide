@@ -10,6 +10,29 @@
     var fs = require('fs');
     var moment = require('moment');
 
+    // Options -----------------------------------------------------------------
+    var slugOptions = {
+        charmap: {
+            '&': ' and ',
+            '*': ' star',
+
+            "ä": "a", "ö": "o", "ü": "u",
+            "Ä": "A", "Ö": "O", "Ü": "U",
+            "á": "a", "à": "a", "â": "a",
+            "é": "e", "è": "e", "ê": "e",
+            "ú": "u", "ù": "u", "û": "u",
+            "ó": "o", "ò": "o", "ô": "o",
+            "Á": "A", "À": "A", "Â": "A",
+            "É": "E", "È": "E", "Ê": "E",
+            "Ú": "U", "Ù": "U", "Û": "U",
+            "Ó": "O", "Ò": "O", "Ô": "O",
+            "ß": "s"
+
+        }
+    };
+
+
+
     // Main Grunt section ------------------------------------------------------
     module.exports = function(grunt) {
 
@@ -227,14 +250,34 @@
             'processRawData',
             'Process scraped data into something suitable for the site',
             function () {
-                var rawData = grunt.file.readYAML(grunt.config.get('rawDataFile'));
+                var data = grunt.file.readYAML(grunt.config.get('rawDataFile'));
+
+                function iterate(obj) {
+                    for (var property in obj) {
+                        if (obj.hasOwnProperty(property)) {
+                            if (typeof obj[property] == "object") {
+                                iterate(obj[property]);
+                            } else {
+                                switch (property) {
+                                    case 'title':
+                                        // Create slug from title
+                                        obj['slug'] = slug(obj[property], slugOptions).toLowerCase();
+                                        break;
+                                }
+                            }
+                        }
+                    }
+                }
+                iterate(data);
+
                 // Add nice slugs
                 //     - *
                 //     - &
                 //     - '
-
                 // Format paragraphs
                 // Update links
+                grunt.file.write(grunt.config.get('definitionsFile'), YAML.stringify(data, 4, 4));
+
             }
         );
 
