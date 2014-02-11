@@ -47,9 +47,10 @@
             dataDir: '_data',
             siteDir: '_site',
 
-            tempRawDataFile: '<%= rawdataDir %>/temprawdata.yaml',
-            rawDataFile: '<%= rawdataDir %>/rawdata.yaml',
+            tempRawDataFile: '<%= rawdataDir %>/tempRawData.yaml',
+            rawDataFile: '<%= rawdataDir %>/rawData.yaml',
             lastModifiedFile: '<%= dataDir %>/lastModified.yaml',
+            definitionsFile: '<%= dataDir %>/definitions.yaml',
 
             compass: {
                 dist: {
@@ -62,7 +63,7 @@
             jekyll: {
                 build: {
                     dest: '<%= siteDir %>'
-                },
+                }
             },
 
             watch: {
@@ -83,7 +84,7 @@
             connect: {
                 server: {
                     options: {
-                       port: 4000,
+                        port: 4000,
                         base: '<%= siteDir %>'
                     }
                 }
@@ -229,6 +230,22 @@
 
 
         grunt.registerTask(
+            'processRawData',
+            'Process scraped data into something suitable for the site',
+            function () {
+                var rawData = grunt.file.readYAML(grunt.config.get('rawDataFile'));
+                // Add nice slugs
+                //     - *
+                //     - &
+                //     - '
+
+                // Format paragraphs
+                // Update links
+            }
+        );
+
+
+        grunt.registerTask(
             'cleanup',
             'Delete any temporary YAML files created while scraping',
             function () {
@@ -245,6 +262,7 @@
 
 
 
+        // Batch tasks ---------------------------------------------------------
         grunt.registerTask(
             'default',
             'Default task: serve',
@@ -257,7 +275,11 @@
             'build',
             'Recompiles the sass, js, and rebuilds Jekyll',
             function () {
-                grunt.task.run(['compass', 'concat:js', 'jekyll']);
+                grunt.task.run([
+                    'compass',
+                    'concat:js',
+                    'jekyll'
+                ]);
             }
         );
 
@@ -267,7 +289,11 @@
             'serve',
             'Start a web server on port 4000, and rebuild after changes',
             function () {
-                grunt.task.run(['build', 'connect', 'watch']);
+                grunt.task.run([
+                    'build',
+                    'connect',
+                    'watch'
+                ]);
             }
         );
 
@@ -281,6 +307,7 @@
                     'scrapePages',
                     'concat:tempRawData',
                     'compareRawData',
+                    'processRawData',
                     'cleanup',
                     'jekyll'
                 ]);
