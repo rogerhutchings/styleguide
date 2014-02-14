@@ -4,17 +4,17 @@
         -
             title: 'a or an before H?'
             gid: id-2829407
-            text: 'Use an before a silent H: an heir, an hour, an honest politician, an honorary consul; use a before an aspirated H: a hero, a hotel, a historian (but don''t change a direct quote if the speaker says, for example, "an historic"). With abbreviations, be guided by pronunciation: eg an LSE student'
+            text: '<p>Use an before a silent H: an heir, an hour, an honest politician, an honorary consul; use a before an aspirated H: a hero, a hotel, a historian (but don''t change a direct quote if the speaker says, for example, "an historic"). With abbreviations, be guided by pronunciation: eg an LSE student</p>'
             slug: a-or-an-before-h
         -
             title: 'A*'
             gid: id-2829408
-            text: '(A-level and GCSE) not A-star'
+            text: '<p>(A-level and GCSE) not A-star</p>'
             slug: a-star
         -
             title: 'A&E'
             gid: id-2829409
-            text: 'accident and emergency'
+            text: '<p>accident and emergency</p>'
             slug: a-and-e
         -
             title: abattoir
@@ -24,32 +24,32 @@
         -
             title: abbeys
             gid: id-2829412
-            text: 'take initial cap, eg Westminster Abbey'
+            text: '<p>take initial cap, eg Westminster Abbey</p>'
             slug: abbeys
         -
             title: Abbottabad
             gid: id-16144832
-            text: 'city in Pakistan where Osama bin Laden lived and died'
+            text: '<p>city in Pakistan where Osama bin Laden lived and died</p>'
             slug: abbottabad
         -
             title: 'abbreviations and acronyms'
             gid: id-2829413
-            text: "Do not use full points in abbreviations, or spaces between initials, including those in proper names: IMF, mph, eg, 4am, M&amp;S, No 10, AN Wilson, WH Smith, etc.<br><br>\nUse all capitals if an abbreviation is pronounced as the individual letters (an initialism): BBC, CEO, US, VAT, etc; if it is an acronym (pronounced as a word) spell out with initial capital, eg Nasa, Nato, Unicef, unless it can be considered to have entered the language as an everyday word, such as awol, laser and, more recently, asbo, pin number and sim card. Note that pdf and plc are lowercase.<br><br>\nIf an abbreviation or acronym is to be used more than once in a piece, put it in brackets at first mention: so Association of Chief Police Officers (Acpo), seasonal affective disorder (Sad); alternatively, use the abbreviation with a brief description, eg the conservation charity the RSPB. Remember that our international online readership will not necessarily be aware of even well-known UK abbreviations. If an organisation is mentioned only once, it is not necessary to give its abbreviation or acronym.<br><br>\nCap up single letters in such expressions as C-list, F-word, \"the word assassin contains four Ss\", etc<br>\n<em>See <a href=\"http://guardian.co.uk/styleguide/c#id-3022741\">contractions</a></em>"
+            text: '<p>Do not use full points in abbreviations, or spaces between initials, including those in proper names: IMF, mph, eg, 4am, M&amp;S, No 10, AN Wilson, WH Smith, etc.</p><p>Use all capitals if an abbreviation is pronounced as the individual letters (an initialism): BBC, CEO, US, VAT, etc; if it is an acronym (pronounced as a word) spell out with initial capital, eg Nasa, Nato, Unicef, unless it can be considered to have entered the language as an everyday word, such as awol, laser and, more recently, asbo, pin number and sim card. Note that pdf and plc are lowercase.</p><p>If an abbreviation or acronym is to be used more than once in a piece, put it in brackets at first mention: so Association of Chief Police Officers (Acpo), seasonal affective disorder (Sad); alternatively, use the abbreviation with a brief description, eg the conservation charity the RSPB. Remember that our international online readership will not necessarily be aware of even well-known UK abbreviations. If an organisation is mentioned only once, it is not necessary to give its abbreviation or acronym.</p><p>Cap up single letters in such expressions as C-list, F-word, "the word assassin contains four Ss", etc</p><p><em>See <a href="http://guardian.co.uk/styleguide/c#id-3022741">contractions</a></em></p>'
             slug: abbreviations-and-acronyms
         -
             title: abdicate
             gid: id-14976049
-            text: 'renounce high office; <strong>abnegate</strong> renounce privileges, deny oneself; <strong>abrogate</strong> repeal, abolish'
+            text: '<p>renounce high office; <strong>abnegate</strong> renounce privileges, deny oneself; <strong>abrogate</strong> repeal, abolish</p>'
             slug: abdicate
         -
             title: abjure
             gid: id-19041800
-            text: 'renounce; <strong>adjure </strong>urge'
+            text: '<p>renounce; <strong>adjure </strong>urge</p>'
             slug: abjure
         -
             title: 'aborigines, aboriginal'
             gid: id-2829414
-            text: 'for indigenous populations other than in Australia, where the traditional term "Aborigine" is outdated and offensive to many; the preferred term is Indigenous Australians, for Aboriginal and Torres Strait Islander people'
+            text: '<p>for indigenous populations other than in Australia, where the traditional term "Aborigine" is outdated and offensive to many; the preferred term is Indigenous Australians, for Aboriginal and Torres Strait Islander people</p>'
             slug: aborigines-aboriginal
         -
             title: abscess
@@ -59,7 +59,7 @@
         -
             title: absorb
             gid: id-2829417
-            text: 'but <strong> absorption</strong>'
+            text: '<p>but <strong> absorption</strong></p>'
             slug: absorb
         -
             title: abysmal
@@ -74,27 +74,27 @@
         -
             title: 'a cappella'
             gid: id-2829420
-            text: 'Italian for "in the style of the church", ie unaccompanied singing'
+            text: '<p>Italian for "in the style of the church", ie unaccompanied singing</p>'
             slug: a-cappella
         -
             title: Acas
             gid: id-2829421
-            text: 'the Advisory, Conciliation and Arbitration Service, at first mention; thereafter just Acas'
+            text: '<p>the Advisory, Conciliation and Arbitration Service, at first mention; thereafter just Acas</p>'
             slug: acas
         -
             title: accents
             gid: id-2829422
-            text: "Use on French, German, Portuguese, Spanish and Irish Gaelic words (but not anglicised French words such as cafe, apart from exposé, lamé, résumé, roué).<br>\nPeople's names, in whatever language, should also be given appropriate accents where known. Thus: \"Arsène Wenger was on holiday in Bogotá with Rafa Benítez\""
+            text: '<p>Use on French, German, Portuguese, Spanish and Irish Gaelic words (but not anglicised French words such as cafe, apart from exposé, lamé, résumé, roué).</p><p>People''s names, in whatever language, should also be given appropriate accents where known. Thus: "Arsène Wenger was on holiday in Bogotá with Rafa Benítez"</p>'
             slug: accents
         -
             title: Accenture
             gid: id-2829423
-            text: 'formerly Andersen Consulting; the new name was devised by an employee from "accent on the future"'
+            text: '<p>formerly Andersen Consulting; the new name was devised by an employee from "accent on the future"</p>'
             slug: accenture
         -
             title: access
             gid: id-2829424
-            text: 'has been known as <strong>contact</strong> since the 1989 Children Act'
+            text: '<p>has been known as <strong>contact</strong> since the 1989 Children Act</p>'
             slug: access
         -
             title: 'accommodate,  accommodation'
@@ -104,7 +104,7 @@
         -
             title: accordion
             gid: id-2829426
-            text: 'not accordian'
+            text: '<p>not accordian</p>'
             slug: accordion
         -
             title: 'achilles heel, achilles tendon'
@@ -114,117 +114,117 @@
         -
             title: acknowledgment
             gid: id-2829428
-            text: 'not acknowledgement'
+            text: '<p>not acknowledgement</p>'
             slug: acknowledgment
         -
             title: acres
             gid: id-2829429
-            text: 'Use hectares, with acres in brackets, rounded up: eg the field measured 25 hectares (62 acres).<br><br>You multiply hectares by 2.47 to convert to acres, or acres by 0.4 to convert to hectares'
+            text: '<p>Use hectares, with acres in brackets, rounded up: eg the field measured 25 hectares (62 acres).</p><p>You multiply hectares by 2.47 to convert to acres, or acres by 0.4 to convert to hectares</p>'
             slug: acres
         -
             title: acronyms
             gid: id-2829430
-            text: '<em>See <a href="http://guardian.co.uk/styleguide/a#id-2829413">abbreviations and acronyms</a></em>'
+            text: '<p><em>See <a href="http://guardian.co.uk/styleguide/a#id-2829413">abbreviations and acronyms</a></em></p>'
             slug: acronyms
         -
             title: act
             gid: id-2829431
-            text: 'uc when using full name, eg Criminal Justice Act 1998, Official Secrets Act; but lc on second reference, eg "the act", and when speaking in more general terms, eg "we need a radical freedom of information act"; bills remain lc until passed into law'
+            text: '<p>uc when using full name, eg Criminal Justice Act 1998, Official Secrets Act; but lc on second reference, eg "the act", and when speaking in more general terms, eg "we need a radical freedom of information act"; bills remain lc until passed into law</p>'
             slug: act
         -
             title: 'Action on Hearing Loss'
             gid: id-16517245
-            text: 'formerly known as the Royal National Institute for Deaf People (RNID)'
+            text: '<p>formerly known as the Royal National Institute for Deaf People (RNID)</p>'
             slug: action-on-hearing-loss
         -
             title: actor
             gid: id-2829433
-            text: "Use for both male and female actors; do not use actress except when in name of award, eg Oscar for best actress. The Guardian's view is that actress comes into the same category as authoress, comedienne, manageress, \"lady doctor\", \"male nurse\" and similar obsolete terms that date from a time when professions were largely the preserve of one sex (usually men). As Whoopi Goldberg put it in an interview with the paper: \"An actress can only play a woman. I'm an actor – I can play anything.\"<br><br>\nThere is normally no need to differentiate between the sexes – and if there is, the words male and female are perfectly adequate: Lady Gaga won a Brit in 2010 for best international female artist, not artiste, chanteuse, or songstress.<br><br>\nAs always, use common sense: a piece about the late film director Carlo Ponti was edited to say that in his early career he was \"already a man with a good eye for pretty actors ... \" As the readers' editor pointed out in the subsequent clarification: \"This was one of those occasions when the word 'actresses' might have been used\""
+            text: '<p>Use for both male and female actors; do not use actress except when in name of award, eg Oscar for best actress. The Guardian''s view is that actress comes into the same category as authoress, comedienne, manageress, "lady doctor", "male nurse" and similar obsolete terms that date from a time when professions were largely the preserve of one sex (usually men). As Whoopi Goldberg put it in an interview with the paper: "An actress can only play a woman. I''m an actor – I can play anything."</p><p>There is normally no need to differentiate between the sexes – and if there is, the words male and female are perfectly adequate: Lady Gaga won a Brit in 2010 for best international female artist, not artiste, chanteuse, or songstress.</p><p>As always, use common sense: a piece about the late film director Carlo Ponti was edited to say that in his early career he was "already a man with a good eye for pretty actors ... " As the readers'' editor pointed out in the subsequent clarification: "This was one of those occasions when the word ''actresses'' might have been used"</p>'
             slug: actor
         -
             title: 'AD, BC'
             gid: id-2829434
-            text: 'AD goes before the date (AD64), BC goes after (300BC); both go after the century, eg second century AD, fourth century BC'
+            text: '<p>AD goes before the date (AD64), BC goes after (300BC); both go after the century, eg second century AD, fourth century BC</p>'
             slug: ad-bc
         -
             title: adaptation
             gid: id-2829435
-            text: 'not adaption'
+            text: '<p>not adaption</p>'
             slug: adaptation
         -
             title: adapter
             gid: id-2829436
-            text: 'someone who adapts; <strong> adaptor</strong> plug'
+            text: '<p>someone who adapts; <strong> adaptor</strong> plug</p>'
             slug: adapter
         -
             title: addendum
             gid: id-2829437
-            text: "plural <strong>addendums</strong>\n<br><br>Latinate -um neuter endings that are a part of the language (eg stadium) take an -s plural. Exceptions: bacteria, which retain the Latin plural and take a plural verb, as do media, but note that spiritualists are mediums"
+            text: '<p>plural <strong>addendums</strong></p><p>Latinate -um neuter endings that are a part of the language (eg stadium) take an -s plural. Exceptions: bacteria, which retain the Latin plural and take a plural verb, as do media, but note that spiritualists are mediums</p>'
             slug: addendum
         -
             title: addresses
             gid: id-2829438
-            text: 'like this: 90 York Way, London N1 9GU'
+            text: '<p>like this: 90 York Way, London N1 9GU</p>'
             slug: addresses
         -
             title: Adidas
             gid: id-2829439
-            text: 'initial cap, although adidas is lc in the company logo'
+            text: '<p>initial cap, although adidas is lc in the company logo</p>'
             slug: adidas
         -
             title: administration
             gid: id-2829440
-            text: 'the Obama administration, etc'
+            text: '<p>the Obama administration, etc</p>'
             slug: administration
         -
             title: 'admissible, inadmissible'
             gid: id-2829441
-            text: 'not -able'
+            text: '<p>not -able</p>'
             slug: admissible-inadmissible
         -
             title: admit
             gid: id-2829442
-            text: "Take care – as a reader put it when we referred to Tory MPs who \"admitted\" being gay: \"Admit in modern English is almost exclusively used when conceding or confessing something negative and/or of which one is or should be ashamed. Please be more careful. Language can offend.\" Quite.<br><br>\nThe former Washington Post editor Ben Bradlee urged reporters not to \"hide their biases and emotions behind subtly pejorative words\" such as admit"
+            text: '<p>Take care – as a reader put it when we referred to Tory MPs who "admitted" being gay: "Admit in modern English is almost exclusively used when conceding or confessing something negative and/or of which one is or should be ashamed. Please be more careful. Language can offend." Quite.</p><p>The former Washington Post editor Ben Bradlee urged reporters not to "hide their biases and emotions behind subtly pejorative words" such as admit</p>'
             slug: admit
         -
             title: adoption
             gid: id-2829443
-            text: "Mention that children are adopted only when relevant to the story: a reader points out that \"explicitly calling attention to adoptions in this way suggests that adoption is not as good, and not as real a relationship, as having a child normally\". \n<br><br>So say biological father, biological family rather than \"real father\", \"real family\", etc"
+            text: '<p>Mention that children are adopted only when relevant to the story: a reader points out that "explicitly calling attention to adoptions in this way suggests that adoption is not as good, and not as real a relationship, as having a child normally". </p><p>So say biological father, biological family rather than "real father", "real family", etc</p>'
             slug: adoption
         -
             title: Adrenalin
             gid: id-2829444
-            text: 'TM; a brand of adrenaline'
+            text: '<p>TM; a brand of adrenaline</p>'
             slug: adrenalin
         -
             title: adrenaline
             gid: id-2829445
-            text: 'hormone that increases heart rate and blood pressure, extracted from animals or synthesised for medical uses'
+            text: '<p>hormone that increases heart rate and blood pressure, extracted from animals or synthesised for medical uses</p>'
             slug: adrenaline
         -
             title: 'advance bookings'
             gid: id-23000740
-            text: 'rather than "advanced bookings". Or you could just say "bookings"'
+            text: '<p>rather than "advanced bookings". Or you could just say "bookings"</p>'
             slug: advance-bookings
         -
             title: adverbs
             gid: id-2829446
-            text: 'Do not use hyphens after adverbs ending in -ly, eg a hotly disputed penalty, a constantly evolving newspaper, genetically modified food, etc; but hyphens are needed with short and common adverbs, eg ever-forgiving family, ill-prepared report, much-loved character, well-founded suspicion'
+            text: '<p>Do not use hyphens after adverbs ending in -ly, eg a hotly disputed penalty, a constantly evolving newspaper, genetically modified food, etc; but hyphens are needed with short and common adverbs, eg ever-forgiving family, ill-prepared report, much-loved character, well-founded suspicion</p>'
             slug: adverbs
         -
             title: adverse
             gid: id-27023225
-            text: 'unfavourable; <strong>averse</strong> reluctant: He was averse to crossing the Irish Sea in such adverse conditions.'
+            text: '<p>unfavourable; <strong>averse</strong> reluctant: He was averse to crossing the Irish Sea in such adverse conditions.</p>'
             slug: adverse
         -
             title: adviser
             gid: id-2829447
-            text: 'not advisor'
+            text: '<p>not advisor</p>'
             slug: adviser
         -
             title: advocate
             gid: id-2829448
-            text: 'member of the Scottish bar (not a barrister)'
+            text: '<p>member of the Scottish bar (not a barrister)</p>'
             slug: advocate
         -
             title: aeroplane
@@ -234,37 +234,37 @@
         -
             title: affect/effect
             gid: id-2829451
-            text: 'exhortations in the style guide had no effect (noun) on the number of mistakes; the level of mistakes was not affected (verb) by exhortations in the style guide; we hope to effect (verb) a change in this'
+            text: '<p>exhortations in the style guide had no effect (noun) on the number of mistakes; the level of mistakes was not affected (verb) by exhortations in the style guide; we hope to effect (verb) a change in this</p>'
             slug: affecteffect
         -
             title: affidavit
             gid: id-2829452
-            text: 'a written declaration made on oath, so "sworn affidavit" is tautologous'
+            text: '<p>a written declaration made on oath, so "sworn affidavit" is tautologous</p>'
             slug: affidavit
         -
             title: affinity
             gid: id-2829453
-            text: 'with or between, not to or for'
+            text: '<p>with or between, not to or for</p>'
             slug: affinity
         -
             title: afghan
             gid: id-18089176
-            text: hound
+            text: '<p>hound</p>'
             slug: afghan
         -
             title: Afghans
             gid: id-2829454
-            text: people
+            text: '<p>people</p>'
             slug: afghans
         -
             title: afghani
             gid: id-3037887
-            text: 'currency of Afghanistan'
+            text: '<p>currency of Afghanistan</p>'
             slug: afghani
         -
             title: aficionado
             gid: id-2829455
-            text: 'plural <strong>aficionados</strong>'
+            text: '<p>plural <strong>aficionados</strong></p>'
             slug: aficionado
         -
             title: 'African American'
@@ -274,27 +274,27 @@
         -
             title: African-Caribbean
             gid: id-2829456
-            text: 'not Afro-Caribbean'
+            text: '<p>not Afro-Caribbean</p>'
             slug: african-caribbean
         -
             title: Afrikaans
             gid: id-2829457
-            text: language
+            text: '<p>language</p>'
             slug: afrikaans
         -
             title: Afrikaner
             gid: id-3037888
-            text: person
+            text: '<p>person</p>'
             slug: afrikaner
         -
             title: Afrikander
             gid: id-3037889
-            text: 'cattle breed'
+            text: '<p>cattle breed</p>'
             slug: afrikander
         -
             title: afro
             gid: id-21625996
-            text: hairstyle
+            text: '<p>hairstyle</p>'
             slug: afro
         -
             title: 'afterlife, aftermath'
@@ -309,22 +309,22 @@
         -
             title: ages
             gid: id-2829460
-            text: 'David Cameron, 45 (not "aged 45"); little Lucy, four; the woman was in her 20s (but twentysomething, thirtysomething, etc)'
+            text: '<p>David Cameron, 45 (not "aged 45"); little Lucy, four; the woman was in her 20s (but twentysomething, thirtysomething, etc)</p>'
             slug: ages
         -
             title: 'Age UK'
             gid: id-20295906
-            text: 'charity formed by the merger of Age Concern and Help the Aged in 2009'
+            text: '<p>charity formed by the merger of Age Concern and Help the Aged in 2009</p>'
             slug: age-uk
         -
             title: aggravate
             gid: id-2829461
-            text: 'widely used both in the sense of to make worse and to annoy; the former dates from the 1590s, the latter from the 1610s'
+            text: '<p>widely used both in the sense of to make worse and to annoy; the former dates from the 1590s, the latter from the 1610s</p>'
             slug: aggravate
         -
             title: aggro
             gid: id-2829462
-            text: 'abbreviation of aggravation, and spelt thus despite the once popular terrace chant "A, G, A-G-R, A-G-R-O: agro!"'
+            text: '<p>abbreviation of aggravation, and spelt thus despite the once popular terrace chant "A, G, A-G-R, A-G-R-O: agro!"</p>'
             slug: aggro
         -
             title: AGM
@@ -334,27 +334,27 @@
         -
             title: a-ha
             gid: id-20820519
-            text: 'band from Norway; <strong>A-ha!</strong> Alan Partridge catchphrase, quoting Abba''s Knowing Me, Knowing You'
+            text: '<p>band from Norway; <strong>A-ha!</strong> Alan Partridge catchphrase, quoting Abba''s Knowing Me, Knowing You</p>'
             slug: a-ha
         -
             title: 'ahead  of'
             gid: id-2829464
-            text: 'overused, and often jars ("Why else would they hurriedly concoct their own ''Confucius peace prize'', a day ahead of the ceremony in Oslo?" appeared in a leading article); <strong>before</strong> (which should have been used in this case) or <strong>in advance of </strong>are among the alternatives'
+            text: '<p>overused, and often jars ("Why else would they hurriedly concoct their own ''Confucius peace prize'', a day ahead of the ceremony in Oslo?" appeared in a leading article); <strong>before</strong> (which should have been used in this case) or <strong>in advance of </strong>are among the alternatives</p>'
             slug: ahead-of
         -
             title: aide-de-camp
             gid: id-2829465
-            text: 'plural <strong>aides-de-camp</strong> (aide is a noun)'
+            text: '<p>plural <strong>aides-de-camp</strong> (aide is a noun)</p>'
             slug: aide-de-camp
         -
             title: aide-memoire
             gid: id-2829466
-            text: 'plural <strong>aide-memoires</strong> (aide is a verb)'
+            text: '<p>plural <strong>aide-memoires</strong> (aide is a verb)</p>'
             slug: aide-memoire
         -
             title: Aids
             gid: id-2829467
-            text: "acquired immune deficiency syndrome, but normally no need to spell out. \n<br><br>Do not use such terms as \"Aids victims\" or someone \"suffering from Aids\", language that in the words of one reader is \"crass, inaccurate and reinforces stigma\", implying helplessness and inviting pity; \"people with Aids\" or \"living with Aids\" are preferable.<br><br>\nDo not use the term \"full-blown Aids\". Unesco guidelines state: \"This term implies that there are varying stages of Aids ... People have Aids only when  they present with an Aids-defining illness\""
+            text: '<p>acquired immune deficiency syndrome, but normally no need to spell out. </p><p>Do not use such terms as "Aids victims" or someone "suffering from Aids", language that in the words of one reader is "crass, inaccurate and reinforces stigma", implying helplessness and inviting pity; "people with Aids" or "living with Aids" are preferable.</p><p>Do not use the term "full-blown Aids". Unesco guidelines state: "This term implies that there are varying stages of Aids ... People have Aids only when  they present with an Aids-defining illness"</p>'
             slug: aids
         -
             title: 'airbase, aircrew, airdrop, airfield, airlift, airmail, airspace, airstrip, airtime'
@@ -364,7 +364,7 @@
         -
             title: aircraft
             gid: id-2829469
-            text: 'designations usually take hyphens after initials, e.g. B-52, MiG-23'
+            text: '<p>designations usually take hyphens after initials, e.g. B-52, MiG-23</p>'
             slug: aircraft
         -
             title: 'aircraft carrier'
@@ -379,17 +379,17 @@
         -
             title: 'Air Force One'
             gid: id-2829471
-            text: 'US president''s jet'
+            text: '<p>US president''s jet</p>'
             slug: air-force-one
         -
             title: 'air hostess'
             gid: id-2829472
-            text: 'cabin attendant or flight attendant, please'
+            text: '<p>cabin attendant or flight attendant, please</p>'
             slug: air-hostess
         -
             title: airports
             gid: id-2829473
-            text: 'Heathrow, Gatwick, Stansted (normally no need to say airport); Liverpool John Lennon airport, Schiphol airport, etc'
+            text: '<p>Heathrow, Gatwick, Stansted (normally no need to say airport); Liverpool John Lennon airport, Schiphol airport, etc</p>'
             slug: airports
         -
             title: 'air vice-marshal'
@@ -399,17 +399,17 @@
         -
             title: AKA
             gid: id-2829475
-            text: 'also known as'
+            text: '<p>also known as</p>'
             slug: aka
         -
             title: akimbo
             gid: id-2829476
-            text: '<em>See <a href="http://guardian.co.uk/styleguide/a#id-3023061">arms akimbo</a></em>'
+            text: '<p><em>See <a href="http://guardian.co.uk/styleguide/a#id-3023061">arms akimbo</a></em></p>'
             slug: akimbo
         -
             title: al-
             gid: id-2829477
-            text: '(note lc and hyphen) before an Arabic name means "the" so try to avoid writing "the al- ..." where possible<br><em>See <a href="http://guardian.co.uk/styleguide/a#id-3023046">Arabic names</a></em>'
+            text: '<p>(note lc and hyphen) before an Arabic name means "the" so try to avoid writing "the al- ..." where possible</p><p><em>See <a href="http://guardian.co.uk/styleguide/a#id-3023046">Arabic names</a></em></p>'
             slug: al-
         -
             title: 'al-Aqsa Martyrs Brigade'
@@ -419,17 +419,17 @@
         -
             title: 'Alastair or Alistair?'
             gid: id-2829480
-            text: "Alastair Campbell (spin doctor)<br>\nAlastair Cook (cricketer)<br>\nAlastair Hetherington (late Guardian editor)<br>\nAlastair Stewart (broadcaster)<br><br>\nAlistair Cooke (late BBC and Guardian journalist)<br>\nAlistair Darling (politician)<br>\nAlistair MacLean (late novelist)<br>\nAlistair McGowan (impressionist)<br><br>\nAleister Crowley (late satanist)"
+            text: '<p>Alastair Campbell (spin doctor)</p><p>Alastair Cook (cricketer)</p><p>Alastair Hetherington (late Guardian editor)</p><p>Alastair Stewart (broadcaster)</p><p>Alistair Cooke (late BBC and Guardian journalist)</p><p>Alistair Darling (politician)</p><p>Alistair MacLean (late novelist)</p><p>Alistair McGowan (impressionist)</p><p>Aleister Crowley (late satanist)</p>'
             slug: alastair-or-alistair
         -
             title: 'Albright, Madeleine'
             gid: id-2829481
-            text: 'former US secretary of state'
+            text: '<p>former US secretary of state</p>'
             slug: albright-madeleine
         -
             title: 'Alcott, Louisa May'
             gid: id-2829482
-            text: '(1832-88) American author of Little Women<br>'
+            text: '<p>(1832-88) American author of Little Women</p><p></p>'
             slug: alcott-louisa-may
         -
             title: A-levels
@@ -439,12 +439,12 @@
         -
             title: 'Al Fayed, Mohamed'
             gid: id-11056800
-            text: 'owner of Harrods (Fayed after first mention; Mr Fayed if honorific is needed); the son who died in Paris in 1997 was Dodi Fayed'
+            text: '<p>owner of Harrods (Fayed after first mention; Mr Fayed if honorific is needed); the son who died in Paris in 1997 was Dodi Fayed</p>'
             slug: al-fayed-mohamed
         -
             title: 'Alfonsín, Raúl'
             gid: id-3014301
-            text: '(1927-2009) president of Argentina from 1983-89'
+            text: '<p>(1927-2009) president of Argentina from 1983-89</p>'
             slug: alfonsn-raul
         -
             title: alfresco
@@ -454,32 +454,32 @@
         -
             title: algae
             gid: id-3014303
-            text: 'plural of alga'
+            text: '<p>plural of alga</p>'
             slug: algae
         -
             title: 'Ali, Muhammad'
             gid: id-3014304
-            text: 'was Cassius Clay until 1964'
+            text: '<p>was Cassius Clay until 1964</p>'
             slug: ali-muhammad
         -
             title: alibi
             gid: id-3014305
-            text: 'being somewhere else; not synonymous with excuse'
+            text: '<p>being somewhere else; not synonymous with excuse</p>'
             slug: alibi
         -
             title: 'alice band'
             gid: id-3014306
-            text: 'as worn by Alice in Lewis Carroll''s Through the Looking-Glass, and What Alice Found There (1871) and more recently David Beckham'
+            text: '<p>as worn by Alice in Lewis Carroll''s Through the Looking-Glass, and What Alice Found There (1871) and more recently David Beckham</p>'
             slug: alice-band
         -
             title: 'Alice books'
             gid: id-15238980
-            text: "Alice's Adventures in Wonderland, by Lewis Carroll (Charles Lutwidge Dodgson), was published in 1865; its sequel, which followed six years later, is called Through the Looking-Glass, and What Alice Found There.<br>\nNote that they are not called \"Alice in Wonderland\" and \"Alice Through the Looking-Glass\""
+            text: '<p>Alice''s Adventures in Wonderland, by Lewis Carroll (Charles Lutwidge Dodgson), was published in 1865; its sequel, which followed six years later, is called Through the Looking-Glass, and What Alice Found There.</p><p>Note that they are not called "Alice in Wonderland" and "Alice Through the Looking-Glass"</p>'
             slug: alice-books
         -
             title: A-list
             gid: id-3014307
-            text: 'etc, but to refer to "C-list celebrities" and its variations has become tedious. An edition of G2 referred to "D-list celebrities" and, less than hilariously, in a separate piece about the same reality TV show, "Z-list celebrities"'
+            text: '<p>etc, but to refer to "C-list celebrities" and its variations has become tedious. An edition of G2 referred to "D-list celebrities" and, less than hilariously, in a separate piece about the same reality TV show, "Z-list celebrities"</p>'
             slug: a-list
         -
             title: al-Jazeera
@@ -489,62 +489,62 @@
         -
             title: Allah
             gid: id-3014309
-            text: 'Arabic for "the God". Both words refer to the same concept: there is no major difference between God in the Old Testament and Allah in Islam. Therefore it makes sense to talk about "God" in an Islamic context and to use "Allah" in quotations or for literary effect'
+            text: '<p>Arabic for "the God". Both words refer to the same concept: there is no major difference between God in the Old Testament and Allah in Islam. Therefore it makes sense to talk about "God" in an Islamic context and to use "Allah" in quotations or for literary effect</p>'
             slug: allah
         -
             title: 'Allahu Akbar'
             gid: id-3014310
-            text: '"God is greatest"'
+            text: '<p>"God is greatest"</p>'
             slug: allahu-akbar
         -
             title: 'Allawi, Ayad'
             gid: id-12923007
-            text: 'Iraqi politician'
+            text: '<p>Iraqi politician</p>'
             slug: allawi-ayad
         -
             title: 'Allende, Isabel'
             gid: id-3014312
-            text: 'Chilean author; her father was a cousin of Salvador Allende'
+            text: '<p>Chilean author; her father was a cousin of Salvador Allende</p>'
             slug: allende-isabel
         -
             title: 'Allende, Salvador'
             gid: id-3014313
-            text: 'Chilean president, overthrown and killed in 1973'
+            text: '<p>Chilean president, overthrown and killed in 1973</p>'
             slug: allende-salvador
         -
             title: allies
             gid: id-3014314
-            text: 'second world war allies, the allied invasion, etc'
+            text: '<p>second world war allies, the allied invasion, etc</p>'
             slug: allies
         -
             title: 'all mouth and trousers'
             gid: id-3014315
-            text: 'not "all mouth and no trousers"'
+            text: '<p>not "all mouth and no trousers"</p>'
             slug: all-mouth-and-trousers
         -
             title: 'all right'
             gid: id-3014316
-            text: 'is right; alright is not all right (but note the Who song, much loved by generations of headline writers, was The Kids are Alright)'
+            text: '<p>is right; alright is not all right (but note the Who song, much loved by generations of headline writers, was The Kids are Alright)</p>'
             slug: all-right
         -
             title: 'All Souls College'
             gid: id-3014317
-            text: 'Oxford, no apostrophe'
+            text: '<p>Oxford, no apostrophe</p>'
             slug: all-souls-college
         -
             title: 'al-Maliki, Nouri'
             gid: id-3016396
-            text: '(not Nuri) became prime minister of Iraq in 2006'
+            text: '<p>(not Nuri) became prime minister of Iraq in 2006</p>'
             slug: al-maliki-nouri
         -
             title: Almo
             gid: id-3016397
-            text: 'arm''s-length management organisation'
+            text: '<p>arm''s-length management organisation</p>'
             slug: almo
         -
             title: 'Almodóvar, Pedro'
             gid: id-3016398
-            text: 'Spanish film-maker'
+            text: '<p>Spanish film-maker</p>'
             slug: almodovar-pedro
         -
             title: 'alpha male'
@@ -554,32 +554,32 @@
         -
             title: al-Qaida
             gid: id-3016400
-            text: 'it means "the base"'
+            text: '<p>it means "the base"</p>'
             slug: al-qaida
         -
             title: 'al-Sadr, Moqtada'
             gid: id-9315774
-            text: 'creator of the Mahdi army, or as the magazine Red Pepper described it: "Moqtada al-Sadr''s not-so-barmy army"'
+            text: '<p>creator of the Mahdi army, or as the magazine Red Pepper described it: "Moqtada al-Sadr''s not-so-barmy army"</p>'
             slug: al-sadr-moqtada
         -
             title: alsatian
             gid: id-3016401
-            text: dog
+            text: '<p>dog</p>'
             slug: alsatian
         -
             title: Alsatian
             gid: id-3038005
-            text: 'person from Alsace'
+            text: '<p>person from Alsace</p>'
             slug: alsatian
         -
             title: al-Shabaab
             gid: id-13424909
-            text: 'Islamist insurgency group in Somalia; it means "the youth". Singular not plural.'
+            text: '<p>Islamist insurgency group in Somalia; it means "the youth". Singular not plural.</p>'
             slug: al-shabaab
         -
             title: also
             gid: id-3016402
-            text: 'often redundant'
+            text: '<p>often redundant</p>'
             slug: also
         -
             title: 'Alta Vista'
@@ -589,22 +589,22 @@
         -
             title: 'alter ego'
             gid: id-3016404
-            text: 'not "altar ego", as we have been known to spell it'
+            text: '<p>not "altar ego", as we have been known to spell it</p>'
             slug: alter-ego
         -
             title: alternative
             gid: id-3016405
-            text: 'normally a choice between two courses of action; if there are more than two, option or choice may be preferred; beware the trend to use "alternate" instead of alternative: in a piece about French politics we wrote "in this juddering alternate reality …"'
+            text: '<p>normally a choice between two courses of action; if there are more than two, option or choice may be preferred; beware the trend to use "alternate" instead of alternative: in a piece about French politics we wrote "in this juddering alternate reality …"</p>'
             slug: alternative
         -
             title: alumnus
             gid: id-3016406
-            text: 'plural alumni; although in the UK graduate is preferable'
+            text: '<p>plural alumni; although in the UK graduate is preferable</p>'
             slug: alumnus
         -
             title: 'al-Zaidi, Muntazer'
             gid: id-6995242
-            text: 'Iraqi journalist who served a jail sentence for throwing his shoes at the then US president, George Bush'
+            text: '<p>Iraqi journalist who served a jail sentence for throwing his shoes at the then US president, George Bush</p>'
             slug: al-zaidi-muntazer
         -
             title: 'Alzheimer''s disease'
@@ -614,92 +614,92 @@
         -
             title: 'AM (assembly member)'
             gid: id-3016408
-            text: 'member of the Welsh assembly'
+            text: '<p>member of the Welsh assembly</p>'
             slug: am-(assembly-member)
         -
             title: Amazon
             gid: id-3016409
-            text: 'normally no need for com or co.uk'
+            text: '<p>normally no need for com or co.uk</p>'
             slug: amazon
         -
             title: ambassador
             gid: id-3016410
-            text: 'lc, eg the British ambassador to Washington; "ambassador, you are spoiling us" has become a headline cliche'
+            text: '<p>lc, eg the British ambassador to Washington; "ambassador, you are spoiling us" has become a headline cliche</p>'
             slug: ambassador
         -
             title: ambience
             gid: id-3016411
-            text: 'not ambiance'
+            text: '<p>not ambiance</p>'
             slug: ambience
         -
             title: amendments
             gid: id-15353262
-            text: 'to the US constitution like this: fifth amendment, 18th amendment, etc'
+            text: '<p>to the US constitution like this: fifth amendment, 18th amendment, etc</p>'
             slug: amendments
         -
             title: 'America, Americans'
             gid: id-3016412
-            text: 'the country is generally the United States or US, although its citizens are Americans; we should remember that America includes all of North and South America'
+            text: '<p>the country is generally the United States or US, although its citizens are Americans; we should remember that America includes all of North and South America</p>'
             slug: america-americans
         -
             title: 'American English'
             gid: id-3016413
-            text: 'We follow British English spellings: secretary of defence, Labour Day, World Trade Centre, etc; exceptions are placenames such as Ann Arbor, Pearl Harbor'
+            text: '<p>We follow British English spellings: secretary of defence, Labour Day, World Trade Centre, etc; exceptions are placenames such as Ann Arbor, Pearl Harbor</p>'
             slug: american-english
         -
             title: 'American Civil Liberties Union'
             gid: id-3016414
-            text: 'not American Civil Rights Union'
+            text: '<p>not American Civil Rights Union</p>'
             slug: american-civil-liberties-union
         -
             title: 'American universities'
             gid: id-3016415
-            text: "Take care: \"University of X\" is not the same as \"X University\"; most states have two large public universities, eg University of Kentucky and Kentucky State University, University of Illinois and Illinois State University, etc.\n<br><br>Do not call Johns Hopkins University \"John Hopkins\" or Stanford University \"Stamford\""
+            text: '<p>Take care: "University of X" is not the same as "X University"; most states have two large public universities, eg University of Kentucky and Kentucky State University, University of Illinois and Illinois State University, etc.</p><p>Do not call Johns Hopkins University "John Hopkins" or Stanford University "Stamford"</p>'
             slug: american-universities
         -
             title: 'America''s Cup'
             gid: id-3016416
-            text: 'sailing trophy named after the schooner America, its first winner'
+            text: '<p>sailing trophy named after the schooner America, its first winner</p>'
             slug: 'america''s-cup'
         -
             title: 'Amhrán na bhFiann'
             gid: id-3016417
-            text: 'Irish national anthem'
+            text: '<p>Irish national anthem</p>'
             slug: amhran-na-bhfiann
         -
             title: Amicus
             gid: id-3016418
-            text: 'trade union formed by a merger between the AEEU and MSF, now part of Unite after a further merger with the TGWU'
+            text: '<p>trade union formed by a merger between the AEEU and MSF, now part of Unite after a further merger with the TGWU</p>'
             slug: amicus
         -
             title: amid
             gid: id-3016419
-            text: 'not amidst'
+            text: '<p>not amidst</p>'
             slug: amid
         -
             title: amok
             gid: id-3016420
-            text: 'not amuck'
+            text: '<p>not amuck</p>'
             slug: amok
         -
             title: among
             gid: id-3016421
-            text: 'not amongst'
+            text: '<p>not amongst</p>'
             slug: among
         -
             title: 'among or between?'
             gid: id-3016422
-            text: 'Whatever you may have been told, between is not limited to two parties. It is appropriate when the relationship is essentially reciprocal: fighting between the many peoples of Yugoslavia, treaties between European countries, etc; among belongs to distributive relationships: shared among, etc'
+            text: '<p>Whatever you may have been told, between is not limited to two parties. It is appropriate when the relationship is essentially reciprocal: fighting between the many peoples of Yugoslavia, treaties between European countries, etc; among belongs to distributive relationships: shared among, etc</p>'
             slug: among-or-between
         -
             title: 'amount or number?'
             gid: id-11056964
-            text: 'amount refers to a quantity, number to something that can be counted, eg an enormous amount of energy was exerted by a small number of people'
+            text: '<p>amount refers to a quantity, number to something that can be counted, eg an enormous amount of energy was exerted by a small number of people</p>'
             slug: amount-or-number
         -
             title: ampersand
             gid: id-3016423
-            text: 'Use in company names when the company does: Johnson &amp; Johnson, Marks &amp; Spencer, P&amp;O, etc'
+            text: '<p>Use in company names when the company does: Johnson &amp; Johnson, Marks &amp; Spencer, P&amp;O, etc</p>'
             slug: ampersand
         -
             title: anaesthetic
@@ -709,12 +709,12 @@
         -
             title: analysis
             gid: id-3016425
-            text: 'plural <strong>analyses</strong>'
+            text: '<p>plural <strong>analyses</strong></p>'
             slug: analysis
         -
             title: ancestors
             gid: id-3016426
-            text: 'precede descendants; we frequently manage to get them the wrong way round'
+            text: '<p>precede descendants; we frequently manage to get them the wrong way round</p>'
             slug: ancestors
         -
             title: Andalusia
@@ -724,12 +724,12 @@
         -
             title: 'Anderson shelter'
             gid: id-3016428
-            text: 'not Andersen'
+            text: '<p>not Andersen</p>'
             slug: anderson-shelter
         -
             title: 'Angkor Wat'
             gid: id-25211348
-            text: 'Angkor Wat is only one of the 100 or so temples of Angkor, albeit the best known ("wat" means temple)'
+            text: '<p>Angkor Wat is only one of the 100 or so temples of Angkor, albeit the best known ("wat" means temple)</p>'
             slug: angkor-wat
         -
             title: 'anglicise, anglophile, anglophone'
@@ -739,27 +739,27 @@
         -
             title: animals
             gid: id-3016430
-            text: 'pronoun "it" unless gender established'
+            text: '<p>pronoun "it" unless gender established</p>'
             slug: animals
         -
             title: annex
             gid: id-3016431
-            text: 'verb; <strong>annexe </strong>noun; I am going to annex the annexe for the afternoon'
+            text: '<p>verb; <strong>annexe </strong>noun; I am going to annex the annexe for the afternoon</p>'
             slug: annex
         -
             title: anorexic
             gid: id-3016433
-            text: 'is not a superlative of thin. Anorexia is an illness. Like schizophrenia, it should not be used as a cheap and lazy metaphor. Anyone who thinks of using a phrase such as "positively anorexic" should think again'
+            text: '<p>is not a superlative of thin. Anorexia is an illness. Like schizophrenia, it should not be used as a cheap and lazy metaphor. Anyone who thinks of using a phrase such as "positively anorexic" should think again</p>'
             slug: anorexic
         -
             title: Ansaphone
             gid: id-3016434
-            text: 'TM; use <strong>answering machine</strong> or <strong>answerphone</strong>'
+            text: '<p>TM; use <strong>answering machine</strong> or <strong>answerphone</strong></p>'
             slug: ansaphone
         -
             title: antenna
             gid: id-3016435
-            text: '(insect) plural <strong>antennae;</strong> (radio) plural <strong>antennas</strong>'
+            text: '<p>(insect) plural <strong>antennae;</strong> (radio) plural <strong>antennas</strong></p>'
             slug: antenna
         -
             title: 'anti-ballistic missile treaty'
@@ -774,7 +774,7 @@
         -
             title: anticipate
             gid: id-3016438
-            text: 'take action in expectation of; not synonymous with expect'
+            text: '<p>take action in expectation of; not synonymous with expect</p>'
             slug: anticipate
         -
             title: anticlimax
@@ -789,7 +789,7 @@
         -
             title: antidisestablishmentarianism
             gid: id-15353263
-            text: "position adopted by those opposed to the disestablishment of the Church of England. <br><br>\nNot recommended for use in headlines"
+            text: '<p>position adopted by those opposed to the disestablishment of the Church of England. </p><p>Not recommended for use in headlines</p>'
             slug: antidisestablishmentarianism
         -
             title: antihero
@@ -804,7 +804,7 @@
         -
             title: 'antisemitic, antisemitism'
             gid: id-3016443
-            text: 'no hyphen: it does not mean "anti-Semitic"'
+            text: '<p>no hyphen: it does not mean "anti-Semitic"</p>'
             slug: antisemitic-antisemitism
         -
             title: antisocial
@@ -819,32 +819,32 @@
         -
             title: 'any more'
             gid: id-13440167
-            text: 'Please do not say "anymore" any more'
+            text: '<p>Please do not say "anymore" any more</p>'
             slug: any-more
         -
             title: apex
             gid: id-3016446
-            text: 'plural apexes'
+            text: '<p>plural apexes</p>'
             slug: apex
         -
             title: apostrofly
             gid: id-3016448
-            text: '"an insect that lands at random on the printed page, depositing an apostrophe wherever it lands" according to the Guardian''s former readers'' editor'
+            text: '<p>"an insect that lands at random on the printed page, depositing an apostrophe wherever it lands" according to the Guardian''s former readers'' editor</p>'
             slug: apostrofly
         -
             title: apostrophes
             gid: id-3016449
-            text: "used to indicate a missing letter or letters (can't, we'd) or a possessive (David's book).<br><br>\nDon't let anyone tell you that apostrophes don't matter and we would be better off without them. Consider these four phrases, each of which means something different:<br>\nmy sister's friend's books (refers to one sister and her friend).<br>\nmy sister's friends' books (one sister with lots of friends).<br>\nmy sisters' friend's books (more than one sister, and their friend).<br>\nmy sisters' friends' books (more than one sister, and their friends).<br><br>\nThe possessive in words and names ending in S normally takes an apostrophe followed by a second S (Jones's, James's), but be guided by pronunciation and use the plural apostrophe where it helps: Mephistopheles', Waters', Hedges' rather than Mephistopheles's, Waters's, Hedges's.<br><br>\nPlural nouns that do not end in S take an apostrophe and S in the possessive: children's games, old folk's home, people's republic, etc.<br><br>\nPhrases such as butcher's knife, collector's item, cow's milk, goat's cheese, pig's blood, hangman's noose, writer's cramp, etc are treated as singular.<br><br>\nUse apostrophes in phrases such as two days' time, 12 years' imprisonment and six weeks' holiday, where the time period (two days) modifies a noun (time), but not in nine months pregnant or three weeks old, where the time period is adverbial (modifying an adjective such as pregnant or old) – if in doubt, test with a singular such as one day's time, one month pregnant.<br><br>\nSome shops use an apostrophe, wrongly, to indicate a plural (\"pea's\"), but will generally omit the apostrophe when one is actually required (\"new seasons asparagus\"), a phenomenon sometimes referred to as the greengrocer's (or grocer's) apostrophe. Try to avoid this"
+            text: '<p>used to indicate a missing letter or letters (can''t, we''d) or a possessive (David''s book).</p><p>Don''t let anyone tell you that apostrophes don''t matter and we would be better off without them. Consider these four phrases, each of which means something different:</p><p>my sister''s friend''s books (refers to one sister and her friend).</p><p>my sister''s friends'' books (one sister with lots of friends).</p><p>my sisters'' friend''s books (more than one sister, and their friend).</p><p>my sisters'' friends'' books (more than one sister, and their friends).</p><p>The possessive in words and names ending in S normally takes an apostrophe followed by a second S (Jones''s, James''s), but be guided by pronunciation and use the plural apostrophe where it helps: Mephistopheles'', Waters'', Hedges'' rather than Mephistopheles''s, Waters''s, Hedges''s.</p><p>Plural nouns that do not end in S take an apostrophe and S in the possessive: children''s games, old folk''s home, people''s republic, etc.</p><p>Phrases such as butcher''s knife, collector''s item, cow''s milk, goat''s cheese, pig''s blood, hangman''s noose, writer''s cramp, etc are treated as singular.</p><p>Use apostrophes in phrases such as two days'' time, 12 years'' imprisonment and six weeks'' holiday, where the time period (two days) modifies a noun (time), but not in nine months pregnant or three weeks old, where the time period is adverbial (modifying an adjective such as pregnant or old) – if in doubt, test with a singular such as one day''s time, one month pregnant.</p><p>Some shops use an apostrophe, wrongly, to indicate a plural ("pea''s"), but will generally omit the apostrophe when one is actually required ("new seasons asparagus"), a phenomenon sometimes referred to as the greengrocer''s (or grocer''s) apostrophe. Try to avoid this</p>'
             slug: apostrophes
         -
             title: app
             gid: id-15353380
-            text: 'an application for, typically, a mobile phone'
+            text: '<p>an application for, typically, a mobile phone</p>'
             slug: app
         -
             title: appal
             gid: id-3023037
-            text: 'but as the Prince of Wales might say, it really is appalling'
+            text: '<p>but as the Prince of Wales might say, it really is appalling</p>'
             slug: appal
         -
             title: apparatchik
@@ -854,66 +854,66 @@
         -
             title: appeal
             gid: id-11057361
-            text: 'In British English you appeal <strong>against</strong> a decision, verdict, etc, you do not "appeal the verdict". After we reported on 9 June 2010 that a convicted murderer "successfully appealed the sentence", a despairing reader wrote: "This usage seems to be occurring more and more, sometimes even in headlines. Do Guardian journalists not read the style guide?" Not all of them, evidently'
+            text: '<p>In British English you appeal <strong>against</strong> a decision, verdict, etc, you do not "appeal the verdict". After we reported on 9 June 2010 that a convicted murderer "successfully appealed the sentence", a despairing reader wrote: "This usage seems to be occurring more and more, sometimes even in headlines. Do Guardian journalists not read the style guide?" Not all of them, evidently</p>'
             slug: appeal
         -
             title: appendix
             gid: id-3023039
-            text: 'plural <strong>appendices</strong>'
+            text: '<p>plural <strong>appendices</strong></p>'
             slug: appendix
         -
             title: Apple
             gid: id-3023040
-            text: 'no longer Apple Computer'
+            text: '<p>no longer Apple Computer</p>'
             slug: apple
         -
             title: apples
             gid: id-3023041
-            text: 'lc: cox''s orange pippin, golden delicious, granny smith, etc'
+            text: '<p>lc: cox''s orange pippin, golden delicious, granny smith, etc</p>'
             slug: apples
         -
             title: appraise
             gid: id-3023042
-            text: 'to evaluate'
+            text: '<p>to evaluate</p>'
             slug: appraise
         -
             title: apprise
             gid: id-3023043
-            text: 'to inform'
+            text: '<p>to inform</p>'
             slug: apprise
         -
             title: 'April Fools'' Day'
             gid: id-10761087
-            text: 'also known, less commonly nowadays, as All Fools'' Day; an individual prank, or the victim of one, is an April fool, so you might say "one of the greatest April fools was the Guardian''s San Serriffe issue of 1977 – it made April fools of all who were taken in"'
+            text: '<p>also known, less commonly nowadays, as All Fools'' Day; an individual prank, or the victim of one, is an April fool, so you might say "one of the greatest April fools was the Guardian''s San Serriffe issue of 1977 – it made April fools of all who were taken in"</p>'
             slug: 'april-fools''-day'
         -
             title: aquarium
             gid: id-3023044
-            text: 'plural <strong>aquariums</strong>'
+            text: '<p>plural <strong>aquariums</strong></p>'
             slug: aquarium
         -
             title: Arab
             gid: id-3023045
-            text: "Both a noun and an adjective, and the preferred adjective when referring to Arab things in general, eg Arab history, Arab traditions. Arabic usually refers to the language and literature: \"the Arabic press\" means newspapers written in Arabic, while \"the Arab press\" would include newspapers produced by Arabs in other languages. \n<br><br>There is no simple definition of an Arab. At an international level, the 22 members of the Arab League can safely be described as Arab countries: Algeria, Bahrain, Comoros, Djibouti, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Mauritania, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Somalia, Sudan, Syria, Tunisia, United Arab Emirates, and Yemen. At a human level, there are substantial groups within those countries – the Berbers of north Africa and the Kurds, for example – who do not regard themselves as Arabs"
+            text: '<p>Both a noun and an adjective, and the preferred adjective when referring to Arab things in general, eg Arab history, Arab traditions. Arabic usually refers to the language and literature: "the Arabic press" means newspapers written in Arabic, while "the Arab press" would include newspapers produced by Arabs in other languages. </p><p>There is no simple definition of an Arab. At an international level, the 22 members of the Arab League can safely be described as Arab countries: Algeria, Bahrain, Comoros, Djibouti, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Mauritania, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Somalia, Sudan, Syria, Tunisia, United Arab Emirates, and Yemen. At a human level, there are substantial groups within those countries – the Berbers of north Africa and the Kurds, for example – who do not regard themselves as Arabs</p>'
             slug: arab
         -
             title: 'Arabic names'
             gid: id-3023046
-            text: "Though Arabic has only three vowels – a, i and u – it has several consonants that have no equivalent in the Roman alphabet. For instance, there are two kinds of s, d and t. There are also two glottal sounds. This means there are dozens of ways of writing the former Libyan leader Muammar Gaddafi's name in English, and a reasonable argument can be made for adopting almost any of them. With no standard approach to transliteration agreed by the western media, we must try to balance consistency, comprehensibility and familiarity – which often puts a strain on all three.\n<br><br>Typically, Arabs have at least three names. In some cases the first or second name may be the one that is most used, and this does not imply familiarity (Arabs often address foreigners politely as \"Mr John\" or \"Dr David\"). Often Arabs also have familiar names that have no connection with the names on their identity cards: a man might become known after the birth of his first son as \"Abu Ahmad\", and a woman as \"Umm Ahmad\", the father or mother of Ahmad (eg the Palestinian leader Ahmed Qureia is commonly known as Abu Ala).\n<br><br>Where a particular spelling has become widely accepted through usage we should retain it. Where an individual with links to the west has clearly adopted a particular spelling of his or her own name, we should respect that. For breaking news and stories using names for which we have no established style, we take the lead given by Reuters wire copy.\n<br><br>Note also that names in some parts of the Arab world have become gallicised, while others have become anglicised, eg the leading Egyptian film director Youssef Chahine uses a French spelling instead of the English transliteration, Shaheen."
+            text: '<p>Though Arabic has only three vowels – a, i and u – it has several consonants that have no equivalent in the Roman alphabet. For instance, there are two kinds of s, d and t. There are also two glottal sounds. This means there are dozens of ways of writing the former Libyan leader Muammar Gaddafi''s name in English, and a reasonable argument can be made for adopting almost any of them. With no standard approach to transliteration agreed by the western media, we must try to balance consistency, comprehensibility and familiarity – which often puts a strain on all three.</p><p>Typically, Arabs have at least three names. In some cases the first or second name may be the one that is most used, and this does not imply familiarity (Arabs often address foreigners politely as "Mr John" or "Dr David"). Often Arabs also have familiar names that have no connection with the names on their identity cards: a man might become known after the birth of his first son as "Abu Ahmad", and a woman as "Umm Ahmad", the father or mother of Ahmad (eg the Palestinian leader Ahmed Qureia is commonly known as Abu Ala).</p><p>Where a particular spelling has become widely accepted through usage we should retain it. Where an individual with links to the west has clearly adopted a particular spelling of his or her own name, we should respect that. For breaking news and stories using names for which we have no established style, we take the lead given by Reuters wire copy.</p><p>Note also that names in some parts of the Arab world have become gallicised, while others have become anglicised, eg the leading Egyptian film director Youssef Chahine uses a French spelling instead of the English transliteration, Shaheen.</p>'
             slug: arabic-names
         -
             title: null
             gid: id-3038077
-            text: "Some guidelines (for use particularly where there is no established transliteration):\n<br><br><strong>al-</strong> Means \"the\". In names it is not capitalised, eg Ahmad al-Saqqaf, and can be dropped after the first mention (Mr Saqqaf). For placenames we drop it altogether. Sometimes it appears as as- or ash- or ad- or ul-: these should be ignored and can be safely rewritten as al-. But some Arabs, including Syrians and Egyptians, prefer to use el- in place of al-. Exceptions: by convention, Allah (al-Lah, literally \"the God\") is written as one word and capitalised; and in Saudi royal names, Al Saud is correct (in this case, \"al\" is actually \"aal\" and does not mean \"the\").\n\n<br><br><strong>abdul, abu and bin</strong> These are not self-contained names, but are connected to the name that follows: \nabdul means \"slave of … \" and so cannot correctly be used on its own. There are standard combinations, \"slave of the merciful one\", \"slave of the generous one\", etc, which all indicate that the person is a servant of God. In transliteration, \"abd\" (slave) is lowercase, eg Ahmad abd al-Rahman al-Saqqaf, except when used at the start of a name.\nabu (father of) and bin (son of) are similar. When they appear in the middle of a name they should be lower case and are used in combination with the following part of the name: Faisal abu Ahmad al-Saqqaf, Faisal bin Ahmad al-Saqqaf.\nDespite the above, some people are actually known as \"Abdul\". This is more common among non-Arab Muslims. And some Arabs run \"abd\" or \"abu\" into the following word, eg the writer Abdelrahman Munif."
+            text: '<p>Some guidelines (for use particularly where there is no established transliteration):</p><p><strong>al-</strong> Means "the". In names it is not capitalised, eg Ahmad al-Saqqaf, and can be dropped after the first mention (Mr Saqqaf). For placenames we drop it altogether. Sometimes it appears as as- or ash- or ad- or ul-: these should be ignored and can be safely rewritten as al-. But some Arabs, including Syrians and Egyptians, prefer to use el- in place of al-. Exceptions: by convention, Allah (al-Lah, literally "the God") is written as one word and capitalised; and in Saudi royal names, Al Saud is correct (in this case, "al" is actually "aal" and does not mean "the").</p><p><strong>abdul, abu and bin</strong> These are not self-contained names, but are connected to the name that follows: abdul means "slave of … " and so cannot correctly be used on its own. There are standard combinations, "slave of the merciful one", "slave of the generous one", etc, which all indicate that the person is a servant of God. In transliteration, "abd" (slave) is lowercase, eg Ahmad abd al-Rahman al-Saqqaf, except when used at the start of a name.abu (father of) and bin (son of) are similar. When they appear in the middle of a name they should be lower case and are used in combination with the following part of the name: Faisal abu Ahmad al-Saqqaf, Faisal bin Ahmad al-Saqqaf.Despite the above, some people are actually known as "Abdul". This is more common among non-Arab Muslims. And some Arabs run "abd" or "abu" into the following word, eg the writer Abdelrahman Munif.</p>'
         -
             title: Muhammad
             gid: id-3023047
-            text: 'Our style for the prophet''s name and for most Muhammads living in Arab countries, though where someone''s preferred spelling is known we respect it, eg Mohamed Al Fayed, Mohamed ElBaradei. The spelling Mohammed (or variants) is considered archaic by most British Muslims, and disrespectful by many of them.'
+            text: '<p>Our style for the prophet''s name and for most Muhammads living in Arab countries, though where someone''s preferred spelling is known we respect it, eg Mohamed Al Fayed, Mohamed ElBaradei. The spelling Mohammed (or variants) is considered archaic by most British Muslims, and disrespectful by many of them.</p>'
             slug: muhammad
         -
             title: 'Muhandis/Mohandes, Qadi'
             gid: id-3023048
-            text: 'Be wary of names where the first word is Muhandis or Qadi: these are honorary titles, meaning engineer and judge respectively'
+            text: '<p>Be wary of names where the first word is Muhandis or Qadi: these are honorary titles, meaning engineer and judge respectively</p>'
             slug: muhandismohandes-qadi
         -
             title: 'Arab spring'
@@ -923,47 +923,47 @@
         -
             title: 'Aran Island'
             gid: id-3023050
-            text: 'is off Co Donegal and the <strong>Aran Islands</strong> off Co Galway in western Ireland; the <strong>Isle of Arran</strong> is the largest island in the Firth of Clyde in Scotland. <strong>Aran sweaters</strong>, whether Irish or Scottish, come in lowercase with an initial cap A'
+            text: '<p>is off Co Donegal and the <strong>Aran Islands</strong> off Co Galway in western Ireland; the <strong>Isle of Arran</strong> is the largest island in the Firth of Clyde in Scotland. <strong>Aran sweaters</strong>, whether Irish or Scottish, come in lowercase with an initial cap A</p>'
             slug: aran-island
         -
             title: arcane
             gid: id-15353381
-            text: 'esoteric; <strong>archaic</strong> antiquated (yes, we got them the wrong way round)'
+            text: '<p>esoteric; <strong>archaic</strong> antiquated (yes, we got them the wrong way round)</p>'
             slug: arcane
         -
             title: archbishops
             gid: id-3023051
-            text: 'It is not normally necessary to use their formal title, which for both Anglicans and Catholics is Most Rev: so Rowan Williams, the archbishop of Canterbury, at first mention, thereafter Williams or the archbishop (except in leading articles, where he is Dr Williams); Vincent Nichols, the archbishop of Westminster, on first mention, subsequently Nichols or the archbishop'
+            text: '<p>It is not normally necessary to use their formal title, which for both Anglicans and Catholics is Most Rev: so Rowan Williams, the archbishop of Canterbury, at first mention, thereafter Williams or the archbishop (except in leading articles, where he is Dr Williams); Vincent Nichols, the archbishop of Westminster, on first mention, subsequently Nichols or the archbishop</p>'
             slug: archbishops
         -
             title: archdeacon
             gid: id-3023052
-            text: 'the Ven Paul Olive, archdeacon of Farringdon, at first mention; thereafter Olive, or the archdeacon'
+            text: '<p>the Ven Paul Olive, archdeacon of Farringdon, at first mention; thereafter Olive, or the archdeacon</p>'
             slug: archdeacon
         -
             title: archery
             gid: id-3023053
-            text: 'arrows are shot, rather than fired; and if they hit the centre of the target, it is a gold rather than a bullseye'
+            text: '<p>arrows are shot, rather than fired; and if they hit the centre of the target, it is a gold rather than a bullseye</p>'
             slug: archery
         -
             title: 'archetype or stereotype?'
             gid: id-24890711
-            text: "An archetype is a perfect or typical specimen, an original model or pattern, or prototype.<br>\nA stereotype is based on simplistic generalisations about a particular group.<br>\nSo the matriarch in a typical Woody Allen film might be described as a stereotypical, not archetypal, Jewish mother"
+            text: '<p>An archetype is a perfect or typical specimen, an original model or pattern, or prototype.</p><p>A stereotype is based on simplistic generalisations about a particular group.</p><p>So the matriarch in a typical Woody Allen film might be described as a stereotypical, not archetypal, Jewish mother</p>'
             slug: archetype-or-stereotype
         -
             title: archipelago
             gid: id-3023054
-            text: 'plural <strong>archipelagos</strong>'
+            text: '<p>plural <strong>archipelagos</strong></p>'
             slug: archipelago
         -
             title: arch-rival
             gid: id-3023055
-            text: 'an arch rival would mean something different'
+            text: '<p>an arch rival would mean something different</p>'
             slug: arch-rival
         -
             title: Ardoyne
             gid: id-3023056
-            text: '(Belfast), not "the Ardoyne"'
+            text: '<p>(Belfast), not "the Ardoyne"</p>'
             slug: ardoyne
         -
             title: 'Argentina, Argentinian'
@@ -973,7 +973,7 @@
         -
             title: arguably
             gid: id-3023058
-            text: 'unarguably one of the most overused words in the language'
+            text: '<p>unarguably one of the most overused words in the language</p>'
             slug: arguably
         -
             title: Armageddon
@@ -983,37 +983,37 @@
         -
             title: 'armed forces, armed services'
             gid: id-3023060
-            text: 'the army, the British army, the navy, but Royal Navy, Royal Air Force or RAF'
+            text: '<p>the army, the British army, the navy, but Royal Navy, Royal Air Force or RAF</p>'
             slug: armed-forces-armed-services
         -
             title: 'arms akimbo'
             gid: id-3023061
-            text: "hands on hips, elbows out; it is surprising how often the phrase \"legs akimbo\" turns up in the paper, \"suggesting that such a posture exists, but lacks a word to define it\", as David McKie wrote. <br>\nThe radical theatre group in the BBC TV comedy series The League of Gentlemen was called Legz Akimbo"
+            text: '<p>hands on hips, elbows out; it is surprising how often the phrase "legs akimbo" turns up in the paper, "suggesting that such a posture exists, but lacks a word to define it", as David McKie wrote. </p><p>The radical theatre group in the BBC TV comedy series The League of Gentlemen was called Legz Akimbo</p>'
             slug: arms-akimbo
         -
             title: around
             gid: id-3023062
-            text: 'about or approximately are better, eg "about £1m" or "approximately 2,000 people"'
+            text: '<p>about or approximately are better, eg "about £1m" or "approximately 2,000 people"</p>'
             slug: around
         -
             title: 'around or round?'
             gid: id-3023063
-            text: 'We were driving around aimlessly all weekend; it nearly drove me round the bend'
+            text: '<p>We were driving around aimlessly all weekend; it nearly drove me round the bend</p>'
             slug: around-or-round
         -
             title: 'arranged marriages'
             gid: id-3023064
-            text: 'are a traditional and perfectly acceptable form of wedlock across southern Asia and within the Asian community in Britain; they should not be confused with forced marriages, which are arranged without the consent of one or both partners, and have been widely criticised'
+            text: '<p>are a traditional and perfectly acceptable form of wedlock across southern Asia and within the Asian community in Britain; they should not be confused with forced marriages, which are arranged without the consent of one or both partners, and have been widely criticised</p>'
             slug: arranged-marriages
         -
             title: arse
             gid: id-3023065
-            text: 'British English; <strong>ass</strong> American English'
+            text: '<p>British English; <strong>ass</strong> American English</p>'
             slug: arse
         -
             title: 'art movements'
             gid: id-3023066
-            text: 'are generally lowercase, eg art deco, art nouveau, cubism, dadaism, expressionism, gothic, impressionism, pop art, surrealism, etc, but note Bauhaus, Modern (in the sense of Modern British, to distinguish it from "modern art", pre-Raphaelite, Romantic (to differentiate between a romantic painting and a Romantic painting)'
+            text: '<p>are generally lowercase, eg art deco, art nouveau, cubism, dadaism, expressionism, gothic, impressionism, pop art, surrealism, etc, but note Bauhaus, Modern (in the sense of Modern British, to distinguish it from "modern art", pre-Raphaelite, Romantic (to differentiate between a romantic painting and a Romantic painting)</p>'
             slug: art-movements
         -
             title: artefact
@@ -1023,7 +1023,7 @@
         -
             title: artist
             gid: id-3023068
-            text: 'not artiste (except, possibly, in a historical context)'
+            text: '<p>not artiste (except, possibly, in a historical context)</p>'
             slug: artist
         -
             title: 'Arts and Crafts movement'
@@ -1038,12 +1038,12 @@
         -
             title: 'as or since?'
             gid: id-3023071
-            text: '"as" is causal: I cannot check the online style guide as the connection is down; "since" is temporal: Luckily, I have had the latest edition of Guardian Style on my desk since it was published'
+            text: '<p>"as" is causal: I cannot check the online style guide as the connection is down; "since" is temporal: Luckily, I have had the latest edition of Guardian Style on my desk since it was published</p>'
             slug: as-or-since
         -
             title: asbo
             gid: id-4792636
-            text: 'antisocial behaviour order'
+            text: '<p>antisocial behaviour order</p>'
             slug: asbo
         -
             title: 'ascendancy, ascendant'
@@ -1053,22 +1053,22 @@
         -
             title: Asean
             gid: id-15353382
-            text: 'Association of Southeast (sic) Asian Nations'
+            text: '<p>Association of Southeast (sic) Asian Nations</p>'
             slug: asean
         -
             title: Ash
             gid: id-3023073
-            text: 'Action on Smoking and Health'
+            text: '<p>Action on Smoking and Health</p>'
             slug: ash
         -
             title: Ashura
             gid: id-3023074
-            text: 'a day of voluntary fasting for Muslims; Shia Muslims also commemorate the martyrdom of Hussein, a grandson of the prophet, so for them it is not a festival but a day of mourning'
+            text: '<p>a day of voluntary fasting for Muslims; Shia Muslims also commemorate the martyrdom of Hussein, a grandson of the prophet, so for them it is not a festival but a day of mourning</p>'
             slug: ashura
         -
             title: 'Asperger syndrome'
             gid: id-3023075
-            text: 'is the proper name but it is acceptable to call it Asperger''s'
+            text: '<p>is the proper name but it is acceptable to call it Asperger''s</p>'
             slug: asperger-syndrome
         -
             title: aspirin
@@ -1078,102 +1078,102 @@
         -
             title: 'al-Assad, Bashar'
             gid: id-3023077
-            text: 'became president of Syria in 2000 after the death of his father, Hafez al-Assad'
+            text: '<p>became president of Syria in 2000 after the death of his father, Hafez al-Assad</p>'
             slug: al-assad-bashar
         -
             title: 'assassin, assassination'
             gid: id-3023078
-            text: 'the murder of prominent political figures rather than, say, celebrities'
+            text: '<p>the murder of prominent political figures rather than, say, celebrities</p>'
             slug: assassin-assassination
         -
             title: 'assisted dying'
             gid: id-8775202
-            text: 'is preferable to "assisted suicide"'
+            text: '<p>is preferable to "assisted suicide"</p>'
             slug: assisted-dying
         -
             title: 'astrologer, astrology'
             gid: id-17463850
-            text: horoscopes
+            text: '<p>horoscopes</p>'
             slug: astrologer-astrology
         -
             title: 'astronomer, astronomy'
             gid: id-3023079
-            text: telescopes
+            text: '<p>telescopes</p>'
             slug: astronomer-astronomy
         -
             title: 'astronomer royal'
             gid: id-3023080
-            text: 'currently Lord Rees'
+            text: '<p>currently Lord Rees</p>'
             slug: astronomer-royal
         -
             title: Asunción
             gid: id-3023081
-            text: 'capital of Paraguay'
+            text: '<p>capital of Paraguay</p>'
             slug: asuncion
         -
             title: 'asylum seeker'
             gid: id-3023082
-            text: 'Someone seeking refugee status or humanitarian protection; there is no such thing as an "illegal asylum seeker", a term the Press Complaints Commission ruled in breach of its code of practice. <br><br>Refugees are people who have fled their home countries in fear for their lives, and may have been granted asylum under the 1951 refugee convention or qualify for humanitarian protection or discretionary leave, or have been granted exceptional leave to remain in Britain. <br><br>Someone who is refused asylum should be referred to as a refused asylum seeker, not a "failed asylum seeker".<br><br>An asylum seeker can become an illegal immigrant only if he or she remains in Britain after having failed to respond to a removal notice'
+            text: '<p>Someone seeking refugee status or humanitarian protection; there is no such thing as an "illegal asylum seeker", a term the Press Complaints Commission ruled in breach of its code of practice. </p><p>Refugees are people who have fled their home countries in fear for their lives, and may have been granted asylum under the 1951 refugee convention or qualify for humanitarian protection or discretionary leave, or have been granted exceptional leave to remain in Britain. </p><p>Someone who is refused asylum should be referred to as a refused asylum seeker, not a "failed asylum seeker".</p><p>An asylum seeker can become an illegal immigrant only if he or she remains in Britain after having failed to respond to a removal notice</p>'
             slug: asylum-seeker
         -
             title: ATCU
             gid: id-3023083
-            text: 'Associated Train Crew Union; not to be confused with ACTU, the Australian Council of Trade Unions'
+            text: '<p>Associated Train Crew Union; not to be confused with ACTU, the Australian Council of Trade Unions</p>'
             slug: atcu
         -
             title: athletics
             gid: id-3023084
-            text: '<strong>1500m</strong> but <strong>5,000m</strong> (the former is the "fifteen hundred" not "one thousand five hundred" metres)'
+            text: '<p><strong>1500m</strong> but <strong>5,000m</strong> (the former is the "fifteen hundred" not "one thousand five hundred" metres)</p>'
             slug: athletics
         -
             title: 'Atlantic Ocean'
             gid: id-3023085
-            text: 'or just the Atlantic'
+            text: '<p>or just the Atlantic</p>'
             slug: atlantic-ocean
         -
             title: attache
             gid: id-3023086
-            text: 'no accent'
+            text: '<p>no accent</p>'
             slug: attache
         -
             title: 'attention deficit hyperactivity disorder'
             gid: id-3023087
-            text: 'ADHD after first mention'
+            text: '<p>ADHD after first mention</p>'
             slug: attention-deficit-hyperactivity-disorder
         -
             title: 'Attlee, Clement'
             gid: id-3023088
-            text: '(1883-1967) Labour prime minister 1945-51, often misspelt as Atlee'
+            text: '<p>(1883-1967) Labour prime minister 1945-51, often misspelt as Atlee</p>'
             slug: attlee-clement
         -
             title: 'attorney general'
             gid: id-3023089
-            text: 'lc, no hyphen; plural <strong>attorney generals</strong> (there will be those who tell you it should be "attorneys general" – <em>See berks and wankers)</em>'
+            text: '<p>lc, no hyphen; plural <strong>attorney generals</strong> (there will be those who tell you it should be "attorneys general" – <em>See berks and wankers)</em></p>'
             slug: attorney-general
         -
             title: auger
             gid: id-3023090
-            text: 'used to make holes'
+            text: '<p>used to make holes</p>'
             slug: auger
         -
             title: augur
             gid: id-3038078
-            text: 'predict or presage'
+            text: '<p>predict or presage</p>'
             slug: augur
         -
             title: 'Aum Shinrikyo'
             gid: id-3023091
-            text: 'means Supreme Truth sect, but note that the "aum" means sect, so to talk about the "Aum sect" or "Aum cult" is tautologous'
+            text: '<p>means Supreme Truth sect, but note that the "aum" means sect, so to talk about the "Aum sect" or "Aum cult" is tautologous</p>'
             slug: aum-shinrikyo
         -
             title: 'Aung San Suu Kyi'
             gid: id-4864050
-            text: 'Use her full name (as with other Burmese names), even on second and subsequent mentions, in copy; if absolutely necessary, Suu Kyi is permissible in headlines'
+            text: '<p>Use her full name (as with other Burmese names), even on second and subsequent mentions, in copy; if absolutely necessary, Suu Kyi is permissible in headlines</p>'
             slug: aung-san-suu-kyi
         -
             title: Auntie
             gid: id-3023092
-            text: 'not Aunty if you must refer to the BBC in this way'
+            text: '<p>not Aunty if you must refer to the BBC in this way</p>'
             slug: auntie
         -
             title: 'au pair'
@@ -1183,32 +1183,32 @@
         -
             title: Australasia
             gid: id-3023094
-            text: '<strong>Oceania</strong> is preferable <em>See Oceania</em>'
+            text: '<p><strong>Oceania</strong> is preferable <em>See Oceania</em></p>'
             slug: australasia
         -
             title: 'Australian Labor party'
             gid: id-3023095
-            text: 'not Labour'
+            text: '<p>not Labour</p>'
             slug: australian-labor-party
         -
             title: autism
             gid: id-3023096
-            text: 'neurological disorder, to be used only when referring to the condition, not as a term of abuse, or in producing such witticisms as "mindless moral autism" and "Star Wars is a form of male autism", both of which have appeared'
+            text: '<p>neurological disorder, to be used only when referring to the condition, not as a term of abuse, or in producing such witticisms as "mindless moral autism" and "Star Wars is a form of male autism", both of which have appeared</p>'
             slug: autism
         -
             title: autistic
             gid: id-3023097
-            text: 'someone with autism, not someone with poor social skills'
+            text: '<p>someone with autism, not someone with poor social skills</p>'
             slug: autistic
         -
             title: Autocue
             gid: id-3023098
-            text: 'TM;<strong> teleprompter</strong> is a generic alternative'
+            text: '<p>TM;<strong> teleprompter</strong> is a generic alternative</p>'
             slug: autocue
         -
             title: Auto-Tune
             gid: id-15574168
-            text: 'TM; also Auto-Tuned, etc'
+            text: '<p>TM; also Auto-Tuned, etc</p>'
             slug: auto-tune
         -
             title: autumn
@@ -1218,57 +1218,57 @@
         -
             title: AV
             gid: id-15353383
-            text: 'the alternative vote electoral system'
+            text: '<p>the alternative vote electoral system</p>'
             slug: av
         -
             title: 'avant garde'
             gid: id-3023100
-            text: 'no hyphen'
+            text: '<p>no hyphen</p>'
             slug: avant-garde
         -
             title: 'average, mean and median'
             gid: id-3023101
-            text: 'Although we loosely refer to the "average" in many contexts (eg pay), there are two useful averages worth distinguishing. <br><br>What is commonly known as the average is the <strong>mean</strong>: everyone''s wages are added up and divided by the number of wage earners. The <strong>median</strong> is described as "the value below which 50% of employees fall", ie it is the wage earned by the middle person when everyone''s wages are lined up from smallest to largest. (For even numbers there are two middle people, but you calculate the mean average of their two wages.) <br><br>The median is often a more useful guide than the mean, which can be distorted by figures at one extreme or the other'
+            text: '<p>Although we loosely refer to the "average" in many contexts (eg pay), there are two useful averages worth distinguishing. </p><p>What is commonly known as the average is the <strong>mean</strong>: everyone''s wages are added up and divided by the number of wage earners. The <strong>median</strong> is described as "the value below which 50% of employees fall", ie it is the wage earned by the middle person when everyone''s wages are lined up from smallest to largest. (For even numbers there are two middle people, but you calculate the mean average of their two wages.) </p><p>The median is often a more useful guide than the mean, which can be distorted by figures at one extreme or the other</p>'
             slug: average-mean-and-median
         -
             title: 'awards and prizes'
             gid: id-3023102
-            text: "are generally lc, eg Guardian first book award, Nobel peace prize (but note Academy Awards)<br>\nlc for categories, eg Colin Firth won the best actor Oscar, Chipmunk was voted best newcomer at the 2008 Mobos, etc"
+            text: '<p>are generally lc, eg Guardian first book award, Nobel peace prize (but note Academy Awards)</p><p>lc for categories, eg Colin Firth won the best actor Oscar, Chipmunk was voted best newcomer at the 2008 Mobos, etc</p>'
             slug: awards-and-prizes
         -
             title: awol
             gid: id-3023103
-            text: 'stands for "absent without leave" but, having been around since at least the 1920s, has established itself as a word in its own right'
+            text: '<p>stands for "absent without leave" but, having been around since at least the 1920s, has established itself as a word in its own right</p>'
             slug: awol
         -
             title: 'awopbopaloobop alopbamboom'
             gid: id-3023104
-            text: 'from Little Richard''s Tutti Frutti (1955), a recording that has been described as "the sound of the birth of rock''n''roll"'
+            text: '<p>from Little Richard''s Tutti Frutti (1955), a recording that has been described as "the sound of the birth of rock''n''roll"</p>'
             slug: awopbopaloobop-alopbamboom
         -
             title: axing
             gid: id-3023105
-            text: 'not axeing, but cutting jobs is less cliched than axing them'
+            text: '<p>not axeing, but cutting jobs is less cliched than axing them</p>'
             slug: axing
         -
             title: axis
             gid: id-3023106
-            text: 'plural <strong>axes </strong>'
+            text: '<p>plural <strong>axes </strong></p>'
             slug: axis
         -
             title: 'Ayers Rock'
             gid: id-3023107
-            text: 'now known as <strong>Uluru </strong>'
+            text: '<p>now known as <strong>Uluru </strong></p>'
             slug: ayers-rock
         -
             title: Azerbaijan
             gid: id-3023108
-            text: 'noun, <strong>Azerbaijani</strong> adjective; note that there are ethnic <strong>Azeris</strong> living in, for example, Armenia'
+            text: '<p>noun, <strong>Azerbaijani</strong> adjective; note that there are ethnic <strong>Azeris</strong> living in, for example, Armenia</p>'
             slug: azerbaijan
         -
             title: 'Aznar, José María'
             gid: id-3023109
-            text: 'former prime minister of Spain'
+            text: '<p>former prime minister of Spain</p>'
             slug: aznar-jose-mara
 -
     letter: b
@@ -1276,27 +1276,27 @@
         -
             title: b
             gid: id-2828807
-            text: "bit or binary digit; <strong>B</strong> byte, usually made up of 8 bits<br>\n<em>See <a href=\"/http/0/cms.guprod.gnl/styleguide/b#id-3032789\">byte</a></em>"
+            text: '<p>bit or binary digit; <strong>B</strong> byte, usually made up of 8 bits</p><p><em>See <a href="/http/0/cms.guprod.gnl/styleguide/b#id-3032789">byte</a></em></p>'
             slug: b
         -
             title: BAA
             gid: id-2828808
-            text: 'formerly the British Airports Authority'
+            text: '<p>formerly the British Airports Authority</p>'
             slug: baa
         -
             title: 'Ba''ath party'
             gid: id-2828809
-            text: 'it means renaissance or resurrection'
+            text: '<p>it means renaissance or resurrection</p>'
             slug: 'ba''ath-party'
         -
             title: Babybel
             gid: id-2828810
-            text: cheese
+            text: '<p>cheese</p>'
             slug: babybel
         -
             title: 'baby Bells'
             gid: id-2828811
-            text: 'US regional telephone companies formed after the breakup of AT&amp;T in 1984'
+            text: '<p>US regional telephone companies formed after the breakup of AT&amp;T in 1984</p>'
             slug: baby-bells
         -
             title: 'baby boomer'
@@ -1306,42 +1306,42 @@
         -
             title: Babygro
             gid: id-2828813
-            text: 'TM; a generic alternative is <strong>babygrow</strong>'
+            text: '<p>TM; a generic alternative is <strong>babygrow</strong></p>'
             slug: babygro
         -
             title: 'Baby P'
             gid: id-15355277
-            text: 'Peter Connelly, who died in Haringey in 2007, was known as Baby P or Baby Peter'
+            text: '<p>Peter Connelly, who died in Haringey in 2007, was known as Baby P or Baby Peter</p>'
             slug: baby-p
         -
             title: 'babysit, babysitter'
             gid: id-2828814
-            text: 'the noun "baby-sitter" came first (in 1937), and the verb "to baby-sit" was derived from it a decade later, an interesting example of back-formation'
+            text: '<p>the noun "baby-sitter" came first (in 1937), and the verb "to baby-sit" was derived from it a decade later, an interesting example of back-formation</p>'
             slug: babysit-babysitter
         -
             title: baccalaureate
             gid: id-2828815
-            text: 'abbreviation bac, but the new English baccalaureate is abbreviated to Ebacc'
+            text: '<p>abbreviation bac, but the new English baccalaureate is abbreviated to Ebacc</p>'
             slug: baccalaureate
         -
             title: bacchanalia
             gid: id-15355278
-            text: 'originally wild festivals dedicated to the god Bacchus; now drunken revelry as found in most British towns on a Saturday night, lowercase with singular verb: the bacchanalia is likely to continue until we all pass out'
+            text: '<p>originally wild festivals dedicated to the god Bacchus; now drunken revelry as found in most British towns on a Saturday night, lowercase with singular verb: the bacchanalia is likely to continue until we all pass out</p>'
             slug: bacchanalia
         -
             title: 'Bacharach, Burt'
             gid: id-2828816
-            text: 'US songwriter, born 1928'
+            text: '<p>US songwriter, born 1928</p>'
             slug: bacharach-burt
         -
             title: bachelor
             gid: id-2828817
-            text: 'now has a slightly old-fashioned ring to it, so probably better to say (if relevant) unmarried man; "confirmed bachelor" should definitely be avoided, as should "bachelor girl" (unless writing about swinging 60s movies)'
+            text: '<p>now has a slightly old-fashioned ring to it, so probably better to say (if relevant) unmarried man; "confirmed bachelor" should definitely be avoided, as should "bachelor girl" (unless writing about swinging 60s movies)</p>'
             slug: bachelor
         -
             title: backbench
             gid: id-2828818
-            text: 'newspaper or politics; <strong>backbenches</strong>, <strong>backbenchers</strong>'
+            text: '<p>newspaper or politics; <strong>backbenches</strong>, <strong>backbenchers</strong></p>'
             slug: backbench
         -
             title: 'back catalogue, back yard'
@@ -1361,22 +1361,22 @@
         -
             title: bacteria
             gid: id-2828821
-            text: 'plural of <strong>bacterium</strong>, so don''t write "the bacteria is"; even more important, don''t confuse with viruses'
+            text: '<p>plural of <strong>bacterium</strong>, so don''t write "the bacteria is"; even more important, don''t confuse with viruses</p>'
             slug: bacteria
         -
             title: 'BAE Systems'
             gid: id-2828822
-            text: 'formerly British Aerospace'
+            text: '<p>formerly British Aerospace</p>'
             slug: bae-systems
         -
             title: Bafta
             gid: id-2828823
-            text: 'British Academy of Film and Television Arts'
+            text: '<p>British Academy of Film and Television Arts</p>'
             slug: bafta
         -
             title: bagel
             gid: id-2828824
-            text: 'not baigel or beigel'
+            text: '<p>not baigel or beigel</p>'
             slug: bagel
         -
             title: Baghdad
@@ -1391,17 +1391,17 @@
         -
             title: bailout
             gid: id-3715233
-            text: noun
+            text: '<p>noun</p>'
             slug: bailout
         -
             title: 'bail out'
             gid: id-2828827
-            text: 'a prisoner, a company or person in financial difficulty; but <strong>bale out</strong> a boat or from an aircraft'
+            text: '<p>a prisoner, a company or person in financial difficulty; but <strong>bale out</strong> a boat or from an aircraft</p>'
             slug: bail-out
         -
             title: 'baker''s dozen'
             gid: id-15355279
-            text: '13'
+            text: '<p>13</p>'
             slug: 'baker''s-dozen'
         -
             title: 'bakewell tart'
@@ -1411,7 +1411,7 @@
         -
             title: balk
             gid: id-2828829
-            text: 'obstruct, pull up, stop short; <strong>baulk </strong> area of a snooker table'
+            text: '<p>obstruct, pull up, stop short; <strong>baulk </strong> area of a snooker table</p>'
             slug: balk
         -
             title: 'ballboy, ballgirl, ballgame, ballgown, ballpark'
@@ -1426,32 +1426,32 @@
         -
             title: Band-Aid
             gid: id-2828833
-            text: 'TM; say <strong>plaster </strong>or <strong>sticking plaster</strong>'
+            text: '<p>TM; say <strong>plaster </strong>or <strong>sticking plaster</strong></p>'
             slug: band-aid
         -
             title: 'B&B'
             gid: id-2828834
-            text: 'abbreviation for bed and breakfast'
+            text: '<p>abbreviation for bed and breakfast</p>'
             slug: b-and-b
         -
             title: 'band names'
             gid: id-2828835
-            text: "lc the: the Beatles, the Killers, the The; but uc equivalents in other languages, eg Les Négresses Vertes, Los Lobos. Bands that do not take the definite article (although they are often erroneously given it) include Arctic Monkeys, Pet Shop Boys and Ramones; for most bands, this can be easily checked online.<br><br>\nBands take a plural verb: Snow Patrol are overrated, Iron Butterfly were the loudest band of the 60s, etc.<br><br>Try to include diacritical marks if bands use them in their name, no matter how absurd: Maxïmo Park, Mötley Crüe, Motörhead, etc; for a comprehensive list see the excellent \"<a href=\"http://en.wikipedia.org/wiki/metal_umlaut\">metal umlaut\"</a> entry on Wikipedia"
+            text: '<p>lc the: the Beatles, the Killers, the The; but uc equivalents in other languages, eg Les Négresses Vertes, Los Lobos. Bands that do not take the definite article (although they are often erroneously given it) include Arctic Monkeys, Pet Shop Boys and Ramones; for most bands, this can be easily checked online.</p><p>Bands take a plural verb: Snow Patrol are overrated, Iron Butterfly were the loudest band of the 60s, etc.</p><p>Try to include diacritical marks if bands use them in their name, no matter how absurd: Maxïmo Park, Mötley Crüe, Motörhead, etc; for a comprehensive list see the excellent "<a href="http://en.wikipedia.org/wiki/metal_umlaut">metal umlaut"</a> entry on Wikipedia</p>'
             slug: band-names
         -
             title: Bangalore
             gid: id-2828837
-            text: 'is now known as <strong>Bengaluru</strong>'
+            text: '<p>is now known as <strong>Bengaluru</strong></p>'
             slug: bangalore
         -
             title: 'bank holiday'
             gid: id-2828838
-            text: 'bank holiday Monday, etc'
+            text: '<p>bank holiday Monday, etc</p>'
             slug: bank-holiday
         -
             title: 'Ban Ki-moon'
             gid: id-2828839
-            text: 'UN secretary general; Ban on second mention'
+            text: '<p>UN secretary general; Ban on second mention</p>'
             slug: ban-ki-moon
         -
             title: banknote
@@ -1461,22 +1461,22 @@
         -
             title: 'Bank  of England'
             gid: id-2828841
-            text: 'the Bank on subsequent mentions'
+            text: '<p>the Bank on subsequent mentions</p>'
             slug: bank-of-england
         -
             title: 'Bank of Scotland'
             gid: id-2828842
-            text: 'BoS on second mention'
+            text: '<p>BoS on second mention</p>'
             slug: bank-of-scotland
         -
             title: banlieue
             gid: id-2828843
-            text: 'French for suburbia, not suburb: strictly singular, but a French reader points out that the Petit Robert dictionary listed "<em>les banlieues</em>" among its "<em>nouveaux mots</em>" in 2006; the French for suburb is <em>faubourg</em> (literally, "false town")'
+            text: '<p>French for suburbia, not suburb: strictly singular, but a French reader points out that the Petit Robert dictionary listed "<em>les banlieues</em>" among its "<em>nouveaux mots</em>" in 2006; the French for suburb is <em>faubourg</em> (literally, "false town")</p>'
             slug: banlieue
         -
             title: bar
             gid: id-2828844
-            text: '(legal) she was called to the bar; (political) of the House of Commons'
+            text: '<p>(legal) she was called to the bar; (political) of the House of Commons</p>'
             slug: bar
         -
             title: barbecue
@@ -1501,27 +1501,27 @@
         -
             title: 'Barnardo''s'
             gid: id-2828849
-            text: 'children''s charity, formerly Dr Barnardo''s; it no longer runs orphanages'
+            text: '<p>children''s charity, formerly Dr Barnardo''s; it no longer runs orphanages</p>'
             slug: 'barnardo''s'
         -
             title: barolo
             gid: id-2828850
-            text: wine
+            text: '<p>wine</p>'
             slug: barolo
         -
             title: 'Baron Cohen, Sacha'
             gid: id-2828851
-            text: 'the man behind Ali G and Borat'
+            text: '<p>the man behind Ali G and Borat</p>'
             slug: baron-cohen-sacha
         -
             title: 'Baron-Cohen, Simon'
             gid: id-2828852
-            text: 'a professor of developmental psychopathology at Cambridge University and cousin of Sacha'
+            text: '<p>a professor of developmental psychopathology at Cambridge University and cousin of Sacha</p>'
             slug: baron-cohen-simon
         -
             title: 'barons, baronesses'
             gid: id-2828853
-            text: 'are lords and ladies in our publications, even at first mention: Lord Adonis, Lady Warsi, etc; do not use first names with title ("Lady Patricia Scotland"), even if you claim to be on good terms with the peer in question'
+            text: '<p>are lords and ladies in our publications, even at first mention: Lord Adonis, Lady Warsi, etc; do not use first names with title ("Lady Patricia Scotland"), even if you claim to be on good terms with the peer in question</p>'
             slug: barons-baronesses
         -
             title: 'Barons Court'
@@ -1536,37 +1536,37 @@
         -
             title: barracks
             gid: id-2828856
-            text: 'the army has barracks, the RAF has airfields'
+            text: '<p>the army has barracks, the RAF has airfields</p>'
             slug: barracks
         -
             title: 'Barroso, José Manuel'
             gid: id-2828857
-            text: 'former prime minister of Portugal, subsequently president of the European commission'
+            text: '<p>former prime minister of Portugal, subsequently president of the European commission</p>'
             slug: barroso-jose-manuel
         -
             title: Barts
             gid: id-2828858
-            text: 'abbreviation for St Bartholomew''s hospital, London'
+            text: '<p>abbreviation for St Bartholomew''s hospital, London</p>'
             slug: barts
         -
             title: 'Base jumping'
             gid: id-2828859
-            text: 'extreme sport; the acronym stands for four categories of object from which you can jump, if so inclined: building, antenna, span and earth'
+            text: '<p>extreme sport; the acronym stands for four categories of object from which you can jump, if so inclined: building, antenna, span and earth</p>'
             slug: base-jumping
         -
             title: Basel
             gid: id-2828861
-            text: 'not Basle'
+            text: '<p>not Basle</p>'
             slug: basel
         -
             title: basically
             gid: id-2828860
-            text: 'this word is unnecessary, basically'
+            text: '<p>this word is unnecessary, basically</p>'
             slug: basically
         -
             title: 'basket case'
             gid: id-20484255
-            text: 'originally referred to quadriplegics who had suffered catastrophic wounds in the first world war; now a cliche used mainly to describe currencies or countries of which a newspaper disapproves. Either way, the phrase is best avoided'
+            text: '<p>originally referred to quadriplegics who had suffered catastrophic wounds in the first world war; now a cliche used mainly to describe currencies or countries of which a newspaper disapproves. Either way, the phrase is best avoided</p>'
             slug: basket-case
         -
             title: 'Basque country'
@@ -1581,17 +1581,17 @@
         -
             title: 'bated breath'
             gid: id-2828864
-            text: 'not baited'
+            text: '<p>not baited</p>'
             slug: bated-breath
         -
             title: Battenberg
             gid: id-2828865
-            text: '(not Battenburg) German family name that became Mountbatten; <strong>battenberg cake </strong>lc'
+            text: '<p>(not Battenburg) German family name that became Mountbatten; <strong>battenberg cake </strong>lc</p>'
             slug: battenberg
         -
             title: 'Battersea Dogs & Cats Home'
             gid: id-2828866
-            text: 'no apostrophes'
+            text: '<p>no apostrophes</p>'
             slug: battersea-dogs-and-cats-home
         -
             title: battlebus
@@ -1606,12 +1606,12 @@
         -
             title: 'BBC1, BBC2, BBC3, BBC4'
             gid: id-2828869
-            text: 'no spaces'
+            text: '<p>no spaces</p>'
             slug: bbc1-bbc2-bbc3-bbc4
         -
             title: 'BBC News'
             gid: id-4575195
-            text: 'is no longer BBC News 24'
+            text: '<p>is no longer BBC News 24</p>'
             slug: bbc-news
         -
             title: 'BBC Radio 1, 2, 3, 4, 4 Extra, 5 Live, 6 Music'
@@ -1621,7 +1621,7 @@
         -
             title: BC
             gid: id-2828871
-            text: '1000BC but AD1066'
+            text: '<p>1000BC but AD1066</p>'
             slug: bc
         -
             title: 'be-all and end-all'
@@ -1631,47 +1631,47 @@
         -
             title: beau
             gid: id-3030805
-            text: 'plural <strong>beaux </strong>'
+            text: '<p>plural <strong>beaux </strong></p>'
             slug: beau
         -
             title: 'Beaufort scale'
             gid: id-14976126
-            text: "measure of wind speed created in 1806 by Sir Francis Beaufort.<br>\nThere are 13 classes, as follows: 0 calm, 1 light air, 2 light breeze, 3 gentle breeze, 4 moderate breeze, 5 fresh breeze, 6 strong breeze, 7 near gale, 8 gale, 9 strong gale, 10 storm, 11 violent storm, 12 hurricane. <br>\nForces 13 to 17, used in China and Taiwan, cover cyclones and typhoons"
+            text: '<p>measure of wind speed created in 1806 by Sir Francis Beaufort.</p><p>There are 13 classes, as follows: 0 calm, 1 light air, 2 light breeze, 3 gentle breeze, 4 moderate breeze, 5 fresh breeze, 6 strong breeze, 7 near gale, 8 gale, 9 strong gale, 10 storm, 11 violent storm, 12 hurricane. </p><p>Forces 13 to 17, used in China and Taiwan, cover cyclones and typhoons</p>'
             slug: beaufort-scale
         -
             title: 'beaujolais, beaujolais nouveau'
             gid: id-18150670
-            text: 'wine; <strong>Beaujolais </strong>region where it is produced'
+            text: '<p>wine; <strong>Beaujolais </strong>region where it is produced</p>'
             slug: beaujolais-beaujolais-nouveau
         -
             title: 'Beaver scouts'
             gid: id-3030806
-            text: 'for boys (and now girls) aged six to eight, when they are eligible to become <strong>Cub scouts</strong>'
+            text: '<p>for boys (and now girls) aged six to eight, when they are eligible to become <strong>Cub scouts</strong></p>'
             slug: beaver-scouts
         -
             title: 'bebop, hard bop, post-bop'
             gid: id-3030807
-            text: 'jazz genres'
+            text: '<p>jazz genres</p>'
             slug: bebop-hard-bop-post-bop
         -
             title: Be-Bop-A-Lula
             gid: id-20702868
-            text: 'Gene Vincent song'
+            text: '<p>Gene Vincent song</p>'
             slug: be-bop-a-lula
         -
             title: because
             gid: id-3030808
-            text: 'can be ambiguous: "I didn''t go to the party because Mary was there" may mean that Mary''s presence dissuaded me from going or that I went to sample the canapés'
+            text: '<p>can be ambiguous: "I didn''t go to the party because Mary was there" may mean that Mary''s presence dissuaded me from going or that I went to sample the canapés</p>'
             slug: because
         -
             title: 'Becket, Thomas (1118-70)'
             gid: id-3030809
-            text: 'murdered archbishop of Canterbury, not "Thomas à Becket"'
+            text: '<p>murdered archbishop of Canterbury, not "Thomas à Becket"</p>'
             slug: becket-thomas-(1118-70)
         -
             title: becquerel
             gid: id-15832303
-            text: 'the activity of a quantity of radioactive material in which one nucleus decays in a second; the time measurement is included, so it is wrong to say "becquerels per hour"'
+            text: '<p>the activity of a quantity of radioactive material in which one nucleus decays in a second; the time measurement is included, so it is wrong to say "becquerels per hour"</p>'
             slug: becquerel
         -
             title: 'bed blocking'
@@ -1691,12 +1691,12 @@
         -
             title: 'Beeton, Mrs'
             gid: id-3030813
-            text: '(Isabella Mary Beeton, 1836-65) author of The Book of Household Management'
+            text: '<p>(Isabella Mary Beeton, 1836-65) author of The Book of Household Management</p>'
             slug: beeton-mrs
         -
             title: 'begs the question'
             gid: id-3030815
-            text: "This phrase is almost invariably misused: it means assuming a proposition that, in reality, involves the conclusion. An example would be to say that parallel lines will never meet, because they are parallel.<br><br>\nThe concept can be traced as far back as Aristotle, but HW Fowler, whose entry on begging the question is listed under the Latin <em>petitio principii</em> (assumption of the basis), defines it as \"the fallacy of founding a conclusion on a basis that as much needs to be proved as the conclusion itself\", giving as an example \"foxhunting is not cruel, since the fox enjoys the fun\".<br><br>\nNow used widely to mean \"raises the question\", its traditional sense is being lost, which seems a sad fate for a phrase that might be useful or even – in a logical or philosophical context – essential"
+            text: '<p>This phrase is almost invariably misused: it means assuming a proposition that, in reality, involves the conclusion. An example would be to say that parallel lines will never meet, because they are parallel.</p><p>The concept can be traced as far back as Aristotle, but HW Fowler, whose entry on begging the question is listed under the Latin <em>petitio principii</em> (assumption of the basis), defines it as "the fallacy of founding a conclusion on a basis that as much needs to be proved as the conclusion itself", giving as an example "foxhunting is not cruel, since the fox enjoys the fun".</p><p>Now used widely to mean "raises the question", its traditional sense is being lost, which seems a sad fate for a phrase that might be useful or even – in a logical or philosophical context – essential</p>'
             slug: begs-the-question
         -
             title: Beijing
@@ -1706,12 +1706,12 @@
         -
             title: Belarus
             gid: id-3030817
-            text: 'adjective Belarusian'
+            text: '<p>adjective Belarusian</p>'
             slug: belarus
         -
             title: beleaguered
             gid: id-3031662
-            text: 'overused, even when we spell it correctly'
+            text: '<p>overused, even when we spell it correctly</p>'
             slug: beleaguered
         -
             title: believable
@@ -1721,12 +1721,12 @@
         -
             title: 'Belisha beacons'
             gid: id-3031664
-            text: 'flashing orange lamps on black and white poles at zebra crossings, named after Leslie Hore-Belisha, the minister of transport who introduced them in 1934; have given way in many cases to <strong>pelican crossings</strong> (little red and green men)'
+            text: '<p>flashing orange lamps on black and white poles at zebra crossings, named after Leslie Hore-Belisha, the minister of transport who introduced them in 1934; have given way in many cases to <strong>pelican crossings</strong> (little red and green men)</p>'
             slug: belisha-beacons
         -
             title: 'bellringing, bellringers'
             gid: id-3031665
-            text: 'no hyphens'
+            text: '<p>no hyphens</p>'
             slug: bellringing-bellringers
         -
             title: 'Bell''s whisky'
@@ -1736,12 +1736,12 @@
         -
             title: bellwether
             gid: id-3031667
-            text: 'sheep that leads the herd; customarily misspelt, misused, or both'
+            text: '<p>sheep that leads the herd; customarily misspelt, misused, or both</p>'
             slug: bellwether
         -
             title: 'benefactor, beneficiary'
             gid: id-3031668
-            text: 'are sometimes confused: the former gives something; the latter gets it'
+            text: '<p>are sometimes confused: the former gives something; the latter gets it</p>'
             slug: benefactor-beneficiary
         -
             title: 'benefited, benefiting'
@@ -1756,7 +1756,7 @@
         -
             title: Bengaluru
             gid: id-3031671
-            text: 'formerly Bangalore'
+            text: '<p>formerly Bangalore</p>'
             slug: bengaluru
         -
             title: Berchtesgaden
@@ -1766,12 +1766,12 @@
         -
             title: 'berks and wankers'
             gid: id-3031673
-            text: 'Kingsley Amis identified two principal groups in debates over use of language: "Berks are careless, coarse, crass, gross and of what anybody would agree is a lower social class than one''s own; wankers are prissy, fussy, priggish, prim and of what they would probably misrepresent as a higher social class than one''s own"'
+            text: '<p>Kingsley Amis identified two principal groups in debates over use of language: "Berks are careless, coarse, crass, gross and of what anybody would agree is a lower social class than one''s own; wankers are prissy, fussy, priggish, prim and of what they would probably misrepresent as a higher social class than one''s own"</p>'
             slug: berks-and-wankers
         -
             title: Berliner
             gid: id-15365997
-            text: 'newspaper format, narrower and shorter than a broadsheet, taller and wider than a tabloid; the Guardian switched to Berliner format on 12 September 2005'
+            text: '<p>newspaper format, narrower and shorter than a broadsheet, taller and wider than a tabloid; the Guardian switched to Berliner format on 12 September 2005</p>'
             slug: berliner
         -
             title: 'Berlin Wall'
@@ -1781,27 +1781,27 @@
         -
             title: Bermuda
             gid: id-4849696
-            text: 'the adjective is <strong>Bermudian</strong> (not Bermudan) and its citizens are<strong> Bermudians</strong>'
+            text: '<p>the adjective is <strong>Bermudian</strong> (not Bermudan) and its citizens are<strong> Bermudians</strong></p>'
             slug: bermuda
         -
             title: 'Bernabéu stadium'
             gid: id-3031674
-            text: 'the home of Real Madrid'
+            text: '<p>the home of Real Madrid</p>'
             slug: bernabeu-stadium
         -
             title: Berne
             gid: id-3031675
-            text: 'not Bern'
+            text: '<p>not Bern</p>'
             slug: berne
         -
             title: berserk
             gid: id-3031676
-            text: 'not beserk'
+            text: '<p>not beserk</p>'
             slug: berserk
         -
             title: Berwick-upon-Tweed
             gid: id-3031677
-            text: 'is in England, although Berwick Rangers play football in the Scottish League'
+            text: '<p>is in England, although Berwick Rangers play football in the Scottish League</p>'
             slug: berwick-upon-tweed
         -
             title: 'bestseller, bestselling'
@@ -1811,27 +1811,27 @@
         -
             title: Betaferon
             gid: id-3031679
-            text: 'TM; the generic term for the drug is interferon-beta 1b'
+            text: '<p>TM; the generic term for the drug is interferon-beta 1b</p>'
             slug: betaferon
         -
             title: 'bete noire'
             gid: id-3031680
-            text: 'no accents'
+            text: '<p>no accents</p>'
             slug: bete-noire
         -
             title: 'betting odds'
             gid: id-3031681
-            text: "We frequently get this wrong. A brief explanation: long odds (eg 100-1 against, normally expressed as 100-1) mean something unlikely; shorter odds (eg 10-1) still mean it's unlikely, but less unlikely; odds on (eg 2-1 on, sometimes expressed as 1-2) means it is likely, so if you were betting £2 you would win only £1 plus the stake. \n<br><br>Take care using the phrase \"odds on\": if Labour is quoted by bookmakers at 3-1 to win a byelection, and the odds are cut to 2-1, it is wrong to say \"the odds on Labour to win were cut last night\" – in fact, the odds against Labour to win have been cut (the shorter the price, the more likely something is expected to happen). \n<br><br>It gets more complicated when something is genuinely odds-on, ie bookmakers quote a price of \"2-1 on\": in this case, if the Labour candidate is quoted at 2-1 on and becomes an even hotter favourite, at 3-1 on, the odds have shortened; if Labour loses popularity, and 2-1 on becomes, say, 7-4 on or evens, the odds have lengthened"
+            text: '<p>We frequently get this wrong. A brief explanation: long odds (eg 100-1 against, normally expressed as 100-1) mean something unlikely; shorter odds (eg 10-1) still mean it''s unlikely, but less unlikely; odds on (eg 2-1 on, sometimes expressed as 1-2) means it is likely, so if you were betting £2 you would win only £1 plus the stake. </p><p>Take care using the phrase "odds on": if Labour is quoted by bookmakers at 3-1 to win a byelection, and the odds are cut to 2-1, it is wrong to say "the odds on Labour to win were cut last night" – in fact, the odds against Labour to win have been cut (the shorter the price, the more likely something is expected to happen). </p><p>It gets more complicated when something is genuinely odds-on, ie bookmakers quote a price of "2-1 on": in this case, if the Labour candidate is quoted at 2-1 on and becomes an even hotter favourite, at 3-1 on, the odds have shortened; if Labour loses popularity, and 2-1 on becomes, say, 7-4 on or evens, the odds have lengthened</p>'
             slug: betting-odds
         -
             title: 'between 15 and 20'
             gid: id-8800132
-            text: 'not "between 15 to 20" or "between 15-20"'
+            text: '<p>not "between 15 to 20" or "between 15-20"</p>'
             slug: between-15-and-20
         -
             title: 'Bevan, Aneurin'
             gid: id-3031682
-            text: '(1897-1960) Labour health minister from 1945 to 1951 and architect of the NHS. Also known as Nye Bevan. In a 1948 speech he described Tories as "lower than vermin"'
+            text: '<p>(1897-1960) Labour health minister from 1945 to 1951 and architect of the NHS. Also known as Nye Bevan. In a 1948 speech he described Tories as "lower than vermin"</p>'
             slug: bevan-aneurin
         -
             title: 'Beverly Hills'
@@ -1841,7 +1841,7 @@
         -
             title: 'Bevin, Ernest'
             gid: id-3031684
-            text: '(1881-1951) Labour foreign secretary between 1945 and 1951 who helped to create Nato. Not to be confused with Nye Bevan'
+            text: '<p>(1881-1951) Labour foreign secretary between 1945 and 1951 who helped to create Nato. Not to be confused with Nye Bevan</p>'
             slug: bevin-ernest
         -
             title: Beyoncé
@@ -1851,12 +1851,12 @@
         -
             title: 'beyond the pale'
             gid: id-11486151
-            text: 'not pail; this pale is derived from the Latin palus, a stake as used to support a fence (cf palisade); hence the figurative meaning of beyond the pale as being outside the boundary, unacceptable'
+            text: '<p>not pail; this pale is derived from the Latin palus, a stake as used to support a fence (cf palisade); hence the figurative meaning of beyond the pale as being outside the boundary, unacceptable</p>'
             slug: beyond-the-pale
         -
             title: biannual
             gid: id-3031686
-            text: 'twice a year; <strong>biennial</strong> every two years; biannual is almost always misused, so to avoid confusion stick with the alternative <strong>twice-yearly</strong>; an alternative to biennial is <strong>two-yearly</strong>'
+            text: '<p>twice a year; <strong>biennial</strong> every two years; biannual is almost always misused, so to avoid confusion stick with the alternative <strong>twice-yearly</strong>; an alternative to biennial is <strong>two-yearly</strong></p>'
             slug: biannual
         -
             title: 'bias, biased'
@@ -1866,7 +1866,7 @@
         -
             title: Bible
             gid: id-3031688
-            text: 'cap up if referring to Old or New Testament, lc in such sentences as "the stylebook is my bible"; the adjective <strong>biblical</strong> is always lc'
+            text: '<p>cap up if referring to Old or New Testament, lc in such sentences as "the stylebook is my bible"; the adjective <strong>biblical</strong> is always lc</p>'
             slug: bible
         -
             title: 'Bible belt'
@@ -1876,82 +1876,82 @@
         -
             title: 'biblical quotations'
             gid: id-3031689
-            text: 'Use a modern translation, not the Authorised Version. From a reader: "Peradventure the editor hath no copy of Holy Writ in the office, save the King James Version only. Howbeit the great multitude of believers knoweth this translation not. And he (or she) who quoteth the words of Jesus in ancient form, sheweth plainly that he (or she) considereth them to be out of date. Wherefore let them be quoted in such manner that the people may understand"'
+            text: '<p>Use a modern translation, not the Authorised Version. From a reader: "Peradventure the editor hath no copy of Holy Writ in the office, save the King James Version only. Howbeit the great multitude of believers knoweth this translation not. And he (or she) who quoteth the words of Jesus in ancient form, sheweth plainly that he (or she) considereth them to be out of date. Wherefore let them be quoted in such manner that the people may understand"</p>'
             slug: biblical-quotations
         -
             title: 'biblical references'
             gid: id-3031690
-            text: 'like this: Genesis 1:1; II Corinthians 2:13; Revelation 3:16 (anyone calling it "Revelations" will burn in hell for eternity)'
+            text: '<p>like this: Genesis 1:1; II Corinthians 2:13; Revelation 3:16 (anyone calling it "Revelations" will burn in hell for eternity)</p>'
             slug: biblical-references
         -
             title: bicentenary
             gid: id-3031691
-            text: 'a 200th anniversary; <strong>bicentennial</strong> its adjective'
+            text: '<p>a 200th anniversary; <strong>bicentennial</strong> its adjective</p>'
             slug: bicentenary
         -
             title: biceps
             gid: id-3031692
-            text: 'singular and plural (there is no such thing as a bicep)'
+            text: '<p>singular and plural (there is no such thing as a bicep)</p>'
             slug: biceps
         -
             title: bid
             gid: id-3031693
-            text: 'Use only in a financial or sporting sense, eg Royal Bank of Scotland''s disastrous bid for ABN Amro, Barcelona have put in a bid for Rooney, etc; or when writing about an auction. Say in an attempt to, in an effort to, rather than "in a bid to"; in headlines, move is a useful alternative'
+            text: '<p>Use only in a financial or sporting sense, eg Royal Bank of Scotland''s disastrous bid for ABN Amro, Barcelona have put in a bid for Rooney, etc; or when writing about an auction. Say in an attempt to, in an effort to, rather than "in a bid to"; in headlines, move is a useful alternative</p>'
             slug: bid
         -
             title: big
             gid: id-3031694
-            text: 'usually preferable to major, massive, giant, mammoth, behemoth, etc'
+            text: '<p>usually preferable to major, massive, giant, mammoth, behemoth, etc</p>'
             slug: big
         -
             title: 'big bang'
             gid: id-3031695
-            text: 'lowercase, whether you are talking about the origin of the universe, around 14 billion years ago, or deregulation of the City of London in 1986'
+            text: '<p>lowercase, whether you are talking about the origin of the universe, around 14 billion years ago, or deregulation of the City of London in 1986</p>'
             slug: big-bang
         -
             title: '''big society'''
             gid: id-3031696
-            text: 'described by Simon Hoggart as "surely the vaguest slogan ever coined by a political leader. Nobody knows what it means." Until they do, keep it in quotation marks at first mention'
+            text: '<p>described by Simon Hoggart as "surely the vaguest slogan ever coined by a political leader. Nobody knows what it means." Until they do, keep it in quotation marks at first mention</p>'
             slug: '''big-society'''
         -
             title: bill
             gid: id-3031697
-            text: 'lc, even when giving full name; cap up only if it becomes an act'
+            text: '<p>lc, even when giving full name; cap up only if it becomes an act</p>'
             slug: bill
         -
             title: billion
             gid: id-3031698
-            text: 'one thousand million: in copy use bn for sums of money, quantities or inanimate objects: £10bn, 1bn litres of water; otherwise billion: 6 billion people, etc; use bn in headlines'
+            text: '<p>one thousand million: in copy use bn for sums of money, quantities or inanimate objects: £10bn, 1bn litres of water; otherwise billion: 6 billion people, etc; use bn in headlines</p>'
             slug: billion
         -
             title: 'bin Laden, Osama'
             gid: id-3031699
-            text: 'Bin Laden on second reference. He had been stripped of his Saudi citizenship, so can be described as Saudi-born but not as a Saudi'
+            text: '<p>Bin Laden on second reference. He had been stripped of his Saudi citizenship, so can be described as Saudi-born but not as a Saudi</p>'
             slug: bin-laden-osama
         -
             title: 'biodegradable, bioengineering, bioethics, biofuel'
             gid: id-3031700
-            text: 'but <strong>bio-based economy, bio-products</strong>'
+            text: '<p>but <strong>bio-based economy, bio-products</strong></p>'
             slug: biodegradable-bioengineering-bioethics-biofuel
         -
             title: 'Birds Eye'
             gid: id-3031702
-            text: 'TM; two words, no apostrophe, named after the frozen food pioneer Clarence Frank Birdseye II (1886-1956)'
+            text: '<p>TM; two words, no apostrophe, named after the frozen food pioneer Clarence Frank Birdseye II (1886-1956)</p>'
             slug: birds-eye
         -
             title: birdwatchers
             gid: id-3031703
-            text: 'also known as birders, not "twitchers"; they go birdwatching or birding, not "twitching"'
+            text: '<p>also known as birders, not "twitchers"; they go birdwatching or birding, not "twitching"</p>'
             slug: birdwatchers
         -
             title: Biro
             gid: id-3031704
-            text: 'TM; say<strong> ballpoint pen </strong>'
+            text: '<p>TM; say<strong> ballpoint pen </strong></p>'
             slug: biro
         -
             title: birthdays
             gid: id-3031705
-            text: 'are for people. Institutions, events etc have anniversaries'
+            text: '<p>are for people. Institutions, events etc have anniversaries</p>'
             slug: birthdays
         -
             title: 'birthplace, birthrate, birthright'
@@ -1961,17 +1961,17 @@
         -
             title: 'Birtwistle, Sir Harrison'
             gid: id-3031707
-            text: 'British composer, born 1934 (not Birtwhistle)'
+            text: '<p>British composer, born 1934 (not Birtwhistle)</p>'
             slug: birtwistle-sir-harrison
         -
             title: bishops
             gid: id-3031708
-            text: 'the Right Rev Clifford Richard, bishop of Wimbledon, at first mention; thereafter just Richard or the bishop'
+            text: '<p>the Right Rev Clifford Richard, bishop of Wimbledon, at first mention; thereafter just Richard or the bishop</p>'
             slug: bishops
         -
             title: bismillah
             gid: id-3031709
-            text: 'means "in the name of God" in Arabic'
+            text: '<p>means "in the name of God" in Arabic</p>'
             slug: bismillah
         -
             title: bitcoin
@@ -1981,37 +1981,37 @@
         -
             title: bite-size
             gid: id-3031710
-            text: 'not bite-sized; very few things are the same size as a bite'
+            text: '<p>not bite-sized; very few things are the same size as a bite</p>'
             slug: bite-size
         -
             title: bitterest
             gid: id-3031711
-            text: 'use of this word by the Guardian in 2006 provoked a <a href="http://www.theguardian.com/commentisfree/2006/nov/13/comment.media">bitter controversy</a> among readers, many of whom (rightly) pointed out that there is nothing wrong with it'
+            text: '<p>use of this word by the Guardian in 2006 provoked a <a href="http://www.theguardian.com/commentisfree/2006/nov/13/comment.media">bitter controversy</a> among readers, many of whom (rightly) pointed out that there is nothing wrong with it</p>'
             slug: bitterest
         -
             title: black
             gid: id-3031712
-            text: 'should be used only as an adjective when referring to race, ie not "blacks" but "black people" or whatever noun is appropriate'
+            text: '<p>should be used only as an adjective when referring to race, ie not "blacks" but "black people" or whatever noun is appropriate</p>'
             slug: black
         -
             title: blackberry
             gid: id-3031713
-            text: 'fruit; plural <strong>blackberries </strong>'
+            text: '<p>fruit; plural <strong>blackberries </strong></p>'
             slug: blackberry
         -
             title: BlackBerry
             gid: id-3031714
-            text: 'handheld wireless email device; plural <strong>BlackBerrys </strong>'
+            text: '<p>handheld wireless email device; plural <strong>BlackBerrys </strong></p>'
             slug: blackberry
         -
             title: 'black cab-driver'
             gid: id-3832668
-            text: 'a black person who drives a cab'
+            text: '<p>a black person who drives a cab</p>'
             slug: black-cab-driver
         -
             title: 'black-cab driver'
             gid: id-3832669
-            text: 'a person who drives a black cab'
+            text: '<p>a person who drives a black cab</p>'
             slug: black-cab-driver
         -
             title: 'Black Country'
@@ -2021,12 +2021,12 @@
         -
             title: 'black economy'
             gid: id-3031716
-            text: 'hidden or parallel economy are preferable'
+            text: '<p>hidden or parallel economy are preferable</p>'
             slug: black-economy
         -
             title: 'black-on-black violence'
             gid: id-3031717
-            text: 'is banned, unless in a quote, but even then treat with scepticism (imagine the police saying they were "investigating an incident of white-on-white violence between Millwall and West Ham supporters")'
+            text: '<p>is banned, unless in a quote, but even then treat with scepticism (imagine the police saying they were "investigating an incident of white-on-white violence between Millwall and West Ham supporters")</p>'
             slug: black-on-black-violence
         -
             title: blackout
@@ -2036,17 +2036,17 @@
         -
             title: 'Blackpool Pleasure Beach'
             gid: id-3031719
-            text: 'a giant funfair, not a beach, so do not illustrate with a picture of donkeys on the sand'
+            text: '<p>a giant funfair, not a beach, so do not illustrate with a picture of donkeys on the sand</p>'
             slug: blackpool-pleasure-beach
         -
             title: 'Blade Runner'
             gid: id-3031720
-            text: 'not Bladerunner'
+            text: '<p>not Bladerunner</p>'
             slug: blade-runner
         -
             title: 'Blair/Booth, Cherie'
             gid: id-3031721
-            text: 'is Cherie Blair when we are referring to her in her capacity as the wife of the former prime minister; if she is appearing in court or at a function related to her work as a lawyer, she is Cherie Booth QC (Booth on second mention)'
+            text: '<p>is Cherie Blair when we are referring to her in her capacity as the wife of the former prime minister; if she is appearing in court or at a function related to her work as a lawyer, she is Cherie Booth QC (Booth on second mention)</p>'
             slug: blairbooth-cherie
         -
             title: 'Blanchett, Cate'
@@ -2056,7 +2056,7 @@
         -
             title: blase
             gid: id-3031723
-            text: 'no accent'
+            text: '<p>no accent</p>'
             slug: blase
         -
             title: blastfurnace
@@ -2066,27 +2066,27 @@
         -
             title: bleeper
             gid: id-3031725
-            text: 'pager; not to be confused with <strong>beeper</strong>, a thing that goes "beep" (eg on a microwave)'
+            text: '<p>pager; not to be confused with <strong>beeper</strong>, a thing that goes "beep" (eg on a microwave)</p>'
             slug: bleeper
         -
             title: blitz
             gid: id-3031726
-            text: 'as in the London blitz of 1940-41, and various other blitzes (eg Liverpool, Sheffield); <strong>blitzkrieg</strong>'
+            text: '<p>as in the London blitz of 1940-41, and various other blitzes (eg Liverpool, Sheffield); <strong>blitzkrieg</strong></p>'
             slug: blitz
         -
             title: blog
             gid: id-3031727
-            text: '(noun) collection of online articles, <strong>blogpost</strong> single article; (verb) action of publishing a blogpost: "I just blogged about that"'
+            text: '<p>(noun) collection of online articles, <strong>blogpost</strong> single article; (verb) action of publishing a blogpost: "I just blogged about that"</p>'
             slug: blog
         -
             title: blokeish
             gid: id-11327836
-            text: 'rather than blokish'
+            text: '<p>rather than blokish</p>'
             slug: blokeish
         -
             title: blond
             gid: id-3031728
-            text: 'adjective and male noun; blonde female noun: the woman is a blonde, because she has blond hair; the man has blond hair and is, if you insist, a blond'
+            text: '<p>adjective and male noun; blonde female noun: the woman is a blonde, because she has blond hair; the man has blond hair and is, if you insist, a blond</p>'
             slug: blond
         -
             title: bloodsports
@@ -2096,42 +2096,42 @@
         -
             title: 'bloody mary'
             gid: id-3031730
-            text: 'vodka and tomato juice'
+            text: '<p>vodka and tomato juice</p>'
             slug: bloody-mary
         -
             title: 'Bloody Sunday'
             gid: id-3031731
-            text: 'Take care when writing about the death toll: 13 died in Derry on 30 January 1972, but a 14th victim died from a brain tumour several months later, so we should use a phrase such as "which led to 14 deaths"'
+            text: '<p>Take care when writing about the death toll: 13 died in Derry on 30 January 1972, but a 14th victim died from a brain tumour several months later, so we should use a phrase such as "which led to 14 deaths"</p>'
             slug: bloody-sunday
         -
             title: 'Bluffer''s Guide'
             gid: id-3032378
-            text: 'TM; beware of using phrases such as "a bluffer''s guide to crimewriting", a headline that led to a legal complaint'
+            text: '<p>TM; beware of using phrases such as "a bluffer''s guide to crimewriting", a headline that led to a legal complaint</p>'
             slug: 'bluffer''s-guide'
         -
             title: blunder
             gid: id-15366244
-            text: 'one (of many) mentions of this word led to the following comment from a reader: "The term ''blunder'' is used most frequently when referring to mistakes made in public services and this only serves to fuel the view commonly propagated by rightwing newspapers that the role of the public sector should be diminished and its functions handed over to private companies. I''m sure the Guardian does not endorse this view, but its use of language may imply that it does"'
+            text: '<p>one (of many) mentions of this word led to the following comment from a reader: "The term ''blunder'' is used most frequently when referring to mistakes made in public services and this only serves to fuel the view commonly propagated by rightwing newspapers that the role of the public sector should be diminished and its functions handed over to private companies. I''m sure the Guardian does not endorse this view, but its use of language may imply that it does"</p>'
             slug: blunder
         -
             title: Blu-ray
             gid: id-3032379
-            text: 'TM; full name is Blu-ray Disc (not Disk), abbreviation BD'
+            text: '<p>TM; full name is Blu-ray Disc (not Disk), abbreviation BD</p>'
             slug: blu-ray
         -
             title: Blu-Tack
             gid: id-3032380
-            text: TM
+            text: '<p>TM</p>'
             slug: blu-tack
         -
             title: 'Boat Race'
             gid: id-3032381
-            text: 'Oxford v Cambridge'
+            text: '<p>Oxford v Cambridge</p>'
             slug: boat-race
         -
             title: Boddingtons
             gid: id-3032382
-            text: 'popularly known as Boddies, it remains the cream of Manchester, despite the closure of the Strangeways brewery'
+            text: '<p>popularly known as Boddies, it remains the cream of Manchester, despite the closure of the Strangeways brewery</p>'
             slug: boddingtons
         -
             title: 'bodybuilder, bodybuilding'
@@ -2141,62 +2141,62 @@
         -
             title: boffin
             gid: id-15366245
-            text: 'tabloid word for scientist'
+            text: '<p>tabloid word for scientist</p>'
             slug: boffin
         -
             title: 'Bogarde, Dirk'
             gid: id-3032384
-            text: '(1921-99) British actor'
+            text: '<p>(1921-99) British actor</p>'
             slug: bogarde-dirk
         -
             title: 'Bogart, Humphrey'
             gid: id-3032385
-            text: '(1899-1957) American actor'
+            text: '<p>(1899-1957) American actor</p>'
             slug: bogart-humphrey
         -
             title: bogey
             gid: id-3032386
-            text: 'golf, ghost, so bogeyman'
+            text: '<p>golf, ghost, so bogeyman</p>'
             slug: bogey
         -
             title: bogie
             gid: id-3032387
-            text: 'trolley, truck'
+            text: '<p>trolley, truck</p>'
             slug: bogie
         -
             title: Bogotá
             gid: id-3032388
-            text: 'capital of Colombia'
+            text: '<p>capital of Colombia</p>'
             slug: bogota
         -
             title: 'Bolívar, Simón'
             gid: id-15366246
-            text: '(1783-1830) Venezuelan-born Latin American revolutionary hero; not Simon Bolivar, Simón Bolivar, Simon Bolívar, or Simón Bólivar  - all of which appeared in the paper in the space of a year'
+            text: '<p>(1783-1830) Venezuelan-born Latin American revolutionary hero; not Simon Bolivar, Simón Bolivar, Simon Bolívar, or Simón Bólivar  - all of which appeared in the paper in the space of a year</p>'
             slug: bolvar-simon
         -
             title: bolognese
             gid: id-23696409
-            text: 'sauce, not the French spelling bolognaise'
+            text: '<p>sauce, not the French spelling bolognaise</p>'
             slug: bolognese
         -
             title: bolshie
             gid: id-16978465
-            text: 'rather than bolshy'
+            text: '<p>rather than bolshy</p>'
             slug: bolshie
         -
             title: Bombay
             gid: id-3032389
-            text: 'is now known as Mumbai'
+            text: '<p>is now known as Mumbai</p>'
             slug: bombay
         -
             title: 'bombay duck'
             gid: id-15366247
-            text: 'not a duck, but a fish'
+            text: '<p>not a duck, but a fish</p>'
             slug: bombay-duck
         -
             title: Bombe
             gid: id-19781742
-            text: '(not Bomb) machine created by Alan Turing at Bletchley Park to break the Enigma code'
+            text: '<p>(not Bomb) machine created by Alan Turing at Bletchley Park to break the Enigma code</p>'
             slug: bombe
         -
             title: 'bona fide, bona fides'
@@ -2206,7 +2206,7 @@
         -
             title: 'Bonfire night'
             gid: id-18150588
-            text: 'also known as <strong>Guy Fawkes night</strong>'
+            text: '<p>also known as <strong>Guy Fawkes night</strong></p>'
             slug: bonfire-night
         -
             title: 'Bonham Carter, Helena'
@@ -2216,12 +2216,12 @@
         -
             title: 'bon vivant'
             gid: id-3032392
-            text: 'not bon viveur'
+            text: '<p>not bon viveur</p>'
             slug: bon-vivant
         -
             title: boo-boo
             gid: id-3032393
-            text: 'mistake; <strong>Boo Boo</strong> cartoon bear who lived with Yogi in Jellystone Park'
+            text: '<p>mistake; <strong>Boo Boo</strong> cartoon bear who lived with Yogi in Jellystone Park</p>'
             slug: boo-boo
         -
             title: 'bookcase, bookkeeper, bookseller, bookshelf'
@@ -2231,32 +2231,32 @@
         -
             title: 'book titles'
             gid: id-3032396
-            text: 'are not italicised, except in the Guardian''s Review section and the Observer; lc for a, an, and, at, for, from, in, of, the, to (unless they are the first word of the title): Pride and Prejudice, The Mill on the Floss, etc'
+            text: '<p>are not italicised, except in the Guardian''s Review section and the Observer; lc for a, an, and, at, for, from, in, of, the, to (unless they are the first word of the title): Pride and Prejudice, The Mill on the Floss, etc</p>'
             slug: book-titles
         -
             title: bordeaux
             gid: id-3032397
-            text: 'wine from Bordeaux'
+            text: '<p>wine from Bordeaux</p>'
             slug: bordeaux
         -
             title: 'bored with, bored by'
             gid: id-3032398
-            text: "are preferable to bored of, although usage seems to be changing, particularly among younger people.<br><br>\nThe distinction can, however, be useful: compare \"bored with Tunbridge Wells\" (a person who finds Tunbridge Wells boring) and \"bored of Tunbridge Wells\" (a bored person who happens to live there, perhaps a neighbour of \"disgusted of Tunbridge Wells\")"
+            text: '<p>are preferable to bored of, although usage seems to be changing, particularly among younger people.</p><p>The distinction can, however, be useful: compare "bored with Tunbridge Wells" (a person who finds Tunbridge Wells boring) and "bored of Tunbridge Wells" (a bored person who happens to live there, perhaps a neighbour of "disgusted of Tunbridge Wells")</p>'
             slug: bored-with-bored-by
         -
             title: 'born out'
             gid: id-19471273
-            text: 'of necessity'
+            text: '<p>of necessity</p>'
             slug: born-out
         -
             title: 'borne out'
             gid: id-17133737
-            text: 'by the facts'
+            text: '<p>by the facts</p>'
             slug: borne-out
         -
             title: borstals
             gid: id-3032399
-            text: 'named after a village in Kent, these institutions were replaced by youth custody centres in 1982, four years after being immortalised by the Sham 69 single Borstal Breakout'
+            text: '<p>named after a village in Kent, these institutions were replaced by youth custody centres in 1982, four years after being immortalised by the Sham 69 single Borstal Breakout</p>'
             slug: borstals
         -
             title: borscht
@@ -2266,12 +2266,12 @@
         -
             title: Bosnia-Herzegovina
             gid: id-3032401
-            text: 'for the former Yugoslav republic, not Hercegovina'
+            text: '<p>for the former Yugoslav republic, not Hercegovina</p>'
             slug: bosnia-herzegovina
         -
             title: Bosphorus
             gid: id-3032402
-            text: 'not Bosporus'
+            text: '<p>not Bosporus</p>'
             slug: bosphorus
         -
             title: 'Boston Strangler'
@@ -2281,17 +2281,17 @@
         -
             title: both
             gid: id-3032404
-            text: 'unnecessary in most phrases that contain "and"; "both men and women" says no more than "men and women", takes longer, and can also be ambiguous'
+            text: '<p>unnecessary in most phrases that contain "and"; "both men and women" says no more than "men and women", takes longer, and can also be ambiguous</p>'
             slug: both
         -
             title: Botox
             gid: id-3032405
-            text: TM
+            text: '<p>TM</p>'
             slug: botox
         -
             title: Botswana
             gid: id-3032406
-            text: 'country; Batswana plural of people (singular: Motswana); Setswana language'
+            text: '<p>country; Batswana plural of people (singular: Motswana); Setswana language</p>'
             slug: botswana
         -
             title: bottleneck
@@ -2301,7 +2301,7 @@
         -
             title: Boudicca
             gid: id-3032408
-            text: 'not Boadicea'
+            text: '<p>not Boadicea</p>'
             slug: boudicca
         -
             title: bougainvillaea
@@ -2311,7 +2311,7 @@
         -
             title: bouncebackability
             gid: id-11399745
-            text: 'invaluable word coined by the football manager Iain Dowie and since, thanks to the wonders of Twitter, translated by Guardian Style followers into French (<em>la rebondissabilité</em>) and German (<em>die Rücksprungsfähigkeit</em>)'
+            text: '<p>invaluable word coined by the football manager Iain Dowie and since, thanks to the wonders of Twitter, translated by Guardian Style followers into French (<em>la rebondissabilité</em>) and German (<em>die Rücksprungsfähigkeit</em>)</p>'
             slug: bouncebackability
         -
             title: 'Boundary Commission'
@@ -2321,12 +2321,12 @@
         -
             title: bourgeois
             gid: id-3032411
-            text: 'adjective; <strong>bourgeoisie</strong> noun'
+            text: '<p>adjective; <strong>bourgeoisie</strong> noun</p>'
             slug: bourgeois
         -
             title: 'Boutros Boutros-Ghali'
             gid: id-3032412
-            text: 'former UN secretary general'
+            text: '<p>former UN secretary general</p>'
             slug: boutros-boutros-ghali
         -
             title: 'bow tie'
@@ -2336,7 +2336,7 @@
         -
             title: 'Boxing Day'
             gid: id-11058637
-            text: 'a public holiday on or soon after 26 December in many countries; in the Irish Republic it is known as St Stephen''s Day, and in South Africa as the Day of Goodwill'
+            text: '<p>a public holiday on or soon after 26 December in many countries; in the Irish Republic it is known as St Stephen''s Day, and in South Africa as the Day of Goodwill</p>'
             slug: boxing-day
         -
             title: 'box office, box set'
@@ -2346,7 +2346,7 @@
         -
             title: boy
             gid: id-3032414
-            text: 'male under 18'
+            text: '<p>male under 18</p>'
             slug: boy
         -
             title: 'boyband, boyfriend'
@@ -2361,7 +2361,7 @@
         -
             title: brackets
             gid: id-3032418
-            text: "If the sentence is logically and grammatically complete without the information contained within the parentheses (round brackets), the punctuation stays outside the brackets. (A complete sentence that stands alone in parentheses starts with a capital letter and ends with a stop.) <br><br>\n\"Square brackets,\" the grammarian said, \"are used in direct quotes when an interpolation [a note from the writer or editor, not uttered by the speaker] is added to provide essential information.\"<br><br>\nUse brackets sparingly, particularly square ones: it's not necessary to add [David] in a football story when an interviewee refers to \"Beckham\""
+            text: '<p>If the sentence is logically and grammatically complete without the information contained within the parentheses (round brackets), the punctuation stays outside the brackets. (A complete sentence that stands alone in parentheses starts with a capital letter and ends with a stop.) </p><p>"Square brackets," the grammarian said, "are used in direct quotes when an interpolation [a note from the writer or editor, not uttered by the speaker] is added to provide essential information."</p><p>Use brackets sparingly, particularly square ones: it''s not necessary to add [David] in a football story when an interviewee refers to "Beckham"</p>'
             slug: brackets
         -
             title: braggadocio
@@ -2376,22 +2376,22 @@
         -
             title: 'Bramall Lane'
             gid: id-7029059
-            text: 'famous old football (and former cricket) ground, the home of Sheffield United FC'
+            text: '<p>famous old football (and former cricket) ground, the home of Sheffield United FC</p>'
             slug: bramall-lane
         -
             title: brand
             gid: id-3032421
-            text: '"Wenger brands Ferguson a liar" and similar tabloidese should be avoided'
+            text: '<p>"Wenger brands Ferguson a liar" and similar tabloidese should be avoided</p>'
             slug: brand
         -
             title: 'Brands Hatch'
             gid: id-3032422
-            text: 'no apostrophe'
+            text: '<p>no apostrophe</p>'
             slug: brands-hatch
         -
             title: Brasília
             gid: id-3032423
-            text: 'capital of Brazil'
+            text: '<p>capital of Brazil</p>'
             slug: braslia
         -
             title: 'breastfed, breastfeeding'
@@ -2401,12 +2401,12 @@
         -
             title: 'Bremner, Ewen'
             gid: id-3032425
-            text: 'actor, not Ewan'
+            text: '<p>actor, not Ewan</p>'
             slug: bremner-ewen
         -
             title: briar
             gid: id-3032426
-            text: 'bush, pipe'
+            text: '<p>bush, pipe</p>'
             slug: briar
         -
             title: bric-a-brac
@@ -2416,37 +2416,37 @@
         -
             title: brickbat
             gid: id-3032428
-            text: 'is permissible only if you know what a brickbat is'
+            text: '<p>is permissible only if you know what a brickbat is</p>'
             slug: brickbat
         -
             title: bridges
             gid: id-3032429
-            text: 'lc, eg Golden Gate bridge, Waterloo bridge'
+            text: '<p>lc, eg Golden Gate bridge, Waterloo bridge</p>'
             slug: bridges
         -
             title: Bridgnorth
             gid: id-3032430
-            text: Shropshire
+            text: '<p>Shropshire</p>'
             slug: bridgnorth
         -
             title: Bridgwater
             gid: id-15366248
-            text: Somerset
+            text: '<p>Somerset</p>'
             slug: bridgwater
         -
             title: 'Brighton and Hove'
             gid: id-3032431
-            text: 'a city and unitary council since 2000, and no longer in East Sussex'
+            text: '<p>a city and unitary council since 2000, and no longer in East Sussex</p>'
             slug: brighton-and-hove
         -
             title: brilliant
             gid: id-15366249
-            text: '"a word applied indiscriminately by the Guardian to anything new, no matter how ordinary" (2010 tweet from a reader)'
+            text: '<p>"a word applied indiscriminately by the Guardian to anything new, no matter how ordinary" (2010 tweet from a reader)</p>'
             slug: brilliant
         -
             title: brinkmanship
             gid: id-23698521
-            text: 'rather than brinksmanship'
+            text: '<p>rather than brinksmanship</p>'
             slug: brinkmanship
         -
             title: 'Brink''s-Mat'
@@ -2456,7 +2456,7 @@
         -
             title: 'Britain, UK'
             gid: id-3032433
-            text: "These terms are synonymous: Britain is the official short form of United Kingdom of Great Britain and Northern Ireland. Used as adjectives, therefore, British and UK mean the same. Great Britain, however, refers only to England, Wales and Scotland. Take care not to write Britain when you might mean England and Wales, or just England – for example when referring to the education system\n<em>See <a href=\"/styleguide/s#id-2803950\">Scotland</a></em>"
+            text: '<p>These terms are synonymous: Britain is the official short form of United Kingdom of Great Britain and Northern Ireland. Used as adjectives, therefore, British and UK mean the same. Great Britain, however, refers only to England, Wales and Scotland. Take care not to write Britain when you might mean England and Wales, or just England – for example when referring to the education system<em>See <a href="/styleguide/s#id-2803950">Scotland</a></em></p>'
             slug: britain-uk
         -
             title: Britart
@@ -2466,7 +2466,7 @@
         -
             title: 'British and Irish Lions'
             gid: id-11328852
-            text: '(rugby union); not "British Lions"'
+            text: '<p>(rugby union); not "British Lions"</p>'
             slug: british-and-irish-lions
         -
             title: 'British Council'
@@ -2476,17 +2476,17 @@
         -
             title: 'British empire'
             gid: id-3032436
-            text: 'but <strong>British Empire Medal</strong>'
+            text: '<p>but <strong>British Empire Medal</strong></p>'
             slug: british-empire
         -
             title: 'British Film Institute'
             gid: id-3032437
-            text: 'BFI on second mention'
+            text: '<p>BFI on second mention</p>'
             slug: british-film-institute
         -
             title: 'British Isles'
             gid: id-11328853
-            text: 'A geographical term taken to mean Great Britain, Ireland and some or all of the adjacent islands such as Orkney, Shetland and the Isle of Man. The phrase is best avoided, given its (understandable) unpopularity in the Irish Republic. Alternatives adopted by some publications are British and Irish Isles or simply Britain and Ireland'
+            text: '<p>A geographical term taken to mean Great Britain, Ireland and some or all of the adjacent islands such as Orkney, Shetland and the Isle of Man. The phrase is best avoided, given its (understandable) unpopularity in the Irish Republic. Alternatives adopted by some publications are British and Irish Isles or simply Britain and Ireland</p>'
             slug: british-isles
         -
             title: 'British Library'
@@ -2496,7 +2496,7 @@
         -
             title: 'British Medical Association'
             gid: id-3032439
-            text: '(doctors'' trade union), BMA on second mention'
+            text: '<p>(doctors'' trade union), BMA on second mention</p>'
             slug: british-medical-association
         -
             title: 'British Museum'
@@ -2506,7 +2506,7 @@
         -
             title: 'British Sign Language'
             gid: id-3032441
-            text: 'abbreviate to BSL after first mention'
+            text: '<p>abbreviate to BSL after first mention</p>'
             slug: british-sign-language
         -
             title: Britpop
@@ -2516,17 +2516,17 @@
         -
             title: Britvic
             gid: id-3032443
-            text: TM
+            text: '<p>TM</p>'
             slug: britvic
         -
             title: Broadmoor
             gid: id-3032444
-            text: 'a secure psychiatric hospital, not a prison'
+            text: '<p>a secure psychiatric hospital, not a prison</p>'
             slug: broadmoor
         -
             title: Brontë
             gid: id-3032445
-            text: 'Charlotte, Emily, Anne and their brother Branwell; they grew up at Haworth (not Howarth) in what is now West Yorkshire'
+            text: '<p>Charlotte, Emily, Anne and their brother Branwell; they grew up at Haworth (not Howarth) in what is now West Yorkshire</p>'
             slug: bront
         -
             title: 'bronze age, ice age, iron age, stone age'
@@ -2541,12 +2541,12 @@
         -
             title: Brownies
             gid: id-3032751
-            text: 'for girls aged seven to 10, at which point they may join the Guides'
+            text: '<p>for girls aged seven to 10, at which point they may join the Guides</p>'
             slug: brownies
         -
             title: Brueghel
             gid: id-3032752
-            text: 'family of Flemish painters, including Pieter Bruegel the Elder (c1525-69) and his sons Pieter Brueghel the Younger (1564 or 1565-1636) and Jan Brueghel the Elder (1568-1625); Pieter Bruegel the Elder dropped the H from his surname in 1559'
+            text: '<p>family of Flemish painters, including Pieter Bruegel the Elder (c1525-69) and his sons Pieter Brueghel the Younger (1564 or 1565-1636) and Jan Brueghel the Elder (1568-1625); Pieter Bruegel the Elder dropped the H from his surname in 1559</p>'
             slug: brueghel
         -
             title: 'Brum, Brummie'
@@ -2561,27 +2561,27 @@
         -
             title: brutalise
             gid: id-3032755
-            text: 'render brutal, not treat brutally; so soldiers may be brutalised by the experience of war'
+            text: '<p>render brutal, not treat brutally; so soldiers may be brutalised by the experience of war</p>'
             slug: brutalise
         -
             title: Brylcreem
             gid: id-3032756
-            text: TM
+            text: '<p>TM</p>'
             slug: brylcreem
         -
             title: BSE
             gid: id-3032757
-            text: 'bovine spongiform encephalopathy; no need to spell out'
+            text: '<p>bovine spongiform encephalopathy; no need to spell out</p>'
             slug: bse
         -
             title: BST
             gid: id-3032758
-            text: 'bovine somatrophin (bovine growth hormone)'
+            text: '<p>bovine somatrophin (bovine growth hormone)</p>'
             slug: bst
         -
             title: BST
             gid: id-3032759
-            text: 'British summer time'
+            text: '<p>British summer time</p>'
             slug: bst
         -
             title: BTec
@@ -2591,47 +2591,47 @@
         -
             title: 'Buckingham Palace'
             gid: id-3032761
-            text: 'the palace on second mention'
+            text: '<p>the palace on second mention</p>'
             slug: buckingham-palace
         -
             title: buckminsterfullerene
             gid: id-3032762
-            text: 'a form of carbon, named after the US engineer Buckminster Fuller (1895-1983)'
+            text: '<p>a form of carbon, named after the US engineer Buckminster Fuller (1895-1983)</p>'
             slug: buckminsterfullerene
         -
             title: 'budget, the'
             gid: id-3032763
-            text: 'lc noun and adj, eg budget talks, budget measures, mini-budget, pre-budget report, etc'
+            text: '<p>lc noun and adj, eg budget talks, budget measures, mini-budget, pre-budget report, etc</p>'
             slug: budget-the
         -
             title: buffaloes
             gid: id-3032764
-            text: 'for the plural; not buffalo or buffalos'
+            text: '<p>for the plural; not buffalo or buffalos</p>'
             slug: buffaloes
         -
             title: buffet
             gid: id-12984350
-            text: 'finger food, not to be confused with ...'
+            text: '<p>finger food, not to be confused with ...</p>'
             slug: buffet
         -
             title: 'Buffett, Warren'
             gid: id-3713273
-            text: 'investor known as the Sage of Omaha'
+            text: '<p>investor known as the Sage of Omaha</p>'
             slug: buffett-warren
         -
             title: buildup
             gid: id-9355736
-            text: '(noun) no hyphen'
+            text: '<p>(noun) no hyphen</p>'
             slug: buildup
         -
             title: 'Bulger, James'
             gid: id-3032765
-            text: 'not Jamie'
+            text: '<p>not Jamie</p>'
             slug: bulger-james
         -
             title: 'bullet points'
             gid: id-3713274
-            text: "take a full stop after each one, ie:<br>\n• This is the first bullet point.<br>\n• This is the second.<br>\n• And this is the third."
+            text: '<p>take a full stop after each one, ie:</p><p>• This is the first bullet point.</p><p>• This is the second.</p><p>• And this is the third.</p>'
             slug: bullet-points
         -
             title: bullseye
@@ -2646,62 +2646,62 @@
         -
             title: bumf
             gid: id-3032767
-            text: 'not bumph'
+            text: '<p>not bumph</p>'
             slug: bumf
         -
             title: 'Buñuel, Luis'
             gid: id-3032768
-            text: '(1900-83) Spanish film director'
+            text: '<p>(1900-83) Spanish film director</p>'
             slug: buuel-luis
         -
             title: 'buoyed up by'
             gid: id-3032769
-            text: 'not buoyed by'
+            text: '<p>not buoyed by</p>'
             slug: buoyed-up-by
         -
             title: Burberry
             gid: id-3032770
-            text: TM
+            text: '<p>TM</p>'
             slug: burberry
         -
             title: bureau
             gid: id-3032771
-            text: 'plural <strong>bureaus</strong> (furniture) or <strong>bureaux</strong> (organisations)'
+            text: '<p>plural <strong>bureaus</strong> (furniture) or <strong>bureaux</strong> (organisations)</p>'
             slug: bureau
         -
             title: burgeon
             gid: id-3032772
-            text: 'means to bud or sprout, so you can have someone with burgeoning talent; often misused to describe anything that is growing or expanding, especially population'
+            text: '<p>means to bud or sprout, so you can have someone with burgeoning talent; often misused to describe anything that is growing or expanding, especially population</p>'
             slug: burgeon
         -
             title: burgher
             gid: id-16450868
-            text: 'citizen, not to be confused with <strong>burger</strong> (although we have contrived to do so more than once)'
+            text: '<p>citizen, not to be confused with <strong>burger</strong> (although we have contrived to do so more than once)</p>'
             slug: burgher
         -
             title: burgomaster
             gid: id-3032773
-            text: 'not burgomeister'
+            text: '<p>not burgomeister</p>'
             slug: burgomaster
         -
             title: Burma
             gid: id-3032775
-            text: 'not Myanmar'
+            text: '<p>not Myanmar</p>'
             slug: burma
         -
             title: burned/burnt
             gid: id-3032776
-            text: 'burned is the past tense form (he burned the cakes); burnt is the participle, an "adjectival" form of the verb ("the cakes are burnt")'
+            text: '<p>burned is the past tense form (he burned the cakes); burnt is the participle, an "adjectival" form of the verb ("the cakes are burnt")</p>'
             slug: burnedburnt
         -
             title: 'Burns Night'
             gid: id-3032777
-            text: '25 January'
+            text: '<p>25 January</p>'
             slug: burns-night
         -
             title: burqa
             gid: id-3032774
-            text: 'not burka'
+            text: '<p>not burka</p>'
             slug: burqa
         -
             title: 'Burton upon Trent'
@@ -2716,7 +2716,7 @@
         -
             title: 'Bush, George W'
             gid: id-3032780
-            text: 'son of George Bush Sr'
+            text: '<p>son of George Bush Sr</p>'
             slug: bush-george-w
         -
             title: businesslike
@@ -2726,17 +2726,17 @@
         -
             title: 'businessman, businesswoman'
             gid: id-3032782
-            text: 'for individuals, but say business people or the business community rather than "businessmen"'
+            text: '<p>for individuals, but say business people or the business community rather than "businessmen"</p>'
             slug: businessman-businesswoman
         -
             title: 'Bussell, Darcey'
             gid: id-3032783
-            text: 'Royal Ballet dancer who retired in 2007'
+            text: '<p>Royal Ballet dancer who retired in 2007</p>'
             slug: bussell-darcey
         -
             title: 'but, however'
             gid: id-3032784
-            text: 'often redundant, and increasingly wrongly used to connect two compatible statements'
+            text: '<p>often redundant, and increasingly wrongly used to connect two compatible statements</p>'
             slug: but-however
         -
             title: Butlins
@@ -2746,17 +2746,17 @@
         -
             title: 'butterflies and moths'
             gid: id-3032786
-            text: 'are usually lc: adonis blue, orange-tip, purple emperor, silver-washed fritillary, death''s-head hawk moth, etc; but note the following: Duke of Burgundy, Queen of Spain fritillary, Essex skipper, Lulworth skipper, Scotch argus'
+            text: '<p>are usually lc: adonis blue, orange-tip, purple emperor, silver-washed fritillary, death''s-head hawk moth, etc; but note the following: Duke of Burgundy, Queen of Spain fritillary, Essex skipper, Lulworth skipper, Scotch argus</p>'
             slug: butterflies-and-moths
         -
             title: buyout
             gid: id-3032787
-            text: 'but <strong>buy-in </strong>'
+            text: '<p>but <strong>buy-in </strong></p>'
             slug: buyout
         -
             title: buzzword
             gid: id-15520330
-            text: 'but <strong>buzz phrase</strong>'
+            text: '<p>but <strong>buzz phrase</strong></p>'
             slug: buzzword
         -
             title: 'byelection, bylaw, byline, bypass, bystander'
@@ -2766,10 +2766,10 @@
         -
             title: byte
             gid: id-3032789
-            text: 'unit of measurement of computer information storage, eg 320GB hard drive (320 gigabytes)'
+            text: '<p>unit of measurement of computer information storage, eg 320GB hard drive (320 gigabytes)</p>'
             slug: byte
         -
             title: Byzantine
             gid: id-15366503
-            text: 'empire; <strong>byzantine</strong> complexity'
+            text: '<p>empire; <strong>byzantine</strong> complexity</p>'
             slug: byzantine
