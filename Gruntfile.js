@@ -5,7 +5,7 @@
     var request = require('request');
     var YAML = require('yamljs');
     var cheerio = require('cheerio');
-    var slug = require('slug');
+    var slugify = require('slug');
     var S = require('string');
     var fs = require('fs');
     var moment = require('moment');
@@ -16,7 +16,6 @@
             '&': ' and ',
             '*': ' star',
             '\'': false,
-
             "ä": "a", "ö": "o", "ü": "u",
             "Ä": "A", "Ö": "O", "Ü": "U",
             "á": "a", "à": "a", "â": "a",
@@ -185,7 +184,9 @@
                                 gid: $(this).attr('id'),
                                 text: $(this).find('.trailtext').html().trim()
                             });
+                            grunt.log.writeln( 'title: ' + $(this).find('h3').text().trim() );
                         });
+
 
                         // Write the file
                         var output = [{
@@ -248,7 +249,7 @@
 
 
         grunt.registerTask(
-            'processRawData',
+            'process',
             'Process scraped data into something suitable for the site',
             function () {
                 var data = grunt.file.readYAML(grunt.config.get('rawDataFile'));
@@ -262,7 +263,22 @@
                                 switch (property) {
                                     case 'title':
                                         // Create slug from title
-                                        obj['slug'] = slug(obj[property], slugOptions).toLowerCase();
+                                        var slug = obj[property];
+                                        slug = S(slug).stripPunctuation().s.toLowerCase();
+                                        slug = slugify(slug, slugOptions);
+                                        obj['slug'] = slug;
+                                        break;
+
+                                    case 'text':
+                                        var text = obj['text'];
+
+                                        // Remove \n
+                                        text = text.replace(/(\r\n|\n|\r)/gm, "");
+
+                                        // Add in paragraph tags
+                                        text = '<p>' + text.replace(/(<br>)+/g, '</p><p>') + '</p>';
+
+                                        obj['text'] = text;
                                         break;
                                 }
                             }
@@ -272,12 +288,10 @@
                 iterate(data);
 
                 // Add nice slugs
-                //     - *
-                //     - &
                 //     - '
-                // Format paragraphs
                 // Update links
                 grunt.file.write(grunt.config.get('definitionsFile'), YAML.stringify(data, 4, 4));
+                grunt.task.run('jekyll');
 
             }
         );
@@ -345,7 +359,7 @@
                     'scrapePages',
                     'concat:tempRawData',
                     'compareRawData',
-                    'processRawData',
+                    'process',
                     'cleanup',
                     'jekyll'
                 ]);
