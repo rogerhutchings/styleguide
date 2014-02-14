@@ -31,8 +31,8 @@ h2 a:hover, dl dt .title:hover, dl dt .permalink:hover, .sidebar .sidebar-alphab
  */
 /* line 7, ../_sass/globals/_reset.sass */
 * {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -106,11 +106,6 @@ html {
 
 /* line 14, ../_sass/globals/_typography.sass */
 body {
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -o-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   color: #505050;
 }
 
@@ -187,14 +182,6 @@ strong {
   display: block;
 }
 
-/* line 9, ../_sass/js/_livesearch.sass */
-.sidebar-alphabet a {
-  -webkit-transition: opacity 0.07s linear;
-  -moz-transition: opacity 0.07s linear;
-  -ms-transition: opacity 0.07s linear;
-  -o-transition: opacity 0.07s linear;
-  transition: opacity 0.07s linear;
-}
 /* line 12, ../_sass/js/_livesearch.sass */
 .sidebar-alphabet a.js-disabled {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
@@ -213,7 +200,7 @@ strong {
 }
 /* line 5, ../_sass/js/_hover.sass */
 .js-hover .permalink {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 

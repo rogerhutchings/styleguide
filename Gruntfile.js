@@ -1,29 +1,73 @@
 (function() { 'use strict';
 
-    // NPM dependencies
+    // NPM dependencies --------------------------------------------------------
     var _ = require('lodash');
     var request = require('request');
     var YAML = require('yamljs');
     var cheerio = require('cheerio');
-    var slug = require('slug');
+    var slugify = require('slug');
     var S = require('string');
+    var fs = require('fs');
+    var moment = require('moment');
 
+    // Options -----------------------------------------------------------------
+    var slugOptions = {
+        charmap: {
+            '&': ' and ',
+            '*': ' star',
+            '\'': false,
+            "ä": "a", "ö": "o", "ü": "u",
+            "Ä": "A", "Ö": "O", "Ü": "U",
+            "á": "a", "à": "a", "â": "a",
+            "é": "e", "è": "e", "ê": "e",
+            "ú": "u", "ù": "u", "û": "u",
+            "ó": "o", "ò": "o", "ô": "o",
+            "Á": "A", "À": "A", "Â": "A",
+            "É": "E", "È": "E", "Ê": "E",
+            "Ú": "U", "Ù": "U", "Û": "U",
+            "Ó": "O", "Ò": "O", "Ô": "O",
+            "ß": "s"
+
+        }
+    };
+
+
+
+    // Main Grunt section ------------------------------------------------------
     module.exports = function(grunt) {
 
-        // Load dependencies
+        // Load dependencies ---------------------------------------------------
         require('time-grunt')(grunt);
-        grunt.loadNpmTasks('grunt-contrib-watch');
-        grunt.loadNpmTasks('grunt-contrib-compass');
-        grunt.loadNpmTasks('grunt-jekyll');
-        grunt.loadNpmTasks('grunt-contrib-connect');
-        grunt.loadNpmTasks('grunt-contrib-concat');
-        grunt.loadNpmTasks('grunt-contrib-copy');
+        require('jit-grunt')(grunt);
 
-        // Project configuration
+        // Helper functions ----------------------------------------------------
+        var getFilesizeInBytes = function (filename) {
+            var stats = fs.statSync(filename);
+            var fileSizeInBytes = stats.size;
+            return fileSizeInBytes;
+        };
+
+        var writeLastModified = function () {
+            grunt.log.write('Writing last modified file... ');
+            grunt.file.write(grunt.config.get('lastModifiedFile'), YAML.stringify({
+                date: moment().format('MMMM Do, YYYY')
+            }, 4, 4));
+            grunt.log.ok();
+        };
+
+        // Project configuration -----------------------------------------------
         grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
 
             tempYAMLDir: '_tempYAML',
+            rawdataDir: '_rawData',
+            dataDir: '_data',
+            siteDir: '_site',
+
+            tempRawDataFile: '<%= rawdataDir %>/tempRawData.yaml',
+            rawDataFile: '<%= rawdataDir %>/rawData.yaml',
+            lastModifiedFile: '<%= dataDir %>/lastModified.yaml',
+            definitionsFile: '<%= dataDir %>/definitions.yaml',
 
             compass: {
                 dist: {
@@ -35,8 +79,8 @@
 
             jekyll: {
                 build: {
-                    dest: '_site'
-                },
+                    dest: '<%= siteDir %>'
+                }
             },
 
             watch: {
@@ -57,16 +101,16 @@
             connect: {
                 server: {
                     options: {
-                       port: 4000,
-                        base: '_site'
+                        port: 4000,
+                        base: '<%= siteDir %>'
                     }
                 }
             },
 
             concat: {
-                definitions: {
+                tempRawData: {
                     src: ['<%= tempYAMLDir %>/*.yaml'],
-                    dest: '_data/definitions.yaml',
+                    dest: '<%= tempRawDataFile %>',
                 },
                 js: {
                     src: ['_js/jquery-1.11.0.min.js', '_js/**/*.js'],
@@ -77,21 +121,33 @@
             copy: {
                 assets: {
                     src: ['assets/*'],
-                    dest: '_site/'
+                    dest: '<%= siteDir %>'
+                }
+            },
+
+            gitcommit: {
+                rawData: {
+                    options: {
+                        message: 'Raw definition data updated'
+                    },
+                    files: {
+                        src: ['<%= rawDataFile %>', '<%= lastModifiedFile %>']
+                    }
                 }
             }
 
         });
 
 
+        // Tasks ---------------------------------------------------------------
         grunt.registerTask(
             'scrapePages',
             'Runs the scrapePage task on every page of the Guardian style guide',
             function () {
-
                 // Generate the alphabet
                 var letters = [];
-                for (var i = 97; i <= 122; i++) {
+                // for (var i = 97; i <= 122; i++) {
+                for (var i = 97; i <= 98; i++) {
                     letters[letters.length] = String.fromCharCode(i);
                 }
 
@@ -103,16 +159,11 @@
 
         grunt.registerTask(
             'scrapePage',
-            'Scrape an individual page of the Guardian style guide for data and save as a YAML file',
-            function(letter) {
+            'Scrape an individual page of the Guardian style guide',
+            function (letter) {
+
                 var filename = grunt.config.get('tempYAMLDir') + '/' + letter + '.yaml';
                 var url = 'http://www.theguardian.com/styleguide/' + letter;
-
-                var slugOptions = {
-                    charmap: _.extend(slug.charmap, {
-                        "'": null
-                    })
-                };
 
                 grunt.log.write('Retrieving ' + url + '... ');
 
@@ -125,22 +176,16 @@
 
                         grunt.log.ok();
 
-                        // Parse it
-                        grunt.log.write('Parsing to YAML... ');
                         var $ = cheerio.load(body);
                         var definitions = [];
                         $('#content').find('li.normal').each(function() {
-                            var title = $(this).find('h3').text().trim();
-
-                            // Have to use string because slug doesn't correctly
-                            // strip punctuation :/
                             definitions.push({
-                                title: _.escape(title),
-                                slug: slug(S(title).stripPunctuation().s).toLowerCase(),
-                                text: _.escape($(this).find('.trailtext').text().trim())
+                                title: $(this).find('h3').text().trim(),
+                                gid: $(this).attr('id'),
+                                text: $(this).find('.trailtext').html().trim()
                             });
                         });
-                        grunt.log.ok();
+
 
                         // Write the file
                         var output = [{
@@ -154,17 +199,115 @@
                         // Finish
                         grunt.log.ok('Scrape complete!');
                         done();
-
                     }
 
                 });
+            }
+        );
+
+
+
+        grunt.registerTask(
+            'compareRawData',
+            'Compare recently scraped data with current data',
+            function () {
+
+                var temp = grunt.config.get('tempRawDataFile');
+                var current = grunt.config.get('rawDataFile');
+
+                grunt.log.write('Comparing raw definition data... ');
+
+                // Compare the files
+                if (!grunt.file.exists(current)) {
+                    grunt.file.copy(temp, current);
+                    grunt.file.delete(temp);
+                    grunt.log.ok('No data found.');
+                    grunt.config.set('definitionsChanged', true);
+                } else {
+                    if (getFilesizeInBytes(temp) === getFilesizeInBytes(current)) {
+                        grunt.file.delete(temp);
+                        grunt.log.ok('No change.');
+                    } else {
+                        grunt.file.delete(current);
+                        grunt.file.copy(temp, current);
+                        grunt.file.delete(temp);
+                        grunt.log.ok('Updated.');
+                        grunt.config.set('definitionsChanged', true);
+                    }
+                }
+
+                // Commit and update time if they've changed
+                if (grunt.config('definitionsChanged')) {
+                    writeLastModified();
+                    grunt.task.run('gitcommit:rawData');
+                }
 
             }
-
         );
+
+
+
+        grunt.registerTask(
+            'process',
+            'Process scraped data into something suitable for the site',
+            function () {
+                var data = grunt.file.readYAML(grunt.config.get('rawDataFile'));
+
+                function iterate(obj) {
+                    for (var property in obj) {
+                        if (obj.hasOwnProperty(property)) {
+                            if (typeof obj[property] == "object") {
+                                iterate(obj[property]);
+                            } else {
+                                switch (property) {
+                                    case 'title':
+                                        // Create slug from title
+                                        var slug = obj[property];
+                                        slug = S(slug).stripPunctuation().s.toLowerCase();
+                                        slug = slugify(slug, slugOptions);
+                                        obj['slug'] = slug;
+                                        break;
+
+                                    case 'text':
+                                        var text = obj['text'];
+
+                                        // Remove \n
+                                        text = text.replace(/(\r\n|\n|\r)/gm, "");
+
+                                        // Add in paragraph tags
+                                        text = '<p>' + text.replace(/(<br>)+/g, '</p><p>') + '</p>';
+
+                                        obj['text'] = text;
+                                        break;
+                                    case 'text':
+                                        var text = obj['text'];
+
+                                        // Remove \n
+                                        text = text.replace(/(\r\n|\n|\r)/gm, "");
+
+                                        // Add in paragraph tags
+                                        text = '<p>' + text.replace(/(<br>)+/g, '</p><p>') + '</p>';
+
+                                        obj['text'] = text;
+                                        break;
+                                }
+                            }
+                        }
+                    }
+                }
+                iterate(data);
+
+                // Update links
+                grunt.file.write(grunt.config.get('definitionsFile'), YAML.stringify(data, 4, 4));
+                grunt.task.run('jekyll');
+
+            }
+        );
+
 
         grunt.registerTask(
             'cleanup',
+            'Delete any temporary YAML files created while scraping',
             function () {
                 grunt.log.write('Deleting temporary directory... ');
                 var path = grunt.config.get('tempYAMLDir');
@@ -177,36 +320,54 @@
             }
         );
 
+
+
+        // Batch tasks ---------------------------------------------------------
         grunt.registerTask(
             'default',
             'Default task: serve',
             ['serve']
         );
 
+
+
         grunt.registerTask(
             'build',
             'Recompiles the sass, js, and rebuilds Jekyll',
-            function() {
-                grunt.task.run(['compass', 'concat:js', 'jekyll']);
+            function () {
+                grunt.task.run([
+                    'compass',
+                    'concat:js',
+                    'jekyll'
+                ]);
             }
         );
+
 
 
         grunt.registerTask(
             'serve',
             'Start a web server on port 4000, and rebuild after changes',
-            function() {
-                grunt.task.run(['build', 'connect', 'watch']);
+            function () {
+                grunt.task.run([
+                    'build',
+                    'connect',
+                    'watch'
+                ]);
             }
         );
+
+
 
         grunt.registerTask(
             'scrape',
             'Scrape the Guardian style guide',
-            function() {
+            function () {
                 grunt.task.run([
                     'scrapePages',
-                    'concat:definitions',
+                    'concat:tempRawData',
+                    'compareRawData',
+                    'process',
                     'cleanup',
                     'jekyll'
                 ]);
