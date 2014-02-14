@@ -184,7 +184,6 @@
                                 gid: $(this).attr('id'),
                                 text: $(this).find('.trailtext').html().trim()
                             });
-                            grunt.log.writeln( 'title: ' + $(this).find('h3').text().trim() );
                         });
 
 
@@ -280,6 +279,17 @@
 
                                         obj['text'] = text;
                                         break;
+                                    case 'text':
+                                        var text = obj['text'];
+
+                                        // Remove \n
+                                        text = text.replace(/(\r\n|\n|\r)/gm, "");
+
+                                        // Add in paragraph tags
+                                        text = '<p>' + text.replace(/(<br>)+/g, '</p><p>') + '</p>';
+
+                                        obj['text'] = text;
+                                        break;
                                 }
                             }
                         }
@@ -287,8 +297,6 @@
                 }
                 iterate(data);
 
-                // Add nice slugs
-                //     - '
                 // Update links
                 grunt.file.write(grunt.config.get('definitionsFile'), YAML.stringify(data, 4, 4));
                 grunt.task.run('jekyll');
